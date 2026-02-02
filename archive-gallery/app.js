@@ -26,7 +26,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const card = document.createElement('div');
             card.className = 'media-card';
             card.innerHTML = `
-                <div class="card-thumbnail" style="background-image: url('${item.type === 'video' ? item.thumbnail : item.url}')">
+                <div class="card-thumbnail">
+                    <img src="${item.url}" alt="${item.title}" loading="lazy" />
                     <div class="card-type">
                         <i class="fas ${item.type === 'video' ? 'fa-play' : 'fa-image'}"></i>
                     </div>
@@ -81,9 +82,11 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         document.getElementById('lightbox-title').textContent = item.title;
-        document.getElementById('lightbox-desc').textContent = item.description;
+        document.getElementById('lightbox-desc').innerHTML = item.fullText || item.description;
         document.getElementById('lightbox-date').textContent = `Date: ${item.date}`;
-        document.getElementById('lightbox-category').textContent = `Category: ${item.category}`;
+        document.getElementById('lightbox-category').innerHTML = item.sourceUrl
+            ? `<a href="${item.sourceUrl}" target="_blank" style="color: #7c4dff; text-decoration: underline;">원본 출처 보기</a>`
+            : `Category: ${item.category}`;
 
         lightbox.style.display = 'flex';
         document.body.style.overflow = 'hidden';
