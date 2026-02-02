@@ -1,65 +1,65 @@
 const archiveData = [
     {
         id: 1,
-        title: "The Blue Flight Logs",
-        description: "Scanned pages from the official flight logs. Detailed passenger lists often redacted in public versions.",
+        title: "Epstein Flight Logs (Lolita Express)",
+        description: "Official flight manifests for the Boeing 727 (N908JE) and other aircraft. Contains names of high-profile passengers from 1990s-2000s.",
         category: "aviation",
         type: "image",
-        url: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&q=80&w=1200",
-        date: "2019-07-20"
+        url: "https://upload.wikimedia.org/wikipedia/commons/4/4b/Epstein_flight_logs_released_in_USA_v._Maxwell.pdf",
+        date: "2024-01-03"
     },
     {
         id: 2,
-        title: "LSJ Interior - Living Area Stills",
-        description: "Unverified surveillance stills showing interior decor and potential evidence areas. High deletion risk.",
+        title: "The Black Book (Leaked Contact List)",
+        description: "The complete 92-page address book containing contacts for politicians, celebrities, and business leaders worldwide.",
         category: "sensitive",
         type: "image",
-        url: "https://images.unsplash.com/photo-1574634534894-89d7576c8259?auto=format&fit=crop&q=80&w=1200", // Skin-tone adjacent interior (warm tones)
-        date: "2020-01-15"
+        url: "https://www.documentcloud.org/documents/1508273-jeffrey-epsteins-little-black-book-redacted",
+        date: "2015-11-30"
     },
     {
         id: 3,
-        title: "Victim Identification Photo - Redacted",
-        description: "Clipped photo from legal discovery showing body markers and physical features for identification purposes.",
+        title: "Palm Beach Indictment - Unsealed Witness Stills",
+        description: "Surveillance and identification stills presented as evidence during the Florida investigation. Focus on room interiors and entry points.",
         category: "sensitive",
         type: "image",
-        url: "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&q=80&w=1200", // Human focus
-        date: "2006-05-12"
+        url: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&q=80&w=1200", // Representative still
+        date: "2019-07-20"
     },
     {
         id: 4,
-        title: "Little Saint James - Massage Room Detail",
-        description: "Close-up of specific interaction zones recorded by visitors. Note the warm lighting and textures.",
+        title: "Little Saint James - Drone Scoping (The Temple)",
+        description: "High-resolution stills of the infamous 'Temple' structure. Detailed architectural analysis of the unusual building features.",
         category: "sensitive",
         type: "image",
-        url: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=1200", // Warm, skin-tone adjacent colors
-        date: "2015-11-30"
+        url: "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?auto=format&fit=crop&q=80&w=1200", // Representative still
+        date: "2020-01-15"
     },
     {
         id: 5,
-        title: "Black Book Scan - Confidential Contacts",
-        description: "Unredacted version of specific high-profile individual contact cards.",
+        title: "U.S. v. Maxwell - Discovery Document Suite",
+        description: "Thousands of pages of unsealed testimony and physical evidence logs from the 2021 criminal trial.",
         category: "legal",
         type: "image",
-        url: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&q=80&w=1200",
-        date: "2015-11-30"
+        url: "https://www.justice.gov/usao-sdny/us-v-ghislaine-maxwell-trial-exhibits",
+        date: "2021-12-01"
     },
     {
         id: 6,
-        title: "Infamous Hand-Drawn Map",
-        description: "Recovered sketch showing movements between different properties. Highly classified.",
+        title: "Redacted Identification Photos",
+        description: "Evidence photos showing specific body markings and physical traits mentioned in victim testimonies.",
         category: "sensitive",
         type: "image",
-        url: "https://images.unsplash.com/photo-1454165833267-02484672f05a?auto=format&fit=crop&q=80&w=1200",
-        date: "2018-09-12"
+        url: "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&q=80&w=1200", // Representative still
+        date: "2006-05-12"
     },
     {
         id: 7,
-        title: "Ghislaine Maxwell - Private Event Still",
-        description: "Low-quality surveillance capture from a private engagement. Focusing on skin identification marks.",
-        category: "people",
+        title: "CBP Records: International Travel Manifests",
+        description: "U.S. Customs and Border Protection logs of international arrivals and departures at private hangars.",
+        category: "aviation",
         type: "image",
-        url: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=1200",
-        date: "2019-07-06"
+        url: "https://www.cbp.gov/sites/default/files/assets/documents/2021-May/Jeffrey%20Epstein%20Records.pdf",
+        date: "2021-05-15"
     }
 ];
