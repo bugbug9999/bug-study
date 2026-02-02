@@ -313,29 +313,6 @@ body {
     border-radius: 16px 16px 0 0;
 }
 
-background: var(--card-bg);
-border-radius: 15px;
-overflow: hidden;
-border: 1px solid rgba(255, 255, 255, 0.05);
-cursor: pointer;
-transition: var(--transition);
-position: relative;
-}
-
-.media-card:hover {
-    transform: translateY(-8px);
-    border-color: var(--accent);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
-}
-
-.card-thumbnail {
-    height: 180px;
-    width: 100%;
-    position: relative;
-    background-size: cover;
-    background-position: center;
-}
-
 .card-type {
     position: absolute;
     top: 15px;
