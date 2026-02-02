@@ -34,6 +34,10 @@
                 <button class="filter-btn" data-category="sensitive">
                     <i class="fas fa-exclamation-triangle"></i> 민감 증거 (Sensitive)
                 </button>
+                <div class="nav-divider"></div>
+                <button class="telescope-btn" id="telescope-trigger">
+                    <i class="fas fa-binoculars"></i> 실시간 망원경 스캔
+                </button>
             </nav>
             <div class="sidebar-footer">
                 <p>Status: <span class="status-alert">Archive in Danger</span></p>
@@ -63,6 +67,15 @@
             <section class="gallery-grid" id="gallery-grid">
                 <!-- Data will be injected here -->
             </section>
+
+            <!-- Scanning Overlay -->
+            <div id="scan-overlay" class="scan-overlay">
+                <div class="scan-content">
+                    <div class="scan-radar"></div>
+                    <h2>DEEP WEB SCANNING...</h2>
+                    <p id="scan-status">글로벌 커뮤니티(Reddit, Google US) 최신 정보를 분석 중입니다.</p>
+                </div>
+            </div>
         </main>
     </div>
 

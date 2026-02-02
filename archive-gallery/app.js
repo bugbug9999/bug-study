@@ -101,5 +101,26 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
+    // Telescope Logic
+    const telescopeBtn = document.getElementById('telescope-trigger');
+    const scanOverlay = document.getElementById('scan-overlay');
+    const scanStatus = document.getElementById('scan-status');
+
+    telescopeBtn.onclick = () => {
+        scanOverlay.style.display = 'flex';
+        scanStatus.textContent = "미국 구글 및 레딧 실시간 데이터 수집 중...";
+
+        // Signal to AI (Agent will observe this state and update data.js)
+        console.log("TELESCOPE_SCAN_START");
+
+        setTimeout(() => {
+            scanStatus.textContent = "최신 미디어 요약 및 이미지 인덱싱 완료.";
+            setTimeout(() => {
+                scanOverlay.style.display = 'none';
+                renderGallery();
+            }, 1500);
+        }, 3000);
+    };
+
     renderGallery();
 });
