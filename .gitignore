@@ -1,0 +1,17 @@
+﻿# Global ignores
+.DS_Store
+Thumbs.db
+*.log
+
+# Personal Workspace (SimLink)
+symlinks/workspace/
+
+# Large Files (Rules 5.1)
+*.mp4
+*.mov
+*.avi
+*.png
+*.jpg
+*.jpeg
+*.mp3
+*.wav
