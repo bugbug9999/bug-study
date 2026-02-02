@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow Archive | Epstein Media Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="logo">
+                <i class="fas fa-box-archive"></i>
+                <h1>SHADOW<span>ARCHIVE</span></h1>
+            </div>
+            <nav class="filter-nav">
+                <p class="nav-label">CATEGORIES</p>
+                <button class="filter-btn active" data-category="all">
+                    <i class="fas fa-th-large"></i> 전체 자료
+                </button>
+                <button class="filter-btn" data-category="legal">
+                    <i class="fas fa-file-contract"></i> 법원 문서/증거
+                </button>
+                <button class="filter-btn" data-category="islands">
+                    <i class="fas fa-island-tree"></i> 장소/시설 (Islands)
+                </button>
+                <button class="filter-btn" data-category="people">
+                    <i class="fas fa-users"></i> 관련 인물 사진
+                </button>
+                <button class="filter-btn" data-category="aviation">
+                    <i class="fas fa-plane"></i> 비행 기록/일지
+                </button>
+            </nav>
+            <div class="sidebar-footer">
+                <p>Status: <span class="status-online">Online Archive</span></p>
+                <p class="last-updated">Last Updated: 2026.02.02</p>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="top-bar">
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="stat-value" id="total-count">0</span>
+                        <span class="stat-label">Total Files</span>
+                    </div>
+                </div>
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="archive-search" placeholder="자료 제목 또는 내용 검색...">
+                </div>
+            </header>
+
+            <section class="gallery-grid" id="gallery-grid">
+                <!-- Data will be injected here -->
+            </section>
+        </main>
+    </div>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn">&times;</span>
+        <div class="lightbox-content">
+            <div id="lightbox-media-container"></div>
+            <div class="lightbox-info">
+                <h2 id="lightbox-title">제목</h2>
+                <p id="lightbox-desc">설명</p>
+                <div class="lightbox-meta">
+                    <span id="lightbox-date">날짜</span>
+                    <span id="lightbox-category">카테고리</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
