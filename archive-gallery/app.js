@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <h3>${item.title}</h3>
                     <p>${item.description}</p>
                     <div class="card-footer">
-                        <span class="tag">${item.category}</span>
+                        <span class="tag ${item.category === 'sensitive' ? 'sensitive' : ''}">${item.category}</span>
                         <span class="date">${item.date}</span>
                     </div>
                 </div>
