@@ -858,3 +858,14 @@
     color: var(--text-tertiary);
     padding: var(--space-xs) 0;
 }
+
+/* Avatar Image */
+img.avatar {
+    object-fit: cover;
+}
+
+.gantt-bar__avatar .avatar {
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+}

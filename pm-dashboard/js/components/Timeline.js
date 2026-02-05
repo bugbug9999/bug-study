@@ -194,9 +194,7 @@ function createEpicRow(epic, timelineStart, timelineEnd, onEpicClick, showTasks 
            title="${tooltipText}">
         ${epic.title}
         <div class="gantt-bar__avatar">
-          <div class="avatar avatar--sm" style="font-size: 10px; width: 20px; height: 20px;">
-            ${getInitials(epic.assignee?.name)}
-          </div>
+          ${getAvatarHtml(epic.assignee, 'sm')}
         </div>
       </div>
     </div>
@@ -320,9 +318,7 @@ function createStandaloneTaskRow(task, timelineStart, timelineEnd, onTaskClick) 
            title="${tooltipText}">
         ${task.title}
         <div class="gantt-bar__avatar">
-          <div class="avatar avatar--sm" style="font-size: 10px; width: 20px; height: 20px;">
-            ${getInitials(task.assignee?.name)}
-          </div>
+          ${getAvatarHtml(task.assignee, 'sm')}
         </div>
       </div>
     </div>
