@@ -343,7 +343,7 @@ function renderUrgentSection(container, allTasks, onTaskClick, onPing) {
     }
 }
 
-// 회의록 섹션 (에픽/태스크 중 '회의' 키워드 포함된 것)
+// 회의록 섹션 (회의/미팅 관련 키워드 포함된 것)
 function renderMeetingSection(container) {
     container.innerHTML = '';
 
@@ -355,15 +355,16 @@ function renderMeetingSection(container) {
     header.innerHTML = `
         <h2 class="card__title">
             <span class="card__title-icon">📋</span>
-            최근 회의
+            최근 회의/미팅
         </h2>
     `;
     section.appendChild(header);
 
-    // 에픽과 태스크에서 '회의' 키워드 필터링
+    // 회의/미팅 관련 키워드 필터링
+    const meetingKeywords = ['회의', '회의록', '미팅', '미팅록', 'Meeting', 'meeting'];
     const allItems = [...MockData.epics, ...MockData.tasks];
     const meetingItems = allItems.filter(item =>
-        item.title && item.title.includes('회의')
+        item.title && meetingKeywords.some(keyword => item.title.includes(keyword))
     ).sort((a, b) =>
         new Date(b.lastEditedTime || b.endDate) - new Date(a.lastEditedTime || a.endDate)
     ).slice(0, 10);
