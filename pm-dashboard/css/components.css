@@ -878,6 +878,12 @@
     scrollbar-width: thin;
 }
 
+/* 해당월 일자 강조 */
+.timeline__day--current {
+    background: rgba(59, 130, 246, 0.1);
+    color: var(--text-primary);
+}
+
 /* Avatar Image */
 img.avatar {
     object-fit: cover;

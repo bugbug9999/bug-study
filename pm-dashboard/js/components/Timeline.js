@@ -37,15 +37,24 @@ function createTimeline(options = {}) {
   // 해당 월의 일자들
   const days = getDaysInMonth(selectedMonth || new Date());
 
-  // Timeline header (일자)
+  // Timeline header (일자) - 2개월 표시
   const timelineHeader = document.createElement('div');
   timelineHeader.className = 'timeline__header';
+
+  // 일자 표시: 1일에만 월 표시, 나머지는 숫자만
+  const dayElements = days.map((d, i) => {
+    const showMonth = d.day === 1;
+    const className = d.isCurrentMonth ? 'timeline__day timeline__day--current' : 'timeline__day';
+    const label = showMonth ? `${d.month}/${d.day}` : d.day;
+    return `<div class="${className}">${label}</div>`;
+  }).join('');
+
   timelineHeader.innerHTML = `
     <div class="timeline__labels">
       <span style="font-size: 12px; color: var(--text-secondary);">에픽</span>
     </div>
     <div class="timeline__months">
-      ${days.map(d => `<div class="timeline__day">${d}</div>`).join('')}
+      ${dayElements}
     </div>
   `;
   timeline.appendChild(timelineHeader);
@@ -106,15 +115,23 @@ function createTaskTimeline(options = {}) {
   const { start: timelineStart, end: timelineEnd } = getMonthRange(selectedMonth || new Date());
   const days = getDaysInMonth(selectedMonth || new Date());
 
-  // Timeline header
+  // Timeline header - 2개월 표시
   const timelineHeader = document.createElement('div');
   timelineHeader.className = 'timeline__header';
+
+  const dayElements = days.map((d, i) => {
+    const showMonth = d.day === 1;
+    const className = d.isCurrentMonth ? 'timeline__day timeline__day--current' : 'timeline__day';
+    const label = showMonth ? `${d.month}/${d.day}` : d.day;
+    return `<div class="${className}">${label}</div>`;
+  }).join('');
+
   timelineHeader.innerHTML = `
     <div class="timeline__labels">
       <span style="font-size: 12px; color: var(--text-secondary);">태스크</span>
     </div>
     <div class="timeline__months">
-      ${days.map(d => `<div class="timeline__day">${d}</div>`).join('')}
+      ${dayElements}
     </div>
   `;
   timeline.appendChild(timelineHeader);
@@ -135,25 +152,39 @@ function createTaskTimeline(options = {}) {
   return container;
 }
 
-// 해당 월의 시작/끝 날짜 반환
+// 2개월 범위 (직전월 ~ 해당월) 반환
 function getMonthRange(date) {
   const year = date.getFullYear();
   const month = date.getMonth();
-  const start = new Date(year, month, 1);
+  // 직전월 1일부터 해당월 말일까지
+  const start = new Date(year, month - 1, 1);
   const end = new Date(year, month + 1, 0, 23, 59, 59);
   return { start, end };
 }
 
-// 해당 월의 일자 배열 반환 (1, 2, 3, ... 28/29/30/31)
+// 2개월 일자 배열 반환 (직전월 + 해당월)
 function getDaysInMonth(date) {
   const year = date.getFullYear();
   const month = date.getMonth();
-  const lastDay = new Date(year, month + 1, 0).getDate();
+
+  // 직전월
+  const prevMonth = month === 0 ? 11 : month - 1;
+  const prevYear = month === 0 ? year - 1 : year;
+  const prevLastDay = new Date(prevYear, prevMonth + 1, 0).getDate();
+
+  // 해당월
+  const currLastDay = new Date(year, month + 1, 0).getDate();
+
   const days = [];
 
-  // 모든 일자 반환 (깃헙 잔디 스타일)
-  for (let d = 1; d <= lastDay; d++) {
-    days.push(d);
+  // 직전월 일자 (월 표시 포함)
+  for (let d = 1; d <= prevLastDay; d++) {
+    days.push({ day: d, month: prevMonth + 1, isCurrentMonth: false });
+  }
+
+  // 해당월 일자
+  for (let d = 1; d <= currLastDay; d++) {
+    days.push({ day: d, month: month + 1, isCurrentMonth: true });
   }
 
   return days;
