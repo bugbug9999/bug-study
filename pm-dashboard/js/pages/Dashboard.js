@@ -114,12 +114,14 @@ function createMonthPicker(onChange) {
     const updateDisplay = () => {
         const year = currentMonth.getFullYear();
         const month = currentMonth.getMonth() + 1;
+        const prevMonth = month === 1 ? 12 : month - 1;
+        const prevYear = month === 1 ? year - 1 : year;
         container.innerHTML = `
-            <button class="month-picker__btn" data-action="prev">◀ 이전 달</button>
-            <span class="month-picker__label" style="font-size: 18px; font-weight: 600; min-width: 120px; text-align: center;">
-                ${year}년 ${month}월
+            <button class="month-picker__btn" data-action="prev">◀ 이전</button>
+            <span class="month-picker__label" style="font-size: 16px; font-weight: 600; min-width: 180px; text-align: center;">
+                ${prevYear}년 ${prevMonth}월 ~ ${year}년 ${month}월
             </span>
-            <button class="month-picker__btn" data-action="next">다음 달 ▶</button>
+            <button class="month-picker__btn" data-action="next">다음 ▶</button>
         `;
 
         container.querySelector('[data-action="prev"]').addEventListener('click', () => {
@@ -143,25 +145,40 @@ function getItemsForMonth(items, month) {
     const year = month.getFullYear();
     const monthIndex = month.getMonth();
 
-    const monthStart = new Date(year, monthIndex, 1);
-    const monthEnd = new Date(year, monthIndex + 1, 0, 23, 59, 59);
+    // 해당월 + 직전월 = 2개월 범위
+    const monthStart = new Date(year, monthIndex - 1, 1);  // 직전월 1일
+    const monthEnd = new Date(year, monthIndex + 1, 0, 23, 59, 59);  // 해당월 말일
 
     return items.filter(item => {
-        if (!item.endDate && !item.startDate) return false;
+        // 1순위: 시작일/마감일로 필터링
+        if (item.startDate || item.endDate) {
+            const itemStart = item.startDate ? new Date(item.startDate) : null;
+            const itemEnd = item.endDate ? new Date(item.endDate) : itemStart;
 
-        const itemStart = item.startDate ? new Date(item.startDate) : null;
-        const itemEnd = item.endDate ? new Date(item.endDate) : itemStart;
+            if (itemStart || itemEnd) {
+                const effectiveStart = itemStart || itemEnd;
+                const effectiveEnd = itemEnd || itemStart;
+                return effectiveEnd >= monthStart && effectiveStart <= monthEnd;
+            }
+        }
 
-        if (!itemStart && !itemEnd) return false;
+        // 2순위: lastEditedTime으로 필터링 (날짜가 없는 경우)
+        if (item.lastEditedTime) {
+            const editedDate = new Date(item.lastEditedTime);
+            return editedDate >= monthStart && editedDate <= monthEnd;
+        }
 
-        // 해당 월과 겹치는 아이템
-        const effectiveStart = itemStart || itemEnd;
-        const effectiveEnd = itemEnd || itemStart;
+        // 3순위: createdTime으로 필터링
+        if (item.createdTime) {
+            const createdDate = new Date(item.createdTime);
+            return createdDate >= monthStart && createdDate <= monthEnd;
+        }
 
-        return effectiveEnd >= monthStart && effectiveStart <= monthEnd;
+        return false;
     }).sort((a, b) => {
         // 최신 수정순
-        return new Date(b.lastEditedTime || b.endDate) - new Date(a.lastEditedTime || a.endDate);
+        return new Date(b.lastEditedTime || b.endDate || b.createdTime) -
+            new Date(a.lastEditedTime || a.endDate || a.createdTime);
     });
 }
 
