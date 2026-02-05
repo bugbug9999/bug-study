@@ -2,13 +2,22 @@
  * PM Dashboard - Main Entry Point
  */
 
-// Register routes
-Router.register('/', renderDashboard);
-Router.register('/epics', renderEpicsList);
-Router.register('/epic/:id', renderEpicDetail);
-Router.register('/settings', renderSettings);
+// 데이터 로드 후 라우터 초기화
+async function initApp() {
+    // 노션 데이터 먼저 로드
+    await MockData.refresh();
 
-// Initialize router
-Router.init();
+    // Register routes
+    Router.register('/', renderDashboard);
+    Router.register('/epics', renderEpicsList);
+    Router.register('/epic/:id', renderEpicDetail);
+    Router.register('/settings', renderSettings);
 
-console.log('🎯 PM Dashboard initialized');
+    // Initialize router
+    Router.init();
+
+    console.log('🎯 PM Dashboard initialized');
+}
+
+// 앱 초기화
+initApp();
