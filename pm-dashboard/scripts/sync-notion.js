@@ -80,13 +80,31 @@ async function fetchDatabase(databaseId, name) {
     console.log(`📥 Fetching ${name} database...`);
 
     try {
-        const response = await notion.databases.query({
-            database_id: databaseId,
-            page_size: 100,
-        });
+        let allResults = [];
+        let hasMore = true;
+        let startCursor = undefined;
 
-        console.log(`   ✅ Found ${response.results.length} items`);
-        return response.results;
+        // 페이지네이션으로 모든 데이터 가져오기 (최대 500개)
+        while (hasMore && allResults.length < 500) {
+            const response = await notion.databases.query({
+                database_id: databaseId,
+                page_size: 100,
+                start_cursor: startCursor,
+                sorts: [
+                    {
+                        timestamp: 'last_edited_time',
+                        direction: 'descending'
+                    }
+                ]
+            });
+
+            allResults = allResults.concat(response.results);
+            hasMore = response.has_more;
+            startCursor = response.next_cursor;
+        }
+
+        console.log(`   ✅ Found ${allResults.length} items`);
+        return allResults;
     } catch (error) {
         console.error(`   ❌ Error fetching ${name}:`, error.message);
         return [];
