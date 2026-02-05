@@ -1,6 +1,19 @@
 {
   "epics": [
     {
+      "id": "1ff862e1-c059-8052-af6d-eda4ec2b7dcc",
+      "title": "[Cave] Token2049 Singapore 이벤트",
+      "status": "Drop/Hold",
+      "startDate": "2026-01-24",
+      "endDate": "2026-01-28",
+      "assignee": null,
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Cave-Token2049-Singapore-1ff862e1c0598052af6deda4ec2b7dcc",
+      "priority": null,
+      "createdTime": "2025-05-26T00:25:00.000Z",
+      "lastEditedTime": "2026-02-05T11:23:00.000Z"
+    },
+    {
       "id": "2e9862e1-c059-81f9-8a6e-eb887a5ccac2",
       "title": "[neobank] Lair Cash 앱스토어 심사용 앱 개발",
       "status": "Review",
@@ -248,19 +261,6 @@
       "notionUrl": "https://www.notion.so/Cave-WEBX-2025-1ff862e1c05980d187c5e4920acb5d9a",
       "priority": null,
       "createdTime": "2025-05-26T00:22:00.000Z",
-      "lastEditedTime": "2026-01-28T02:06:00.000Z"
-    },
-    {
-      "id": "1ff862e1-c059-8052-af6d-eda4ec2b7dcc",
-      "title": "[Cave] Token2049 Singapore 이벤트",
-      "status": "Not started",
-      "startDate": "2026-01-24",
-      "endDate": "2026-01-28",
-      "assignee": null,
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Cave-Token2049-Singapore-1ff862e1c0598052af6deda4ec2b7dcc",
-      "priority": null,
-      "createdTime": "2025-05-26T00:25:00.000Z",
       "lastEditedTime": "2026-01-28T02:06:00.000Z"
     },
     {
@@ -28060,5 +28060,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-02-05T11:22:04.366Z"
+  "syncedAt": "2026-02-05T11:34:10.307Z"
 }
