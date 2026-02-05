@@ -43,16 +43,22 @@ async function fetchDatabase(databaseId, name) {
 function parseEpic(page) {
     const props = page.properties;
 
+    // 날짜 처리 - Date 속성 하나로 시작/종료일 모두 포함 가능
+    const dateRange = getDateRange(props['Date'] || props['date']);
+
     return {
         id: page.id,
-        title: getTitle(props['이름'] || props['Name'] || props['제목'] || props['Title']),
-        status: getSelect(props['상태'] || props['Status']),
-        startDate: getDate(props['시작일'] || props['Start Date'] || props['Start']),
-        endDate: getDate(props['마감일'] || props['End Date'] || props['Due'] || props['Due Date']),
-        assignee: getPerson(props['담당자'] || props['Assignee']),
-        reviewer: getPerson(props['리뷰어'] || props['Reviewer']),
+        title: getTitle(props),
+        status: getSelect(props['Status'] || props['상태']),
+        startDate: dateRange.start,
+        endDate: dateRange.end,
+        assignee: getPerson(props['Assignee'] || props['담당자']),
+        reviewer: getPerson(props['Reviewer'] || props['리뷰어']),
         notionUrl: page.url,
-        confluenceUrl: getUrl(props['컨플 링크'] || props['Confluence'] || props['Docs']),
+        team: getSelect(props['Team']),
+        productPart: getSelect(props['Product/Part']),
+        priority: getSelect(props['Priority']),
+        productStage: getSelect(props['Product Stage']),
         createdTime: page.created_time,
         lastEditedTime: page.last_edited_time,
     };
@@ -61,17 +67,21 @@ function parseEpic(page) {
 function parseTask(page) {
     const props = page.properties;
 
+    // 날짜 처리 - Date 속성 하나로 시작/종료일 모두 포함 가능
+    const dateRange = getDateRange(props['Date'] || props['date']);
+
     return {
         id: page.id,
-        title: getTitle(props['이름'] || props['Name'] || props['제목'] || props['Title']),
-        status: getSelect(props['상태'] || props['Status']),
-        startDate: getDate(props['시작일'] || props['Start Date'] || props['Start']),
-        endDate: getDate(props['마감일'] || props['End Date'] || props['Due'] || props['Due Date']),
-        assignee: getPerson(props['담당자'] || props['Assignee']),
-        reviewer: getPerson(props['리뷰어'] || props['Reviewer']),
-        epicId: getRelation(props['상위 에픽'] || props['Epic'] || props['Parent']),
+        title: getTitle(props),
+        status: getSelect(props['Status'] || props['상태']),
+        startDate: dateRange.start,
+        endDate: dateRange.end,
+        assignee: getPerson(props['Assignee'] || props['담당자']),
+        reviewer: getPerson(props['Reviewer'] || props['리뷰어']),
+        epicId: getRelation(props['Related to Epic'] || props['Related to Epics/...'] || props['상위 에픽']),
         notionUrl: page.url,
-        confluenceUrl: getUrl(props['컨플 링크'] || props['Confluence'] || props['Docs']),
+        productPart: getSelect(props['Product/Part']),
+        priority: getSelect(props['Priority']),
         createdTime: page.created_time,
         lastEditedTime: page.last_edited_time,
         pingHistory: [],
@@ -81,22 +91,29 @@ function parseTask(page) {
 function parseDocs(page) {
     const props = page.properties;
 
+    // 날짜 처리
+    const dateRange = getDateRange(props['date'] || props['Date']);
+
     return {
         id: page.id,
-        title: getTitle(props['이름'] || props['Name'] || props['제목'] || props['Title']),
+        title: getTitle(props),
         url: page.url,
-        linkedEpic: getRelation(props['에픽'] || props['Epic']),
-        linkedTask: getRelation(props['태스크'] || props['Task']),
+        type: getSelect(props['Type']),
+        date: dateRange.start,
+        linkedEpic: getRelation(props['Related to Epics/...'] || props['Related to Epic']),
+        linkedTask: getRelation(props['Related to Tasks']),
         createdTime: page.created_time,
         lastEditedTime: page.last_edited_time,
     };
 }
 
 // Property 파싱 헬퍼 함수들
-function getTitle(prop) {
-    if (!prop) return '';
-    if (prop.title && prop.title.length > 0) {
-        return prop.title.map(t => t.plain_text).join('');
+function getTitle(props) {
+    // 모든 속성을 순회하며 title 타입 찾기
+    for (const [key, value] of Object.entries(props)) {
+        if (value.type === 'title' && value.title && value.title.length > 0) {
+            return value.title.map(t => t.plain_text).join('');
+        }
     }
     return '';
 }
@@ -108,9 +125,12 @@ function getSelect(prop) {
     return 'To Do';
 }
 
-function getDate(prop) {
-    if (!prop || !prop.date) return null;
-    return prop.date.start || null;
+function getDateRange(prop) {
+    if (!prop || !prop.date) return { start: null, end: null };
+    return {
+        start: prop.date.start || null,
+        end: prop.date.end || prop.date.start || null  // end가 없으면 start 사용
+    };
 }
 
 function getPerson(prop) {
@@ -144,14 +164,17 @@ async function main() {
     // Epic 데이터 가져오기
     const epicPages = await fetchDatabase(EPIC_DB_ID, 'Epics');
     const epics = epicPages.map(parseEpic).filter(e => e.title);
+    console.log(`   Parsed ${epics.length} epics with titles`);
 
     // Task 데이터 가져오기
     const taskPages = await fetchDatabase(TASK_DB_ID, 'Tasks');
     const tasks = taskPages.map(parseTask).filter(t => t.title);
+    console.log(`   Parsed ${tasks.length} tasks with titles`);
 
     // Docs 데이터 가져오기
     const docsPages = await fetchDatabase(DOCS_DB_ID, 'Docs');
     const docs = docsPages.map(parseDocs).filter(d => d.title);
+    console.log(`   Parsed ${docs.length} docs with titles`);
 
     // 데이터 저장
     const data = {
