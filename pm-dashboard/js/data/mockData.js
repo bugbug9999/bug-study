@@ -157,6 +157,70 @@ const MockData = (function () {
             return tasks.find(task => task.id === taskId) || null;
         },
 
+        // 30일 이내 에픽 필터링 (날짜 기준)
+        getRecentEpics(days = 30) {
+            const today = new Date();
+            today.setHours(0, 0, 0, 0);
+            const cutoffDate = new Date(today);
+            cutoffDate.setDate(cutoffDate.getDate() - days);
+
+            return epics.filter(epic => {
+                // endDate가 30일 이내이거나, 아직 진행 중인 경우
+                if (!epic.endDate && !epic.startDate) return false;
+
+                const endDate = epic.endDate ? new Date(epic.endDate) : new Date();
+                const startDate = epic.startDate ? new Date(epic.startDate) : cutoffDate;
+
+                // 마감일이 오늘 이후이거나, 최근 30일 이내에 마감된 경우
+                return endDate >= cutoffDate || startDate >= cutoffDate;
+            }).sort((a, b) => new Date(b.lastEditedTime || b.endDate) - new Date(a.lastEditedTime || a.endDate));
+        },
+
+        // 30일 이내 태스크 필터링
+        getRecentTasks(days = 30) {
+            const today = new Date();
+            today.setHours(0, 0, 0, 0);
+            const cutoffDate = new Date(today);
+            cutoffDate.setDate(cutoffDate.getDate() - days);
+
+            return tasks.filter(task => {
+                if (!task.endDate && !task.startDate) return false;
+
+                const endDate = task.endDate ? new Date(task.endDate) : new Date();
+                const startDate = task.startDate ? new Date(task.startDate) : cutoffDate;
+
+                return endDate >= cutoffDate || startDate >= cutoffDate;
+            }).sort((a, b) => new Date(b.lastEditedTime || b.endDate) - new Date(a.lastEditedTime || a.endDate));
+        },
+
+        // 페이지네이션된 에픽
+        getEpicsPaginated(page = 1, perPage = 10, days = 30) {
+            const recentEpics = this.getRecentEpics(days);
+            const start = (page - 1) * perPage;
+            const end = start + perPage;
+            return {
+                items: recentEpics.slice(start, end),
+                total: recentEpics.length,
+                page,
+                perPage,
+                totalPages: Math.ceil(recentEpics.length / perPage)
+            };
+        },
+
+        // 페이지네이션된 태스크
+        getTasksPaginated(page = 1, perPage = 10, days = 30) {
+            const recentTasks = this.getRecentTasks(days);
+            const start = (page - 1) * perPage;
+            const end = start + perPage;
+            return {
+                items: recentTasks.slice(start, end),
+                total: recentTasks.length,
+                page,
+                perPage,
+                totalPages: Math.ceil(recentTasks.length / perPage)
+            };
+        },
+
         getUrgentTasks() {
             const today = new Date();
             today.setHours(0, 0, 0, 0);

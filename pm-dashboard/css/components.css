@@ -808,3 +808,26 @@
 .ping-history__target {
     font-weight: 500;
 }
+
+/* Pagination */
+.pagination__btn {
+    padding: var(--space-sm) var(--space-md);
+    background: var(--bg-tertiary);
+    border: none;
+    border-radius: var(--radius-sm);
+    color: var(--text-primary);
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.pagination__btn:hover:not(:disabled) {
+    background: var(--accent-blue);
+    color: white;
+}
+
+.pagination__btn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
