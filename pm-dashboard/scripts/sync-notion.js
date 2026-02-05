@@ -26,6 +26,13 @@ async function fetchDatabase(databaseId, name) {
         });
 
         console.log(`   ✅ Found ${response.results.length} items`);
+
+        // 디버깅: 첫 번째 아이템의 속성 이름 출력
+        if (response.results.length > 0) {
+            const firstItem = response.results[0];
+            console.log(`   📋 Property names:`, Object.keys(firstItem.properties));
+        }
+
         return response.results;
     } catch (error) {
         console.error(`   ❌ Error fetching ${name}:`, error.message);
