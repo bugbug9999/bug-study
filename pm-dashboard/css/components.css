@@ -831,3 +831,21 @@
     opacity: 0.4;
     cursor: not-allowed;
 }
+
+/* Month Picker */
+.month-picker__btn {
+    padding: var(--space-sm) var(--space-md);
+    background: var(--bg-tertiary);
+    border: none;
+    border-radius: var(--radius-sm);
+    color: var(--text-primary);
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.month-picker__btn:hover {
+    background: var(--accent-blue);
+    color: white;
+}
