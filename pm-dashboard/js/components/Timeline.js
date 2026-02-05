@@ -151,12 +151,9 @@ function getDaysInMonth(date) {
   const lastDay = new Date(year, month + 1, 0).getDate();
   const days = [];
 
-  // 5일 간격으로 표시 (1, 5, 10, 15, 20, 25, 마지막일)
-  for (let d = 1; d <= lastDay; d += 5) {
+  // 모든 일자 반환 (깃헙 잔디 스타일)
+  for (let d = 1; d <= lastDay; d++) {
     days.push(d);
-  }
-  if (days[days.length - 1] !== lastDay) {
-    days.push(lastDay);
   }
 
   return days;

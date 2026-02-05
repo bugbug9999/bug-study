@@ -850,13 +850,32 @@
     color: white;
 }
 
-/* Timeline Day */
+/* Timeline Day Grid (깃헙 잔디 스타일) */
 .timeline__day {
     flex: 1;
+    min-width: 18px;
+    max-width: 24px;
     text-align: center;
-    font-size: var(--font-size-xs);
+    font-size: 10px;
     color: var(--text-tertiary);
-    padding: var(--space-xs) 0;
+    padding: 2px 0;
+    border-left: 1px solid var(--border-color);
+}
+
+.timeline__day:first-child {
+    border-left: none;
+}
+
+/* 5일, 10일, 15일 등 강조 */
+.timeline__day:nth-child(5n) {
+    color: var(--text-secondary);
+    font-weight: 600;
+}
+
+.timeline__months {
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: thin;
 }
 
 /* Avatar Image */
