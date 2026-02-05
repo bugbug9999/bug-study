@@ -1,0 +1,215 @@
+/* ============================================
+   PM Dashboard - Responsive Styles
+   ============================================ */
+
+/* Tablet (< 1024px) */
+@media (max-width: 1024px) {
+    .main-content {
+        padding: var(--space-md);
+    }
+
+    .side-panel {
+        width: 100%;
+    }
+}
+
+/* Mobile (< 768px) */
+@media (max-width: 768px) {
+
+    /* Show mobile tab navigation */
+    .tab-nav {
+        display: block;
+    }
+
+    /* Add bottom padding for tab nav */
+    .main-content {
+        padding-bottom: calc(80px + env(safe-area-inset-bottom, 0));
+    }
+
+    /* Header adjustments */
+    .header {
+        padding: var(--space-sm) var(--space-md);
+    }
+
+    .header__logo {
+        font-size: var(--font-size-md);
+    }
+
+    /* Urgent tasks - card stack */
+    .urgent-task-item {
+        flex-wrap: wrap;
+    }
+
+    .urgent-task-item__content {
+        flex: 1 1 100%;
+        order: 1;
+    }
+
+    .urgent-task-item__fire {
+        order: 0;
+    }
+
+    .urgent-task-item__meta {
+        flex: 1 1 100%;
+        order: 2;
+        margin-top: var(--space-sm);
+        padding-top: var(--space-sm);
+        border-top: 1px solid rgba(240, 68, 82, 0.3);
+        justify-content: space-between;
+    }
+
+    /* Timeline horizontal scroll */
+    .timeline {
+        margin: 0 calc(-1 * var(--space-md));
+        padding: 0 var(--space-md);
+    }
+
+    .timeline__header,
+    .timeline__body {
+        min-width: 600px;
+    }
+
+    .timeline__labels,
+    .epic-row__label {
+        width: 120px;
+    }
+
+    .task-row__label {
+        width: calc(120px - var(--space-lg));
+    }
+
+    /* Side panel - fullscreen modal */
+    .side-panel {
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+
+    .side-panel.is-open {
+        animation: slideUp var(--transition-normal);
+    }
+
+    /* Card adjustments */
+    .card {
+        padding: var(--space-md);
+        border-radius: var(--radius-sm);
+    }
+
+    /* Gantt bar text hidden on mobile */
+    .gantt-bar {
+        font-size: 0;
+        padding: 0 var(--space-xs);
+    }
+
+    .gantt-bar__avatar {
+        display: none;
+    }
+
+    /* Settings page full width */
+    .settings {
+        max-width: 100%;
+    }
+}
+
+/* Small Mobile (< 480px) */
+@media (max-width: 480px) {
+    :root {
+        --font-size-lg: 18px;
+        --font-size-xl: 22px;
+    }
+
+    .header__logo-text {
+        display: none;
+    }
+
+    .btn-ping {
+        padding: var(--space-xs) var(--space-sm);
+        font-size: var(--font-size-xs);
+    }
+
+    .timeline__labels,
+    .epic-row__label {
+        width: 100px;
+    }
+
+    .task-row__label {
+        width: calc(100px - var(--space-lg));
+    }
+
+    .epic-row__name,
+    .task-row__name {
+        font-size: var(--font-size-xs);
+    }
+}
+
+/* Touch-friendly adjustments */
+@media (hover: none) and (pointer: coarse) {
+    .btn-refresh:hover {
+        transform: none;
+    }
+
+    .urgent-task-item:hover {
+        transform: none;
+    }
+
+    .gantt-bar:hover {
+        transform: none;
+        filter: none;
+    }
+
+    /* Larger touch targets */
+    .btn-ping {
+        min-height: 44px;
+        min-width: 44px;
+    }
+
+    .tab-nav__link {
+        min-height: 44px;
+    }
+}
+
+/* Landscape mobile */
+@media (max-width: 768px) and (orientation: landscape) {
+    .side-panel {
+        width: 50%;
+    }
+
+    .tab-nav {
+        display: none;
+    }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+
+    .urgent-task-item__fire {
+        animation: none;
+    }
+
+    .gantt-bar--urgent {
+        animation: none;
+    }
+}
+
+/* High contrast mode */
+@media (prefers-contrast: high) {
+    :root {
+        --bg-primary: #000000;
+        --bg-secondary: #1a1a1a;
+        --bg-tertiary: #333333;
+        --text-primary: #ffffff;
+        --text-secondary: #cccccc;
+    }
+
+    .gantt-bar {
+        border: 2px solid currentColor;
+    }
+}

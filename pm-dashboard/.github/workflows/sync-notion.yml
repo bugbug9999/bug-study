@@ -1,0 +1,47 @@
+name: Sync Notion Data
+
+on:
+  schedule:
+    # 1시간마다 실행 (UTC 기준)
+    - cron: '0 * * * *'
+  workflow_dispatch: # 수동 실행 가능
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Install dependencies
+        run: |
+          cd pm-dashboard
+          npm install @notionhq/client
+      
+      - name: Fetch Notion data
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_EPIC_DB: ${{ secrets.NOTION_EPIC_DB }}
+          NOTION_TASK_DB: ${{ secrets.NOTION_TASK_DB }}
+          NOTION_DOCS_DB: ${{ secrets.NOTION_DOCS_DB }}
+        run: |
+          cd pm-dashboard
+          node scripts/sync-notion.js
+      
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add -A
+          git diff --staged --quiet || git commit -m "🔄 Sync Notion data [automated]"
+          git push

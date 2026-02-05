@@ -1,0 +1,12 @@
+{
+    "name": "pm-dashboard",
+    "version": "1.0.0",
+    "private": true,
+    "description": "PM Timeline Dashboard with Notion integration",
+    "scripts": {
+        "sync": "node scripts/sync-notion.js"
+    },
+    "dependencies": {
+        "@notionhq/client": "^2.2.14"
+    }
+}
