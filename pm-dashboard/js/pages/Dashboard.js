@@ -4,8 +4,10 @@
 
 let currentEpicPage = 1;
 let currentTaskPage = 1;
+let currentUrgentPage = 1;
 let currentMonth = new Date(); // 현재 선택된 월
 const ITEMS_PER_PAGE = 20;
+const URGENT_PER_PAGE = 5;
 
 function renderDashboard() {
     const app = document.getElementById('app');
@@ -67,13 +69,28 @@ function renderDashboardContent(container) {
         navigateTo(`/epic/${epic.id}`);
     };
 
-    // Urgent Tasks Panel
-    const urgentPanel = createUrgentTasks({
-        tasks: urgentTasks,
-        onTaskClick: handleTaskClick,
-        onPing: handlePing
-    });
-    container.appendChild(urgentPanel);
+    // 상단 2열 레이아웃 (임박태스크 + 회의록)
+    const topRow = document.createElement('div');
+    topRow.className = 'dashboard-top-row';
+    topRow.style.cssText = `
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: var(--space-lg);
+        margin-bottom: var(--space-lg);
+    `;
+
+    // 임박 태스크 섹션 (페이지네이션)
+    const urgentSection = document.createElement('div');
+    urgentSection.id = 'urgent-section';
+    renderUrgentSection(urgentSection, urgentTasks, handleTaskClick, handlePing);
+    topRow.appendChild(urgentSection);
+
+    // 회의록 섹션
+    const meetingSection = document.createElement('div');
+    renderMeetingSection(meetingSection);
+    topRow.appendChild(meetingSection);
+
+    container.appendChild(topRow);
 
     // Month Picker
     const monthPicker = createMonthPicker(() => {
@@ -293,4 +310,103 @@ function createPagination({ current, total, totalItems, label, onPageChange }) {
     });
 
     return container;
+}
+
+// 임박 태스크 섹션 (5개씩 페이지네이션)
+function renderUrgentSection(container, allTasks, onTaskClick, onPing) {
+    const totalPages = Math.ceil(allTasks.length / URGENT_PER_PAGE);
+    const start = (currentUrgentPage - 1) * URGENT_PER_PAGE;
+    const pageTasks = allTasks.slice(start, start + URGENT_PER_PAGE);
+
+    container.innerHTML = '';
+
+    const urgentPanel = createUrgentTasks({
+        tasks: pageTasks,
+        onTaskClick,
+        onPing
+    });
+    container.appendChild(urgentPanel);
+
+    // 페이지네이션 (태스크가 5개 초과일 때만)
+    if (allTasks.length > URGENT_PER_PAGE) {
+        const pagination = createPagination({
+            current: currentUrgentPage,
+            total: totalPages,
+            totalItems: allTasks.length,
+            label: '임박',
+            onPageChange: (newPage) => {
+                currentUrgentPage = newPage;
+                renderUrgentSection(container, allTasks, onTaskClick, onPing);
+            }
+        });
+        container.appendChild(pagination);
+    }
+}
+
+// 회의록 섹션 (에픽/태스크 중 '회의' 키워드 포함된 것)
+function renderMeetingSection(container) {
+    container.innerHTML = '';
+
+    const section = document.createElement('section');
+    section.className = 'card';
+
+    const header = document.createElement('div');
+    header.className = 'card__header';
+    header.innerHTML = `
+        <h2 class="card__title">
+            <span class="card__title-icon">📋</span>
+            최근 회의
+        </h2>
+    `;
+    section.appendChild(header);
+
+    // 에픽과 태스크에서 '회의' 키워드 필터링
+    const allItems = [...MockData.epics, ...MockData.tasks];
+    const meetingItems = allItems.filter(item =>
+        item.title && item.title.includes('회의')
+    ).sort((a, b) =>
+        new Date(b.lastEditedTime || b.endDate) - new Date(a.lastEditedTime || a.endDate)
+    ).slice(0, 10);
+
+    if (meetingItems.length === 0) {
+        const empty = document.createElement('div');
+        empty.className = 'empty-state';
+        empty.innerHTML = `
+            <div class="empty-state__icon">📭</div>
+            <div class="empty-state__title">최근 회의가 없습니다</div>
+        `;
+        section.appendChild(empty);
+    } else {
+        const list = document.createElement('div');
+        list.className = 'meeting-list';
+        list.style.cssText = 'padding: var(--space-md);';
+
+        meetingItems.forEach(item => {
+            const dateStr = item.endDate || item.startDate || item.lastEditedTime;
+            const date = dateStr ? new Date(dateStr) : null;
+            const dateLabel = date ? `${date.getMonth() + 1}/${date.getDate()}` : '';
+
+            const row = document.createElement('div');
+            row.className = 'meeting-item';
+            row.style.cssText = `
+                display: flex;
+                gap: var(--space-sm);
+                padding: var(--space-sm) 0;
+                border-bottom: 1px solid var(--border-color);
+                cursor: pointer;
+            `;
+            row.innerHTML = `
+                <span style="color: var(--accent-blue); font-weight: 600; min-width: 45px;">${dateLabel}</span>
+                <span style="flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${item.title}</span>
+            `;
+            row.addEventListener('click', () => {
+                if (item.notionUrl) window.open(item.notionUrl, '_blank');
+            });
+            list.appendChild(row);
+        });
+
+        section.appendChild(list);
+    }
+
+    container.appendChild(section);
 }
