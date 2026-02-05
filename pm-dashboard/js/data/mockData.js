@@ -93,10 +93,16 @@ const MockData = (function () {
             if (response.ok) {
                 const data = await response.json();
 
-                if (data.epics && data.epics.length > 0) {
+                console.log('📦 Raw Notion data:', {
+                    epics: data.epics?.length || 0,
+                    tasks: data.tasks?.length || 0
+                });
+
+                // 노션 데이터가 있으면 사용 (빈 배열이라도 동기화된 데이터이므로 사용)
+                if (data.epics) {
                     epics = data.epics;
                 }
-                if (data.tasks && data.tasks.length > 0) {
+                if (data.tasks) {
                     tasks = data.tasks;
                 }
                 if (data.members && data.members.length > 0) {
@@ -113,9 +119,11 @@ const MockData = (function () {
                     members: members.length,
                     syncedAt
                 });
+            } else {
+                console.log('⚠️ Failed to fetch notion-data.json:', response.status);
             }
         } catch (error) {
-            console.log('📋 Using mock data (Notion data not available)');
+            console.log('📋 Using mock data (Notion data not available):', error.message);
         }
 
         isLoaded = true;
