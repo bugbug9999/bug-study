@@ -88,8 +88,13 @@ function createTaskTimeline(options = {}) {
   if (tasks.length === 0) {
     const empty = document.createElement('p');
     empty.style.cssText = 'color: var(--text-secondary); text-align: center; padding: var(--space-lg);';
-    const monthNum = selectedMonth ? selectedMonth.getMonth() + 1 : new Date().getMonth() + 1;
-    empty.textContent = `${monthNum}월에 해당하는 태스크가 없습니다.`;
+    if (selectedMonth) {
+      const month = selectedMonth.getMonth() + 1;
+      const prevMonth = month === 1 ? 12 : month - 1;
+      empty.textContent = `${prevMonth}월~${month}월에 해당하는 태스크가 없습니다.`;
+    } else {
+      empty.textContent = '해당하는 태스크가 없습니다.';
+    }
     container.appendChild(empty);
     return container;
   }
