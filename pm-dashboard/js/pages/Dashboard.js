@@ -360,9 +360,9 @@ function renderMeetingSection(container) {
     `;
     section.appendChild(header);
 
-    // 회의/미팅 관련 키워드 필터링
+    // 회의/미팅 관련 키워드 필터링 (에픽, 태스크, docs 모두 검색)
     const meetingKeywords = ['회의', '회의록', '미팅', '미팅록', 'Meeting', 'meeting'];
-    const allItems = [...MockData.epics, ...MockData.tasks];
+    const allItems = [...MockData.epics, ...MockData.tasks, ...MockData.docs];
     const meetingItems = allItems.filter(item =>
         item.title && meetingKeywords.some(keyword => item.title.includes(keyword))
     ).sort((a, b) =>
