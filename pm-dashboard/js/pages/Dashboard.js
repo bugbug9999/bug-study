@@ -193,9 +193,10 @@ function getItemsForMonth(items, month) {
 
         return false;
     }).sort((a, b) => {
-        // 최신 수정순
-        return new Date(b.lastEditedTime || b.endDate || b.createdTime) -
-            new Date(a.lastEditedTime || a.endDate || a.createdTime);
+        // 시작일 최신순 (내림차순)
+        const aStart = new Date(a.startDate || a.endDate || a.lastEditedTime || a.createdTime);
+        const bStart = new Date(b.startDate || b.endDate || b.lastEditedTime || b.createdTime);
+        return bStart - aStart;
     });
 }
 
