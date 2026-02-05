@@ -233,7 +233,9 @@ const MockData = (function () {
                 endDate.setHours(0, 0, 0, 0);
 
                 const diffDays = Math.ceil((endDate - today) / (1000 * 60 * 60 * 24));
-                return diffDays <= 2;
+
+                // 마감일이 지났어도 7일 이내만, 또는 앞으로 2일 이내
+                return diffDays >= -7 && diffDays <= 2;
             }).sort((a, b) => new Date(a.endDate) - new Date(b.endDate));
         },
 

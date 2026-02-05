@@ -177,7 +177,8 @@ function renderEpicTimeline(container, onEpicClick, onTaskClick) {
     const timeline = createTimeline({
         epics: pageEpics,
         onEpicClick,
-        onTaskClick
+        onTaskClick,
+        selectedMonth: currentMonth
     });
     timeline.style.marginBottom = 'var(--space-md)';
     container.appendChild(timeline);
@@ -214,7 +215,8 @@ function renderTaskTimeline(container, onTaskClick) {
     // Create timeline
     const timeline = createTaskTimeline({
         tasks: pageTasks,
-        onTaskClick
+        onTaskClick,
+        selectedMonth: currentMonth
     });
     container.appendChild(timeline);
 
