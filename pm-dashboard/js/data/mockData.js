@@ -121,8 +121,8 @@ const MockData = (function () {
         isLoaded = true;
     }
 
-    // 초기 로드
-    loadNotionData();
+    // 초기 로드는 main.js에서 명시적으로 호출
+    // loadNotionData(); // 제거됨
 
     return {
         get members() { return members; },
