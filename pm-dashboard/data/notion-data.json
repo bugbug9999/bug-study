@@ -9050,7 +9050,7 @@
       "notionUrl": "https://www.notion.so/AI-notion-slack-agent-2f1862e1c059800ab747f8a803004d7e",
       "priority": null,
       "createdTime": "2026-01-23T01:31:00.000Z",
-      "lastEditedTime": "2026-02-06T06:39:00.000Z",
+      "lastEditedTime": "2026-02-06T07:05:00.000Z",
       "epicId": "2fc862e1-c059-804c-9cd4-cae056bc1712",
       "pingHistory": []
     },
@@ -19678,6 +19678,23 @@
   ],
   "docs": [
     {
+      "id": "2df862e1-c059-80ae-acab-d4cb12cd876d",
+      "title": "[Lair] 린 라이브러리 작업 문서",
+      "status": "To Do",
+      "startDate": "2026-01-05",
+      "endDate": "2026-01-05",
+      "assignee": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Lair-2df862e1c05980aeacabd4cb12cd876d",
+      "priority": null,
+      "createdTime": "2026-01-05T12:05:00.000Z",
+      "lastEditedTime": "2026-02-06T07:12:00.000Z"
+    },
+    {
       "id": "2ff862e1-c059-8118-91bf-ccc0175fd6cd",
       "title": "📅 회의록: 데일리 스탠드업 (2026-02-06)",
       "status": "To Do",
@@ -19807,23 +19824,6 @@
       "notionUrl": "https://www.notion.so/3-2fe862e1c0598050844adf676c0f21b6",
       "priority": null,
       "createdTime": "2026-02-05T10:46:00.000Z",
-      "lastEditedTime": "2026-02-05T10:50:00.000Z"
-    },
-    {
-      "id": "2df862e1-c059-80ae-acab-d4cb12cd876d",
-      "title": "[Lair] 린 라이브러리 작업 문서",
-      "status": "To Do",
-      "startDate": "2026-01-05",
-      "endDate": "2026-01-05",
-      "assignee": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Lair-2df862e1c05980aeacabd4cb12cd876d",
-      "priority": null,
-      "createdTime": "2026-01-05T12:05:00.000Z",
       "lastEditedTime": "2026-02-05T10:50:00.000Z"
     },
     {
@@ -28060,5 +28060,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-02-06T06:52:30.268Z"
+  "syncedAt": "2026-02-06T07:44:56.971Z"
 }
