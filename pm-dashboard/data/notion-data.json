@@ -19678,6 +19678,23 @@
   ],
   "docs": [
     {
+      "id": "2ff862e1-c059-8118-91bf-ccc0175fd6cd",
+      "title": "📅 회의록: 데일리 스탠드업 (2026-02-06)",
+      "status": "To Do",
+      "startDate": "2026-02-06",
+      "endDate": "2026-02-06",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/2026-02-06-2ff862e1c059811891bfccc0175fd6cd",
+      "priority": null,
+      "createdTime": "2026-02-06T05:36:00.000Z",
+      "lastEditedTime": "2026-02-06T05:47:00.000Z"
+    },
+    {
       "id": "2fc862e1-c059-81d7-a505-f9844a920f9a",
       "title": "[회의록] 2026-02-03 AI 워크플로우 및 프로토타입 논의",
       "status": "To Do",
@@ -27959,23 +27976,6 @@
       "priority": null,
       "createdTime": "2025-02-14T02:02:00.000Z",
       "lastEditedTime": "2025-02-14T02:36:00.000Z"
-    },
-    {
-      "id": "199862e1-c059-8081-be55-dffc0607938e",
-      "title": "[Line Game] 회고",
-      "status": "To Do",
-      "startDate": "2025-02-13",
-      "endDate": "2025-02-13",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Line-Game-199862e1c0598081be55dffc0607938e",
-      "priority": null,
-      "createdTime": "2025-02-13T06:09:00.000Z",
-      "lastEditedTime": "2025-02-13T07:20:00.000Z"
     }
   ],
   "members": [
@@ -28060,5 +28060,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-02-06T04:14:02.949Z"
+  "syncedAt": "2026-02-06T05:52:56.317Z"
 }
