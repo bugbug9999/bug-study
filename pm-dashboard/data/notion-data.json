@@ -26398,1696 +26398,1584 @@
       "lastEditedTime": "2025-04-03T04:18:00.000Z"
     },
     {
-      "id": "00007063-5a00-4448-ad98-1c4d9dbd5579",
-      "title": "유저플로우 래퍼런스 by 세스코",
+      "id": "1ca862e1-c059-807b-bdc4-fbec528aaeea",
+      "title": "[초안] 나이지리아 이벤트 미디엄글",
       "status": "To Do",
-      "startDate": null,
-      "endDate": null,
+      "startDate": "2025-04-03",
+      "endDate": "2025-04-03",
       "assignee": {
-        "id": "512a37fb-0e7d-4670-bc0d-1cd593338bce",
-        "name": "Unknown",
-        "avatar": null
+        "id": "4ab3d585-ddfc-4092-b1c4-3a3ce00261e7",
+        "name": "뽀삐",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/6273ea60-836e-473e-b00f-7b88a4eaee72/%EB%B2%84%EA%B7%B8%EC%8B%9C%ED%8B%B0_%EC%82%AC%EC%A7%84.png"
       },
       "reviewer": null,
-      "notionUrl": "https://www.notion.so/by-000070635a004448ad981c4d9dbd5579",
+      "notionUrl": "https://www.notion.so/1ca862e1c059807bbdc4fbec528aaeea",
       "priority": null,
-      "createdTime": "2023-02-01T02:40:00.000Z",
-      "lastEditedTime": "2023-02-01T11:26:00.000Z"
+      "createdTime": "2025-04-03T04:05:00.000Z",
+      "lastEditedTime": "2025-04-03T04:09:00.000Z"
     },
     {
-      "id": "00284cac-2931-4518-a4ab-a6c92dc2cd98",
-      "title": "230306 밍글링",
+      "id": "1ca862e1-c059-800d-b21d-f18d2d7e3003",
+      "title": "[미팅록] Kleva 협업 관련 콜 - 250403",
       "status": "To Do",
-      "startDate": "2023-03-06",
-      "endDate": "2023-03-06",
-      "assignee": {
-        "id": "a33df9e3-329b-4001-8f52-1c6fb42089ca",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/230306-00284cac29314518a4aba6c92dc2cd98",
-      "priority": null,
-      "createdTime": "2023-03-06T03:13:00.000Z",
-      "lastEditedTime": "2023-03-06T05:34:00.000Z"
-    },
-    {
-      "id": "0029f3e4-9240-411f-85cd-da5c45782653",
-      "title": "회고록",
-      "status": "To Do",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "991d72ac-8f42-4ad5-bc96-9aa46447ae27",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/0029f3e49240411f85cdda5c45782653",
-      "priority": null,
-      "createdTime": "2023-02-13T17:50:00.000Z",
-      "lastEditedTime": "2023-09-07T03:49:00.000Z"
-    },
-    {
-      "id": "00437b5c-b598-43a4-b3fa-38cd074fe19c",
-      "title": "[회의록] 240312 법인검토 리뷰 회의 ",
-      "status": "To Do",
-      "startDate": null,
-      "endDate": null,
-      "assignee": null,
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/240312-00437b5cb59843a4b3fa38cd074fe19c",
-      "priority": null,
-      "createdTime": "2024-03-12T07:39:00.000Z",
-      "lastEditedTime": "2024-03-12T07:39:00.000Z"
-    },
-    {
-      "id": "007d06b4-c6a8-40aa-bd90-b51ebf369a3b",
-      "title": "[기획] GIF 활용 GIPHY 기획",
-      "status": "To Do",
-      "startDate": "2023-09-01",
-      "endDate": "2023-09-01",
-      "assignee": null,
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/GIF-GIPHY-007d06b4c6a840aabd90b51ebf369a3b",
-      "priority": null,
-      "createdTime": "2023-08-31T06:46:00.000Z",
-      "lastEditedTime": "2023-09-01T06:29:00.000Z"
-    },
-    {
-      "id": "009983bc-2efb-4427-bfca-db5a52af902d",
-      "title": "[미팅] <> 바빌론 밸리데이팅 ",
-      "status": "To Do",
-      "startDate": "2024-08-12",
-      "endDate": "2024-08-12",
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/009983bc2efb4427bfcadb5a52af902d",
-      "priority": null,
-      "createdTime": "2024-08-12T05:00:00.000Z",
-      "lastEditedTime": "2024-08-12T06:13:00.000Z"
-    },
-    {
-      "id": "00d07b63-daa1-4830-a3bd-c78fdef883a4",
-      "title": "230225 디스코드 연동해제 관련 협의 문서: 바람이, 트롤, 세스코",
-      "status": "To Do",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/230225-00d07b63daa14830a3bdc78fdef883a4",
-      "priority": null,
-      "createdTime": "2023-02-24T17:24:00.000Z",
-      "lastEditedTime": "2023-03-03T09:21:00.000Z"
-    },
-    {
-      "id": "00ec1105-fe5b-4e00-8856-422d64bab3fd",
-      "title": "230421 버그폴리 게임성 관련 draft ",
-      "status": "To Do",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/230421-draft-00ec1105fe5b4e008856422d64bab3fd",
-      "priority": null,
-      "createdTime": "2023-04-21T07:09:00.000Z",
-      "lastEditedTime": "2023-04-29T16:43:00.000Z"
-    },
-    {
-      "id": "010e347e-bfe7-461c-8c68-cbff96691d65",
-      "title": "[회의록] 240404백서 작성 중간공유 회의록",
-      "status": "To Do",
-      "startDate": "2024-04-04",
-      "endDate": "2024-04-04",
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/240404-010e347ebfe7461c8c68cbff96691d65",
-      "priority": null,
-      "createdTime": "2024-04-04T07:18:00.000Z",
-      "lastEditedTime": "2024-04-12T05:36:00.000Z"
-    },
-    {
-      "id": "010ff65b-f72c-4094-846e-edf0415be8d2",
-      "title": "230823 BPBF 주간회의 ",
-      "status": "To Do",
-      "startDate": "2023-08-02",
-      "endDate": "2023-08-02",
-      "assignee": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/230823-BPBF-010ff65bf72c4094846eedf0415be8d2",
-      "priority": null,
-      "createdTime": "2023-08-22T14:07:00.000Z",
-      "lastEditedTime": "2023-08-25T02:06:00.000Z"
-    },
-    {
-      "id": "0112cc4e-af38-483d-9080-d0ac5f35b5d3",
-      "title": "LSD 파트너 dex팀 문의 사항 - Izumi, Wombat",
-      "status": "To Do",
-      "startDate": "2024-06-25",
-      "endDate": "2024-06-25",
+      "startDate": "2025-04-03",
+      "endDate": "2025-04-03",
       "assignee": {
         "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
         "name": "고라니",
         "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
       },
       "reviewer": null,
-      "notionUrl": "https://www.notion.so/LSD-dex-Izumi-Wombat-0112cc4eaf38483d9080d0ac5f35b5d3",
+      "notionUrl": "https://www.notion.so/Kleva-250403-1ca862e1c059800db21df18d2d7e3003",
       "priority": null,
-      "createdTime": "2024-06-25T13:27:00.000Z",
-      "lastEditedTime": "2024-07-06T13:25:00.000Z"
+      "createdTime": "2025-04-03T02:31:00.000Z",
+      "lastEditedTime": "2025-04-03T02:52:00.000Z"
     },
     {
-      "id": "016c66f8-9199-4b21-8eed-a13c930a3d73",
-      "title": "[회의] 231124 버그&레오굴 스탠드업 미팅",
+      "id": "1c9862e1-c059-80b4-9b48-f15a2c128401",
+      "title": "[미팅록]250402 OKX <> BERA <> LAIR ",
+      "status": "To Do",
+      "startDate": "2025-04-02",
+      "endDate": "2025-04-02",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/250402-OKX-BERA-LAIR-1c9862e1c05980b49b48f15a2c128401",
+      "priority": null,
+      "createdTime": "2025-04-02T10:46:00.000Z",
+      "lastEditedTime": "2025-04-02T19:21:00.000Z"
+    },
+    {
+      "id": "1c9862e1-c059-80d4-b3b1-e180080afba6",
+      "title": "[미팅] 디자인<>마케팅 프레임 워크 세팅 협의",
+      "status": "To Do",
+      "startDate": "2025-04-02",
+      "endDate": "2025-04-02",
+      "assignee": {
+        "id": "182d872b-594c-81a9-b8fc-00023fbbcba7",
+        "name": "키키",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a575f183-f2e5-4a18-8fe9-f48d1af7f97b/1111.jpeg"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/1c9862e1c05980d4b3b1e180080afba6",
+      "priority": null,
+      "createdTime": "2025-04-02T06:48:00.000Z",
+      "lastEditedTime": "2025-04-02T07:49:00.000Z"
+    },
+    {
+      "id": "1c2862e1-c059-806c-a3ba-c99a9c61dd86",
+      "title": "[회의록]주간리뷰 250326",
+      "status": "To Do",
+      "startDate": "2025-03-26",
+      "endDate": "2025-03-26",
+      "assignee": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/250326-1c2862e1c059806ca3bac99a9c61dd86",
+      "priority": null,
+      "createdTime": "2025-03-26T00:50:00.000Z",
+      "lastEditedTime": "2025-04-02T02:01:00.000Z"
+    },
+    {
+      "id": "1c8862e1-c059-8027-863a-de5ec3ff4524",
+      "title": "[미팅록] <>EVG Intro call 040125",
+      "status": "To Do",
+      "startDate": "2025-04-01",
+      "endDate": "2025-04-01",
+      "assignee": {
+        "id": "182d872b-594c-81a9-b8fc-00023fbbcba7",
+        "name": "키키",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a575f183-f2e5-4a18-8fe9-f48d1af7f97b/1111.jpeg"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/EVG-Intro-call-040125-1c8862e1c0598027863ade5ec3ff4524",
+      "priority": null,
+      "createdTime": "2025-04-01T08:49:00.000Z",
+      "lastEditedTime": "2025-04-01T13:43:00.000Z"
+    },
+    {
+      "id": "1c8862e1-c059-80cb-8507-d059432b51b4",
+      "title": "[미팅록] 250401 OKX IDO ",
+      "status": "To Do",
+      "startDate": "2025-04-01",
+      "endDate": "2025-04-01",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/250401-OKX-IDO-1c8862e1c05980cb8507d059432b51b4",
+      "priority": null,
+      "createdTime": "2025-04-01T13:39:00.000Z",
+      "lastEditedTime": "2025-04-01T13:41:00.000Z"
+    },
+    {
+      "id": "1bb862e1-c059-809d-9466-c00b34de5916",
+      "title": "[회의록]주간리뷰 250319",
+      "status": "To Do",
+      "startDate": "2025-03-19",
+      "endDate": "2025-03-19",
+      "assignee": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/250319-1bb862e1c059809d9466c00b34de5916",
+      "priority": null,
+      "createdTime": "2025-03-19T01:46:00.000Z",
+      "lastEditedTime": "2025-03-26T02:16:00.000Z"
+    },
+    {
+      "id": "1c1862e1-c059-8006-9660-c90b7ccdc07b",
+      "title": "[Bera] 시장 진입 전략 - Intro - 250325",
+      "status": "To Do",
+      "startDate": "2025-03-25",
+      "endDate": "2025-03-25",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Bera-Intro-250325-1c1862e1c05980069660c90b7ccdc07b",
+      "priority": null,
+      "createdTime": "2025-03-25T11:57:00.000Z",
+      "lastEditedTime": "2025-03-25T12:55:00.000Z"
+    },
+    {
+      "id": "1ba862e1-c059-80fa-8d2f-c52a8f4ad7cb",
+      "title": "\n[Lair] 깃북 (1) rstKAIA 만드는 가이드",
+      "status": "To Do",
+      "startDate": "2025-03-18",
+      "endDate": "2025-03-18",
+      "assignee": {
+        "id": "182d872b-594c-81a9-b8fc-00023fbbcba7",
+        "name": "키키",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a575f183-f2e5-4a18-8fe9-f48d1af7f97b/1111.jpeg"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Lair-1-rstKAIA-1ba862e1c05980fa8d2fc52a8f4ad7cb",
+      "priority": null,
+      "createdTime": "2025-03-18T08:54:00.000Z",
+      "lastEditedTime": "2025-03-25T08:21:00.000Z"
+    },
+    {
+      "id": "1c0862e1-c059-8017-becd-ce70b1c06c4a",
+      "title": "[Lair] $rstKAIA 마케팅용 이미지 ",
       "status": "To Do",
       "startDate": null,
       "endDate": null,
       "assignee": {
-        "id": "a33df9e3-329b-4001-8f52-1c6fb42089ca",
-        "name": "Unknown",
-        "avatar": null
+        "id": "182d872b-594c-81a9-b8fc-00023fbbcba7",
+        "name": "키키",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a575f183-f2e5-4a18-8fe9-f48d1af7f97b/1111.jpeg"
       },
       "reviewer": null,
-      "notionUrl": "https://www.notion.so/231124-016c66f891994b218eeda13c930a3d73",
+      "notionUrl": "https://www.notion.so/Lair-rstKAIA-1c0862e1c0598017becdce70b1c06c4a",
       "priority": null,
-      "createdTime": "2023-11-24T03:00:00.000Z",
-      "lastEditedTime": "2023-11-24T04:56:00.000Z"
+      "createdTime": "2025-03-24T23:41:00.000Z",
+      "lastEditedTime": "2025-03-25T07:01:00.000Z"
     },
     {
-      "id": "01f6db76-f613-44c1-8413-b00cd08f0a79",
-      "title": "[회의록]주간리뷰 240522",
+      "id": "1c1862e1-c059-8020-9cc2-e173b56c081c",
+      "title": "[Lair] Vault 마케팅 기획안 2",
       "status": "To Do",
-      "startDate": "2024-05-22",
-      "endDate": "2024-05-22",
+      "startDate": "2025-03-25",
+      "endDate": "2025-03-31",
+      "assignee": {
+        "id": "182d872b-594c-81a9-b8fc-00023fbbcba7",
+        "name": "키키",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a575f183-f2e5-4a18-8fe9-f48d1af7f97b/1111.jpeg"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Lair-Vault-2-1c1862e1c05980209cc2e173b56c081c",
+      "priority": null,
+      "createdTime": "2025-03-25T04:54:00.000Z",
+      "lastEditedTime": "2025-03-25T04:57:00.000Z"
+    },
+    {
+      "id": "1bd862e1-c059-806d-90f3-dae5681440bf",
+      "title": "[미팅록] CaveDAO 240321 키자미팅 ",
+      "status": "To Do",
+      "startDate": null,
+      "endDate": null,
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/CaveDAO-240321-1bd862e1c059806d90f3dae5681440bf",
+      "priority": null,
+      "createdTime": "2025-03-21T08:10:00.000Z",
+      "lastEditedTime": "2025-03-24T23:34:00.000Z"
+    },
+    {
+      "id": "1c0862e1-c059-800c-a99c-f9980812998b",
+      "title": "[CEX] 250324 OKX IDO 사전미팅",
+      "status": "To Do",
+      "startDate": "2025-03-24",
+      "endDate": "2025-03-24",
+      "assignee": null,
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/CEX-250324-OKX-IDO-1c0862e1c059800ca99cf9980812998b",
+      "priority": null,
+      "createdTime": "2025-03-24T13:21:00.000Z",
+      "lastEditedTime": "2025-03-24T13:23:00.000Z"
+    },
+    {
+      "id": "1c0862e1-c059-8070-b48c-c9ea85a31cc7",
+      "title": "[Lair] rstKAIA APY 신규 계산식",
+      "status": "To Do",
+      "startDate": "2025-03-24",
+      "endDate": "2025-03-25",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Lair-rstKAIA-APY-1c0862e1c0598070b48cc9ea85a31cc7",
+      "priority": null,
+      "createdTime": "2025-03-24T06:34:00.000Z",
+      "lastEditedTime": "2025-03-24T06:55:00.000Z"
+    },
+    {
+      "id": "1bd862e1-c059-80e9-8928-c2d6fc02be8f",
+      "title": "[BC] 3월 나이지리아 이벤트 스토리보드",
+      "status": "To Do",
+      "startDate": "2025-03-21",
+      "endDate": "2025-03-21",
+      "assignee": {
+        "id": "4ab3d585-ddfc-4092-b1c4-3a3ce00261e7",
+        "name": "뽀삐",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/6273ea60-836e-473e-b00f-7b88a4eaee72/%EB%B2%84%EA%B7%B8%EC%8B%9C%ED%8B%B0_%EC%82%AC%EC%A7%84.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/BC-3-1bd862e1c05980e98928c2d6fc02be8f",
+      "priority": null,
+      "createdTime": "2025-03-21T09:52:00.000Z",
+      "lastEditedTime": "2025-03-24T05:37:00.000Z"
+    },
+    {
+      "id": "1bd862e1-c059-80ac-ab4a-c26c79d603e6",
+      "title": "[미티옭] ",
+      "status": "To Do",
+      "startDate": null,
+      "endDate": null,
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/1bd862e1c05980acab4ac26c79d603e6",
+      "priority": null,
+      "createdTime": "2025-03-21T14:59:00.000Z",
+      "lastEditedTime": "2025-03-21T14:59:00.000Z"
+    },
+    {
+      "id": "1bc862e1-c059-8096-9277-e520df0a0fae",
+      "title": "[최종본] 리워드 시즌 3 마감 시즌 4 오픈 공지",
+      "status": "To Do",
+      "startDate": "2025-03-20",
+      "endDate": "2025-03-20",
+      "assignee": {
+        "id": "182d872b-594c-81a9-b8fc-00023fbbcba7",
+        "name": "키키",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a575f183-f2e5-4a18-8fe9-f48d1af7f97b/1111.jpeg"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/3-4-1bc862e1c05980969277e520df0a0fae",
+      "priority": null,
+      "createdTime": "2025-03-20T08:00:00.000Z",
+      "lastEditedTime": "2025-03-20T08:01:00.000Z"
+    },
+    {
+      "id": "1b4862e1-c059-8058-8014-e882cdbef066",
+      "title": "[Line Game] Lair Ticket 봇으로 80만개 채굴 시나리오",
+      "status": "To Do",
+      "startDate": "2025-03-12",
+      "endDate": "2025-03-17",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Line-Game-Lair-Ticket-80-1b4862e1c05980588014e882cdbef066",
+      "priority": null,
+      "createdTime": "2025-03-12T06:32:00.000Z",
+      "lastEditedTime": "2025-03-20T07:30:00.000Z"
+    },
+    {
+      "id": "1bc862e1-c059-800a-b698-c034e5a0acb9",
+      "title": "[Lair] 리워드 시즌 4 예고 이미지 제작 요청",
+      "status": "To Do",
+      "startDate": "2025-03-20",
+      "endDate": "2025-03-20",
+      "assignee": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Lair-4-1bc862e1c059800ab698c034e5a0acb9",
+      "priority": null,
+      "createdTime": "2025-03-20T02:49:00.000Z",
+      "lastEditedTime": "2025-03-20T02:51:00.000Z"
+    },
+    {
+      "id": "1bc862e1-c059-807d-8a3d-dc74c712c251",
+      "title": "[미팅록] Somnia 검증인 신청 feedback 250320",
+      "status": "To Do",
+      "startDate": "2025-03-20",
+      "endDate": "2025-03-20",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Somnia-feedback-250320-1bc862e1c059807d8a3ddc74c712c251",
+      "priority": null,
+      "createdTime": "2025-03-20T01:31:00.000Z",
+      "lastEditedTime": "2025-03-20T02:44:00.000Z"
+    },
+    {
+      "id": "1bb862e1-c059-805b-824c-d32ebf485044",
+      "title": "[init] DROP LSD에 제출한 neutron 주소",
+      "status": "To Do",
+      "startDate": "2025-03-19",
+      "endDate": "2025-03-19",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/init-DROP-LSD-neutron-1bb862e1c059805b824cd32ebf485044",
+      "priority": null,
+      "createdTime": "2025-03-19T12:21:00.000Z",
+      "lastEditedTime": "2025-03-19T12:24:00.000Z"
+    },
+    {
+      "id": "1a5862e1-c059-80cd-95e2-d888823ca36f",
+      "title": "[Lair] 토큰 마케팅 D-3 countdown",
+      "status": "To Do",
+      "startDate": "2025-03-11",
+      "endDate": "2025-03-11",
+      "assignee": {
+        "id": "182d872b-594c-81a9-b8fc-00023fbbcba7",
+        "name": "키키",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a575f183-f2e5-4a18-8fe9-f48d1af7f97b/1111.jpeg"
+      },
+      "reviewer": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "notionUrl": "https://www.notion.so/Lair-D-3-countdown-1a5862e1c05980cd95e2d888823ca36f",
+      "priority": null,
+      "createdTime": "2025-02-25T07:25:00.000Z",
+      "lastEditedTime": "2025-03-19T08:36:00.000Z"
+    },
+    {
+      "id": "1b4862e1-c059-80fe-9ced-cbab3077b593",
+      "title": "[회고] 2025년 3월 2주차",
+      "status": "To Do",
+      "startDate": "2025-03-12",
+      "endDate": "2025-03-12",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/2025-3-2-1b4862e1c05980fe9cedcbab3077b593",
+      "priority": null,
+      "createdTime": "2025-03-12T08:05:00.000Z",
+      "lastEditedTime": "2025-03-19T08:26:00.000Z"
+    },
+    {
+      "id": "1bb862e1-c059-8093-960f-e07cee57024f",
+      "title": "[회고] 2025년 3월 3주차",
+      "status": "To Do",
+      "startDate": "2025-03-19",
+      "endDate": "2025-03-19",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/2025-3-3-1bb862e1c0598093960fe07cee57024f",
+      "priority": null,
+      "createdTime": "2025-03-19T08:26:00.000Z",
+      "lastEditedTime": "2025-03-19T08:26:00.000Z"
+    },
+    {
+      "id": "19f862e1-c059-80ef-81d4-c22fed87dc40",
+      "title": "[회고] 2025년 2월 3주차",
+      "status": "To Do",
+      "startDate": "2025-02-19",
+      "endDate": "2025-02-19",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/2025-2-3-19f862e1c05980ef81d4c22fed87dc40",
+      "priority": null,
+      "createdTime": "2025-02-19T07:25:00.000Z",
+      "lastEditedTime": "2025-03-19T05:46:00.000Z"
+    },
+    {
+      "id": "1b4862e1-c059-8004-a1ca-f6ea74a53cf9",
+      "title": "[회의록]주간리뷰 250312",
+      "status": "To Do",
+      "startDate": "2025-03-12",
+      "endDate": "2025-03-12",
+      "assignee": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/250312-1b4862e1c0598004a1caf6ea74a53cf9",
+      "priority": null,
+      "createdTime": "2025-03-12T01:55:00.000Z",
+      "lastEditedTime": "2025-03-19T02:18:00.000Z"
+    },
+    {
+      "id": "1b9862e1-c059-80ef-b9f4-d52461da32f3",
+      "title": "[LAIR] TGE 마케팅 메인 배너 기획안",
+      "status": "To Do",
+      "startDate": "2025-03-19",
+      "endDate": "2025-03-19",
+      "assignee": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/LAIR-TGE-1b9862e1c05980efb9f4d52461da32f3",
+      "priority": null,
+      "createdTime": "2025-03-17T08:41:00.000Z",
+      "lastEditedTime": "2025-03-18T07:55:00.000Z"
+    },
+    {
+      "id": "1b9862e1-c059-804b-a798-ce5685b8a71c",
+      "title": "[미팅록] Google Cloud Intro call 250318",
+      "status": "To Do",
+      "startDate": "2025-03-18",
+      "endDate": "2025-03-18",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Google-Cloud-Intro-call-250318-1b9862e1c059804ba798ce5685b8a71c",
+      "priority": null,
+      "createdTime": "2025-03-17T06:30:00.000Z",
+      "lastEditedTime": "2025-03-18T06:21:00.000Z"
+    },
+    {
+      "id": "1b3862e1-c059-80db-81b4-cc7fc90dbc95",
+      "title": "[Lair] rstKAIA에 초기 LAIR 넣는 시나리오",
+      "status": "To Do",
+      "startDate": "2025-03-11",
+      "endDate": "2025-03-21",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Lair-rstKAIA-LAIR-1b3862e1c05980db81b4cc7fc90dbc95",
+      "priority": null,
+      "createdTime": "2025-03-11T07:39:00.000Z",
+      "lastEditedTime": "2025-03-18T02:19:00.000Z"
+    },
+    {
+      "id": "1b9862e1-c059-80cd-a2e0-e615a38580fa",
+      "title": "[미팅록] GEM, Lair IR",
+      "status": "To Do",
+      "startDate": "2025-03-17",
+      "endDate": "2025-03-17",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/GEM-Lair-IR-1b9862e1c05980cda2e0e615a38580fa",
+      "priority": null,
+      "createdTime": "2025-03-17T12:42:00.000Z",
+      "lastEditedTime": "2025-03-17T12:48:00.000Z"
+    },
+    {
+      "id": "19a862e1-c059-8010-b40e-d3e796e1603c",
+      "title": "[미팅록] hashkey 검증인 온보딩 250214",
+      "status": "To Do",
+      "startDate": "2025-02-14",
+      "endDate": "2025-02-14",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/hashkey-250214-19a862e1c0598010b40ed3e796e1603c",
+      "priority": null,
+      "createdTime": "2025-02-14T09:28:00.000Z",
+      "lastEditedTime": "2025-03-17T02:30:00.000Z"
+    },
+    {
+      "id": "1b2862e1-c059-80a3-a1f0-c21d3474c5aa",
+      "title": "[최종본]AVS 2 Heroic",
+      "status": "To Do",
+      "startDate": "2025-03-17",
+      "endDate": "2025-03-17",
+      "assignee": {
+        "id": "182d872b-594c-81a9-b8fc-00023fbbcba7",
+        "name": "키키",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a575f183-f2e5-4a18-8fe9-f48d1af7f97b/1111.jpeg"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/AVS-2-Heroic-1b2862e1c05980a3a1f0c21d3474c5aa",
+      "priority": null,
+      "createdTime": "2025-03-10T00:57:00.000Z",
+      "lastEditedTime": "2025-03-17T01:45:00.000Z"
+    },
+    {
+      "id": "1b9862e1-c059-8011-8f2a-f13173f8cc61",
+      "title": "[미팅록] 카이아재단 TGE 서포트 ",
+      "status": "To Do",
+      "startDate": "2025-03-17",
+      "endDate": "2025-03-17",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/TGE-1b9862e1c05980118f2af13173f8cc61",
+      "priority": null,
+      "createdTime": "2025-03-17T01:14:00.000Z",
+      "lastEditedTime": "2025-03-17T01:16:00.000Z"
+    },
+    {
+      "id": "192862e1-c059-805e-b5f1-eb27e9c2acbd",
+      "title": "[기획안] 3d 영상 아트",
+      "status": "To Do",
+      "startDate": null,
+      "endDate": null,
+      "assignee": {
+        "id": "182d872b-594c-81a9-b8fc-00023fbbcba7",
+        "name": "키키",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a575f183-f2e5-4a18-8fe9-f48d1af7f97b/1111.jpeg"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/3d-192862e1c059805eb5f1eb27e9c2acbd",
+      "priority": null,
+      "createdTime": "2025-02-06T05:48:00.000Z",
+      "lastEditedTime": "2025-03-14T08:23:00.000Z"
+    },
+    {
+      "id": "1b5862e1-c059-8010-beb0-e8a64f506cb0",
+      "title": "[Lr] 토큰 분배 스케줄 및 시나리오",
+      "status": "To Do",
+      "startDate": "2025-03-13",
+      "endDate": "2025-03-14",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Lr-1b5862e1c0598010beb0e8a64f506cb0",
+      "priority": null,
+      "createdTime": "2025-03-13T06:53:00.000Z",
+      "lastEditedTime": "2025-03-14T07:21:00.000Z"
+    },
+    {
+      "id": "1b5862e1-c059-80f9-85a5-f2652e31503e",
+      "title": "[Lair] vault 1라운드 마이그레이션 공지용 마케팅",
+      "status": "To Do",
+      "startDate": "2025-03-17",
+      "endDate": "2025-03-21",
+      "assignee": {
+        "id": "182d872b-594c-81a9-b8fc-00023fbbcba7",
+        "name": "키키",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a575f183-f2e5-4a18-8fe9-f48d1af7f97b/1111.jpeg"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/Lair-vault-1-1b5862e1c05980f985a5f2652e31503e",
+      "priority": null,
+      "createdTime": "2025-03-13T06:03:00.000Z",
+      "lastEditedTime": "2025-03-14T03:01:00.000Z"
+    },
+    {
+      "id": "1b2862e1-c059-800b-8d8e-e0a54f06986b",
+      "title": "[최종본] Lr토큰 런칭",
+      "status": "To Do",
+      "startDate": "2025-03-14",
+      "endDate": "2025-03-14",
+      "assignee": {
+        "id": "182d872b-594c-81a9-b8fc-00023fbbcba7",
+        "name": "키키",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a575f183-f2e5-4a18-8fe9-f48d1af7f97b/1111.jpeg"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Lr-1b2862e1c059800b8d8ee0a54f06986b",
+      "priority": null,
+      "createdTime": "2025-03-10T00:58:00.000Z",
+      "lastEditedTime": "2025-03-13T09:35:00.000Z"
+    },
+    {
+      "id": "1b5862e1-c059-804b-b591-dc0f8f052fda",
+      "title": "[미팅록] Gate IO IEO 250313",
+      "status": "To Do",
+      "startDate": "2025-03-13",
+      "endDate": "2025-03-13",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Gate-IO-IEO-250313-1b5862e1c059804bb591dc0f8f052fda",
+      "priority": null,
+      "createdTime": "2025-03-13T06:00:00.000Z",
+      "lastEditedTime": "2025-03-13T06:45:00.000Z"
+    },
+    {
+      "id": "1b5862e1-c059-8022-bb5e-c6d30aab5166",
+      "title": "[미팅록] 필리핀 CEX Coins.ph ",
+      "status": "To Do",
+      "startDate": "2025-03-13",
+      "endDate": "2025-03-13",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/CEX-Coins-ph-1b5862e1c0598022bb5ec6d30aab5166",
+      "priority": null,
+      "createdTime": "2025-03-13T02:45:00.000Z",
+      "lastEditedTime": "2025-03-13T02:46:00.000Z"
+    },
+    {
+      "id": "1b3862e1-c059-80b6-aafc-e6037682d073",
+      "title": "Lr 테스트 토큰 런칭 마케팅 기획안",
+      "status": "To Do",
+      "startDate": "2025-03-11",
+      "endDate": "2025-03-11",
+      "assignee": {
+        "id": "182d872b-594c-81a9-b8fc-00023fbbcba7",
+        "name": "키키",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a575f183-f2e5-4a18-8fe9-f48d1af7f97b/1111.jpeg"
+      },
+      "reviewer": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "notionUrl": "https://www.notion.so/Lr-1b3862e1c05980b6aafce6037682d073",
+      "priority": null,
+      "createdTime": "2025-03-11T00:23:00.000Z",
+      "lastEditedTime": "2025-03-12T07:21:00.000Z"
+    },
+    {
+      "id": "1b4862e1-c059-8038-bde6-f18e635a09cb",
+      "title": "<>어디랑 미팅",
+      "status": "To Do",
+      "startDate": "2025-03-12",
+      "endDate": "2025-03-12",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/1b4862e1c0598038bde6f18e635a09cb",
+      "priority": null,
+      "createdTime": "2025-03-12T06:12:00.000Z",
+      "lastEditedTime": "2025-03-12T06:49:00.000Z"
+    },
+    {
+      "id": "1b3862e1-c059-80b5-a9cc-c01ee03c1b59",
+      "title": "[CEX] BYBIT 요청 자료 ",
+      "status": "To Do",
+      "startDate": null,
+      "endDate": null,
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/CEX-BYBIT-1b3862e1c05980b5a9ccc01ee03c1b59",
+      "priority": null,
+      "createdTime": "2025-03-11T10:13:00.000Z",
+      "lastEditedTime": "2025-03-11T11:14:00.000Z"
+    },
+    {
+      "id": "127862e1-c059-80e6-8d10-eb7dc89dd4b2",
+      "title": "[Lair] GSG 전달 자료 ",
+      "status": "To Do",
+      "startDate": "2024-10-22",
+      "endDate": "2024-10-22",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Lair-GSG-127862e1c05980e68d10eb7dc89dd4b2",
+      "priority": null,
+      "createdTime": "2024-10-22T03:38:00.000Z",
+      "lastEditedTime": "2025-03-11T10:44:00.000Z"
+    },
+    {
+      "id": "1b2862e1-c059-807a-8e1e-c8441e8d3f21",
+      "title": "[Cavedao] Cavedao JP 이미지 요청",
+      "status": "To Do",
+      "startDate": "2025-03-12",
+      "endDate": "2025-03-12",
+      "assignee": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Cavedao-Cavedao-JP-1b2862e1c059807a8e1ec8441e8d3f21",
+      "priority": null,
+      "createdTime": "2025-03-10T09:45:00.000Z",
+      "lastEditedTime": "2025-03-11T01:28:00.000Z"
+    },
+    {
+      "id": "1b2862e1-c059-80cb-ade0-c778fa2346d5",
+      "title": "[Lair] AMA에 쓰일 배경 이미지",
+      "status": "To Do",
+      "startDate": "2025-03-13",
+      "endDate": "2025-03-13",
+      "assignee": {
+        "id": "182d872b-594c-81a9-b8fc-00023fbbcba7",
+        "name": "키키",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a575f183-f2e5-4a18-8fe9-f48d1af7f97b/1111.jpeg"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Lair-AMA-1b2862e1c05980cbade0c778fa2346d5",
+      "priority": null,
+      "createdTime": "2025-03-10T06:27:00.000Z",
+      "lastEditedTime": "2025-03-10T06:37:00.000Z"
+    },
+    {
+      "id": "1b2862e1-c059-808e-a422-cdceb5c62d6a",
+      "title": "[미팅록] OKX wallet TGE 마케팅 협업 인트로 콜 - 250310",
+      "status": "To Do",
+      "startDate": "2025-03-10",
+      "endDate": "2025-03-10",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/OKX-wallet-TGE-250310-1b2862e1c059808ea422cdceb5c62d6a",
+      "priority": null,
+      "createdTime": "2025-03-10T02:25:00.000Z",
+      "lastEditedTime": "2025-03-10T02:30:00.000Z"
+    },
+    {
+      "id": "1b2862e1-c059-80f9-b093-e3c498b95ad7",
+      "title": "[미팅록] Woo CEX",
+      "status": "To Do",
+      "startDate": "2025-03-10",
+      "endDate": "2025-03-10",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Woo-CEX-1b2862e1c05980f9b093e3c498b95ad7",
+      "priority": null,
+      "createdTime": "2025-03-10T02:19:00.000Z",
+      "lastEditedTime": "2025-03-10T02:21:00.000Z"
+    },
+    {
+      "id": "1b2862e1-c059-802b-bb39-f62d3f0af817",
+      "title": "[최종본]AVS 2 Bombie",
+      "status": "To Do",
+      "startDate": "2025-03-10",
+      "endDate": "2025-03-10",
+      "assignee": {
+        "id": "182d872b-594c-81a9-b8fc-00023fbbcba7",
+        "name": "키키",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a575f183-f2e5-4a18-8fe9-f48d1af7f97b/1111.jpeg"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/AVS-2-Bombie-1b2862e1c059802bbb39f62d3f0af817",
+      "priority": null,
+      "createdTime": "2025-03-10T00:55:00.000Z",
+      "lastEditedTime": "2025-03-10T01:01:00.000Z"
+    },
+    {
+      "id": "1b2862e1-c059-803c-95dd-da0294e4b744",
+      "title": "[최종본]AVS 2 Captain Tsubasa",
+      "status": "To Do",
+      "startDate": "2025-03-14",
+      "endDate": "2025-03-14",
+      "assignee": {
+        "id": "182d872b-594c-81a9-b8fc-00023fbbcba7",
+        "name": "키키",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a575f183-f2e5-4a18-8fe9-f48d1af7f97b/1111.jpeg"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/AVS-2-Captain-Tsubasa-1b2862e1c059803c95ddda0294e4b744",
+      "priority": null,
+      "createdTime": "2025-03-10T00:57:00.000Z",
+      "lastEditedTime": "2025-03-10T00:58:00.000Z"
+    },
+    {
+      "id": "1b2862e1-c059-8069-a386-fb2b7be499ef",
+      "title": "[최종본]AVS 2 Slime Miner",
+      "status": "To Do",
+      "startDate": "2025-03-13",
+      "endDate": "2025-03-13",
+      "assignee": {
+        "id": "182d872b-594c-81a9-b8fc-00023fbbcba7",
+        "name": "키키",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a575f183-f2e5-4a18-8fe9-f48d1af7f97b/1111.jpeg"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/AVS-2-Slime-Miner-1b2862e1c0598069a386fb2b7be499ef",
+      "priority": null,
+      "createdTime": "2025-03-10T00:57:00.000Z",
+      "lastEditedTime": "2025-03-10T00:58:00.000Z"
+    },
+    {
+      "id": "1b2862e1-c059-8018-892c-db4e54b6e3ef",
+      "title": "[최종본]AVS 2 Frog Defense",
+      "status": "To Do",
+      "startDate": "2025-03-12",
+      "endDate": "2025-03-12",
+      "assignee": {
+        "id": "182d872b-594c-81a9-b8fc-00023fbbcba7",
+        "name": "키키",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a575f183-f2e5-4a18-8fe9-f48d1af7f97b/1111.jpeg"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/AVS-2-Frog-Defense-1b2862e1c0598018892cdb4e54b6e3ef",
+      "priority": null,
+      "createdTime": "2025-03-10T00:57:00.000Z",
+      "lastEditedTime": "2025-03-10T00:58:00.000Z"
+    },
+    {
+      "id": "1b2862e1-c059-8032-96c1-d808de07fecb",
+      "title": "[최종본]AVS 2 Cattea",
+      "status": "To Do",
+      "startDate": "2025-03-11",
+      "endDate": "2025-03-11",
+      "assignee": {
+        "id": "182d872b-594c-81a9-b8fc-00023fbbcba7",
+        "name": "키키",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a575f183-f2e5-4a18-8fe9-f48d1af7f97b/1111.jpeg"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/AVS-2-Cattea-1b2862e1c059803296c1d808de07fecb",
+      "priority": null,
+      "createdTime": "2025-03-10T00:57:00.000Z",
+      "lastEditedTime": "2025-03-10T00:58:00.000Z"
+    },
+    {
+      "id": "1b0862e1-c059-800f-a4b5-e50326a76020",
+      "title": "[Lair] 토큰 영상 최종 타임라인",
+      "status": "To Do",
+      "startDate": "2025-03-08",
+      "endDate": "2025-03-08",
+      "assignee": {
+        "id": "182d872b-594c-81a9-b8fc-00023fbbcba7",
+        "name": "키키",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a575f183-f2e5-4a18-8fe9-f48d1af7f97b/1111.jpeg"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/Lair-1b0862e1c059800fa4b5e50326a76020",
+      "priority": null,
+      "createdTime": "2025-03-08T05:50:00.000Z",
+      "lastEditedTime": "2025-03-08T14:15:00.000Z"
+    },
+    {
+      "id": "1af862e1-c059-809f-be6f-d1f5f38986c8",
+      "title": "[ETH Denver] 출장 리포트 - 고라니",
+      "status": "To Do",
+      "startDate": "2025-02-24",
+      "endDate": "2025-03-03",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/ETH-Denver-1af862e1c059809fbe6fd1f5f38986c8",
+      "priority": null,
+      "createdTime": "2025-03-07T00:57:00.000Z",
+      "lastEditedTime": "2025-03-07T06:25:00.000Z"
+    },
+    {
+      "id": "1af862e1-c059-80ab-bc19-e0d050144c0d",
+      "title": "출장 보고서 템플릿",
+      "status": "To Do",
+      "startDate": null,
+      "endDate": null,
+      "assignee": null,
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/1af862e1c05980abbc19e0d050144c0d",
+      "priority": null,
+      "createdTime": "2025-03-07T06:02:00.000Z",
+      "lastEditedTime": "2025-03-07T06:02:00.000Z"
+    },
+    {
+      "id": "1af862e1-c059-80d5-907e-d423d6dd61c6",
+      "title": "출장 보고서 템플릿",
+      "status": "To Do",
+      "startDate": null,
+      "endDate": null,
+      "assignee": null,
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/1af862e1c05980d5907ed423d6dd61c6",
+      "priority": null,
+      "createdTime": "2025-03-07T06:00:00.000Z",
+      "lastEditedTime": "2025-03-07T06:01:00.000Z"
+    },
+    {
+      "id": "1a4862e1-c059-8054-944f-ec8af71dc815",
+      "title": "[최종본] 볼트 런칭 콘텐츠",
+      "status": "To Do",
+      "startDate": "2025-03-07",
+      "endDate": "2025-03-07",
+      "assignee": {
+        "id": "182d872b-594c-81a9-b8fc-00023fbbcba7",
+        "name": "키키",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a575f183-f2e5-4a18-8fe9-f48d1af7f97b/1111.jpeg"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/1a4862e1c0598054944fec8af71dc815",
+      "priority": null,
+      "createdTime": "2025-02-24T12:06:00.000Z",
+      "lastEditedTime": "2025-03-07T05:56:00.000Z"
+    },
+    {
+      "id": "1ae862e1-c059-8062-a8cb-e5bfe8dee02c",
+      "title": "[최종본] 덴버 akindo recap",
+      "status": "To Do",
+      "startDate": "2025-03-06",
+      "endDate": "2025-03-06",
+      "assignee": {
+        "id": "182d872b-594c-81a9-b8fc-00023fbbcba7",
+        "name": "키키",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a575f183-f2e5-4a18-8fe9-f48d1af7f97b/1111.jpeg"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/akindo-recap-1ae862e1c0598062a8cbe5bfe8dee02c",
+      "priority": null,
+      "createdTime": "2025-03-06T06:43:00.000Z",
+      "lastEditedTime": "2025-03-06T06:44:00.000Z"
+    },
+    {
+      "id": "1ab862e1-c059-8075-996b-c571efd52bfc",
+      "title": "[Lair] AVS 1라운드 참여 업체 계약서",
+      "status": "To Do",
+      "startDate": "2025-03-03",
+      "endDate": "2025-03-14",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Lair-AVS-1-1ab862e1c0598075996bc571efd52bfc",
+      "priority": null,
+      "createdTime": "2025-03-03T12:17:00.000Z",
+      "lastEditedTime": "2025-03-06T01:24:00.000Z"
+    },
+    {
+      "id": "1ad862e1-c059-8024-8cb6-d8afb689e373",
+      "title": "[회의록]주간리뷰 250305",
+      "status": "To Do",
+      "startDate": "2025-03-05",
+      "endDate": "2025-03-05",
+      "assignee": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/250305-1ad862e1c05980248cb6d8afb689e373",
+      "priority": null,
+      "createdTime": "2025-03-05T01:56:00.000Z",
+      "lastEditedTime": "2025-03-05T15:24:00.000Z"
+    },
+    {
+      "id": "1ad862e1-c059-8001-a368-dc71ead0de32",
+      "title": "[Lair] 토큰 영상 숏폼 기획안",
+      "status": "To Do",
+      "startDate": "2025-03-05",
+      "endDate": "2025-03-05",
+      "assignee": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Lair-1ad862e1c0598001a368dc71ead0de32",
+      "priority": null,
+      "createdTime": "2025-03-05T08:21:00.000Z",
+      "lastEditedTime": "2025-03-05T08:24:00.000Z"
+    },
+    {
+      "id": "1a6862e1-c059-80a0-b094-e4aa9fae3fbb",
+      "title": "[최종본] 볼트 티저 ",
+      "status": "To Do",
+      "startDate": "2025-03-04",
+      "endDate": "2025-03-04",
+      "assignee": {
+        "id": "182d872b-594c-81a9-b8fc-00023fbbcba7",
+        "name": "키키",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a575f183-f2e5-4a18-8fe9-f48d1af7f97b/1111.jpeg"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/1a6862e1c05980a0b094e4aa9fae3fbb",
+      "priority": null,
+      "createdTime": "2025-02-26T17:06:00.000Z",
+      "lastEditedTime": "2025-03-04T07:13:00.000Z"
+    },
+    {
+      "id": "1a6862e1-c059-80a3-968a-e34ed2ccdc66",
+      "title": "[Lair] 에어드랍 체커 마케팅 기획안",
+      "status": "To Do",
+      "startDate": "2025-02-26",
+      "endDate": "2025-02-26",
+      "assignee": {
+        "id": "182d872b-594c-81a9-b8fc-00023fbbcba7",
+        "name": "키키",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a575f183-f2e5-4a18-8fe9-f48d1af7f97b/1111.jpeg"
+      },
+      "reviewer": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "notionUrl": "https://www.notion.so/Lair-1a6862e1c05980a3968ae34ed2ccdc66",
+      "priority": null,
+      "createdTime": "2025-02-26T07:56:00.000Z",
+      "lastEditedTime": "2025-03-03T15:01:00.000Z"
+    },
+    {
+      "id": "194862e1-c059-8029-8889-e8bffb7f824b",
+      "title": "[외부공개] 토큰런칭 영상기획",
+      "status": "To Do",
+      "startDate": "2025-02-08",
+      "endDate": "2025-02-08",
+      "assignee": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/194862e1c05980298889e8bffb7f824b",
+      "priority": null,
+      "createdTime": "2025-02-08T08:56:00.000Z",
+      "lastEditedTime": "2025-03-01T11:55:00.000Z"
+    },
+    {
+      "id": "1a8862e1-c059-802f-98bb-fcd05d2ad14a",
+      "title": "[미팅록] bitpanda 유럽cex 미팅 ",
+      "status": "To Do",
+      "startDate": "2025-02-28",
+      "endDate": "2025-02-28",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/bitpanda-cex-1a8862e1c059802f98bbfcd05d2ad14a",
+      "priority": null,
+      "createdTime": "2025-02-28T14:18:00.000Z",
+      "lastEditedTime": "2025-02-28T14:19:00.000Z"
+    },
+    {
+      "id": "1a5862e1-c059-80ea-8370-c960b10a928e",
+      "title": "[Lair] 볼트 티저 마케팅 기획안",
+      "status": "To Do",
+      "startDate": "2025-02-26",
+      "endDate": "2025-02-26",
+      "assignee": {
+        "id": "182d872b-594c-81a9-b8fc-00023fbbcba7",
+        "name": "키키",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a575f183-f2e5-4a18-8fe9-f48d1af7f97b/1111.jpeg"
+      },
+      "reviewer": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "notionUrl": "https://www.notion.so/Lair-1a5862e1c05980ea8370c960b10a928e",
+      "priority": null,
+      "createdTime": "2025-02-25T09:29:00.000Z",
+      "lastEditedTime": "2025-02-28T08:47:00.000Z"
+    },
+    {
+      "id": "19d862e1-c059-8078-b98a-e6cc2cd82735",
+      "title": "[외부공개] 기획안 수정",
+      "status": "To Do",
+      "startDate": "2025-02-17",
+      "endDate": "2025-02-17",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/19d862e1c0598078b98ae6cc2cd82735",
+      "priority": null,
+      "createdTime": "2025-02-17T05:59:00.000Z",
+      "lastEditedTime": "2025-02-28T02:47:00.000Z"
+    },
+    {
+      "id": "1a7862e1-c059-803b-82ee-e20df01011b1",
+      "title": "[최종본] 에어드랍 체커 오픈",
+      "status": "To Do",
+      "startDate": "2025-02-28",
+      "endDate": "2025-02-28",
+      "assignee": {
+        "id": "182d872b-594c-81a9-b8fc-00023fbbcba7",
+        "name": "키키",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a575f183-f2e5-4a18-8fe9-f48d1af7f97b/1111.jpeg"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/1a7862e1c059803b82eee20df01011b1",
+      "priority": null,
+      "createdTime": "2025-02-27T08:43:00.000Z",
+      "lastEditedTime": "2025-02-27T08:45:00.000Z"
+    },
+    {
+      "id": "1a7862e1-c059-807b-8a45-c3d7801b9a5b",
+      "title": "[공개] CaveDAO 서비스 브랜드 에셋 요청 문서 ",
+      "status": "To Do",
+      "startDate": "2025-02-27",
+      "endDate": "2025-03-03",
+      "assignee": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/CaveDAO-1a7862e1c059807b8a45c3d7801b9a5b",
+      "priority": null,
+      "createdTime": "2025-02-27T02:39:00.000Z",
+      "lastEditedTime": "2025-02-27T03:03:00.000Z"
+    },
+    {
+      "id": "1a7862e1-c059-8089-afdf-c0484f3065e7",
+      "title": "[미팅록] 일본 KOL Round 0XC intro ",
+      "status": "To Do",
+      "startDate": "2025-02-27",
+      "endDate": "2025-02-27",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/KOL-Round-0XC-intro-1a7862e1c0598089afdfc0484f3065e7",
+      "priority": null,
+      "createdTime": "2025-02-27T01:30:00.000Z",
+      "lastEditedTime": "2025-02-27T01:32:00.000Z"
+    },
+    {
+      "id": "1a6862e1-c059-80f1-a9f7-ff35f366b48a",
+      "title": "[ETH Denver] 발표 노트",
+      "status": "To Do",
+      "startDate": "2025-02-26",
+      "endDate": "2025-03-01",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/ETH-Denver-1a6862e1c05980f1a9f7ff35f366b48a",
+      "priority": null,
+      "createdTime": "2025-02-26T21:17:00.000Z",
+      "lastEditedTime": "2025-02-26T21:57:00.000Z"
+    },
+    {
+      "id": "1a6862e1-c059-8035-bb17-f93d08bacd9c",
+      "title": "[외부공개] 기능 영상 기획안 2차 수정",
+      "status": "To Do",
+      "startDate": "2025-02-27",
+      "endDate": "2025-02-27",
+      "assignee": {
+        "id": "182d872b-594c-81a9-b8fc-00023fbbcba7",
+        "name": "키키",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a575f183-f2e5-4a18-8fe9-f48d1af7f97b/1111.jpeg"
+      },
+      "reviewer": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "notionUrl": "https://www.notion.so/2-1a6862e1c0598035bb17f93d08bacd9c",
+      "priority": null,
+      "createdTime": "2025-02-26T16:07:00.000Z",
+      "lastEditedTime": "2025-02-26T18:24:00.000Z"
+    },
+    {
+      "id": "1a6862e1-c059-8086-af8b-cb4a8d38cbf6",
+      "title": "[미팅록] 20250226<>KOL SkyGee",
+      "status": "To Do",
+      "startDate": "2025-02-26",
+      "endDate": "2025-02-26",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/20250226-KOL-SkyGee-1a6862e1c0598086af8bcb4a8d38cbf6",
+      "priority": null,
+      "createdTime": "2025-02-26T05:39:00.000Z",
+      "lastEditedTime": "2025-02-26T05:53:00.000Z"
+    },
+    {
+      "id": "1a6862e1-c059-80f8-b629-f1921264e0d6",
+      "title": "마케팅 기획안 템플릿",
+      "status": "To Do",
+      "startDate": "2025-02-26",
+      "endDate": "2025-02-26",
+      "assignee": null,
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/1a6862e1c05980f8b629f1921264e0d6",
+      "priority": null,
+      "createdTime": "2025-02-26T05:39:00.000Z",
+      "lastEditedTime": "2025-02-26T05:39:00.000Z"
+    },
+    {
+      "id": "1a6862e1-c059-8029-b608-d998cb75029d",
+      "title": "[최종본] Cavedao 서울 행사 영상 콘텐츠",
+      "status": "To Do",
+      "startDate": "2025-02-26",
+      "endDate": "2025-02-26",
+      "assignee": {
+        "id": "182d872b-594c-81a9-b8fc-00023fbbcba7",
+        "name": "키키",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a575f183-f2e5-4a18-8fe9-f48d1af7f97b/1111.jpeg"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/Cavedao-1a6862e1c0598029b608d998cb75029d",
+      "priority": null,
+      "createdTime": "2025-02-26T05:26:00.000Z",
+      "lastEditedTime": "2025-02-26T05:37:00.000Z"
+    },
+    {
+      "id": "1a6862e1-c059-80fe-b49a-c0a3cf134323",
+      "title": "[회의록]주간리뷰 250226",
+      "status": "To Do",
+      "startDate": "2025-02-26",
+      "endDate": "2025-02-26",
+      "assignee": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/250226-1a6862e1c05980feb49ac0a3cf134323",
+      "priority": null,
+      "createdTime": "2025-02-26T02:35:00.000Z",
+      "lastEditedTime": "2025-02-26T05:16:00.000Z"
+    },
+    {
+      "id": "1a6862e1-c059-80f5-b2ec-df3dd9dc4b22",
+      "title": "[회의록]KF<>CAVE DAO KCC 월간 미팅 - 25년2월",
+      "status": "To Do",
+      "startDate": "2025-02-26",
+      "endDate": "2025-02-26",
       "assignee": {
         "id": "a45f1fed-37cb-4336-a99e-4ba81254fc73",
         "name": "마이 ",
         "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/71ae885f-15d7-46a5-8755-573c7ccd9e0c/%E1%84%87%E1%85%A5%E1%84%80%E1%85%B3%E1%84%89%E1%85%B5%E1%84%90%E1%85%B5_%E1%84%8B%E1%85%A1%E1%84%87%E1%85%A1%E1%84%90%E1%85%A1.png"
       },
       "reviewer": null,
-      "notionUrl": "https://www.notion.so/240522-01f6db76f61344c18413b00cd08f0a79",
+      "notionUrl": "https://www.notion.so/KF-CAVE-DAO-KCC-25-2-1a6862e1c05980f5b2ecdf3dd9dc4b22",
       "priority": null,
-      "createdTime": "2024-05-22T01:54:00.000Z",
-      "lastEditedTime": "2024-06-05T01:57:00.000Z"
+      "createdTime": "2025-02-26T05:02:00.000Z",
+      "lastEditedTime": "2025-02-26T05:03:00.000Z"
     },
     {
-      "id": "0222ac0d-21c8-4b75-9913-17398cef5388",
-      "title": "230320 버그폴리 QA 리스트",
+      "id": "193862e1-c059-80c9-9a6e-d268f42ef94e",
+      "title": "[외부공개] 기능런칭 영상기획",
       "status": "To Do",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "512a37fb-0e7d-4670-bc0d-1cd593338bce",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/230320-QA-0222ac0d21c84b75991317398cef5388",
-      "priority": null,
-      "createdTime": "2023-03-21T08:07:00.000Z",
-      "lastEditedTime": "2023-03-23T02:15:00.000Z"
-    },
-    {
-      "id": "024c9ba9-23df-4542-bac9-a652f9baa77f",
-      "title": "[회의]231114 버그&레오굴 스탠드업 미팅",
-      "status": "To Do",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "a33df9e3-329b-4001-8f52-1c6fb42089ca",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/231114-024c9ba923df4542bac9a652f9baa77f",
-      "priority": null,
-      "createdTime": "2023-11-14T02:55:00.000Z",
-      "lastEditedTime": "2023-11-22T01:23:00.000Z"
-    },
-    {
-      "id": "0297ffb9-eae5-4d42-8896-af355d2c5ca7",
-      "title": "[미팅] DOSI 콜라보 펫 제작 ",
-      "status": "To Do",
-      "startDate": "2023-08-10",
-      "endDate": "2023-08-10",
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/DOSI-0297ffb9eae54d428896af355d2c5ca7",
-      "priority": null,
-      "createdTime": "2023-08-10T04:26:00.000Z",
-      "lastEditedTime": "2023-08-10T04:29:00.000Z"
-    },
-    {
-      "id": "0307051f-8040-412f-a295-af5a8c982289",
-      "title": "[유저인터뷰] 231121 수면모드 초반 금지 피드백",
-      "status": "To Do",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "a33df9e3-329b-4001-8f52-1c6fb42089ca",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/231121-0307051f8040412fa295af5a8c982289",
-      "priority": null,
-      "createdTime": "2023-11-22T01:19:00.000Z",
-      "lastEditedTime": "2023-11-29T01:07:00.000Z"
-    },
-    {
-      "id": "03460f11-6ae4-4793-a0ab-7fb93c979a0f",
-      "title": "Lair 운영 정책",
-      "status": "To Do",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Lair-03460f116ae44793a0ab7fb93c979a0f",
-      "priority": null,
-      "createdTime": "2024-09-07T03:09:00.000Z",
-      "lastEditedTime": "2024-09-07T03:10:00.000Z"
-    },
-    {
-      "id": "0371dc3e-f1ac-4161-a6c7-9cfdcfc8d13e",
-      "title": "[다폴] 5월 업무 기록 ",
-      "status": "To Do",
-      "startDate": "2024-05-01",
-      "endDate": "2024-05-30",
-      "assignee": {
-        "id": "991d72ac-8f42-4ad5-bc96-9aa46447ae27",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/5-0371dc3ef1ac4161a6c79cfdcfc8d13e",
-      "priority": null,
-      "createdTime": "2024-05-30T09:19:00.000Z",
-      "lastEditedTime": "2024-05-30T09:29:00.000Z"
-    },
-    {
-      "id": "038fb863-310d-46fd-abda-4b5623b693f1",
-      "title": "[BP/NFT]<>DOSI",
-      "status": "To Do",
-      "startDate": "2023-04-10",
-      "endDate": "2023-04-10",
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/BP-NFT-DOSI-038fb863310d46fdabda4b5623b693f1",
-      "priority": null,
-      "createdTime": "2023-04-10T08:20:00.000Z",
-      "lastEditedTime": "2023-04-11T07:23:00.000Z"
-    },
-    {
-      "id": "03acf74a-893e-4a46-82d1-c413631cfcda",
-      "title": "[NURI] 가설 1",
-      "status": "To Do",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/NURI-1-03acf74a893e4a4682d1c413631cfcda",
-      "priority": null,
-      "createdTime": "2023-10-20T03:40:00.000Z",
-      "lastEditedTime": "2023-10-23T05:57:00.000Z"
-    },
-    {
-      "id": "03b3973c-a105-44bf-8257-d22ee5b776fc",
-      "title": "[Jupiter 주피터] 어그리게이터 + DAO 투표 서비스",
-      "status": "To Do",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "a33df9e3-329b-4001-8f52-1c6fb42089ca",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Jupiter-DAO-03b3973ca10544bf8257d22ee5b776fc",
-      "priority": null,
-      "createdTime": "2024-03-07T05:50:00.000Z",
-      "lastEditedTime": "2024-03-08T13:14:00.000Z"
-    },
-    {
-      "id": "03c6d6e4-ac81-41a9-9ac5-cbe9edd55e37",
-      "title": "[회의록] 240409 <>클레이튼팀  LSD 모델 3차 회의록",
-      "status": "To Do",
-      "startDate": "2024-04-09",
-      "endDate": "2024-04-09",
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/240409-LSD-3-03c6d6e4ac8141a99ac5cbe9edd55e37",
-      "priority": null,
-      "createdTime": "2024-04-09T07:38:00.000Z",
-      "lastEditedTime": "2024-05-09T02:58:00.000Z"
-    },
-    {
-      "id": "043cf550-6364-4377-9bc5-8d85fd4f87ce",
-      "title": "[BP] 230308 도시팀 3/3플레이 관련 질문 ",
-      "status": "To Do",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "512a37fb-0e7d-4670-bc0d-1cd593338bce",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/BP-230308-3-3-043cf550636443779bc58d85fd4f87ce",
-      "priority": null,
-      "createdTime": "2023-03-08T05:44:00.000Z",
-      "lastEditedTime": "2023-03-08T08:38:00.000Z"
-    },
-    {
-      "id": "04b7a9b1-7fb1-4b1e-964d-6d24d9a62351",
-      "title": "[BD] QA 리스트 -1차 ",
-      "status": "To Do",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "ae24fe4f-9dac-4846-8353-6b040c3a4b3a",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/BD-QA-1-04b7a9b17fb14b1e964d6d24d9a62351",
-      "priority": null,
-      "createdTime": "2023-03-16T09:07:00.000Z",
-      "lastEditedTime": "2023-03-20T10:31:00.000Z"
-    },
-    {
-      "id": "04c59344-ff1c-4ba7-8685-0b5245833d51",
-      "title": "230412 Swalo 팀 미팅",
-      "status": "To Do",
-      "startDate": "2023-04-12",
-      "endDate": "2023-04-12",
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/230412-Swalo-04c59344ff1c4ba786850b5245833d51",
-      "priority": null,
-      "createdTime": "2023-04-12T02:44:00.000Z",
-      "lastEditedTime": "2023-04-12T03:27:00.000Z"
-    },
-    {
-      "id": "04c954da-9138-4134-a6d2-a537c8bb4af9",
-      "title": "바이낸스 메가드롭",
-      "status": "To Do",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/04c954da91384134a6d2a537c8bb4af9",
-      "priority": null,
-      "createdTime": "2024-05-13T02:53:00.000Z",
-      "lastEditedTime": "2025-08-04T02:56:00.000Z"
-    },
-    {
-      "id": "053215c0-cd39-4842-9861-538e86a946fe",
-      "title": "LSD 클레임 페이지 상태별 표시 방안 논의",
-      "status": "To Do",
-      "startDate": "2024-06-21",
-      "endDate": "2024-06-21",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/LSD-053215c0cd3948429861538e86a946fe",
-      "priority": null,
-      "createdTime": "2024-06-21T07:46:00.000Z",
-      "lastEditedTime": "2024-06-21T10:00:00.000Z"
-    },
-    {
-      "id": "053dc39a-1ec0-45f3-9b0d-25c8da818a71",
-      "title": "버그홀 2월 4주 by 버그",
-      "status": "To Do",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/2-4-by-053dc39a1ec045f39b0d25c8da818a71",
-      "priority": null,
-      "createdTime": "2023-02-20T08:31:00.000Z",
-      "lastEditedTime": "2023-02-20T08:33:00.000Z"
-    },
-    {
-      "id": "059b1b1e-7cba-4061-9914-1bdaadb3df97",
-      "title": "230503 BP 주간싱크 ",
-      "status": "To Do",
-      "startDate": "2023-05-03",
-      "endDate": "2023-05-03",
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/230503-BP-059b1b1e7cba406199141bdaadb3df97",
-      "priority": null,
-      "createdTime": "2023-05-03T01:55:00.000Z",
-      "lastEditedTime": "2023-05-10T12:46:00.000Z"
-    },
-    {
-      "id": "05d8c364-ddca-4587-8f49-42f26b674a88",
-      "title": "[BH] 디자인 230510 sync ",
-      "status": "To Do",
-      "startDate": "2023-05-10",
-      "endDate": "2023-05-10",
+      "startDate": "2025-02-07",
+      "endDate": "2025-02-07",
       "assignee": {
         "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
         "name": "굿보이",
         "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
       },
       "reviewer": null,
-      "notionUrl": "https://www.notion.so/BH-230510-sync-05d8c364ddca45878f4942f26b674a88",
+      "notionUrl": "https://www.notion.so/193862e1c05980c99a6ed268f42ef94e",
       "priority": null,
-      "createdTime": "2023-05-09T17:28:00.000Z",
-      "lastEditedTime": "2023-05-10T07:57:00.000Z"
+      "createdTime": "2025-02-07T07:10:00.000Z",
+      "lastEditedTime": "2025-02-26T03:28:00.000Z"
     },
     {
-      "id": "05ea001d-83fe-43b9-9351-0e65b3d7b104",
-      "title": "[AI 깃헙] 231127 기획 Draft",
+      "id": "19f862e1-c059-8018-8f51-ed8cb004de8e",
+      "title": "[회의록]주간리뷰 250219",
+      "status": "To Do",
+      "startDate": "2025-02-19",
+      "endDate": "2025-02-19",
+      "assignee": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/250219-19f862e1c05980188f51ed8cb004de8e",
+      "priority": null,
+      "createdTime": "2025-02-19T02:01:00.000Z",
+      "lastEditedTime": "2025-02-26T02:48:00.000Z"
+    },
+    {
+      "id": "161862e1-c059-80ad-9103-f556eb880a61",
+      "title": "[Lair] AVS 파트너 ",
       "status": "To Do",
       "startDate": null,
       "endDate": null,
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Lair-AVS-161862e1c05980ad9103f556eb880a61",
+      "priority": null,
+      "createdTime": "2024-12-19T07:10:00.000Z",
+      "lastEditedTime": "2025-02-25T09:33:00.000Z"
+    },
+    {
+      "id": "1a5862e1-c059-80d6-9cb6-f867aecf798e",
+      "title": "[최종본] Cavedao Ethdenver 행사 홍보",
+      "status": "To Do",
+      "startDate": "2025-02-25",
+      "endDate": "2025-02-25",
+      "assignee": {
+        "id": "182d872b-594c-81a9-b8fc-00023fbbcba7",
+        "name": "키키",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a575f183-f2e5-4a18-8fe9-f48d1af7f97b/1111.jpeg"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Cavedao-Ethdenver-1a5862e1c05980d69cb6f867aecf798e",
+      "priority": null,
+      "createdTime": "2025-02-25T00:46:00.000Z",
+      "lastEditedTime": "2025-02-25T06:41:00.000Z"
+    },
+    {
+      "id": "1a4862e1-c059-802d-b853-fddb5b3df34f",
+      "title": "[최종본] Lair 홍콩 컨센서스 recap",
+      "status": "To Do",
+      "startDate": "2025-02-25",
+      "endDate": "2025-02-25",
+      "assignee": {
+        "id": "182d872b-594c-81a9-b8fc-00023fbbcba7",
+        "name": "키키",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a575f183-f2e5-4a18-8fe9-f48d1af7f97b/1111.jpeg"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Lair-recap-1a4862e1c059802db853fddb5b3df34f",
+      "priority": null,
+      "createdTime": "2025-02-24T12:46:00.000Z",
+      "lastEditedTime": "2025-02-24T12:53:00.000Z"
+    },
+    {
+      "id": "19d862e1-c059-8078-860b-d47f5cf6b511",
+      "title": "[Lair] 볼트, 토큰 영상 피드백 250217",
+      "status": "To Do",
+      "startDate": "2025-02-17",
+      "endDate": "2025-02-17",
       "assignee": null,
       "reviewer": null,
-      "notionUrl": "https://www.notion.so/AI-231127-Draft-05ea001d83fe43b993510e65b3d7b104",
+      "notionUrl": "https://www.notion.so/Lair-250217-19d862e1c0598078860bd47f5cf6b511",
       "priority": null,
-      "createdTime": "2023-11-27T06:06:00.000Z",
-      "lastEditedTime": "2024-01-25T01:12:00.000Z"
+      "createdTime": "2025-02-17T05:56:00.000Z",
+      "lastEditedTime": "2025-02-24T12:04:00.000Z"
     },
     {
-      "id": "0616e1fb-7e36-4d81-b9ee-1a0f13a531a7",
-      "title": "NFT PFP 디자인 가이드라인 (updated: 2023-01-30)  ",
+      "id": "320bb576-1960-45b6-ab0a-a5267da5f5b8",
+      "title": "[Lair] Social Media 관리 Docs",
       "status": "To Do",
       "startDate": null,
       "endDate": null,
       "assignee": {
-        "id": "991d72ac-8f42-4ad5-bc96-9aa46447ae27",
+        "id": "240a5269-ad60-45d3-9495-5aa0a6641d0a",
         "name": "Unknown",
         "avatar": null
       },
       "reviewer": null,
-      "notionUrl": "https://www.notion.so/NFT-PFP-updated-0616e1fb7e364d81b9ee1a0f13a531a7",
+      "notionUrl": "https://www.notion.so/Lair-Social-Media-Docs-320bb576196045b6ab0aa5267da5f5b8",
       "priority": null,
-      "createdTime": "2023-01-30T09:00:00.000Z",
-      "lastEditedTime": "2023-02-03T02:22:00.000Z"
+      "createdTime": "2024-07-09T09:22:00.000Z",
+      "lastEditedTime": "2025-02-24T07:26:00.000Z"
     },
     {
-      "id": "065aaa8f-78d9-4e92-bec3-4dd3c7b0e189",
-      "title": "[회의록]주간리뷰 240807",
+      "id": "1a1862e1-c059-803b-821f-e9b83598ad34",
+      "title": "[미팅록] Everstake 오프보딩 콜 250221",
       "status": "To Do",
-      "startDate": "2024-08-07",
-      "endDate": "2024-08-07",
+      "startDate": "2025-02-21",
+      "endDate": "2025-02-21",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Everstake-250221-1a1862e1c059803b821fe9b83598ad34",
+      "priority": null,
+      "createdTime": "2025-02-21T10:17:00.000Z",
+      "lastEditedTime": "2025-02-21T10:20:00.000Z"
+    },
+    {
+      "id": "1a1862e1-c059-80c1-a73d-f7533e54aec6",
+      "title": "[Lair] Vault 라운드별 상금 규모 계획표",
+      "status": "To Do",
+      "startDate": "2025-02-21",
+      "endDate": "2025-02-21",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Lair-Vault-1a1862e1c05980c1a73df7533e54aec6",
+      "priority": null,
+      "createdTime": "2025-02-21T05:55:00.000Z",
+      "lastEditedTime": "2025-02-21T06:42:00.000Z"
+    },
+    {
+      "id": "1a1862e1-c059-802e-a4dd-f436774112d5",
+      "title": "[미팅록] Trala Labs Fourth meeting",
+      "status": "To Do",
+      "startDate": "2025-02-21",
+      "endDate": "2025-02-21",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Trala-Labs-Fourth-meeting-1a1862e1c059802ea4ddf436774112d5",
+      "priority": null,
+      "createdTime": "2025-02-21T02:00:00.000Z",
+      "lastEditedTime": "2025-02-21T02:36:00.000Z"
+    },
+    {
+      "id": "199862e1-c059-80fc-95dd-e9540a54aa8f",
+      "title": "[회의록]주간리뷰 250213",
+      "status": "To Do",
+      "startDate": "2025-02-13",
+      "endDate": "2025-02-13",
       "assignee": {
         "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
         "name": "굿보이",
         "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
       },
       "reviewer": null,
-      "notionUrl": "https://www.notion.so/240807-065aaa8f78d94e92bec34dd3c7b0e189",
+      "notionUrl": "https://www.notion.so/250213-199862e1c05980fc95dde9540a54aa8f",
       "priority": null,
-      "createdTime": "2024-08-07T02:00:00.000Z",
-      "lastEditedTime": "2024-08-28T01:26:00.000Z"
+      "createdTime": "2025-02-13T02:07:00.000Z",
+      "lastEditedTime": "2025-02-19T07:14:00.000Z"
     },
     {
-      "id": "0662c399-cd78-4ac4-b92f-155f561823b7",
-      "title": "[최종] 메인(채널리스트) 페이지 기획",
+      "id": "191862e1-c059-806e-90f5-dcd791ddcc3f",
+      "title": "[회의록]주간리뷰 250205",
       "status": "To Do",
-      "startDate": "2023-03-14",
-      "endDate": "2023-03-14",
+      "startDate": "2025-02-05",
+      "endDate": "2025-02-05",
       "assignee": {
         "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
         "name": "굿보이",
         "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
       },
       "reviewer": null,
-      "notionUrl": "https://www.notion.so/0662c399cd784ac4b92f155f561823b7",
+      "notionUrl": "https://www.notion.so/250205-191862e1c059806e90f5dcd791ddcc3f",
       "priority": null,
-      "createdTime": "2023-03-28T05:40:00.000Z",
-      "lastEditedTime": "2023-04-24T10:08:00.000Z"
+      "createdTime": "2025-02-05T04:09:00.000Z",
+      "lastEditedTime": "2025-02-19T02:03:00.000Z"
     },
     {
-      "id": "066b3dd9-1ee8-4cf8-ace9-a3f79d53e5e2",
-      "title": "[스터디]Sanctum 서비스 구조 살펴보기",
+      "id": "19d862e1-c059-801d-a037-e062c7f53259",
+      "title": "[Lair] 토큰 에어드랍 케이스 리스트",
       "status": "To Do",
-      "startDate": "2024-05-30",
-      "endDate": "2024-05-30",
-      "assignee": null,
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Sanctum-066b3dd91ee84cf8ace9a3f79d53e5e2",
-      "priority": null,
-      "createdTime": "2024-05-27T02:18:00.000Z",
-      "lastEditedTime": "2024-05-31T06:01:00.000Z"
-    },
-    {
-      "id": "081581ea-9af5-4e6f-b81b-1b1a95c4f7a9",
-      "title": "Lair Finance Technical Overview",
-      "status": "To Do",
-      "startDate": "2024-08-08",
-      "endDate": "2024-08-08",
+      "startDate": "2025-02-17",
+      "endDate": "2025-02-21",
       "assignee": {
         "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
         "name": "고라니",
         "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
       },
       "reviewer": null,
-      "notionUrl": "https://www.notion.so/Lair-Finance-Technical-Overview-081581ea9af54e6fb81b1b1a95c4f7a9",
+      "notionUrl": "https://www.notion.so/Lair-19d862e1c059801da037e062c7f53259",
       "priority": null,
-      "createdTime": "2024-08-08T03:24:00.000Z",
-      "lastEditedTime": "2024-08-08T07:09:00.000Z"
+      "createdTime": "2025-02-17T12:41:00.000Z",
+      "lastEditedTime": "2025-02-17T12:54:00.000Z"
     },
     {
-      "id": "084d28eb-89c7-45a5-819c-f45e9850939b",
-      "title": "LAIR 소셜 파밍 기획 싱크 미팅",
+      "id": "19d862e1-c059-8047-bd39-f87c5272ae60",
+      "title": "[외부공개] 피드백 문서",
       "status": "To Do",
-      "startDate": "2024-06-05",
-      "endDate": "2024-06-05",
-      "assignee": {
-        "id": "f11c3ca3-a653-4a0f-b88f-545e218e7a6d",
-        "name": "트롤",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/4b7086dc-e7ea-4aad-94fe-b06474e4b5bb/my-notion-face-customized.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/LAIR-084d28eb89c745a5819cf45e9850939b",
-      "priority": null,
-      "createdTime": "2024-06-05T05:35:00.000Z",
-      "lastEditedTime": "2024-06-05T06:16:00.000Z"
-    },
-    {
-      "id": "08ccab5b-9ab3-42c0-b611-88c6c2d35036",
-      "title": "[밋업] 240710 블루핀(SUI) 밋업 후기 ",
-      "status": "To Do",
-      "startDate": "2024-07-10",
-      "endDate": "2024-07-10",
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/240710-SUI-08ccab5b9ab342c0b61188c6c2d35036",
-      "priority": null,
-      "createdTime": "2024-07-10T09:22:00.000Z",
-      "lastEditedTime": "2024-07-10T09:28:00.000Z"
-    },
-    {
-      "id": "097a2f8b-10eb-4098-8ac0-45a2bd6bcc3f",
-      "title": "[데이터] 230605 ND 서버 BP 데이터",
-      "status": "To Do",
-      "startDate": "2023-06-05",
-      "endDate": "2023-06-05",
-      "assignee": {
-        "id": "a33df9e3-329b-4001-8f52-1c6fb42089ca",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/230605-ND-BP-097a2f8b10eb40988ac045a2bd6bcc3f",
-      "priority": null,
-      "createdTime": "2023-06-07T02:27:00.000Z",
-      "lastEditedTime": "2023-06-13T09:24:00.000Z"
-    },
-    {
-      "id": "098e2249-2d29-4b1e-931d-770668868fec",
-      "title": "230918 Cmnty 주간 싱크",
-      "status": "To Do",
-      "startDate": "2023-09-18",
-      "endDate": "2023-09-18",
-      "assignee": {
-        "id": "a33df9e3-329b-4001-8f52-1c6fb42089ca",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/230918-Cmnty-098e22492d294b1e931d770668868fec",
-      "priority": null,
-      "createdTime": "2023-09-18T02:22:00.000Z",
-      "lastEditedTime": "2023-09-18T02:22:00.000Z"
-    },
-    {
-      "id": "09d43889-9f3a-4f99-8d42-d4c8a12e6ab7",
-      "title": "세스코 인수인계 문서",
-      "status": "To Do",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "512a37fb-0e7d-4670-bc0d-1cd593338bce",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/09d438899f3a4f998d42d4c8a12e6ab7",
-      "priority": null,
-      "createdTime": "2023-04-18T11:31:00.000Z",
-      "lastEditedTime": "2023-05-24T09:30:00.000Z"
-    },
-    {
-      "id": "0a015158-bcd1-4c76-8b82-1dd886d3e0e5",
-      "title": "[밍글링] 230816 밍글링",
-      "status": "To Do",
-      "startDate": "2023-08-16",
-      "endDate": "2023-08-16",
-      "assignee": {
-        "id": "a33df9e3-329b-4001-8f52-1c6fb42089ca",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/230816-0a015158bcd14c768b821dd886d3e0e5",
-      "priority": null,
-      "createdTime": "2023-08-16T06:45:00.000Z",
-      "lastEditedTime": "2023-08-17T06:42:00.000Z"
-    },
-    {
-      "id": "0a4f1d66-05a8-418c-b7fb-1612c0125015",
-      "title": "[회의록] 240530 <> klaytn daofund ",
-      "status": "To Do",
-      "startDate": "2024-05-30",
-      "endDate": "2024-05-30",
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/240530-klaytn-daofund-0a4f1d6605a8418cb7fb1612c0125015",
-      "priority": null,
-      "createdTime": "2024-05-30T05:53:00.000Z",
-      "lastEditedTime": "2024-05-30T06:00:00.000Z"
-    },
-    {
-      "id": "0a656698-e2f9-4e06-a9ba-7f0c8debcad7",
-      "title": "[BF] 버그파이 방향성 아이디어 230925",
-      "status": "To Do",
-      "startDate": "2023-09-25",
-      "endDate": "2023-09-25",
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/BF-230925-0a656698e2f94e06a9ba7f0c8debcad7",
-      "priority": null,
-      "createdTime": "2023-09-25T07:01:00.000Z",
-      "lastEditedTime": "2023-09-25T08:18:00.000Z"
-    },
-    {
-      "id": "0a89a06f-906c-44f2-ab62-0009e2c0324b",
-      "title": "[기획] 시민증/NFT 롤 지급 기획",
-      "status": "To Do",
-      "startDate": "2024-07-02",
-      "endDate": "2024-07-02",
-      "assignee": {
-        "id": "a33df9e3-329b-4001-8f52-1c6fb42089ca",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/NFT-0a89a06f906c44f2ab620009e2c0324b",
-      "priority": null,
-      "createdTime": "2024-07-02T08:02:00.000Z",
-      "lastEditedTime": "2024-07-05T06:44:00.000Z"
-    },
-    {
-      "id": "0aa3e8cd-4296-4b5b-9390-46195609901e",
-      "title": "230821 Cmnty 주간 싱크",
-      "status": "To Do",
-      "startDate": "2023-08-21",
-      "endDate": "2023-08-21",
-      "assignee": {
-        "id": "a33df9e3-329b-4001-8f52-1c6fb42089ca",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/230821-Cmnty-0aa3e8cd42964b5b939046195609901e",
-      "priority": null,
-      "createdTime": "2023-08-18T07:57:00.000Z",
-      "lastEditedTime": "2023-08-18T09:50:00.000Z"
-    },
-    {
-      "id": "0acbb0d8-b8a2-49e9-b76f-2ff602ccbbc4",
-      "title": "[회의록]주간리뷰 240828",
-      "status": "To Do",
-      "startDate": "2024-08-28",
-      "endDate": "2024-08-28",
+      "startDate": "2025-02-17",
+      "endDate": "2025-02-17",
       "assignee": {
         "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
         "name": "굿보이",
         "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
       },
       "reviewer": null,
-      "notionUrl": "https://www.notion.so/240828-0acbb0d8b8a249e9b76f2ff602ccbbc4",
+      "notionUrl": "https://www.notion.so/19d862e1c0598047bd39f87c5272ae60",
       "priority": null,
-      "createdTime": "2024-08-28T01:25:00.000Z",
-      "lastEditedTime": "2024-08-28T05:42:00.000Z"
-    },
-    {
-      "id": "0b33df28-f6a7-44d4-8b4c-8ef035c6aa37",
-      "title": "4월 스터디 주제 선정 및 진행 방법 논의",
-      "status": "To Do",
-      "startDate": "2024-04-16",
-      "endDate": "2024-04-16",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/4-0b33df28f6a744d48b4c8ef035c6aa37",
-      "priority": null,
-      "createdTime": "2024-04-16T06:19:00.000Z",
-      "lastEditedTime": "2024-04-16T06:23:00.000Z"
-    },
-    {
-      "id": "0b5f0d7c-92aa-4842-8d4c-2b54f5e3b8c5",
-      "title": "버그시티 1주년 행사 운영 문서: 레오구리",
-      "status": "To Do",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "a33df9e3-329b-4001-8f52-1c6fb42089ca",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/1-0b5f0d7c92aa48428d4c2b54f5e3b8c5",
-      "priority": null,
-      "createdTime": "2023-02-08T10:55:00.000Z",
-      "lastEditedTime": "2023-02-20T09:11:00.000Z"
-    },
-    {
-      "id": "0b7c568d-25bb-4ded-962a-e36e328ee39b",
-      "title": "[밍글링] 230817 밍글링",
-      "status": "To Do",
-      "startDate": "2023-08-17",
-      "endDate": "2023-08-17",
-      "assignee": {
-        "id": "a33df9e3-329b-4001-8f52-1c6fb42089ca",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/230817-0b7c568d25bb4ded962ae36e328ee39b",
-      "priority": null,
-      "createdTime": "2023-08-17T05:46:00.000Z",
-      "lastEditedTime": "2023-08-17T06:42:00.000Z"
-    },
-    {
-      "id": "0b987440-6330-4889-a48d-9282f9ce1385",
-      "title": "[회고] 24-05 4주차 문서화 회고 ",
-      "status": "To Do",
-      "startDate": "2024-05-24",
-      "endDate": "2024-05-24",
-      "assignee": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/24-05-4-0b98744063304889a48d9282f9ce1385",
-      "priority": null,
-      "createdTime": "2024-05-24T05:29:00.000Z",
-      "lastEditedTime": "2024-05-24T06:36:00.000Z"
-    },
-    {
-      "id": "0bc6619f-ade7-4d1e-8ffd-af27515184bb",
-      "title": "커뮤니티 경매 완료 이후 절차",
-      "status": "To Do",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "a33df9e3-329b-4001-8f52-1c6fb42089ca",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/0bc6619fade74d1e8ffdaf27515184bb",
-      "priority": null,
-      "createdTime": "2023-06-08T02:58:00.000Z",
-      "lastEditedTime": "2023-10-08T15:43:00.000Z"
-    },
-    {
-      "id": "0bf29cdb-76cb-43a9-9f4e-e145f0861d2a",
-      "title": "[미팅록] Artela LSD 제작",
-      "status": "To Do",
-      "startDate": "2024-08-22",
-      "endDate": "2024-08-22",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Artela-LSD-0bf29cdb76cb43a99f4ee145f0861d2a",
-      "priority": null,
-      "createdTime": "2024-08-22T06:18:00.000Z",
-      "lastEditedTime": "2024-08-22T09:46:00.000Z"
-    },
-    {
-      "id": "0bf962d4-8b93-4ee5-8efd-70f8cae2134d",
-      "title": "[설문] BC 팬방 설문지 ",
-      "status": "To Do",
-      "startDate": "2023-09-21",
-      "endDate": "2023-09-21",
-      "assignee": {
-        "id": "a33df9e3-329b-4001-8f52-1c6fb42089ca",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/BC-0bf962d48b934ee58efd70f8cae2134d",
-      "priority": null,
-      "createdTime": "2023-09-21T06:21:00.000Z",
-      "lastEditedTime": "2023-09-21T07:41:00.000Z"
-    },
-    {
-      "id": "0c0abe48-8ec7-46e7-8a07-ae6fdf6c2330",
-      "title": "Stable Lab GC 온보딩 인트로 콜",
-      "status": "To Do",
-      "startDate": "2024-08-09",
-      "endDate": "2024-08-09",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Stable-Lab-GC-0c0abe488ec746e78a07ae6fdf6c2330",
-      "priority": null,
-      "createdTime": "2024-08-09T07:26:00.000Z",
-      "lastEditedTime": "2024-08-09T07:38:00.000Z"
-    },
-    {
-      "id": "0c2261d8-90e1-4b52-95f6-615b96999e9e",
-      "title": "[BP] 영어팩 페이지",
-      "status": "To Do",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "a33df9e3-329b-4001-8f52-1c6fb42089ca",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/BP-0c2261d890e14b5295f6615b96999e9e",
-      "priority": null,
-      "createdTime": "2023-05-03T13:34:00.000Z",
-      "lastEditedTime": "2023-06-21T15:17:00.000Z"
-    },
-    {
-      "id": "0c30eab8-f3ae-42f0-a10a-95c7f87e7d72",
-      "title": "BC 유튜브 컨텐츠 아카이브",
-      "status": "To Do",
-      "startDate": "2023-02-01",
-      "endDate": "2023-02-01",
-      "assignee": {
-        "id": "a33df9e3-329b-4001-8f52-1c6fb42089ca",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/BC-0c30eab8f3ae42f0a10a95c7f87e7d72",
-      "priority": null,
-      "createdTime": "2023-02-02T11:04:00.000Z",
-      "lastEditedTime": "2023-02-02T11:20:00.000Z"
-    },
-    {
-      "id": "0c3ad950-baac-4b68-8da0-b19788afc3cb",
-      "title": "[회의록] BitLayer 밋업 - 240627",
-      "status": "To Do",
-      "startDate": "2024-06-27",
-      "endDate": "2024-06-27",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/BitLayer-240627-0c3ad950baac4b688da0b19788afc3cb",
-      "priority": null,
-      "createdTime": "2024-06-28T02:30:00.000Z",
-      "lastEditedTime": "2024-06-28T13:44:00.000Z"
-    },
-    {
-      "id": "0c5afb83-98a9-46c3-a72a-717eb575067b",
-      "title": "[회의록] 231207 상세기획 기준 사전 논의",
-      "status": "To Do",
-      "startDate": "2023-12-07",
-      "endDate": "2023-12-07",
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/231207-0c5afb8398a946c3a72a717eb575067b",
-      "priority": null,
-      "createdTime": "2023-12-07T08:00:00.000Z",
-      "lastEditedTime": "2023-12-19T10:21:00.000Z"
-    },
-    {
-      "id": "0ccabefa-18c2-47b3-a63e-76caaa5f7690",
-      "title": "230417 cmnty 주간 Sync",
-      "status": "To Do",
-      "startDate": "2023-04-17",
-      "endDate": "2023-04-17",
-      "assignee": {
-        "id": "a33df9e3-329b-4001-8f52-1c6fb42089ca",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/230417-cmnty-Sync-0ccabefa18c247b3a63e76caaa5f7690",
-      "priority": null,
-      "createdTime": "2023-04-17T00:16:00.000Z",
-      "lastEditedTime": "2023-04-17T01:56:00.000Z"
-    },
-    {
-      "id": "0d72321f-53b9-4aaa-b31e-347e64c4b399",
-      "title": "230710 Cmnty 주간 싱크",
-      "status": "To Do",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "a33df9e3-329b-4001-8f52-1c6fb42089ca",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/230710-Cmnty-0d72321f53b94aaab31e347e64c4b399",
-      "priority": null,
-      "createdTime": "2023-07-07T07:23:00.000Z",
-      "lastEditedTime": "2023-07-14T07:33:00.000Z"
-    },
-    {
-      "id": "0e0028ee-db15-4638-8301-f58a495a3126",
-      "title": "[BC] 커뮤니티 디자인 싱크 ",
-      "status": "To Do",
-      "startDate": "2023-08-22",
-      "endDate": "2023-08-22",
-      "assignee": {
-        "id": "991d72ac-8f42-4ad5-bc96-9aa46447ae27",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "reviewer": {
-        "id": "a33df9e3-329b-4001-8f52-1c6fb42089ca",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "notionUrl": "https://www.notion.so/BC-0e0028eedb1546388301f58a495a3126",
-      "priority": null,
-      "createdTime": "2023-08-23T02:10:00.000Z",
-      "lastEditedTime": "2023-08-23T02:18:00.000Z"
-    },
-    {
-      "id": "0e0634f9-3a92-47c0-bb58-c9770f7cb117",
-      "title": "[회의] 231109 다폴형 NFT 아티스트 방향",
-      "status": "To Do",
-      "startDate": "2023-11-09",
-      "endDate": "2023-11-09",
-      "assignee": {
-        "id": "a33df9e3-329b-4001-8f52-1c6fb42089ca",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/231109-NFT-0e0634f93a9247c0bb58c9770f7cb117",
-      "priority": null,
-      "createdTime": "2023-11-09T08:26:00.000Z",
-      "lastEditedTime": "2023-11-09T08:40:00.000Z"
-    },
-    {
-      "id": "0e6fdd93-e7e4-4754-ad6e-f43de4743ac4",
-      "title": "이니시아 생태계 알아보기",
-      "status": "To Do",
-      "startDate": null,
-      "endDate": null,
-      "assignee": null,
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/0e6fdd93e7e44754ad6ef43de4743ac4",
-      "priority": null,
-      "createdTime": "2024-05-28T02:38:00.000Z",
-      "lastEditedTime": "2024-05-30T05:03:00.000Z"
-    },
-    {
-      "id": "0e7d0c54-abc7-4f3e-b6c2-f515c57423a8",
-      "title": "230323 메인(채널리스트)페이지 디자인 3차 피드백 및 협의",
-      "status": "To Do",
-      "startDate": "2023-03-23",
-      "endDate": "2023-03-23",
-      "assignee": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/230323-3-0e7d0c54abc74f3eb6c2f515c57423a8",
-      "priority": null,
-      "createdTime": "2023-03-23T06:00:00.000Z",
-      "lastEditedTime": "2023-03-23T08:50:00.000Z"
-    },
-    {
-      "id": "0e95c0d8-ed69-43ca-9bcf-3d22d777d38b",
-      "title": "[기획] 240618 Lair.FI 토크노믹스",
-      "status": "To Do",
-      "startDate": "2024-06-18",
-      "endDate": "2024-06-18",
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/240618-Lair-FI-0e95c0d8ed6943ca9bcf3d22d777d38b",
-      "priority": null,
-      "createdTime": "2024-06-18T14:58:00.000Z",
-      "lastEditedTime": "2024-07-15T08:14:00.000Z"
-    },
-    {
-      "id": "0eab4488-a710-4331-9d9e-fe1384ec1cc5",
-      "title": "버그시티 재포장 리스트업",
-      "status": "To Do",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "607ed9b7-c186-4587-8e93-660580fb1b48",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/0eab4488a71043319d9efe1384ec1cc5",
-      "priority": null,
-      "createdTime": "2023-01-31T05:35:00.000Z",
-      "lastEditedTime": "2023-02-02T05:03:00.000Z"
-    },
-    {
-      "id": "0eba951d-17f1-4cf3-903e-4e3903509f14",
-      "title": "Lair - Terms of Use",
-      "status": "To Do",
-      "startDate": "2024-07-09",
-      "endDate": "2024-07-09",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Lair-Terms-of-Use-0eba951d17f14cf3903e4e3903509f14",
-      "priority": null,
-      "createdTime": "2024-07-09T08:05:00.000Z",
-      "lastEditedTime": "2024-07-31T02:09:00.000Z"
-    },
-    {
-      "id": "0ee7b491-829b-4a88-b191-c218d3e3069e",
-      "title": "[스터디]Jito 개괄적으로 톺아보기",
-      "status": "To Do",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "a45f1fed-37cb-4336-a99e-4ba81254fc73",
-        "name": "마이 ",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/71ae885f-15d7-46a5-8755-573c7ccd9e0c/%E1%84%87%E1%85%A5%E1%84%80%E1%85%B3%E1%84%89%E1%85%B5%E1%84%90%E1%85%B5_%E1%84%8B%E1%85%A1%E1%84%87%E1%85%A1%E1%84%90%E1%85%A1.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Jito-0ee7b491829b4a88b191c218d3e3069e",
-      "priority": null,
-      "createdTime": "2024-06-04T09:33:00.000Z",
-      "lastEditedTime": "2024-06-11T05:48:00.000Z"
-    },
-    {
-      "id": "0ef3c085-32d6-47ae-b333-9f5334bb090e",
-      "title": "[회의] 스타피쉬 파이낸스",
-      "status": "To Do",
-      "startDate": "2023-08-15",
-      "endDate": "2023-08-15",
-      "assignee": {
-        "id": "a33df9e3-329b-4001-8f52-1c6fb42089ca",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/0ef3c08532d647aeb3339f5334bb090e",
-      "priority": null,
-      "createdTime": "2023-08-15T03:00:00.000Z",
-      "lastEditedTime": "2023-08-15T03:30:00.000Z"
-    },
-    {
-      "id": "0f2e1cf5-7b56-4245-bbba-7c93f75f4c5f",
-      "title": "[DP] 이용약관",
-      "status": "To Do",
-      "startDate": null,
-      "endDate": null,
-      "assignee": null,
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/DP-0f2e1cf57b564245bbba7c93f75f4c5f",
-      "priority": null,
-      "createdTime": "2024-01-15T07:03:00.000Z",
-      "lastEditedTime": "2024-01-16T03:28:00.000Z"
-    },
-    {
-      "id": "0f9d6744-eb25-4205-98a5-6a0b20080cb8",
-      "title": "버그시티 시민보상 지급현황 (updated: 2023-01-31)",
-      "status": "To Do",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "607ed9b7-c186-4587-8e93-660580fb1b48",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/updated-0f9d6744eb25420598a56a0b20080cb8",
-      "priority": null,
-      "createdTime": "2023-01-31T04:32:00.000Z",
-      "lastEditedTime": "2023-01-31T04:37:00.000Z"
-    },
-    {
-      "id": "0fa6fc39-f96a-49c6-ba52-a952fc8cb20a",
-      "title": "[가설] 231204~231208 AI 커뮤니티로의 유입",
-      "status": "To Do",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "a33df9e3-329b-4001-8f52-1c6fb42089ca",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/231204-231208-AI-0fa6fc39f96a49c6ba52a952fc8cb20a",
-      "priority": null,
-      "createdTime": "2023-12-04T01:19:00.000Z",
-      "lastEditedTime": "2023-12-08T02:48:00.000Z"
-    },
-    {
-      "id": "0face11c-b9ce-421d-a90e-277b8c79250a",
-      "title": "[기획] 도움말 명령어 설정",
-      "status": "To Do",
-      "startDate": "2023-08-16",
-      "endDate": "2023-08-16",
-      "assignee": {
-        "id": "a33df9e3-329b-4001-8f52-1c6fb42089ca",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/0face11cb9ce421da90e277b8c79250a",
-      "priority": null,
-      "createdTime": "2023-08-16T09:24:00.000Z",
-      "lastEditedTime": "2023-08-30T07:19:00.000Z"
-    },
-    {
-      "id": "0fe9df4e-7ff9-45c6-a340-8fed62d06dfc",
-      "title": "인스타그램 정책",
-      "status": "To Do",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "a33df9e3-329b-4001-8f52-1c6fb42089ca",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/0fe9df4e7ff945c6a3408fed62d06dfc",
-      "priority": null,
-      "createdTime": "2023-05-12T03:15:00.000Z",
-      "lastEditedTime": "2023-06-08T05:54:00.000Z"
-    },
-    {
-      "id": "0ffa4f0a-7d62-46fc-999e-f79ad1c4d48b",
-      "title": "[레오굴] 230904 레오굴 업무 정리",
-      "status": "To Do",
-      "startDate": "2023-09-04",
-      "endDate": "2023-09-04",
-      "assignee": {
-        "id": "a33df9e3-329b-4001-8f52-1c6fb42089ca",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/230904-0ffa4f0a7d6246fc999ef79ad1c4d48b",
-      "priority": null,
-      "createdTime": "2023-09-04T08:10:00.000Z",
-      "lastEditedTime": "2023-09-11T02:29:00.000Z"
-    },
-    {
-      "id": "100862e1-c059-8030-b997-c400da642274",
-      "title": "ID CARD 해킹 → KAIA NFT 복구 SSFIN ",
-      "status": "To Do",
-      "startDate": "2024-09-13",
-      "endDate": "2024-09-13",
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/ID-CARD-KAIA-NFT-SSFIN-100862e1c0598030b997c400da642274",
-      "priority": null,
-      "createdTime": "2024-09-13T10:28:00.000Z",
-      "lastEditedTime": "2024-09-13T10:31:00.000Z"
-    },
-    {
-      "id": "1040b66c-ccc5-4498-a1f2-b0aa0407a304",
-      "title": "[BP] 03/21-25 버그시티 상시운영 보상지급 문서",
-      "status": "To Do",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "a33df9e3-329b-4001-8f52-1c6fb42089ca",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/BP-03-21-25-1040b66cccc54498a1f2b0aa0407a304",
-      "priority": null,
-      "createdTime": "2023-03-21T09:12:00.000Z",
-      "lastEditedTime": "2023-03-23T08:59:00.000Z"
-    },
-    {
-      "id": "1074d93b-d5e6-47e5-986e-4d1e06a475cf",
-      "title": "<> A41",
-      "status": "To Do",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/A41-1074d93bd5e647e5986e4d1e06a475cf",
-      "priority": null,
-      "createdTime": "2023-02-03T12:58:00.000Z",
-      "lastEditedTime": "2023-02-03T13:46:00.000Z"
-    },
-    {
-      "id": "10a862e1-c059-8059-b622-d31773c6715f",
-      "title": "Token2049 - Kronos Research",
-      "status": "To Do",
-      "startDate": "2024-09-23",
-      "endDate": "2024-10-04",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Token2049-Kronos-Research-10a862e1c0598059b622d31773c6715f",
-      "priority": null,
-      "createdTime": "2024-09-23T08:09:00.000Z",
-      "lastEditedTime": "2024-09-23T08:21:00.000Z"
-    },
-    {
-      "id": "10a862e1-c059-80e6-bc18-cd3c1e1ae084",
-      "title": "stKAIA 언스테이킹 지갑 리스트",
-      "status": "To Do",
-      "startDate": "2024-09-19",
-      "endDate": "2024-09-19",
-      "assignee": {
-        "id": "f11c3ca3-a653-4a0f-b88f-545e218e7a6d",
-        "name": "트롤",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/4b7086dc-e7ea-4aad-94fe-b06474e4b5bb/my-notion-face-customized.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/stKAIA-10a862e1c05980e6bc18cd3c1e1ae084",
-      "priority": null,
-      "createdTime": "2024-09-23T07:58:00.000Z",
-      "lastEditedTime": "2024-09-23T07:59:00.000Z"
-    },
-    {
-      "id": "10a862e1-c059-80e8-b854-d3dbf8eb469f",
-      "title": "[리서치] 탭게임 UI",
-      "status": "To Do",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/UI-10a862e1c05980e8b854d3dbf8eb469f",
-      "priority": null,
-      "createdTime": "2024-09-23T09:37:00.000Z",
-      "lastEditedTime": "2024-09-23T09:39:00.000Z"
-    },
-    {
-      "id": "10a862e1-c059-80fd-b9b0-e780ee2128df",
-      "title": "[LAIR] Kaia재단 마이그레이션 그랜츠 소개 ",
-      "status": "To Do",
-      "startDate": "2024-09-23",
-      "endDate": "2024-09-23",
-      "assignee": null,
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/LAIR-Kaia-10a862e1c05980fdb9b0e780ee2128df",
-      "priority": null,
-      "createdTime": "2024-09-23T14:02:00.000Z",
-      "lastEditedTime": "2024-09-26T00:13:00.000Z"
-    },
-    {
-      "id": "10b862e1-c059-8015-89d7-e2d3ebf5b21a",
-      "title": "Token2049 - GSR",
-      "status": "To Do",
-      "startDate": "2024-09-24",
-      "endDate": "2024-09-24",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Token2049-GSR-10b862e1c059801589d7e2d3ebf5b21a",
-      "priority": null,
-      "createdTime": "2024-09-24T01:35:00.000Z",
-      "lastEditedTime": "2024-09-24T03:51:00.000Z"
-    },
-    {
-      "id": "10b862e1-c059-8046-a033-f27b526514b3",
-      "title": "[다폴]8,9월 업무 기록 ",
-      "status": "To Do",
-      "startDate": "2024-08-29",
-      "endDate": "2024-09-24",
-      "assignee": {
-        "id": "991d72ac-8f42-4ad5-bc96-9aa46447ae27",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/8-9-10b862e1c0598046a033f27b526514b3",
-      "priority": null,
-      "createdTime": "2024-09-24T14:25:00.000Z",
-      "lastEditedTime": "2024-09-30T02:35:00.000Z"
-    },
-    {
-      "id": "10b862e1-c059-80b1-9a41-d23ff79f6515",
-      "title": "KaiaSwap LP NFT 구조",
-      "status": "To Do",
-      "startDate": "2024-09-24",
-      "endDate": "2024-09-24",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/KaiaSwap-LP-NFT-10b862e1c05980b19a41d23ff79f6515",
-      "priority": null,
-      "createdTime": "2024-09-24T07:05:00.000Z",
-      "lastEditedTime": "2024-09-26T08:33:00.000Z"
-    },
-    {
-      "id": "10c862e1-c059-8091-99fb-f1b0011ad50e",
-      "title": "240925 컬쳐데이 탭게임 기획",
-      "status": "To Do",
-      "startDate": "2024-09-25",
-      "endDate": "2024-09-25",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/240925-10c862e1c059809199fbf1b0011ad50e",
-      "priority": null,
-      "createdTime": "2024-09-25T07:09:00.000Z",
-      "lastEditedTime": "2024-09-26T00:02:00.000Z"
-    },
-    {
-      "id": "10c862e1-c059-80de-95bf-c9ebc1c9b9b0",
-      "title": "[회의록]주간리뷰 240925",
-      "status": "To Do",
-      "startDate": "2024-09-25",
-      "endDate": "2024-09-25",
-      "assignee": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/240925-10c862e1c05980de95bfc9ebc1c9b9b0",
-      "priority": null,
-      "createdTime": "2024-09-25T02:12:00.000Z",
-      "lastEditedTime": "2024-09-25T05:09:00.000Z"
-    },
-    {
-      "id": "10d862e1-c059-8011-a646-dd28cee21928",
-      "title": "Lair 관련 블로그 모음집",
-      "status": "To Do",
-      "startDate": "2024-09-26",
-      "endDate": "2024-09-26",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Lair-10d862e1c0598011a646dd28cee21928",
-      "priority": null,
-      "createdTime": "2024-09-26T12:53:00.000Z",
-      "lastEditedTime": "2024-09-26T12:54:00.000Z"
-    },
-    {
-      "id": "10d862e1-c059-8082-96a9-c46532c48793",
-      "title": "2단계 완성 증빙",
-      "status": "To Do",
-      "startDate": "2024-09-26",
-      "endDate": "2024-09-26",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/2-10d862e1c059808296a9c46532c48793",
-      "priority": null,
-      "createdTime": "2024-09-26T08:15:00.000Z",
-      "lastEditedTime": "2024-09-26T08:18:00.000Z"
-    },
-    {
-      "id": "10d862e1-c059-80a5-949c-f55e30c5dee4",
-      "title": "리워드 시즌1 수량 계산표",
-      "status": "To Do",
-      "startDate": "2024-08-29",
-      "endDate": "2024-10-03",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/1-10d862e1c05980a5949cf55e30c5dee4",
-      "priority": null,
-      "createdTime": "2024-09-26T01:53:00.000Z",
-      "lastEditedTime": "2024-09-26T01:54:00.000Z"
-    },
-    {
-      "id": "10d862e1-c059-80b3-a6e7-da8de04e9a51",
-      "title": "1단계 완성 증빙",
-      "status": "To Do",
-      "startDate": "2024-09-26",
-      "endDate": "2024-09-26",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/1-10d862e1c05980b3a6e7da8de04e9a51",
-      "priority": null,
-      "createdTime": "2024-09-26T07:44:00.000Z",
-      "lastEditedTime": "2024-09-26T08:13:00.000Z"
-    },
-    {
-      "id": "10e862e1-c059-805d-a3ad-e541301776f6",
-      "title": "Lair 10월 중요 공지 일정",
-      "status": "To Do",
-      "startDate": "2024-10-01",
-      "endDate": "2024-10-31",
-      "assignee": {
-        "id": "3b1ea1b4-b20a-4c2b-8698-22e6ff921f3e",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Lair-10-10e862e1c059805da3ade541301776f6",
-      "priority": null,
-      "createdTime": "2024-09-27T08:53:00.000Z",
-      "lastEditedTime": "2024-10-04T07:24:00.000Z"
-    },
-    {
-      "id": "10e862e1-c059-80a7-94bb-db737e30e96a",
-      "title": "Rhombus 인트로 콜 240927",
-      "status": "To Do",
-      "startDate": "2024-09-27",
-      "endDate": "2024-09-27",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Rhombus-240927-10e862e1c05980a794bbdb737e30e96a",
-      "priority": null,
-      "createdTime": "2024-09-27T06:00:00.000Z",
-      "lastEditedTime": "2024-09-27T06:50:00.000Z"
-    },
-    {
-      "id": "10f18300-e6ea-41eb-a513-2b24eb653f51",
-      "title": "[회의록] 공통 UI 기획 리뷰 회의",
-      "status": "To Do",
-      "startDate": "2024-07-12",
-      "endDate": "2024-07-12",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/UI-10f18300e6ea41eba5132b24eb653f51",
-      "priority": null,
-      "createdTime": "2024-07-12T06:20:00.000Z",
-      "lastEditedTime": "2024-07-12T06:33:00.000Z"
-    },
-    {
-      "id": "10fe3d1e-a26b-42d4-aff3-8b8f15b353c5",
-      "title": "[BP]0609- 차기 배포 공유 + 이번 배포 후기  ",
-      "status": "To Do",
-      "startDate": "2023-06-09",
-      "endDate": "2023-06-09",
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/BP-0609-10fe3d1ea26b42d4aff38b8f15b353c5",
-      "priority": null,
-      "createdTime": "2023-06-08T07:44:00.000Z",
-      "lastEditedTime": "2023-06-09T08:58:00.000Z"
-    },
-    {
-      "id": "111862e1-c059-8014-a5a5-eb0502cd7843",
-      "title": "Danny Notcoin - 240930",
-      "status": "To Do",
-      "startDate": "2024-09-30",
-      "endDate": "2024-09-30",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Danny-Notcoin-240930-111862e1c0598014a5a5eb0502cd7843",
-      "priority": null,
-      "createdTime": "2024-09-30T15:06:00.000Z",
-      "lastEditedTime": "2024-10-04T05:09:00.000Z"
-    },
-    {
-      "id": "111862e1-c059-8043-b967-e5282cc6df70",
-      "title": "Liquidity Restaking 레퍼런스 서비스",
-      "status": "To Do",
-      "startDate": "2024-09-30",
-      "endDate": "2024-10-31",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Liquidity-Restaking-111862e1c0598043b967e5282cc6df70",
-      "priority": null,
-      "createdTime": "2024-09-30T07:10:00.000Z",
-      "lastEditedTime": "2024-09-30T07:28:00.000Z"
-    },
-    {
-      "id": "111862e1-c059-80bf-aa49-e0659d794ee3",
-      "title": "KCC(DAO Fund) 킥오프 미팅 240930",
-      "status": "To Do",
-      "startDate": "2024-09-30",
-      "endDate": "2024-09-30",
-      "assignee": {
-        "id": "a45f1fed-37cb-4336-a99e-4ba81254fc73",
-        "name": "마이 ",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/71ae885f-15d7-46a5-8755-573c7ccd9e0c/%E1%84%87%E1%85%A5%E1%84%80%E1%85%B3%E1%84%89%E1%85%B5%E1%84%90%E1%85%B5_%E1%84%8B%E1%85%A1%E1%84%87%E1%85%A1%E1%84%90%E1%85%A1.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/KCC-DAO-Fund-240930-111862e1c05980bfaa49e0659d794ee3",
-      "priority": null,
-      "createdTime": "2024-09-30T04:02:00.000Z",
-      "lastEditedTime": "2024-09-30T04:35:00.000Z"
+      "createdTime": "2025-02-17T02:17:00.000Z",
+      "lastEditedTime": "2025-02-17T03:56:00.000Z"
     }
   ],
   "members": [
@@ -28172,5 +28060,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-02-06T20:31:13.617Z"
+  "syncedAt": "2026-02-06T21:28:45.701Z"
 }
