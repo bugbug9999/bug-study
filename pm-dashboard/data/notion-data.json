@@ -19678,6 +19678,108 @@
   ],
   "docs": [
     {
+      "id": "2fc862e1-c059-81d7-a505-f9844a920f9a",
+      "title": "[회의록] 2026-02-03 AI 워크플로우 및 프로토타입 논의",
+      "status": "To Do",
+      "startDate": "2026-02-03",
+      "endDate": "2026-02-03",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/2026-02-03-AI-2fc862e1c05981d7a505f9844a920f9a",
+      "priority": null,
+      "createdTime": "2026-02-03T07:45:00.000Z",
+      "lastEditedTime": "2026-02-06T02:30:00.000Z"
+    },
+    {
+      "id": "2fe862e1-c059-8120-b4b9-d6afb802619f",
+      "title": "📅 AI 에이전트와 블록체인 통합 - 2026-02-05",
+      "status": "To Do",
+      "startDate": "2026-02-05",
+      "endDate": "2026-02-05",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/AI-2026-02-05-2fe862e1c0598120b4b9d6afb802619f",
+      "priority": null,
+      "createdTime": "2026-02-05T06:12:00.000Z",
+      "lastEditedTime": "2026-02-06T02:30:00.000Z"
+    },
+    {
+      "id": "2fd862e1-c059-81db-94d0-dee4069cd01c",
+      "title": "[회의] Lair App Prototype & Status Check",
+      "status": "To Do",
+      "startDate": "2026-02-04",
+      "endDate": "2026-02-04",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Lair-App-Prototype-Status-Check-2fd862e1c05981db94d0dee4069cd01c",
+      "priority": null,
+      "createdTime": "2026-02-04T02:44:00.000Z",
+      "lastEditedTime": "2026-02-06T02:30:00.000Z"
+    },
+    {
+      "id": "2fd862e1-c059-8162-9cfd-d38256d52fce",
+      "title": "[회의] 팀 전략 및 개발 방향 논의 (2026-02-04 오후)",
+      "status": "To Do",
+      "startDate": "2026-02-04",
+      "endDate": "2026-02-04",
+      "assignee": {
+        "id": "f11c3ca3-a653-4a0f-b88f-545e218e7a6d",
+        "name": "트롤",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/4b7086dc-e7ea-4aad-94fe-b06474e4b5bb/my-notion-face-customized.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/2026-02-04-2fd862e1c05981629cfdd38256d52fce",
+      "priority": null,
+      "createdTime": "2026-02-04T06:01:00.000Z",
+      "lastEditedTime": "2026-02-06T02:30:00.000Z"
+    },
+    {
+      "id": "2f8862e1-c059-81a6-bc39-eeac0e14a196",
+      "title": "회의록: Git 워크플로우 교육 (2026-01-30)",
+      "status": "To Do",
+      "startDate": "2026-01-30",
+      "endDate": "2026-01-30",
+      "assignee": {
+        "id": "f11c3ca3-a653-4a0f-b88f-545e218e7a6d",
+        "name": "트롤",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/4b7086dc-e7ea-4aad-94fe-b06474e4b5bb/my-notion-face-customized.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Git-2026-01-30-2f8862e1c05981a6bc39eeac0e14a196",
+      "priority": null,
+      "createdTime": "2026-01-30T11:15:00.000Z",
+      "lastEditedTime": "2026-02-06T02:30:00.000Z"
+    },
+    {
+      "id": "2f8862e1-c059-8096-9e83-e9e27f834afd",
+      "title": "[교육] 260129 Antigravity 실습 - 구조",
+      "status": "To Do",
+      "startDate": "2026-01-29",
+      "endDate": "2026-01-29",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/260129-Antigravity-2f8862e1c05980969e83e9e27f834afd",
+      "priority": null,
+      "createdTime": "2026-01-30T00:38:00.000Z",
+      "lastEditedTime": "2026-02-06T02:30:00.000Z"
+    },
+    {
       "id": "2fe862e1-c059-8050-844a-df676c0f21b6",
       "title": "라이브러리 3주차 작업 기록",
       "status": "To Do",
@@ -19708,57 +19810,6 @@
       "lastEditedTime": "2026-02-05T10:50:00.000Z"
     },
     {
-      "id": "2fe862e1-c059-8120-b4b9-d6afb802619f",
-      "title": "📅 AI 에이전트와 블록체인 통합 - 2026-02-05",
-      "status": "To Do",
-      "startDate": "2026-02-05",
-      "endDate": "2026-02-05",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/AI-2026-02-05-2fe862e1c0598120b4b9d6afb802619f",
-      "priority": null,
-      "createdTime": "2026-02-05T06:12:00.000Z",
-      "lastEditedTime": "2026-02-05T07:12:00.000Z"
-    },
-    {
-      "id": "2fd862e1-c059-81db-94d0-dee4069cd01c",
-      "title": "[회의] Lair App Prototype & Status Check",
-      "status": "To Do",
-      "startDate": "2026-02-04",
-      "endDate": "2026-02-04",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Lair-App-Prototype-Status-Check-2fd862e1c05981db94d0dee4069cd01c",
-      "priority": null,
-      "createdTime": "2026-02-04T02:44:00.000Z",
-      "lastEditedTime": "2026-02-04T06:19:00.000Z"
-    },
-    {
-      "id": "2fd862e1-c059-8162-9cfd-d38256d52fce",
-      "title": "[회의] 팀 전략 및 개발 방향 논의 (2026-02-04 오후)",
-      "status": "To Do",
-      "startDate": "2026-02-04",
-      "endDate": "2026-02-04",
-      "assignee": {
-        "id": "f11c3ca3-a653-4a0f-b88f-545e218e7a6d",
-        "name": "트롤",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/4b7086dc-e7ea-4aad-94fe-b06474e4b5bb/my-notion-face-customized.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/2026-02-04-2fd862e1c05981629cfdd38256d52fce",
-      "priority": null,
-      "createdTime": "2026-02-04T06:01:00.000Z",
-      "lastEditedTime": "2026-02-04T06:03:00.000Z"
-    },
-    {
       "id": "2e8862e1-c059-807d-978c-caa8779103d8",
       "title": "[회의록]주간리뷰 2026년 통합",
       "status": "To Do",
@@ -19774,23 +19825,6 @@
       "priority": null,
       "createdTime": "2026-01-14T01:55:00.000Z",
       "lastEditedTime": "2026-02-04T02:21:00.000Z"
-    },
-    {
-      "id": "2fc862e1-c059-81d7-a505-f9844a920f9a",
-      "title": "[회의록] 2026-02-03 AI 워크플로우 및 프로토타입 논의",
-      "status": "To Do",
-      "startDate": "2026-02-03",
-      "endDate": "2026-02-03",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/2026-02-03-AI-2fc862e1c05981d7a505f9844a920f9a",
-      "priority": null,
-      "createdTime": "2026-02-03T07:45:00.000Z",
-      "lastEditedTime": "2026-02-03T08:18:00.000Z"
     },
     {
       "id": "2fb862e1-c059-8122-8eee-eb5bf7c55d06",
@@ -19876,40 +19910,6 @@
       "priority": null,
       "createdTime": "2026-01-31T01:00:00.000Z",
       "lastEditedTime": "2026-02-03T02:20:00.000Z"
-    },
-    {
-      "id": "2f8862e1-c059-81a6-bc39-eeac0e14a196",
-      "title": "회의록: Git 워크플로우 교육 (2026-01-30)",
-      "status": "To Do",
-      "startDate": "2026-01-30",
-      "endDate": "2026-01-30",
-      "assignee": {
-        "id": "f11c3ca3-a653-4a0f-b88f-545e218e7a6d",
-        "name": "트롤",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/4b7086dc-e7ea-4aad-94fe-b06474e4b5bb/my-notion-face-customized.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Git-2026-01-30-2f8862e1c05981a6bc39eeac0e14a196",
-      "priority": null,
-      "createdTime": "2026-01-30T11:15:00.000Z",
-      "lastEditedTime": "2026-02-03T02:18:00.000Z"
-    },
-    {
-      "id": "2f8862e1-c059-8096-9e83-e9e27f834afd",
-      "title": "[교육] 260129 Antigravity 실습 - 구조",
-      "status": "To Do",
-      "startDate": "2026-01-29",
-      "endDate": "2026-01-29",
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/260129-Antigravity-2f8862e1c05980969e83e9e27f834afd",
-      "priority": null,
-      "createdTime": "2026-01-30T00:38:00.000Z",
-      "lastEditedTime": "2026-02-03T02:16:00.000Z"
     },
     {
       "id": "2fb862e1-c059-8149-89ad-e2a9c286d611",
@@ -28060,5 +28060,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-02-06T01:52:58.564Z"
+  "syncedAt": "2026-02-06T04:14:02.949Z"
 }
