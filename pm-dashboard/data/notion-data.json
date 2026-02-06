@@ -1,6 +1,44 @@
 {
   "epics": [
     {
+      "id": "2e2862e1-c059-81bf-8d6d-fe1bccac9e6a",
+      "title": "[neobank] Lair Cash 사전가입 Legacy 운영",
+      "status": "In progress",
+      "startDate": "2026-01-09",
+      "endDate": "2026-02-04",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-Lair-Cash-Legacy-2e2862e1c05981bf8d6dfe1bccac9e6a",
+      "priority": "nomal",
+      "createdTime": "2026-01-08T07:20:00.000Z",
+      "lastEditedTime": "2026-02-06T09:21:00.000Z"
+    },
+    {
+      "id": "2e2862e1-c059-8187-97da-d7bad438936d",
+      "title": "[neobank] Lair Cash 디자인 라이브러리 구축",
+      "status": "In progress",
+      "startDate": "2026-01-09",
+      "endDate": "2026-02-06",
+      "assignee": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-Lair-Cash-2e2862e1c059818797dad7bad438936d",
+      "priority": "high",
+      "createdTime": "2026-01-08T07:20:00.000Z",
+      "lastEditedTime": "2026-02-06T09:19:00.000Z"
+    },
+    {
       "id": "1ff862e1-c059-8052-af6d-eda4ec2b7dcc",
       "title": "[Cave] Token2049 Singapore 이벤트",
       "status": "Drop/Hold",
@@ -59,27 +97,6 @@
       "priority": "high",
       "createdTime": "2026-02-03T02:06:00.000Z",
       "lastEditedTime": "2026-02-03T02:11:00.000Z"
-    },
-    {
-      "id": "2e2862e1-c059-8187-97da-d7bad438936d",
-      "title": "[neobank] Lair Cash 디자인 라이브러리 구축",
-      "status": "In progress",
-      "startDate": "2026-01-09",
-      "endDate": "2026-02-06",
-      "assignee": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "reviewer": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "notionUrl": "https://www.notion.so/neobank-Lair-Cash-2e2862e1c059818797dad7bad438936d",
-      "priority": "high",
-      "createdTime": "2026-01-08T07:20:00.000Z",
-      "lastEditedTime": "2026-01-28T02:11:00.000Z"
     },
     {
       "id": "234862e1-c059-80b5-900b-fd3fe081ceb5",
@@ -757,23 +774,6 @@
       "priority": "high",
       "createdTime": "2025-12-31T01:48:00.000Z",
       "lastEditedTime": "2026-01-14T02:43:00.000Z"
-    },
-    {
-      "id": "2e2862e1-c059-81bf-8d6d-fe1bccac9e6a",
-      "title": "[neobank] Lair Cash 사전가입 Legacy 운영",
-      "status": "In progress",
-      "startDate": "2026-01-09",
-      "endDate": "2026-02-04",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-Lair-Cash-Legacy-2e2862e1c05981bf8d6dfe1bccac9e6a",
-      "priority": "nomal",
-      "createdTime": "2026-01-08T07:20:00.000Z",
-      "lastEditedTime": "2026-01-14T02:42:00.000Z"
     },
     {
       "id": "2e1862e1-c059-80a9-93a3-f47ceef1daf2",
@@ -9785,7 +9785,7 @@
       "priority": null,
       "createdTime": "2024-07-21T08:08:00.000Z",
       "lastEditedTime": "2026-01-29T01:34:00.000Z",
-      "epicId": "123862e1-c059-8094-8cbe-c290813043ea",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -11279,7 +11279,7 @@
       "priority": null,
       "createdTime": "2025-12-01T06:00:00.000Z",
       "lastEditedTime": "2026-01-08T01:32:00.000Z",
-      "epicId": "2bc862e1-c059-80de-934d-ee891ed56fd2",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -11459,7 +11459,7 @@
       "priority": null,
       "createdTime": "2025-08-25T05:41:00.000Z",
       "lastEditedTime": "2026-01-07T02:22:00.000Z",
-      "epicId": "182862e1-c059-8029-8561-cc41bd788b50",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -11951,7 +11951,7 @@
       "priority": null,
       "createdTime": "2025-11-26T02:10:00.000Z",
       "lastEditedTime": "2026-01-07T02:03:00.000Z",
-      "epicId": "2b0862e1-c059-80db-974f-dd02ee33b8ee",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -12371,7 +12371,7 @@
       "priority": null,
       "createdTime": "2025-04-24T01:33:00.000Z",
       "lastEditedTime": "2025-12-28T08:48:00.000Z",
-      "epicId": "1d8862e1-c059-80c0-92b9-d9fdd44bcd7a",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -12394,7 +12394,7 @@
       "priority": null,
       "createdTime": "2024-12-12T04:19:00.000Z",
       "lastEditedTime": "2025-12-26T10:35:00.000Z",
-      "epicId": "158862e1-c059-8064-9357-c28bc3d91374",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -12417,7 +12417,7 @@
       "priority": null,
       "createdTime": "2025-01-13T09:36:00.000Z",
       "lastEditedTime": "2025-12-26T10:20:00.000Z",
-      "epicId": "166862e1-c059-80ae-a6b4-e3c13022d594",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -13101,7 +13101,7 @@
       "priority": null,
       "createdTime": "2025-11-26T07:23:00.000Z",
       "lastEditedTime": "2025-12-10T08:09:00.000Z",
-      "epicId": "2b8862e1-c059-80a2-90dc-dc7f8b1016ba",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -13120,7 +13120,7 @@
       "priority": null,
       "createdTime": "2025-12-05T01:09:00.000Z",
       "lastEditedTime": "2025-12-10T02:17:00.000Z",
-      "epicId": "2c0862e1-c059-8066-98d1-cbdb1e7fa7ac",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -13621,7 +13621,7 @@
       "priority": null,
       "createdTime": "2025-10-01T01:53:00.000Z",
       "lastEditedTime": "2025-12-07T12:44:00.000Z",
-      "epicId": "28b862e1-c059-801d-96c3-c20eefbae030",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -13835,7 +13835,7 @@
       "priority": null,
       "createdTime": "2025-08-07T01:00:00.000Z",
       "lastEditedTime": "2025-12-03T02:53:00.000Z",
-      "epicId": "248862e1-c059-80fc-b96c-eaec6be6eebe",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -13854,7 +13854,7 @@
       "priority": null,
       "createdTime": "2025-08-19T01:32:00.000Z",
       "lastEditedTime": "2025-12-03T02:53:00.000Z",
-      "epicId": "1f9862e1-c059-80cd-afff-c57c62e669ef",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -14015,7 +14015,7 @@
       "priority": null,
       "createdTime": "2025-02-04T12:22:00.000Z",
       "lastEditedTime": "2025-12-03T02:07:00.000Z",
-      "epicId": "18f862e1-c059-802f-9615-c2c2ee24044b",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -14898,7 +14898,7 @@
       "priority": null,
       "createdTime": "2025-08-19T06:05:00.000Z",
       "lastEditedTime": "2025-11-19T02:24:00.000Z",
-      "epicId": "206862e1-c059-80fb-8856-e690dd84aa90",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -15429,7 +15429,7 @@
       "priority": null,
       "createdTime": "2025-08-07T01:01:00.000Z",
       "lastEditedTime": "2025-11-12T02:27:00.000Z",
-      "epicId": "1fb862e1-c059-80f7-9c0e-efd1f034f4d5",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -15452,7 +15452,7 @@
       "priority": null,
       "createdTime": "2025-08-13T01:23:00.000Z",
       "lastEditedTime": "2025-11-12T02:26:00.000Z",
-      "epicId": "1fb862e1-c059-80f7-9c0e-efd1f034f4d5",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -15513,7 +15513,7 @@
       "priority": null,
       "createdTime": "2025-04-07T06:43:00.000Z",
       "lastEditedTime": "2025-11-11T10:58:00.000Z",
-      "epicId": "65bf6dc3-de77-4ab5-a0d1-7428512a82f5",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -15597,7 +15597,7 @@
       "priority": null,
       "createdTime": "2025-04-11T01:33:00.000Z",
       "lastEditedTime": "2025-11-11T01:33:00.000Z",
-      "epicId": "1d8862e1-c059-807f-b6b3-ccda4b6efe7b",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -16759,7 +16759,7 @@
       "priority": null,
       "createdTime": "2025-10-10T01:40:00.000Z",
       "lastEditedTime": "2025-10-29T02:41:00.000Z",
-      "epicId": "28b862e1-c059-8063-b41e-c0679b60fa3c",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -17073,7 +17073,7 @@
       "priority": null,
       "createdTime": "2025-10-17T05:19:00.000Z",
       "lastEditedTime": "2025-10-23T01:39:00.000Z",
-      "epicId": "28f862e1-c059-806f-b0cc-cb0503658b50",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -17184,7 +17184,7 @@
       "priority": null,
       "createdTime": "2025-07-24T01:30:00.000Z",
       "lastEditedTime": "2025-10-22T02:20:00.000Z",
-      "epicId": "19d862e1-c059-80cf-9b56-d938a021fbfe",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -17401,7 +17401,7 @@
       "priority": null,
       "createdTime": "2025-08-22T08:13:00.000Z",
       "lastEditedTime": "2025-10-16T07:48:00.000Z",
-      "epicId": "24a862e1-c059-8012-9bfb-d321375f6513",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -17424,7 +17424,7 @@
       "priority": null,
       "createdTime": "2025-08-12T01:30:00.000Z",
       "lastEditedTime": "2025-10-16T05:17:00.000Z",
-      "epicId": "24a862e1-c059-80a1-b256-fe74dc4eb5bf",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -17489,7 +17489,7 @@
       "priority": null,
       "createdTime": "2025-08-29T05:40:00.000Z",
       "lastEditedTime": "2025-10-15T08:09:00.000Z",
-      "epicId": "245862e1-c059-808e-b61c-f3c2edd8bfea",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -17531,7 +17531,7 @@
       "priority": null,
       "createdTime": "2025-08-18T01:28:00.000Z",
       "lastEditedTime": "2025-10-15T02:30:00.000Z",
-      "epicId": "206862e1-c059-80fb-8856-e690dd84aa90",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -17642,7 +17642,7 @@
       "priority": null,
       "createdTime": "2025-08-19T02:57:00.000Z",
       "lastEditedTime": "2025-10-15T02:27:00.000Z",
-      "epicId": "24a862e1-c059-8012-9bfb-d321375f6513",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -17665,7 +17665,7 @@
       "priority": null,
       "createdTime": "2025-08-19T03:01:00.000Z",
       "lastEditedTime": "2025-10-15T02:27:00.000Z",
-      "epicId": "24a862e1-c059-8012-9bfb-d321375f6513",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -17688,7 +17688,7 @@
       "priority": null,
       "createdTime": "2025-08-19T03:02:00.000Z",
       "lastEditedTime": "2025-10-15T02:27:00.000Z",
-      "epicId": "24a862e1-c059-8012-9bfb-d321375f6513",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -17711,7 +17711,7 @@
       "priority": null,
       "createdTime": "2025-08-19T03:03:00.000Z",
       "lastEditedTime": "2025-10-15T02:27:00.000Z",
-      "epicId": "24a862e1-c059-8012-9bfb-d321375f6513",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -17734,7 +17734,7 @@
       "priority": null,
       "createdTime": "2025-08-19T03:15:00.000Z",
       "lastEditedTime": "2025-10-15T02:27:00.000Z",
-      "epicId": "24a862e1-c059-8012-9bfb-d321375f6513",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -17895,7 +17895,7 @@
       "priority": null,
       "createdTime": "2025-08-26T07:40:00.000Z",
       "lastEditedTime": "2025-10-13T13:36:00.000Z",
-      "epicId": "206862e1-c059-800d-a3a7-fdbf6f851b3d",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -18181,7 +18181,7 @@
       "priority": null,
       "createdTime": "2025-09-24T03:32:00.000Z",
       "lastEditedTime": "2025-10-01T03:19:00.000Z",
-      "epicId": "1ab862e1-c059-80f8-b777-e8ee2089c7d1",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -18345,7 +18345,7 @@
       "priority": null,
       "createdTime": "2025-08-19T03:09:00.000Z",
       "lastEditedTime": "2025-10-01T02:09:00.000Z",
-      "epicId": "24a862e1-c059-8012-9bfb-d321375f6513",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -18368,7 +18368,7 @@
       "priority": null,
       "createdTime": "2025-08-12T02:15:00.000Z",
       "lastEditedTime": "2025-10-01T02:04:00.000Z",
-      "epicId": "24a862e1-c059-80a1-b256-fe74dc4eb5bf",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -18391,7 +18391,7 @@
       "priority": null,
       "createdTime": "2025-08-22T11:48:00.000Z",
       "lastEditedTime": "2025-10-01T01:46:00.000Z",
-      "epicId": "206862e1-c059-800d-a3a7-fdbf6f851b3d",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -18414,7 +18414,7 @@
       "priority": null,
       "createdTime": "2025-08-22T11:49:00.000Z",
       "lastEditedTime": "2025-10-01T01:43:00.000Z",
-      "epicId": "247862e1-c059-80b3-b528-dc551b702d6a",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -18437,7 +18437,7 @@
       "priority": null,
       "createdTime": "2025-08-22T11:48:00.000Z",
       "lastEditedTime": "2025-10-01T01:43:00.000Z",
-      "epicId": "206862e1-c059-800d-a3a7-fdbf6f851b3d",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -18502,7 +18502,7 @@
       "priority": null,
       "createdTime": "2025-08-18T00:49:00.000Z",
       "lastEditedTime": "2025-09-30T01:22:00.000Z",
-      "epicId": "206862e1-c059-800d-a3a7-fdbf6f851b3d",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -18632,7 +18632,7 @@
       "priority": null,
       "createdTime": "2025-08-27T02:05:00.000Z",
       "lastEditedTime": "2025-09-18T02:27:00.000Z",
-      "epicId": "206862e1-c059-800d-a3a7-fdbf6f851b3d",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -18697,7 +18697,7 @@
       "priority": null,
       "createdTime": "2025-08-05T01:23:00.000Z",
       "lastEditedTime": "2025-09-17T02:45:00.000Z",
-      "epicId": "1f2862e1-c059-80f6-a72b-e6e8a8b1ae58",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -18743,7 +18743,7 @@
       "priority": null,
       "createdTime": "2025-08-19T03:01:00.000Z",
       "lastEditedTime": "2025-09-17T01:49:00.000Z",
-      "epicId": "24a862e1-c059-8012-9bfb-d321375f6513",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -18919,7 +18919,7 @@
       "priority": null,
       "createdTime": "2025-08-26T01:34:00.000Z",
       "lastEditedTime": "2025-09-16T06:53:00.000Z",
-      "epicId": "247862e1-c059-80b3-b528-dc551b702d6a",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -18961,7 +18961,7 @@
       "priority": null,
       "createdTime": "2025-08-28T07:39:00.000Z",
       "lastEditedTime": "2025-09-15T02:54:00.000Z",
-      "epicId": "206862e1-c059-800d-a3a7-fdbf6f851b3d",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -18984,7 +18984,7 @@
       "priority": null,
       "createdTime": "2025-07-30T02:14:00.000Z",
       "lastEditedTime": "2025-09-15T00:27:00.000Z",
-      "epicId": "192862e1-c059-801a-802f-c8e448430e92",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -19026,7 +19026,7 @@
       "priority": null,
       "createdTime": "2025-08-29T04:47:00.000Z",
       "lastEditedTime": "2025-09-15T00:26:00.000Z",
-      "epicId": "206862e1-c059-800d-a3a7-fdbf6f851b3d",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -19049,7 +19049,7 @@
       "priority": null,
       "createdTime": "2025-04-07T06:25:00.000Z",
       "lastEditedTime": "2025-09-11T03:00:00.000Z",
-      "epicId": "1ce862e1-c059-80aa-b230-ee6742fc0a2f",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -19091,7 +19091,7 @@
       "priority": null,
       "createdTime": "2025-05-16T05:48:00.000Z",
       "lastEditedTime": "2025-09-11T03:00:00.000Z",
-      "epicId": "65bf6dc3-de77-4ab5-a0d1-7428512a82f5",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -19114,7 +19114,7 @@
       "priority": null,
       "createdTime": "2025-06-09T05:00:00.000Z",
       "lastEditedTime": "2025-09-11T03:00:00.000Z",
-      "epicId": "200862e1-c059-8098-8c43-cbbed9832a0e",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -19137,7 +19137,7 @@
       "priority": null,
       "createdTime": "2025-06-16T05:48:00.000Z",
       "lastEditedTime": "2025-09-11T02:59:00.000Z",
-      "epicId": "200862e1-c059-8098-8c43-cbbed9832a0e",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -19160,7 +19160,7 @@
       "priority": null,
       "createdTime": "2025-06-19T03:31:00.000Z",
       "lastEditedTime": "2025-09-11T02:59:00.000Z",
-      "epicId": "65bf6dc3-de77-4ab5-a0d1-7428512a82f5",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -19183,7 +19183,7 @@
       "priority": null,
       "createdTime": "2025-05-16T05:45:00.000Z",
       "lastEditedTime": "2025-09-11T02:59:00.000Z",
-      "epicId": "65bf6dc3-de77-4ab5-a0d1-7428512a82f5",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -19206,7 +19206,7 @@
       "priority": null,
       "createdTime": "2025-06-23T05:21:00.000Z",
       "lastEditedTime": "2025-09-11T02:59:00.000Z",
-      "epicId": "65bf6dc3-de77-4ab5-a0d1-7428512a82f5",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -19225,7 +19225,7 @@
       "priority": null,
       "createdTime": "2025-06-18T05:58:00.000Z",
       "lastEditedTime": "2025-09-11T02:59:00.000Z",
-      "epicId": "216862e1-c059-8051-a731-eb6e7d326e2f",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -19244,7 +19244,7 @@
       "priority": null,
       "createdTime": "2025-05-27T02:36:00.000Z",
       "lastEditedTime": "2025-09-11T02:59:00.000Z",
-      "epicId": "157862e1-c059-8045-b2d5-f58ef96e8f6f",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -19263,7 +19263,7 @@
       "priority": null,
       "createdTime": "2025-06-18T05:56:00.000Z",
       "lastEditedTime": "2025-09-11T02:59:00.000Z",
-      "epicId": "216862e1-c059-8051-a731-eb6e7d326e2f",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -19286,7 +19286,7 @@
       "priority": null,
       "createdTime": "2025-07-23T04:26:00.000Z",
       "lastEditedTime": "2025-09-11T02:59:00.000Z",
-      "epicId": "65bf6dc3-de77-4ab5-a0d1-7428512a82f5",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -19492,7 +19492,7 @@
       "priority": null,
       "createdTime": "2025-08-04T06:49:00.000Z",
       "lastEditedTime": "2025-09-10T06:14:00.000Z",
-      "epicId": "245862e1-c059-808e-b61c-f3c2edd8bfea",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -19580,7 +19580,7 @@
       "priority": null,
       "createdTime": "2025-08-19T03:05:00.000Z",
       "lastEditedTime": "2025-09-10T06:11:00.000Z",
-      "epicId": "24a862e1-c059-8012-9bfb-d321375f6513",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -19603,7 +19603,7 @@
       "priority": null,
       "createdTime": "2025-08-22T07:10:00.000Z",
       "lastEditedTime": "2025-09-10T06:03:00.000Z",
-      "epicId": "206862e1-c059-800d-a3a7-fdbf6f851b3d",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -19626,7 +19626,7 @@
       "priority": null,
       "createdTime": "2025-07-17T07:24:00.000Z",
       "lastEditedTime": "2025-09-09T15:56:00.000Z",
-      "epicId": "206862e1-c059-800d-a3a7-fdbf6f851b3d",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -19649,7 +19649,7 @@
       "priority": null,
       "createdTime": "2025-08-19T01:59:00.000Z",
       "lastEditedTime": "2025-09-09T15:55:00.000Z",
-      "epicId": "1f9862e1-c059-8077-86f6-eea391646ac1",
+      "epicId": null,
       "pingHistory": []
     },
     {
@@ -19672,7 +19672,7 @@
       "priority": null,
       "createdTime": "2025-08-20T01:19:00.000Z",
       "lastEditedTime": "2025-09-09T01:40:00.000Z",
-      "epicId": "24a862e1-c059-8012-9bfb-d321375f6513",
+      "epicId": null,
       "pingHistory": []
     }
   ],
@@ -28060,5 +28060,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-02-06T08:38:57.236Z"
+  "syncedAt": "2026-02-06T09:40:40.186Z"
 }
