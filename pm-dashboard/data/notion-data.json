@@ -9036,30 +9036,72 @@
   ],
   "tasks": [
     {
-      "id": "2f1862e1-c059-800a-b747-f8a803004d7e",
-      "title": "AI로 notion, slack 관리 agent 만들기",
-      "status": "In progress",
-      "startDate": "2026-01-23",
-      "endDate": "2026-02-06",
+      "id": "2fc862e1-c059-801b-8e13-c9de95275f96",
+      "title": "[neobank]레어 모바일 앱 mvp 개발 일정 재산정",
+      "status": "Done",
+      "startDate": "2026-02-03",
+      "endDate": "2026-02-03",
       "assignee": {
         "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
         "name": "고라니",
         "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
       },
       "reviewer": null,
-      "notionUrl": "https://www.notion.so/AI-notion-slack-agent-2f1862e1c059800ab747f8a803004d7e",
+      "notionUrl": "https://www.notion.so/neobank-mvp-2fc862e1c059801b8e13c9de95275f96",
       "priority": null,
-      "createdTime": "2026-01-23T01:31:00.000Z",
-      "lastEditedTime": "2026-02-09T01:29:00.000Z",
+      "createdTime": "2026-02-03T01:40:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
       "epicId": null,
       "pingHistory": []
     },
     {
-      "id": "2e2862e1-c059-81ed-834f-f74a46d47385",
-      "title": "[neobank] 부가기능 사용량 측정 기준 수립",
-      "status": "In progress",
-      "startDate": "2026-02-05",
-      "endDate": "2026-02-10",
+      "id": "2f7862e1-c059-808f-8cb3-fe5bb55f75be",
+      "title": "[neobank] Lair 모바일 앱 배틀패스 기능 프로토타입 제작, 공유",
+      "status": "Done",
+      "startDate": "2026-01-29",
+      "endDate": "2026-01-29",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-Lair-2f7862e1c059808f8cb3fe5bb55f75be",
+      "priority": null,
+      "createdTime": "2026-01-29T01:43:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2f1862e1-c059-80ad-8566-f87523a406be",
+      "title": "[neobank] 스토어 심사 규정 대응",
+      "status": "Done",
+      "startDate": "2026-01-22",
+      "endDate": "2026-01-23",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-2f1862e1c05980ad8566f87523a406be",
+      "priority": null,
+      "createdTime": "2026-01-23T01:28:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2f0862e1-c059-80c6-b18b-cab13895b7a3",
+      "title": "[Neobank] 앱스트랙 카드 1page 제작 전달 ",
+      "status": "Done",
+      "startDate": "2026-01-22",
+      "endDate": "2026-01-22",
       "assignee": {
         "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
         "name": "고라니",
@@ -9070,19 +9112,435 @@
         "name": "버그",
         "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
       },
-      "notionUrl": "https://www.notion.so/neobank-2e2862e1c05981ed834ff74a46d47385",
+      "notionUrl": "https://www.notion.so/Neobank-1page-2f0862e1c05980c6b18bcab13895b7a3",
       "priority": null,
-      "createdTime": "2026-01-08T06:48:00.000Z",
-      "lastEditedTime": "2026-02-09T01:28:00.000Z",
+      "createdTime": "2026-01-22T01:31:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
       "epicId": null,
       "pingHistory": []
     },
     {
-      "id": "2e2862e1-c059-81f6-a336-f12174067ed5",
-      "title": "[neobank] 디자인 라이브러리 3주차: 코어 컴포넌트 구축",
+      "id": "2ee862e1-c059-806b-99ff-d39acab51154",
+      "title": "[neobank] 앱스토어 제출 이미지 문구 작성",
+      "status": "Done",
+      "startDate": "2026-01-20",
+      "endDate": "2026-01-22",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "notionUrl": "https://www.notion.so/neobank-2ee862e1c059806b99ffd39acab51154",
+      "priority": "🔥🔥🔥",
+      "createdTime": "2026-01-20T03:21:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2ee862e1-c059-8142-9552-c51bb301a177",
+      "title": "[neobank] VASP 예외 대응 논리 정리",
+      "status": "Done",
+      "startDate": "2026-01-20",
+      "endDate": "2026-01-21",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-VASP-2ee862e1c05981429552c51bb301a177",
+      "priority": "🔥🔥🔥🔥",
+      "createdTime": "2026-01-20T03:09:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2ee862e1-c059-8152-ad23-c6e6188fd85d",
+      "title": "[neobank] 앱스토어 키워드 추출 (Apple)",
+      "status": "Done",
+      "startDate": "2026-01-21",
+      "endDate": "2026-01-21",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-Apple-2ee862e1c0598152ad23c6e6188fd85d",
+      "priority": "🔥🔥",
+      "createdTime": "2026-01-20T03:09:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2ee862e1-c059-8196-b314-e5cf131b295c",
+      "title": "[neobank] 리뷰어 노트(App Review Notes) 작성",
+      "status": "Done",
+      "startDate": "2026-01-21",
+      "endDate": "2026-01-22",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-App-Review-Notes-2ee862e1c0598196b314e5cf131b295c",
+      "priority": "🔥🔥🔥🔥",
+      "createdTime": "2026-01-20T03:08:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2ee862e1-c059-8148-8c31-f5dd1268ef15",
+      "title": "[neobank] 앱 설명(App Description) 작성",
+      "status": "Done",
+      "startDate": "2026-01-20",
+      "endDate": "2026-01-21",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-App-Description-2ee862e1c05981488c31f5dd1268ef15",
+      "priority": "🔥🔥🔥",
+      "createdTime": "2026-01-20T03:08:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2ee862e1-c059-81b4-8fa3-e3a03f7ec01c",
+      "title": "[neobank] 심사용 데모 영상 촬영",
+      "status": "Done",
+      "startDate": "2026-01-21",
+      "endDate": "2026-01-22",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-2ee862e1c05981b48fa3e3a03f7ec01c",
+      "priority": "🔥🔥🔥",
+      "createdTime": "2026-01-20T03:07:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2ee862e1-c059-8129-8097-d7089fcf8cc2",
+      "title": "[neobank] 심사용 테스트 계정 세팅",
+      "status": "Done",
+      "startDate": "2026-01-21",
+      "endDate": "2026-01-22",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-2ee862e1c05981298097d7089fcf8cc2",
+      "priority": "🔥🔥🔥🔥",
+      "createdTime": "2026-01-20T03:07:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2ee862e1-c059-8177-a097-e9670757672c",
+      "title": "[neobank] 개인정보 처리방침(Privacy Policy) 작성",
+      "status": "Done",
+      "startDate": "2026-01-20",
+      "endDate": "2026-01-22",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-Privacy-Policy-2ee862e1c0598177a097e9670757672c",
+      "priority": "🔥🔥🔥",
+      "createdTime": "2026-01-20T03:06:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2ee862e1-c059-812f-8360-d70de81160aa",
+      "title": "[neobank] 이용약관(Terms of Service) 작성",
+      "status": "Done",
+      "startDate": "2026-01-20",
+      "endDate": "2026-01-22",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-Terms-of-Service-2ee862e1c059812f8360d70de81160aa",
+      "priority": "🔥🔥🔥",
+      "createdTime": "2026-01-20T03:06:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2ee862e1-c059-803b-a2ff-f646133c7098",
+      "title": "4시 앱스트랙 미팅",
+      "status": "Done",
+      "startDate": null,
+      "endDate": null,
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/4-2ee862e1c059803ba2fff646133c7098",
+      "priority": null,
+      "createdTime": "2026-01-20T01:31:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e9862e1-c059-8187-b8d8-c8b52af3f6fa",
+      "title": "[neobank] Lair Cash 모바일 앱 푸시알림 기능 기획",
+      "status": "Done",
+      "startDate": "2026-01-22",
+      "endDate": "2026-01-23",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-Lair-Cash-2e9862e1c0598187b8d8c8b52af3f6fa",
+      "priority": null,
+      "createdTime": "2026-01-15T06:01:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e9862e1-c059-81e2-8c52-df643488ffb9",
+      "title": "[neobank] Lair Cash 모바일 앱 유저 후킹 기능 기획",
+      "status": "Done",
+      "startDate": "2026-01-19",
+      "endDate": "2026-01-21",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-Lair-Cash-2e9862e1c05981e28c52df643488ffb9",
+      "priority": null,
+      "createdTime": "2026-01-15T06:01:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e9862e1-c059-81e7-a774-c04eb56cace9",
+      "title": "[neobank] Lair Cash 모바일 앱 온보딩 가이드 기획",
+      "status": "Done",
+      "startDate": "2026-01-22",
+      "endDate": "2026-01-23",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-Lair-Cash-2e9862e1c05981e7a774c04eb56cace9",
+      "priority": null,
+      "createdTime": "2026-01-15T06:01:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e9862e1-c059-8089-8721-c1ffc02d2951",
+      "title": "[neobank] 이메일, 소셜 로그인 개발",
+      "status": "Done",
+      "startDate": "2026-01-13",
+      "endDate": "2026-01-15",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-2e9862e1c05980898721c1ffc02d2951",
+      "priority": null,
+      "createdTime": "2026-01-15T05:29:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e9862e1-c059-8156-97af-de033d25f649",
+      "title": "[neobank] MVP 개발",
       "status": "In progress",
-      "startDate": "2026-02-02",
-      "endDate": "2026-02-09",
+      "startDate": "2026-02-05",
+      "endDate": "2026-02-06",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-MVP-2e9862e1c059815697afde033d25f649",
+      "priority": null,
+      "createdTime": "2026-01-15T05:01:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e9862e1-c059-8162-aba5-ea73a884d292",
+      "title": "[neobank] MVP 개발: 유저 후킹 기능",
+      "status": "Drop/Hold",
+      "startDate": "2026-02-03",
+      "endDate": "2026-02-07",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-MVP-2e9862e1c0598162aba5ea73a884d292",
+      "priority": null,
+      "createdTime": "2026-01-15T05:01:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e9862e1-c059-81b4-8173-e77197cd77ab",
+      "title": "[neobank] MVP 개발: 푸시알림 기능",
+      "status": "Not started",
+      "startDate": "2026-02-07",
+      "endDate": "2026-02-13",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-MVP-2e9862e1c05981b48173e77197cd77ab",
+      "priority": null,
+      "createdTime": "2026-01-15T05:01:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e9862e1-c059-81d1-951d-e1bceb02e28b",
+      "title": "[neobank] MVP 개발: 거래소별 입금 가이드",
+      "status": "Drop/Hold",
+      "startDate": "2026-01-27",
+      "endDate": "2026-01-31",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-MVP-2e9862e1c05981d1951de1bceb02e28b",
+      "priority": null,
+      "createdTime": "2026-01-15T05:01:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e9862e1-c059-81d4-b413-ef609b4cbc9e",
+      "title": "[neobank] MVP 개발: 레퍼럴 프로그램",
+      "status": "Drop/Hold",
+      "startDate": "2026-01-28",
+      "endDate": "2026-02-03",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-MVP-2e9862e1c05981d4b413ef609b4cbc9e",
+      "priority": null,
+      "createdTime": "2026-01-15T05:01:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e9862e1-c059-81ea-847b-fdcf937420b4",
+      "title": "[neobank] MVP 개발: 받기 기능 개선 (QR, 거래소 규정)",
+      "status": "Drop/Hold",
+      "startDate": "2026-01-24",
+      "endDate": "2026-01-28",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-MVP-QR-2e9862e1c05981ea847bfdcf937420b4",
+      "priority": null,
+      "createdTime": "2026-01-15T05:01:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e9862e1-c059-81fa-8a70-d63c4237efab",
+      "title": "[neobank] 앱스토어 제출용 이미지 에셋 제작",
+      "status": "Done",
+      "startDate": "2026-01-20",
+      "endDate": "2026-01-23",
       "assignee": {
         "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
         "name": "굿보이",
@@ -9093,10 +9551,454 @@
         "name": "고라니",
         "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
       },
-      "notionUrl": "https://www.notion.so/neobank-3-2e2862e1c05981f6a336f12174067ed5",
+      "notionUrl": "https://www.notion.so/neobank-2e9862e1c05981fa8a70d63c4237efab",
+      "priority": null,
+      "createdTime": "2026-01-15T04:52:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e9862e1-c059-8148-bc38-c214f2d2c41d",
+      "title": "[neobank] 앱스토어 심사 제출",
+      "status": "Done",
+      "startDate": "2026-01-21",
+      "endDate": "2026-01-27",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-2e9862e1c0598148bc38c214f2d2c41d",
+      "priority": null,
+      "createdTime": "2026-01-15T02:42:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e9862e1-c059-819c-9fe5-e3550185083a",
+      "title": "[neobank] 앱스토어 심사용: 홈 화면 UI 개발",
+      "status": "Done",
+      "startDate": "2026-01-17",
+      "endDate": "2026-01-20",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-UI-2e9862e1c059819c9fe5e3550185083a",
+      "priority": null,
+      "createdTime": "2026-01-15T02:42:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e8862e1-c059-80b6-b79c-c36f0339ed03",
+      "title": "[neobank] 금캐기 수요조사 - 블로거 섭외 ",
+      "status": "Not started",
+      "startDate": "2026-01-15",
+      "endDate": "2026-01-15",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-2e8862e1c05980b6b79cc36f0339ed03",
+      "priority": null,
+      "createdTime": "2026-01-14T02:52:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e7862e1-c059-811b-9260-fe0f515fd55d",
+      "title": "[neobank] 금캐기 수요조사 - dub.co 링크 생성 (3개 채널)",
+      "status": "Done",
+      "startDate": "2026-01-14",
+      "endDate": "2026-01-16",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/neobank-dub-co-3-2e7862e1c059811b9260fe0f515fd55d",
+      "priority": null,
+      "createdTime": "2026-01-13T07:41:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e7862e1-c059-8169-96a7-ff25c619d63a",
+      "title": "[neobank] 금캐기 수요조사 - 블로거, 인스타 인플 조사",
+      "status": "Done",
+      "startDate": "2026-01-15",
+      "endDate": "2026-01-15",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-2e7862e1c059816996a7ff25c619d63a",
+      "priority": null,
+      "createdTime": "2026-01-13T07:41:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e7862e1-c059-818f-b055-ef5d9e78408a",
+      "title": "[neobank] 금캐기 수요조사 - 결과 분석 보고서 작성",
+      "status": "Drop/Hold",
+      "startDate": "2026-01-26",
+      "endDate": "2026-01-26",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/neobank-2e7862e1c059818fb055ef5d9e78408a",
+      "priority": null,
+      "createdTime": "2026-01-13T07:41:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e7862e1-c059-81b7-bcc9-c24c95f786d5",
+      "title": "[neobank] 금캐기 수요조사 - 설문 폼 제작 (Tally)",
+      "status": "Done",
+      "startDate": "2026-01-15",
+      "endDate": "2026-01-15",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/neobank-Tally-2e7862e1c05981b7bcc9c24c95f786d5",
+      "priority": null,
+      "createdTime": "2026-01-13T07:41:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e7862e1-c059-81c7-85ce-fc60996f7153",
+      "title": "[neobank] 금캐기 수요조사 - 광고 계정 설정 (인스타)",
+      "status": "Drop/Hold",
+      "startDate": "2026-01-16",
+      "endDate": "2026-01-16",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-2e7862e1c05981c785cefc60996f7153",
+      "priority": null,
+      "createdTime": "2026-01-13T07:41:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e7862e1-c059-81d6-9305-ef2ae7bd8511",
+      "title": "[neobank] 금캐기 수요조사 - Go/No-Go 결정 회의",
+      "status": "Drop/Hold",
+      "startDate": "2026-01-26",
+      "endDate": "2026-01-26",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-Go-No-Go-2e7862e1c05981d69305ef2ae7bd8511",
+      "priority": null,
+      "createdTime": "2026-01-13T07:41:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e3862e1-c059-80ed-bbe2-e64dc445aac4",
+      "title": "[neobank] Lair Cash 모바일 앱 [달러로 금 캐기] 실제 mvp 최종 기획",
+      "status": "Done",
+      "startDate": "2026-01-23",
+      "endDate": "2026-01-29",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-Lair-Cash-mvp-2e3862e1c05980edbbe2e64dc445aac4",
+      "priority": null,
+      "createdTime": "2026-01-09T02:30:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e3862e1-c059-80db-9d60-f3d331382d41",
+      "title": "[neobank] Lair Cash 모바일 앱 달러로 금 캐기 파일럿 버전 기획",
+      "status": "Done",
+      "startDate": "2026-01-15",
+      "endDate": "2026-01-15",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-Lair-Cash-2e3862e1c05980db9d60f3d331382d41",
+      "priority": null,
+      "createdTime": "2026-01-09T02:30:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e3862e1-c059-80bc-96e3-c88f27b4f4ec",
+      "title": "[neobank] Lair Cash 모바일 앱 지갑 가스비 paymaster 기능 기획",
+      "status": "Done",
+      "startDate": "2026-01-13",
+      "endDate": "2026-01-13",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-Lair-Cash-paymaster-2e3862e1c05980bc96e3c88f27b4f4ec",
+      "priority": null,
+      "createdTime": "2026-01-09T02:29:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e3862e1-c059-8017-b750-c8da0f4bd94b",
+      "title": "[neobank] Lair Cash 모바일 앱 지갑 생성 및 송금 기능 기획",
+      "status": "Done",
+      "startDate": "2026-01-12",
+      "endDate": "2026-01-12",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-Lair-Cash-2e3862e1c0598017b750c8da0f4bd94b",
+      "priority": null,
+      "createdTime": "2026-01-09T02:27:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e2862e1-c059-8180-a4fa-ddbe58953e82",
+      "title": "[neobank] 수요조사 콘텐츠 제작: 고래 포지션 알림",
+      "status": "Drop/Hold",
+      "startDate": "2026-01-21",
+      "endDate": "2026-01-23",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/neobank-2e2862e1c0598180a4faddbe58953e82",
+      "priority": null,
+      "createdTime": "2026-01-08T08:18:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e2862e1-c059-81b5-ae0d-c633e25a3831",
+      "title": "[neobank] 수요조사 콘텐츠 제작: 달러 국채 투자",
+      "status": "Drop/Hold",
+      "startDate": "2026-01-19",
+      "endDate": "2026-01-21",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/neobank-2e2862e1c05981b5ae0dc633e25a3831",
+      "priority": null,
+      "createdTime": "2026-01-08T08:18:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e2862e1-c059-81ba-8944-e67e71b4efd0",
+      "title": "[neobank] 수요조사 콘텐츠 제작: 달러로 금 캐기",
+      "status": "Done",
+      "startDate": "2026-01-09",
+      "endDate": "2026-01-16",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "notionUrl": "https://www.notion.so/neobank-2e2862e1c05981ba8944e67e71b4efd0",
+      "priority": null,
+      "createdTime": "2026-01-08T08:18:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e2862e1-c059-8100-a076-fa2278377e0b",
+      "title": "[neobank] 수요조사 실행: 고래 포지션 알림",
+      "status": "Not started",
+      "startDate": "2026-01-26",
+      "endDate": "2026-01-30",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/neobank-2e2862e1c0598100a076fa2278377e0b",
       "priority": null,
       "createdTime": "2026-01-08T07:23:00.000Z",
-      "lastEditedTime": "2026-02-09T01:28:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e2862e1-c059-811b-af9e-c952f3ea4ad2",
+      "title": "[neobank] 수요조사 실행: 달러 국채 투자",
+      "status": "Not started",
+      "startDate": "2026-01-22",
+      "endDate": "2026-01-26",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/neobank-2e2862e1c059811baf9ec952f3ea4ad2",
+      "priority": null,
+      "createdTime": "2026-01-08T07:23:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e2862e1-c059-8156-a134-e60c473afd75",
+      "title": "[neobank] 수요조사 실행: 달러로 금 캐기",
+      "status": "Not started",
+      "startDate": "2026-01-19",
+      "endDate": "2026-01-23",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/neobank-2e2862e1c0598156a134e60c473afd75",
+      "priority": null,
+      "createdTime": "2026-01-08T07:23:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e2862e1-c059-81d9-b939-e7aeede79b01",
+      "title": "[neobank] 디자인 라이브러리 2주차: UI 규칙 토큰화",
+      "status": "Review",
+      "startDate": "2026-01-19",
+      "endDate": "2026-01-23",
+      "assignee": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-2-UI-2e2862e1c05981d9b939e7aeede79b01",
+      "priority": null,
+      "createdTime": "2026-01-08T07:23:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
       "epicId": null,
       "pingHistory": []
     },
@@ -9119,7 +10021,1168 @@
       "notionUrl": "https://www.notion.so/neobank-4-QA-2e2862e1c05981ed9552c083183efa4d",
       "priority": null,
       "createdTime": "2026-01-08T07:23:00.000Z",
-      "lastEditedTime": "2026-02-09T01:28:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e2862e1-c059-81f6-a336-f12174067ed5",
+      "title": "[neobank] 디자인 라이브러리 3주차: 코어 컴포넌트 구축",
+      "status": "In progress",
+      "startDate": "2026-02-02",
+      "endDate": "2026-02-09",
+      "assignee": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-3-2e2862e1c05981f6a336f12174067ed5",
+      "priority": null,
+      "createdTime": "2026-01-08T07:23:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e2862e1-c059-8105-9577-c0c2a0da6826",
+      "title": "[neobank] 수요조사 실행 및 채널별 결과 측정",
+      "status": "Drop/Hold",
+      "startDate": "2026-01-14",
+      "endDate": "2026-01-20",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/neobank-2e2862e1c05981059577c0c2a0da6826",
+      "priority": null,
+      "createdTime": "2026-01-08T06:48:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e2862e1-c059-8109-ba9b-c6a47e14508f",
+      "title": "[neobank] 부가기능 개발: 달러로 금 캐기 (Phase 1)",
+      "status": "Drop/Hold",
+      "startDate": "2026-01-23",
+      "endDate": "2026-01-31",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-Phase-1-2e2862e1c0598109ba9bc6a47e14508f",
+      "priority": null,
+      "createdTime": "2026-01-08T06:48:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e2862e1-c059-8145-a38d-c6a14ef7e45b",
+      "title": "[neobank] Mobile MVP 개발: 이메일/소셜 로그인 구현",
+      "status": "Drop/Hold",
+      "startDate": "2026-01-13",
+      "endDate": "2026-01-29",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-Mobile-MVP-2e2862e1c0598145a38dc6a14ef7e45b",
+      "priority": null,
+      "createdTime": "2026-01-08T06:48:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e2862e1-c059-8157-8788-e05aceb4de5f",
+      "title": "[neobank] 앱 심사 관련 자문 및 가이드 문서화",
+      "status": "Done",
+      "startDate": "2026-01-09",
+      "endDate": "2026-01-10",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/neobank-2e2862e1c05981578788e05aceb4de5f",
+      "priority": null,
+      "createdTime": "2026-01-08T06:48:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e2862e1-c059-8162-b06c-fe6d7a44cb69",
+      "title": "[neobank] 앱 출시 알림 이메일 발송",
+      "status": "Not started",
+      "startDate": "2026-02-04",
+      "endDate": "2026-02-09",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/neobank-2e2862e1c0598162b06cfe6d7a44cb69",
+      "priority": null,
+      "createdTime": "2026-01-08T06:48:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e2862e1-c059-8175-b7ad-d1f4b3a4eb1e",
+      "title": "[neobank] Mobile MVP 개발: 가스비 Paymaster 연동",
+      "status": "In progress",
+      "startDate": "2026-01-20",
+      "endDate": "2026-01-23",
+      "assignee": {
+        "id": "f11c3ca3-a653-4a0f-b88f-545e218e7a6d",
+        "name": "트롤",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/4b7086dc-e7ea-4aad-94fe-b06474e4b5bb/my-notion-face-customized.png"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-Mobile-MVP-Paymaster-2e2862e1c0598175b7add1f4b3a4eb1e",
+      "priority": null,
+      "createdTime": "2026-01-08T06:48:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e2862e1-c059-81c3-b2c0-c598cd5b39c8",
+      "title": "[neobank] 디자인 라이브러리(시스템) 구축",
+      "status": "Drop/Hold",
+      "startDate": "2026-01-09",
+      "endDate": "2026-01-15",
+      "assignee": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-2e2862e1c05981c3b2c0c598cd5b39c8",
+      "priority": null,
+      "createdTime": "2026-01-08T06:48:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e2862e1-c059-81e3-971a-f18e2cb1c8e2",
+      "title": "[neobank] 수요조사 배포용 콘텐츠(이미지/카피) 제작",
+      "status": "Drop/Hold",
+      "startDate": "2026-01-09",
+      "endDate": "2026-01-13",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/neobank-2e2862e1c05981e3971af18e2cb1c8e2",
+      "priority": null,
+      "createdTime": "2026-01-08T06:48:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e2862e1-c059-81ed-834f-f74a46d47385",
+      "title": "[neobank] 부가기능 사용량 측정 기준 수립",
+      "status": "In progress",
+      "startDate": "2026-02-05",
+      "endDate": "2026-02-10",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/neobank-2e2862e1c05981ed834ff74a46d47385",
+      "priority": null,
+      "createdTime": "2026-01-08T06:48:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e2862e1-c059-81fc-b02e-e7932512f8f9",
+      "title": "[neobank] 기존 사전가입 대시보드 종료 처리",
+      "status": "Done",
+      "startDate": "2026-01-09",
+      "endDate": "2026-01-10",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/neobank-2e2862e1c05981fcb02ee7932512f8f9",
+      "priority": null,
+      "createdTime": "2026-01-08T06:48:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e2862e1-c059-8043-beae-ef566eaa0e80",
+      "title": "[neobank] Lair Cash 앱 서비스 플랜 만들기",
+      "status": "Done",
+      "startDate": "2026-01-08",
+      "endDate": "2026-01-08",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-Lair-Cash-2e2862e1c0598043beaeef566eaa0e80",
+      "priority": "🔥🔥🔥🔥",
+      "createdTime": "2026-01-08T01:28:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2df862e1-c059-80dc-b574-cba1994d42ed",
+      "title": "[neobank] 사전가입 종료 다음 스탭 결정",
+      "status": "Done",
+      "startDate": "2026-01-07",
+      "endDate": "2026-01-07",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-2df862e1c05980dcb574cba1994d42ed",
+      "priority": null,
+      "createdTime": "2026-01-05T01:29:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2df862e1-c059-8082-932f-c62b6cc587cf",
+      "title": "[neobank] 사전가입자 대상 리워드 발표",
+      "status": "Drop/Hold",
+      "startDate": "2026-01-05",
+      "endDate": "2026-01-09",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-2df862e1c0598082932fc62b6cc587cf",
+      "priority": null,
+      "createdTime": "2026-01-05T01:27:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2df862e1-c059-808c-90d0-e9ef35cdcbc4",
+      "title": "[neobank] Lair Cash 모바일 앱 테스트 mvp 기획",
+      "status": "Done",
+      "startDate": "2026-01-05",
+      "endDate": "2026-01-06",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-Lair-Cash-mvp-2df862e1c059808c90d0e9ef35cdcbc4",
+      "priority": null,
+      "createdTime": "2026-01-05T01:10:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2da862e1-c059-80bf-ad62-cd2b631a7a1e",
+      "title": "레어캐시 Flutter 기반 모바일 앱 적합성 검증",
+      "status": "Done",
+      "startDate": "2026-01-05",
+      "endDate": "2026-01-09",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/Flutter-2da862e1c05980bfad62cd2b631a7a1e",
+      "priority": null,
+      "createdTime": "2025-12-31T01:36:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2d9862e1-c059-804e-82e1-dc1ec6882aac",
+      "title": "[neobank] 사전가입 종료 안내 UI 추가",
+      "status": "Done",
+      "startDate": "2025-12-30",
+      "endDate": "2025-12-31",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-UI-2d9862e1c059804e82e1dc1ec6882aac",
+      "priority": null,
+      "createdTime": "2025-12-30T09:01:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2d9862e1-c059-80eb-9a83-c1e03c997233",
+      "title": "레어캐시 모바일 앱 개발 리서치",
+      "status": "Done",
+      "startDate": "2025-12-30",
+      "endDate": "2025-12-30",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/2d9862e1c05980eb9a83c1e03c997233",
+      "priority": null,
+      "createdTime": "2025-12-30T08:54:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2cd862e1-c059-8008-97dd-c0234d6f5538",
+      "title": "[neobank] 레어캐쉬 사전가입 독스 한글버전 만들기",
+      "status": "Done",
+      "startDate": "2025-12-18",
+      "endDate": "2025-12-19",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-2cd862e1c059800897ddc0234d6f5538",
+      "priority": null,
+      "createdTime": "2025-12-18T08:08:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2cd862e1-c059-80fb-949c-de77e4241bcc",
+      "title": "[neobank] 대쉬보드 페이지 포인트 표기 방법 통일",
+      "status": "Done",
+      "startDate": "2025-12-18",
+      "endDate": "2025-12-19",
+      "assignee": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-2cd862e1c05980fb949cde77e4241bcc",
+      "priority": null,
+      "createdTime": "2025-12-18T08:06:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2cd862e1-c059-8024-8212-d817ecabb6fc",
+      "title": "[neobank] 대쉬보드 페이지 기버웨이 배너 변경",
+      "status": "Done",
+      "startDate": "2025-12-18",
+      "endDate": "2025-12-19",
+      "assignee": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-2cd862e1c05980248212d817ecabb6fc",
+      "priority": null,
+      "createdTime": "2025-12-18T08:05:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2cd862e1-c059-8038-8c40-e4ada57260e3",
+      "title": "[neobank] 랜딩페이지 부분 한글화",
+      "status": "Done",
+      "startDate": "2025-12-18",
+      "endDate": "2025-12-19",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-2cd862e1c05980388c40e4ada57260e3",
+      "priority": null,
+      "createdTime": "2025-12-18T08:00:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2cd862e1-c059-8018-8e33-f704b0f2c18b",
+      "title": "[neobank] 랜딩페이지 CTA 근처 경품 강조 툴팁 만들기",
+      "status": "Done",
+      "startDate": "2025-12-18",
+      "endDate": "2025-12-19",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-CTA-2cd862e1c05980188e33f704b0f2c18b",
+      "priority": null,
+      "createdTime": "2025-12-18T07:58:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2cd862e1-c059-80a8-a7bc-e2c4e676894f",
+      "title": "[neobank] 사전가입 인스타 광고 통계 기록",
+      "status": "Drop/Hold",
+      "startDate": "2025-12-18",
+      "endDate": "2025-12-31",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-2cd862e1c05980a8a7bce2c4e676894f",
+      "priority": null,
+      "createdTime": "2025-12-18T01:42:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2cd862e1-c059-809b-ab22-c569342d76ad",
+      "title": "[neobank] 광고 채널로 유입되는 한국 웹2 유저 타겟 사전가입 전략 개선안 논의 ",
+      "status": "Done",
+      "startDate": "2025-12-18",
+      "endDate": "2025-12-18",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-2-2cd862e1c059809bab22c569342d76ad",
+      "priority": null,
+      "createdTime": "2025-12-18T01:21:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2ca862e1-c059-8069-bdac-e271b2eafb2d",
+      "title": "[neobank] 레어 캐쉬 사전가입 캠페인 결과 정리 및 분석",
+      "status": "Done",
+      "startDate": "2025-12-29",
+      "endDate": "2025-12-31",
+      "assignee": {
+        "id": "f11c3ca3-a653-4a0f-b88f-545e218e7a6d",
+        "name": "트롤",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/4b7086dc-e7ea-4aad-94fe-b06474e4b5bb/my-notion-face-customized.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-2ca862e1c0598069bdace271b2eafb2d",
+      "priority": null,
+      "createdTime": "2025-12-15T10:02:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2ca862e1-c059-80b1-b3c2-c965d7769037",
+      "title": "[neobank] 인스타 광고 회의 251215",
+      "status": "Done",
+      "startDate": "2025-12-15",
+      "endDate": "2025-12-15",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-251215-2ca862e1c05980b1b3c2c965d7769037",
+      "priority": null,
+      "createdTime": "2025-12-15T06:08:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2ca862e1-c059-80f3-8be3-d9b361d1fa93",
+      "title": "[neobank] 인스타 스토리 광고 이미지 A,B 유형 제작",
+      "status": "Done",
+      "startDate": "2025-12-15",
+      "endDate": "2025-12-15",
+      "assignee": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/neobank-A-B-2ca862e1c05980f38be3d9b361d1fa93",
+      "priority": null,
+      "createdTime": "2025-12-15T02:47:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2c7862e1-c059-8064-91c1-d814751d754a",
+      "title": "[neobank] 사전가입 캠페인 인스타 광고 가설 템플릿",
+      "status": "Done",
+      "startDate": "2025-12-12",
+      "endDate": "2025-12-12",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/neobank-2c7862e1c059806491c1d814751d754a",
+      "priority": null,
+      "createdTime": "2025-12-12T05:41:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2c6862e1-c059-8024-af8c-c0f71ea8e1a7",
+      "title": "[neobank] 트윗 컨텐츠 반자동 생산 실행",
+      "status": "Done",
+      "startDate": "2025-12-11",
+      "endDate": "2025-12-19",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/neobank-2c6862e1c0598024af8cc0f71ea8e1a7",
+      "priority": null,
+      "createdTime": "2025-12-11T01:32:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2c6862e1-c059-80e3-b041-ed39aa47f7e5",
+      "title": "[neobank] 인스타 광고 레퍼런스 서치",
+      "status": "Done",
+      "startDate": "2025-12-11",
+      "endDate": "2025-12-11",
+      "assignee": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-2c6862e1c05980e3b041ed39aa47f7e5",
+      "priority": null,
+      "createdTime": "2025-12-11T01:31:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2c5862e1-c059-8045-81fe-ef1c8bab78d7",
+      "title": "[neobank] 사전가입 캠페인 문의 이메일 답장",
+      "status": "Done",
+      "startDate": "2026-01-07",
+      "endDate": "2026-01-07",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-2c5862e1c059804581feef1c8bab78d7",
+      "priority": null,
+      "createdTime": "2025-12-10T02:48:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2c5862e1-c059-8090-b517-d590ee6379e5",
+      "title": "[neobank] 사전가입 캠페인 김버그 유투브 홍보",
+      "status": "Done",
+      "startDate": "2025-12-12",
+      "endDate": "2025-12-12",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-2c5862e1c0598090b517d590ee6379e5",
+      "priority": null,
+      "createdTime": "2025-12-10T02:42:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2c5862e1-c059-80b6-ac49-cd3183f1697b",
+      "title": "[neobank] 사전가입 캠페인 레어 기존 채널 배포",
+      "status": "Done",
+      "startDate": "2025-12-10",
+      "endDate": "2025-12-10",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-2c5862e1c05980b6ac49cd3183f1697b",
+      "priority": null,
+      "createdTime": "2025-12-10T02:41:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2c5862e1-c059-802f-a6d0-d2c55f80f08d",
+      "title": "[neobank] 사전가입 x 아티클 배포",
+      "status": "Done",
+      "startDate": "2025-12-10",
+      "endDate": "2025-12-10",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-x-2c5862e1c059802fa6d0d2c55f80f08d",
+      "priority": null,
+      "createdTime": "2025-12-10T02:40:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2c4862e1-c059-8042-9847-dba967f76c38",
+      "title": "[neobank] 사전가입 페이지 종합 QA",
+      "status": "Done",
+      "startDate": "2025-12-09",
+      "endDate": "2025-12-09",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-QA-2c4862e1c05980429847dba967f76c38",
+      "priority": null,
+      "createdTime": "2025-12-09T05:38:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2c0862e1-c059-805d-889f-f023977d9af0",
+      "title": "[neobank] 사전가입 캠페인 인스타 광고 집행 및 리포트 ",
+      "status": "Done",
+      "startDate": "2025-12-11",
+      "endDate": "2025-12-15",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-2c0862e1c059805d889ff023977d9af0",
+      "priority": null,
+      "createdTime": "2025-12-05T06:16:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2c0862e1-c059-8084-a3aa-fbccff923ce8",
+      "title": "[neobank] 사전가입 캠페인 인스타 광고 게시글 컨텐츠 작성",
+      "status": "Done",
+      "startDate": "2025-12-16",
+      "endDate": "2025-12-18",
+      "assignee": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-2c0862e1c0598084a3aafbccff923ce8",
+      "priority": null,
+      "createdTime": "2025-12-05T06:15:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2c0862e1-c059-805e-a81e-fe5c8539c3e2",
+      "title": "[neobank] 사전가입 캠페인 광고용 인스타 계정 셋업",
+      "status": "Done",
+      "startDate": "2025-12-05",
+      "endDate": "2025-12-09",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "notionUrl": "https://www.notion.so/neobank-2c0862e1c059805ea81efe5c8539c3e2",
+      "priority": null,
+      "createdTime": "2025-12-05T06:14:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2c0862e1-c059-80eb-8d71-f32dffa4df69",
+      "title": "[neobank] 사전조사 캠페인 안내 블로그 작성",
+      "status": "Done",
+      "startDate": "2025-12-05",
+      "endDate": "2025-12-08",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-2c0862e1c05980eb8d71f32dffa4df69",
+      "priority": null,
+      "createdTime": "2025-12-05T01:47:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2c0862e1-c059-8057-95a2-f35e89bdb18e",
+      "title": "[neobank] 사전가입 캠페인 배포 채널 설정 및 셋업",
+      "status": "Done",
+      "startDate": "2025-12-05",
+      "endDate": "2025-12-05",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-2c0862e1c059805795a2f35e89bdb18e",
+      "priority": null,
+      "createdTime": "2025-12-05T01:09:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2bf862e1-c059-805c-ab4d-d0908d8638fb",
+      "title": "[HR] Lair 마케터 희망사항 작성",
+      "status": "Done",
+      "startDate": "2025-12-04",
+      "endDate": "2025-12-04",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/HR-Lair-2bf862e1c059805cab4dd0908d8638fb",
+      "priority": null,
+      "createdTime": "2025-12-04T08:04:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2be862e1-c059-8061-a265-e9bf011ad648",
+      "title": "[Neobank] 슬로건 확정",
+      "status": "Done",
+      "startDate": "2025-12-08",
+      "endDate": "2025-12-10",
+      "assignee": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Neobank-2be862e1c0598061a265e9bf011ad648",
+      "priority": null,
+      "createdTime": "2025-12-03T02:51:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2be862e1-c059-8051-882e-ddfa80b30be4",
+      "title": "[neobank] 트윗 컨텐츠 자동 생산 방법 기획, 리서치",
+      "status": "Done",
+      "startDate": "2025-12-03",
+      "endDate": "2025-12-10",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/neobank-2be862e1c0598051882eddfa80b30be4",
+      "priority": null,
+      "createdTime": "2025-12-03T02:22:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2bd862e1-c059-8026-8cfd-cfe02801ba5f",
+      "title": "[neobank] 사전가입 대상자 뉴스레터 발송 방식 기획",
+      "status": "Drop/Hold",
+      "startDate": "2026-01-07",
+      "endDate": "2026-01-13",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "f11c3ca3-a653-4a0f-b88f-545e218e7a6d",
+        "name": "트롤",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/4b7086dc-e7ea-4aad-94fe-b06474e4b5bb/my-notion-face-customized.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-2bd862e1c05980268cfdcfe02801ba5f",
+      "priority": null,
+      "createdTime": "2025-12-02T05:14:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2bc862e1-c059-8006-97ad-d6b294d19102",
+      "title": "[Neobank] Decard 제안 검토",
+      "status": "Drop/Hold",
+      "startDate": "2025-12-01",
+      "endDate": "2025-12-03",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Neobank-Decard-2bc862e1c059800697add6b294d19102",
+      "priority": null,
+      "createdTime": "2025-12-01T09:38:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2b8862e1-c059-80b8-986d-eeab1485789b",
+      "title": "[Neobank] Rain 카드 제안서 검토",
+      "status": "Drop/Hold",
+      "startDate": "2025-11-27",
+      "endDate": "2025-11-27",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Neobank-Rain-2b8862e1c05980b8986deeab1485789b",
+      "priority": null,
+      "createdTime": "2025-11-27T01:29:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2b1862e1-c059-80ed-bd3a-e4ee644d1361",
+      "title": "GA4 유저 전환율 체크",
+      "status": "Done",
+      "startDate": "2025-11-25",
+      "endDate": "2025-12-30",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/GA4-2b1862e1c05980edbd3ae4ee644d1361",
+      "priority": null,
+      "createdTime": "2025-11-20T01:48:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2b1862e1-c059-8024-b416-c2f4d0be5fc8",
+      "title": "기존 레어에서 하이라이트 홍보 카드 추가 및 홍보 메뉴 추가",
+      "status": "Done",
+      "startDate": null,
+      "endDate": null,
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "notionUrl": "https://www.notion.so/2b1862e1c0598024b416c2f4d0be5fc8",
+      "priority": null,
+      "createdTime": "2025-11-20T01:48:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2b0862e1-c059-800d-b1de-d511cc0d2d69",
+      "title": "[neobank] Interlace.money 계약 추진",
+      "status": "Drop/Hold",
+      "startDate": "2025-11-19",
+      "endDate": "2025-11-28",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-Interlace-money-2b0862e1c059800db1ded511cc0d2d69",
+      "priority": null,
+      "createdTime": "2025-11-19T01:39:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "293862e1-c059-8017-87e1-f13e61edd054",
+      "title": "[neobank] stablecoin vault 서비스 조사",
+      "status": "Drop/Hold",
+      "startDate": "2025-11-27",
+      "endDate": "2025-11-28",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/neobank-stablecoin-vault-293862e1c059801787e1f13e61edd054",
+      "priority": null,
+      "createdTime": "2025-10-21T02:34:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "293862e1-c059-8007-af29-c9243031adc5",
+      "title": "[Neobank] 크립토 카드 시장 규모 조사",
+      "status": "Drop/Hold",
+      "startDate": "2025-11-27",
+      "endDate": "2025-11-28",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Neobank-293862e1c0598007af29c9243031adc5",
+      "priority": null,
+      "createdTime": "2025-10-21T02:26:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "247862e1-c059-8027-9102-dab0d48da16f",
+      "title": "[TOKEN2049] 2025 숙소 예약",
+      "status": "Done",
+      "startDate": "2025-08-06",
+      "endDate": "2025-08-20",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/TOKEN2049-2025-247862e1c05980279102dab0d48da16f",
+      "priority": null,
+      "createdTime": "2025-08-06T08:34:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "247862e1-c059-8048-98ec-eba9b1b2fa7f",
+      "title": "[TOKEN2049] 2025 토큰 비행기표 예약",
+      "status": "Done",
+      "startDate": "2025-08-06",
+      "endDate": "2025-08-20",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/TOKEN2049-2025-247862e1c059804898eceba9b1b2fa7f",
+      "priority": null,
+      "createdTime": "2025-08-06T08:33:00.000Z",
+      "lastEditedTime": "2026-02-09T02:01:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2f1862e1-c059-800a-b747-f8a803004d7e",
+      "title": "AI로 notion, slack 관리 agent 만들기",
+      "status": "In progress",
+      "startDate": "2026-01-23",
+      "endDate": "2026-02-06",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/AI-notion-slack-agent-2f1862e1c059800ab747f8a803004d7e",
+      "priority": null,
+      "createdTime": "2026-01-23T01:31:00.000Z",
+      "lastEditedTime": "2026-02-09T01:29:00.000Z",
       "epicId": null,
       "pingHistory": []
     },
@@ -9143,167 +11206,6 @@
       "priority": null,
       "createdTime": "2026-02-04T01:57:00.000Z",
       "lastEditedTime": "2026-02-06T01:33:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e9862e1-c059-8156-97af-de033d25f649",
-      "title": "[neobank] MVP 개발",
-      "status": "In progress",
-      "startDate": "2026-02-05",
-      "endDate": "2026-02-06",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "notionUrl": "https://www.notion.so/neobank-MVP-2e9862e1c059815697afde033d25f649",
-      "priority": null,
-      "createdTime": "2026-01-15T05:01:00.000Z",
-      "lastEditedTime": "2026-02-05T01:31:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e2862e1-c059-8145-a38d-c6a14ef7e45b",
-      "title": "[neobank] Mobile MVP 개발: 이메일/소셜 로그인 구현",
-      "status": "Drop/Hold",
-      "startDate": "2026-01-13",
-      "endDate": "2026-01-29",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "notionUrl": "https://www.notion.so/neobank-Mobile-MVP-2e2862e1c0598145a38dc6a14ef7e45b",
-      "priority": null,
-      "createdTime": "2026-01-08T06:48:00.000Z",
-      "lastEditedTime": "2026-02-05T01:31:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e2862e1-c059-8109-ba9b-c6a47e14508f",
-      "title": "[neobank] 부가기능 개발: 달러로 금 캐기 (Phase 1)",
-      "status": "Drop/Hold",
-      "startDate": "2026-01-23",
-      "endDate": "2026-01-31",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "notionUrl": "https://www.notion.so/neobank-Phase-1-2e2862e1c0598109ba9bc6a47e14508f",
-      "priority": null,
-      "createdTime": "2026-01-08T06:48:00.000Z",
-      "lastEditedTime": "2026-02-05T01:30:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e9862e1-c059-81ea-847b-fdcf937420b4",
-      "title": "[neobank] MVP 개발: 받기 기능 개선 (QR, 거래소 규정)",
-      "status": "Drop/Hold",
-      "startDate": "2026-01-24",
-      "endDate": "2026-01-28",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "notionUrl": "https://www.notion.so/neobank-MVP-QR-2e9862e1c05981ea847bfdcf937420b4",
-      "priority": null,
-      "createdTime": "2026-01-15T05:01:00.000Z",
-      "lastEditedTime": "2026-02-05T01:30:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e9862e1-c059-81d4-b413-ef609b4cbc9e",
-      "title": "[neobank] MVP 개발: 레퍼럴 프로그램",
-      "status": "Drop/Hold",
-      "startDate": "2026-01-28",
-      "endDate": "2026-02-03",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "notionUrl": "https://www.notion.so/neobank-MVP-2e9862e1c05981d4b413ef609b4cbc9e",
-      "priority": null,
-      "createdTime": "2026-01-15T05:01:00.000Z",
-      "lastEditedTime": "2026-02-05T01:30:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e9862e1-c059-81d1-951d-e1bceb02e28b",
-      "title": "[neobank] MVP 개발: 거래소별 입금 가이드",
-      "status": "Drop/Hold",
-      "startDate": "2026-01-27",
-      "endDate": "2026-01-31",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "notionUrl": "https://www.notion.so/neobank-MVP-2e9862e1c05981d1951de1bceb02e28b",
-      "priority": null,
-      "createdTime": "2026-01-15T05:01:00.000Z",
-      "lastEditedTime": "2026-02-05T01:30:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e9862e1-c059-8162-aba5-ea73a884d292",
-      "title": "[neobank] MVP 개발: 유저 후킹 기능",
-      "status": "Drop/Hold",
-      "startDate": "2026-02-03",
-      "endDate": "2026-02-07",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "notionUrl": "https://www.notion.so/neobank-MVP-2e9862e1c0598162aba5ea73a884d292",
-      "priority": null,
-      "createdTime": "2026-01-15T05:01:00.000Z",
-      "lastEditedTime": "2026-02-05T01:30:00.000Z",
       "epicId": null,
       "pingHistory": []
     },
@@ -9369,235 +11271,6 @@
       "pingHistory": []
     },
     {
-      "id": "2fc862e1-c059-801b-8e13-c9de95275f96",
-      "title": "[neobank]레어 모바일 앱 mvp 개발 일정 재산정",
-      "status": "Done",
-      "startDate": "2026-02-03",
-      "endDate": "2026-02-03",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-mvp-2fc862e1c059801b8e13c9de95275f96",
-      "priority": null,
-      "createdTime": "2026-02-03T01:40:00.000Z",
-      "lastEditedTime": "2026-02-04T02:15:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2f7862e1-c059-808f-8cb3-fe5bb55f75be",
-      "title": "[neobank] Lair 모바일 앱 배틀패스 기능 프로토타입 제작, 공유",
-      "status": "Done",
-      "startDate": "2026-01-29",
-      "endDate": "2026-01-29",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-Lair-2f7862e1c059808f8cb3fe5bb55f75be",
-      "priority": null,
-      "createdTime": "2026-01-29T01:43:00.000Z",
-      "lastEditedTime": "2026-02-04T02:15:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e7862e1-c059-818f-b055-ef5d9e78408a",
-      "title": "[neobank] 금캐기 수요조사 - 결과 분석 보고서 작성",
-      "status": "Drop/Hold",
-      "startDate": "2026-01-26",
-      "endDate": "2026-01-26",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/neobank-2e7862e1c059818fb055ef5d9e78408a",
-      "priority": null,
-      "createdTime": "2026-01-13T07:41:00.000Z",
-      "lastEditedTime": "2026-02-04T02:15:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e7862e1-c059-81d6-9305-ef2ae7bd8511",
-      "title": "[neobank] 금캐기 수요조사 - Go/No-Go 결정 회의",
-      "status": "Drop/Hold",
-      "startDate": "2026-01-26",
-      "endDate": "2026-01-26",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-Go-No-Go-2e7862e1c05981d69305ef2ae7bd8511",
-      "priority": null,
-      "createdTime": "2026-01-13T07:41:00.000Z",
-      "lastEditedTime": "2026-02-04T02:15:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e3862e1-c059-80ed-bbe2-e64dc445aac4",
-      "title": "[neobank] Lair Cash 모바일 앱 [달러로 금 캐기] 실제 mvp 최종 기획",
-      "status": "Done",
-      "startDate": "2026-01-23",
-      "endDate": "2026-01-29",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "notionUrl": "https://www.notion.so/neobank-Lair-Cash-mvp-2e3862e1c05980edbbe2e64dc445aac4",
-      "priority": null,
-      "createdTime": "2026-01-09T02:30:00.000Z",
-      "lastEditedTime": "2026-02-04T02:14:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e9862e1-c059-81e7-a774-c04eb56cace9",
-      "title": "[neobank] Lair Cash 모바일 앱 온보딩 가이드 기획",
-      "status": "Done",
-      "startDate": "2026-01-22",
-      "endDate": "2026-01-23",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-Lair-Cash-2e9862e1c05981e7a774c04eb56cace9",
-      "priority": null,
-      "createdTime": "2026-01-15T06:01:00.000Z",
-      "lastEditedTime": "2026-02-04T02:14:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e9862e1-c059-8187-b8d8-c8b52af3f6fa",
-      "title": "[neobank] Lair Cash 모바일 앱 푸시알림 기능 기획",
-      "status": "Done",
-      "startDate": "2026-01-22",
-      "endDate": "2026-01-23",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-Lair-Cash-2e9862e1c0598187b8d8c8b52af3f6fa",
-      "priority": null,
-      "createdTime": "2026-01-15T06:01:00.000Z",
-      "lastEditedTime": "2026-02-04T02:14:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e2862e1-c059-8180-a4fa-ddbe58953e82",
-      "title": "[neobank] 수요조사 콘텐츠 제작: 고래 포지션 알림",
-      "status": "Drop/Hold",
-      "startDate": "2026-01-21",
-      "endDate": "2026-01-23",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/neobank-2e2862e1c0598180a4faddbe58953e82",
-      "priority": null,
-      "createdTime": "2026-01-08T08:18:00.000Z",
-      "lastEditedTime": "2026-02-04T02:14:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2ee862e1-c059-8129-8097-d7089fcf8cc2",
-      "title": "[neobank] 심사용 테스트 계정 세팅",
-      "status": "Done",
-      "startDate": "2026-01-21",
-      "endDate": "2026-01-22",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-2ee862e1c05981298097d7089fcf8cc2",
-      "priority": "🔥🔥🔥🔥",
-      "createdTime": "2026-01-20T03:07:00.000Z",
-      "lastEditedTime": "2026-02-04T02:14:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e9862e1-c059-81e2-8c52-df643488ffb9",
-      "title": "[neobank] Lair Cash 모바일 앱 유저 후킹 기능 기획",
-      "status": "Done",
-      "startDate": "2026-01-19",
-      "endDate": "2026-01-21",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "notionUrl": "https://www.notion.so/neobank-Lair-Cash-2e9862e1c05981e28c52df643488ffb9",
-      "priority": null,
-      "createdTime": "2026-01-15T06:01:00.000Z",
-      "lastEditedTime": "2026-02-04T02:14:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e2862e1-c059-8162-b06c-fe6d7a44cb69",
-      "title": "[neobank] 앱 출시 알림 이메일 발송",
-      "status": "Not started",
-      "startDate": "2026-02-04",
-      "endDate": "2026-02-09",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/neobank-2e2862e1c0598162b06cfe6d7a44cb69",
-      "priority": null,
-      "createdTime": "2026-01-08T06:48:00.000Z",
-      "lastEditedTime": "2026-02-04T02:07:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
       "id": "2fd862e1-c059-803a-b3bb-e5dd64947689",
       "title": "솜니아 1월 청구 보고서 ",
       "status": "In progress",
@@ -9617,29 +11290,6 @@
       "pingHistory": []
     },
     {
-      "id": "2e9862e1-c059-8148-bc38-c214f2d2c41d",
-      "title": "[neobank] 앱스토어 심사 제출",
-      "status": "Done",
-      "startDate": "2026-01-21",
-      "endDate": "2026-01-27",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "notionUrl": "https://www.notion.so/neobank-2e9862e1c0598148bc38c214f2d2c41d",
-      "priority": null,
-      "createdTime": "2026-01-15T02:42:00.000Z",
-      "lastEditedTime": "2026-02-03T01:41:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
       "id": "2e2862e1-c059-801a-8c2e-c2a0de6ac035",
       "title": "[Lair] 레어캐시 기술적 검토",
       "status": "Done",
@@ -9655,29 +11305,6 @@
       "priority": null,
       "createdTime": "2026-01-08T01:32:00.000Z",
       "lastEditedTime": "2026-02-02T01:35:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e2862e1-c059-81d9-b939-e7aeede79b01",
-      "title": "[neobank] 디자인 라이브러리 2주차: UI 규칙 토큰화",
-      "status": "Review",
-      "startDate": "2026-01-19",
-      "endDate": "2026-01-23",
-      "assignee": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "reviewer": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "notionUrl": "https://www.notion.so/neobank-2-UI-2e2862e1c05981d9b939e7aeede79b01",
-      "priority": null,
-      "createdTime": "2026-01-08T07:23:00.000Z",
-      "lastEditedTime": "2026-01-31T15:09:00.000Z",
       "epicId": null,
       "pingHistory": []
     },
@@ -9789,25 +11416,6 @@
       "pingHistory": []
     },
     {
-      "id": "2e8862e1-c059-80b6-b79c-c36f0339ed03",
-      "title": "[neobank] 금캐기 수요조사 - 블로거 섭외 ",
-      "status": "Not started",
-      "startDate": "2026-01-15",
-      "endDate": "2026-01-15",
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-2e8862e1c05980b6b79cc36f0339ed03",
-      "priority": null,
-      "createdTime": "2026-01-14T02:52:00.000Z",
-      "lastEditedTime": "2026-01-29T01:34:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
       "id": "2f6862e1-c059-80d8-970e-e0eda04d0205",
       "title": "[Cave] 12월 시즌 초기화 안내 (1)",
       "status": "Done",
@@ -9850,29 +11458,6 @@
       "priority": null,
       "createdTime": "2025-12-31T11:07:00.000Z",
       "lastEditedTime": "2026-01-28T05:38:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2f0862e1-c059-80c6-b18b-cab13895b7a3",
-      "title": "[Neobank] 앱스트랙 카드 1page 제작 전달 ",
-      "status": "Done",
-      "startDate": "2026-01-22",
-      "endDate": "2026-01-22",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/Neobank-1page-2f0862e1c05980c6b18bcab13895b7a3",
-      "priority": null,
-      "createdTime": "2026-01-22T01:31:00.000Z",
-      "lastEditedTime": "2026-01-28T02:17:00.000Z",
       "epicId": null,
       "pingHistory": []
     },
@@ -9934,227 +11519,6 @@
       "pingHistory": []
     },
     {
-      "id": "2ee862e1-c059-8196-b314-e5cf131b295c",
-      "title": "[neobank] 리뷰어 노트(App Review Notes) 작성",
-      "status": "Done",
-      "startDate": "2026-01-21",
-      "endDate": "2026-01-22",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-App-Review-Notes-2ee862e1c0598196b314e5cf131b295c",
-      "priority": "🔥🔥🔥🔥",
-      "createdTime": "2026-01-20T03:08:00.000Z",
-      "lastEditedTime": "2026-01-28T02:14:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2ee862e1-c059-8152-ad23-c6e6188fd85d",
-      "title": "[neobank] 앱스토어 키워드 추출 (Apple)",
-      "status": "Done",
-      "startDate": "2026-01-21",
-      "endDate": "2026-01-21",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-Apple-2ee862e1c0598152ad23c6e6188fd85d",
-      "priority": "🔥🔥",
-      "createdTime": "2026-01-20T03:09:00.000Z",
-      "lastEditedTime": "2026-01-28T02:14:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2ee862e1-c059-812f-8360-d70de81160aa",
-      "title": "[neobank] 이용약관(Terms of Service) 작성",
-      "status": "Done",
-      "startDate": "2026-01-20",
-      "endDate": "2026-01-22",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-Terms-of-Service-2ee862e1c059812f8360d70de81160aa",
-      "priority": "🔥🔥🔥",
-      "createdTime": "2026-01-20T03:06:00.000Z",
-      "lastEditedTime": "2026-01-28T02:14:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2ee862e1-c059-8177-a097-e9670757672c",
-      "title": "[neobank] 개인정보 처리방침(Privacy Policy) 작성",
-      "status": "Done",
-      "startDate": "2026-01-20",
-      "endDate": "2026-01-22",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-Privacy-Policy-2ee862e1c0598177a097e9670757672c",
-      "priority": "🔥🔥🔥",
-      "createdTime": "2026-01-20T03:06:00.000Z",
-      "lastEditedTime": "2026-01-28T02:14:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2ee862e1-c059-8148-8c31-f5dd1268ef15",
-      "title": "[neobank] 앱 설명(App Description) 작성",
-      "status": "Done",
-      "startDate": "2026-01-20",
-      "endDate": "2026-01-21",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-App-Description-2ee862e1c05981488c31f5dd1268ef15",
-      "priority": "🔥🔥🔥",
-      "createdTime": "2026-01-20T03:08:00.000Z",
-      "lastEditedTime": "2026-01-28T02:14:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2ee862e1-c059-8142-9552-c51bb301a177",
-      "title": "[neobank] VASP 예외 대응 논리 정리",
-      "status": "Done",
-      "startDate": "2026-01-20",
-      "endDate": "2026-01-21",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-VASP-2ee862e1c05981429552c51bb301a177",
-      "priority": "🔥🔥🔥🔥",
-      "createdTime": "2026-01-20T03:09:00.000Z",
-      "lastEditedTime": "2026-01-28T02:14:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2ee862e1-c059-806b-99ff-d39acab51154",
-      "title": "[neobank] 앱스토어 제출 이미지 문구 작성",
-      "status": "Done",
-      "startDate": "2026-01-20",
-      "endDate": "2026-01-22",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "notionUrl": "https://www.notion.so/neobank-2ee862e1c059806b99ffd39acab51154",
-      "priority": "🔥🔥🔥",
-      "createdTime": "2026-01-20T03:21:00.000Z",
-      "lastEditedTime": "2026-01-28T02:14:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2f1862e1-c059-80ad-8566-f87523a406be",
-      "title": "[neobank] 스토어 심사 규정 대응",
-      "status": "Done",
-      "startDate": "2026-01-22",
-      "endDate": "2026-01-23",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "notionUrl": "https://www.notion.so/neobank-2f1862e1c05980ad8566f87523a406be",
-      "priority": null,
-      "createdTime": "2026-01-23T01:28:00.000Z",
-      "lastEditedTime": "2026-01-28T02:14:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e2862e1-c059-81ba-8944-e67e71b4efd0",
-      "title": "[neobank] 수요조사 콘텐츠 제작: 달러로 금 캐기",
-      "status": "Done",
-      "startDate": "2026-01-09",
-      "endDate": "2026-01-16",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "notionUrl": "https://www.notion.so/neobank-2e2862e1c05981ba8944e67e71b4efd0",
-      "priority": null,
-      "createdTime": "2026-01-08T08:18:00.000Z",
-      "lastEditedTime": "2026-01-28T02:13:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2ee862e1-c059-81b4-8fa3-e3a03f7ec01c",
-      "title": "[neobank] 심사용 데모 영상 촬영",
-      "status": "Done",
-      "startDate": "2026-01-21",
-      "endDate": "2026-01-22",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-2ee862e1c05981b48fa3e3a03f7ec01c",
-      "priority": "🔥🔥🔥",
-      "createdTime": "2026-01-20T03:07:00.000Z",
-      "lastEditedTime": "2026-01-28T02:13:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e9862e1-c059-819c-9fe5-e3550185083a",
-      "title": "[neobank] 앱스토어 심사용: 홈 화면 UI 개발",
-      "status": "Done",
-      "startDate": "2026-01-17",
-      "endDate": "2026-01-20",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-UI-2e9862e1c059819c9fe5e3550185083a",
-      "priority": null,
-      "createdTime": "2026-01-15T02:42:00.000Z",
-      "lastEditedTime": "2026-01-28T02:13:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
       "id": "2e2862e1-c059-8120-9e57-f618e792c7a2",
       "title": "[neobank] Mobile MVP 개발: 지갑 생성 및 전송 기능",
       "status": "Done",
@@ -10174,52 +11538,6 @@
       "priority": null,
       "createdTime": "2026-01-08T06:48:00.000Z",
       "lastEditedTime": "2026-01-28T02:13:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e9862e1-c059-8089-8721-c1ffc02d2951",
-      "title": "[neobank] 이메일, 소셜 로그인 개발",
-      "status": "Done",
-      "startDate": "2026-01-13",
-      "endDate": "2026-01-15",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "notionUrl": "https://www.notion.so/neobank-2e9862e1c05980898721c1ffc02d2951",
-      "priority": null,
-      "createdTime": "2026-01-15T05:29:00.000Z",
-      "lastEditedTime": "2026-01-28T02:13:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e9862e1-c059-81fa-8a70-d63c4237efab",
-      "title": "[neobank] 앱스토어 제출용 이미지 에셋 제작",
-      "status": "Done",
-      "startDate": "2026-01-20",
-      "endDate": "2026-01-23",
-      "assignee": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "reviewer": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "notionUrl": "https://www.notion.so/neobank-2e9862e1c05981fa8a70d63c4237efab",
-      "priority": null,
-      "createdTime": "2026-01-15T04:52:00.000Z",
-      "lastEditedTime": "2026-01-28T02:12:00.000Z",
       "epicId": null,
       "pingHistory": []
     },
@@ -10369,25 +11687,6 @@
       "pingHistory": []
     },
     {
-      "id": "2ee862e1-c059-803b-a2ff-f646133c7098",
-      "title": "4시 앱스트랙 미팅",
-      "status": "Done",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/4-2ee862e1c059803ba2fff646133c7098",
-      "priority": null,
-      "createdTime": "2026-01-20T01:31:00.000Z",
-      "lastEditedTime": "2026-01-22T07:51:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
       "id": "299862e1-c059-80a2-b1cf-de6f53cb878a",
       "title": "Cicada 계약 진행 ",
       "status": "Done",
@@ -10491,75 +11790,6 @@
       "pingHistory": []
     },
     {
-      "id": "2e2862e1-c059-81b5-ae0d-c633e25a3831",
-      "title": "[neobank] 수요조사 콘텐츠 제작: 달러 국채 투자",
-      "status": "Drop/Hold",
-      "startDate": "2026-01-19",
-      "endDate": "2026-01-21",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/neobank-2e2862e1c05981b5ae0dc633e25a3831",
-      "priority": null,
-      "createdTime": "2026-01-08T08:18:00.000Z",
-      "lastEditedTime": "2026-01-21T02:14:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e7862e1-c059-81b7-bcc9-c24c95f786d5",
-      "title": "[neobank] 금캐기 수요조사 - 설문 폼 제작 (Tally)",
-      "status": "Done",
-      "startDate": "2026-01-15",
-      "endDate": "2026-01-15",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/neobank-Tally-2e7862e1c05981b7bcc9c24c95f786d5",
-      "priority": null,
-      "createdTime": "2026-01-13T07:41:00.000Z",
-      "lastEditedTime": "2026-01-21T02:13:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e7862e1-c059-811b-9260-fe0f515fd55d",
-      "title": "[neobank] 금캐기 수요조사 - dub.co 링크 생성 (3개 채널)",
-      "status": "Done",
-      "startDate": "2026-01-14",
-      "endDate": "2026-01-16",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/neobank-dub-co-3-2e7862e1c059811b9260fe0f515fd55d",
-      "priority": null,
-      "createdTime": "2026-01-13T07:41:00.000Z",
-      "lastEditedTime": "2026-01-21T02:13:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
       "id": "2e3862e1-c059-809c-9263-cd30a5071918",
       "title": "[lair] airdrop, ICO, 투자, 인센티브로 시중에 풀린 LAIR 수량 분석",
       "status": "Done",
@@ -10575,25 +11805,6 @@
       "priority": null,
       "createdTime": "2026-01-09T05:56:00.000Z",
       "lastEditedTime": "2026-01-21T02:13:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e7862e1-c059-8169-96a7-ff25c619d63a",
-      "title": "[neobank] 금캐기 수요조사 - 블로거, 인스타 인플 조사",
-      "status": "Done",
-      "startDate": "2026-01-15",
-      "endDate": "2026-01-15",
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-2e7862e1c059816996a7ff25c619d63a",
-      "priority": null,
-      "createdTime": "2026-01-13T07:41:00.000Z",
-      "lastEditedTime": "2026-01-21T02:09:00.000Z",
       "epicId": null,
       "pingHistory": []
     },
@@ -10617,75 +11828,6 @@
       "priority": null,
       "createdTime": "2026-01-08T07:23:00.000Z",
       "lastEditedTime": "2026-01-21T02:09:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e2862e1-c059-8156-a134-e60c473afd75",
-      "title": "[neobank] 수요조사 실행: 달러로 금 캐기",
-      "status": "Not started",
-      "startDate": "2026-01-19",
-      "endDate": "2026-01-23",
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/neobank-2e2862e1c0598156a134e60c473afd75",
-      "priority": null,
-      "createdTime": "2026-01-08T07:23:00.000Z",
-      "lastEditedTime": "2026-01-19T06:20:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e7862e1-c059-81c7-85ce-fc60996f7153",
-      "title": "[neobank] 금캐기 수요조사 - 광고 계정 설정 (인스타)",
-      "status": "Drop/Hold",
-      "startDate": "2026-01-16",
-      "endDate": "2026-01-16",
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "notionUrl": "https://www.notion.so/neobank-2e7862e1c05981c785cefc60996f7153",
-      "priority": null,
-      "createdTime": "2026-01-13T07:41:00.000Z",
-      "lastEditedTime": "2026-01-19T01:13:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e9862e1-c059-81b4-8173-e77197cd77ab",
-      "title": "[neobank] MVP 개발: 푸시알림 기능",
-      "status": "Not started",
-      "startDate": "2026-02-07",
-      "endDate": "2026-02-13",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "notionUrl": "https://www.notion.so/neobank-MVP-2e9862e1c05981b48173e77197cd77ab",
-      "priority": null,
-      "createdTime": "2026-01-15T05:01:00.000Z",
-      "lastEditedTime": "2026-01-15T05:01:00.000Z",
       "epicId": null,
       "pingHistory": []
     },
@@ -10732,228 +11874,6 @@
       "priority": null,
       "createdTime": "2026-01-07T02:00:00.000Z",
       "lastEditedTime": "2026-01-15T01:46:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e2862e1-c059-8175-b7ad-d1f4b3a4eb1e",
-      "title": "[neobank] Mobile MVP 개발: 가스비 Paymaster 연동",
-      "status": "In progress",
-      "startDate": "2026-01-20",
-      "endDate": "2026-01-23",
-      "assignee": {
-        "id": "f11c3ca3-a653-4a0f-b88f-545e218e7a6d",
-        "name": "트롤",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/4b7086dc-e7ea-4aad-94fe-b06474e4b5bb/my-notion-face-customized.png"
-      },
-      "reviewer": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "notionUrl": "https://www.notion.so/neobank-Mobile-MVP-Paymaster-2e2862e1c0598175b7add1f4b3a4eb1e",
-      "priority": null,
-      "createdTime": "2026-01-08T06:48:00.000Z",
-      "lastEditedTime": "2026-01-15T01:33:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e3862e1-c059-80db-9d60-f3d331382d41",
-      "title": "[neobank] Lair Cash 모바일 앱 달러로 금 캐기 파일럿 버전 기획",
-      "status": "Done",
-      "startDate": "2026-01-15",
-      "endDate": "2026-01-15",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "notionUrl": "https://www.notion.so/neobank-Lair-Cash-2e3862e1c05980db9d60f3d331382d41",
-      "priority": null,
-      "createdTime": "2026-01-09T02:30:00.000Z",
-      "lastEditedTime": "2026-01-14T03:03:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e3862e1-c059-80bc-96e3-c88f27b4f4ec",
-      "title": "[neobank] Lair Cash 모바일 앱 지갑 가스비 paymaster 기능 기획",
-      "status": "Done",
-      "startDate": "2026-01-13",
-      "endDate": "2026-01-13",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "notionUrl": "https://www.notion.so/neobank-Lair-Cash-paymaster-2e3862e1c05980bc96e3c88f27b4f4ec",
-      "priority": null,
-      "createdTime": "2026-01-09T02:29:00.000Z",
-      "lastEditedTime": "2026-01-14T03:00:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e3862e1-c059-8017-b750-c8da0f4bd94b",
-      "title": "[neobank] Lair Cash 모바일 앱 지갑 생성 및 송금 기능 기획",
-      "status": "Done",
-      "startDate": "2026-01-12",
-      "endDate": "2026-01-12",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "notionUrl": "https://www.notion.so/neobank-Lair-Cash-2e3862e1c0598017b750c8da0f4bd94b",
-      "priority": null,
-      "createdTime": "2026-01-09T02:27:00.000Z",
-      "lastEditedTime": "2026-01-14T03:00:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e2862e1-c059-8157-8788-e05aceb4de5f",
-      "title": "[neobank] 앱 심사 관련 자문 및 가이드 문서화",
-      "status": "Done",
-      "startDate": "2026-01-09",
-      "endDate": "2026-01-10",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/neobank-2e2862e1c05981578788e05aceb4de5f",
-      "priority": null,
-      "createdTime": "2026-01-08T06:48:00.000Z",
-      "lastEditedTime": "2026-01-14T02:59:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e2862e1-c059-8043-beae-ef566eaa0e80",
-      "title": "[neobank] Lair Cash 앱 서비스 플랜 만들기",
-      "status": "Done",
-      "startDate": "2026-01-08",
-      "endDate": "2026-01-08",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "notionUrl": "https://www.notion.so/neobank-Lair-Cash-2e2862e1c0598043beaeef566eaa0e80",
-      "priority": "🔥🔥🔥🔥",
-      "createdTime": "2026-01-08T01:28:00.000Z",
-      "lastEditedTime": "2026-01-14T02:56:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2c5862e1-c059-8045-81fe-ef1c8bab78d7",
-      "title": "[neobank] 사전가입 캠페인 문의 이메일 답장",
-      "status": "Done",
-      "startDate": "2026-01-07",
-      "endDate": "2026-01-07",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-2c5862e1c059804581feef1c8bab78d7",
-      "priority": null,
-      "createdTime": "2025-12-10T02:48:00.000Z",
-      "lastEditedTime": "2026-01-14T02:56:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2df862e1-c059-80dc-b574-cba1994d42ed",
-      "title": "[neobank] 사전가입 종료 다음 스탭 결정",
-      "status": "Done",
-      "startDate": "2026-01-07",
-      "endDate": "2026-01-07",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-2df862e1c05980dcb574cba1994d42ed",
-      "priority": null,
-      "createdTime": "2026-01-05T01:29:00.000Z",
-      "lastEditedTime": "2026-01-14T02:56:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2df862e1-c059-808c-90d0-e9ef35cdcbc4",
-      "title": "[neobank] Lair Cash 모바일 앱 테스트 mvp 기획",
-      "status": "Done",
-      "startDate": "2026-01-05",
-      "endDate": "2026-01-06",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "notionUrl": "https://www.notion.so/neobank-Lair-Cash-mvp-2df862e1c059808c90d0e9ef35cdcbc4",
-      "priority": null,
-      "createdTime": "2026-01-05T01:10:00.000Z",
-      "lastEditedTime": "2026-01-14T02:56:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2da862e1-c059-80bf-ad62-cd2b631a7a1e",
-      "title": "레어캐시 Flutter 기반 모바일 앱 적합성 검증",
-      "status": "Done",
-      "startDate": "2026-01-05",
-      "endDate": "2026-01-09",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "notionUrl": "https://www.notion.so/Flutter-2da862e1c05980bfad62cd2b631a7a1e",
-      "priority": null,
-      "createdTime": "2025-12-31T01:36:00.000Z",
-      "lastEditedTime": "2026-01-14T02:55:00.000Z",
       "epicId": null,
       "pingHistory": []
     },
@@ -11038,29 +11958,6 @@
       "pingHistory": []
     },
     {
-      "id": "2e2862e1-c059-81fc-b02e-e7932512f8f9",
-      "title": "[neobank] 기존 사전가입 대시보드 종료 처리",
-      "status": "Done",
-      "startDate": "2026-01-09",
-      "endDate": "2026-01-10",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/neobank-2e2862e1c05981fcb02ee7932512f8f9",
-      "priority": null,
-      "createdTime": "2026-01-08T06:48:00.000Z",
-      "lastEditedTime": "2026-01-14T02:42:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
       "id": "2a7862e1-c059-808c-b994-eaca56e27f8e",
       "title": "[Lair] 레어 디코 인증봇 오류 수정",
       "status": "Done",
@@ -11084,75 +11981,6 @@
       "pingHistory": []
     },
     {
-      "id": "2e2862e1-c059-811b-af9e-c952f3ea4ad2",
-      "title": "[neobank] 수요조사 실행: 달러 국채 투자",
-      "status": "Not started",
-      "startDate": "2026-01-22",
-      "endDate": "2026-01-26",
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/neobank-2e2862e1c059811baf9ec952f3ea4ad2",
-      "priority": null,
-      "createdTime": "2026-01-08T07:23:00.000Z",
-      "lastEditedTime": "2026-01-13T07:49:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e2862e1-c059-8100-a076-fa2278377e0b",
-      "title": "[neobank] 수요조사 실행: 고래 포지션 알림",
-      "status": "Not started",
-      "startDate": "2026-01-26",
-      "endDate": "2026-01-30",
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/neobank-2e2862e1c0598100a076fa2278377e0b",
-      "priority": null,
-      "createdTime": "2026-01-08T07:23:00.000Z",
-      "lastEditedTime": "2026-01-13T07:49:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e2862e1-c059-81e3-971a-f18e2cb1c8e2",
-      "title": "[neobank] 수요조사 배포용 콘텐츠(이미지/카피) 제작",
-      "status": "Drop/Hold",
-      "startDate": "2026-01-09",
-      "endDate": "2026-01-13",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/neobank-2e2862e1c05981e3971af18e2cb1c8e2",
-      "priority": null,
-      "createdTime": "2026-01-08T06:48:00.000Z",
-      "lastEditedTime": "2026-01-13T07:44:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
       "id": "2c3862e1-c059-8023-8068-c6f410c46d4e",
       "title": "Cave DAO 포트폴리오사 단톡방 입장 관리",
       "status": "Done",
@@ -11168,94 +11996,6 @@
       "priority": null,
       "createdTime": "2025-12-08T05:12:00.000Z",
       "lastEditedTime": "2026-01-12T04:02:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2bd862e1-c059-8026-8cfd-cfe02801ba5f",
-      "title": "[neobank] 사전가입 대상자 뉴스레터 발송 방식 기획",
-      "status": "Drop/Hold",
-      "startDate": "2026-01-07",
-      "endDate": "2026-01-13",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "f11c3ca3-a653-4a0f-b88f-545e218e7a6d",
-        "name": "트롤",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/4b7086dc-e7ea-4aad-94fe-b06474e4b5bb/my-notion-face-customized.png"
-      },
-      "notionUrl": "https://www.notion.so/neobank-2bd862e1c05980268cfdcfe02801ba5f",
-      "priority": null,
-      "createdTime": "2025-12-02T05:14:00.000Z",
-      "lastEditedTime": "2026-01-09T00:59:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2df862e1-c059-8082-932f-c62b6cc587cf",
-      "title": "[neobank] 사전가입자 대상 리워드 발표",
-      "status": "Drop/Hold",
-      "startDate": "2026-01-05",
-      "endDate": "2026-01-09",
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-2df862e1c0598082932fc62b6cc587cf",
-      "priority": null,
-      "createdTime": "2026-01-05T01:27:00.000Z",
-      "lastEditedTime": "2026-01-08T08:24:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e2862e1-c059-81c3-b2c0-c598cd5b39c8",
-      "title": "[neobank] 디자인 라이브러리(시스템) 구축",
-      "status": "Drop/Hold",
-      "startDate": "2026-01-09",
-      "endDate": "2026-01-15",
-      "assignee": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "reviewer": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "notionUrl": "https://www.notion.so/neobank-2e2862e1c05981c3b2c0c598cd5b39c8",
-      "priority": null,
-      "createdTime": "2026-01-08T06:48:00.000Z",
-      "lastEditedTime": "2026-01-08T07:15:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e2862e1-c059-8105-9577-c0c2a0da6826",
-      "title": "[neobank] 수요조사 실행 및 채널별 결과 측정",
-      "status": "Drop/Hold",
-      "startDate": "2026-01-14",
-      "endDate": "2026-01-20",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/neobank-2e2862e1c05981059577c0c2a0da6826",
-      "priority": null,
-      "createdTime": "2026-01-08T06:48:00.000Z",
-      "lastEditedTime": "2026-01-08T06:48:00.000Z",
       "epicId": null,
       "pingHistory": []
     },
@@ -11463,25 +12203,6 @@
       "pingHistory": []
     },
     {
-      "id": "2ca862e1-c059-8069-bdac-e271b2eafb2d",
-      "title": "[neobank] 레어 캐쉬 사전가입 캠페인 결과 정리 및 분석",
-      "status": "Done",
-      "startDate": "2025-12-29",
-      "endDate": "2025-12-31",
-      "assignee": {
-        "id": "f11c3ca3-a653-4a0f-b88f-545e218e7a6d",
-        "name": "트롤",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/4b7086dc-e7ea-4aad-94fe-b06474e4b5bb/my-notion-face-customized.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-2ca862e1c0598069bdace271b2eafb2d",
-      "priority": null,
-      "createdTime": "2025-12-15T10:02:00.000Z",
-      "lastEditedTime": "2026-01-07T02:22:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
       "id": "2d8862e1-c059-8080-a1f0-f7f03ad757a0",
       "title": "[Lair][Somnia] 11월 비용 청구 인보이스 이메일 보내기",
       "status": "Done",
@@ -11543,151 +12264,6 @@
       "pingHistory": []
     },
     {
-      "id": "2c6862e1-c059-8024-af8c-c0f71ea8e1a7",
-      "title": "[neobank] 트윗 컨텐츠 반자동 생산 실행",
-      "status": "Done",
-      "startDate": "2025-12-11",
-      "endDate": "2025-12-19",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/neobank-2c6862e1c0598024af8cc0f71ea8e1a7",
-      "priority": null,
-      "createdTime": "2025-12-11T01:32:00.000Z",
-      "lastEditedTime": "2026-01-07T02:21:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2bc862e1-c059-8006-97ad-d6b294d19102",
-      "title": "[Neobank] Decard 제안 검토",
-      "status": "Drop/Hold",
-      "startDate": "2025-12-01",
-      "endDate": "2025-12-03",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Neobank-Decard-2bc862e1c059800697add6b294d19102",
-      "priority": null,
-      "createdTime": "2025-12-01T09:38:00.000Z",
-      "lastEditedTime": "2026-01-07T02:21:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "293862e1-c059-8007-af29-c9243031adc5",
-      "title": "[Neobank] 크립토 카드 시장 규모 조사",
-      "status": "Drop/Hold",
-      "startDate": "2025-11-27",
-      "endDate": "2025-11-28",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Neobank-293862e1c0598007af29c9243031adc5",
-      "priority": null,
-      "createdTime": "2025-10-21T02:26:00.000Z",
-      "lastEditedTime": "2026-01-07T02:21:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "293862e1-c059-8017-87e1-f13e61edd054",
-      "title": "[neobank] stablecoin vault 서비스 조사",
-      "status": "Drop/Hold",
-      "startDate": "2025-11-27",
-      "endDate": "2025-11-28",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/neobank-stablecoin-vault-293862e1c059801787e1f13e61edd054",
-      "priority": null,
-      "createdTime": "2025-10-21T02:34:00.000Z",
-      "lastEditedTime": "2026-01-07T02:20:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2b8862e1-c059-80b8-986d-eeab1485789b",
-      "title": "[Neobank] Rain 카드 제안서 검토",
-      "status": "Drop/Hold",
-      "startDate": "2025-11-27",
-      "endDate": "2025-11-27",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Neobank-Rain-2b8862e1c05980b8986deeab1485789b",
-      "priority": null,
-      "createdTime": "2025-11-27T01:29:00.000Z",
-      "lastEditedTime": "2026-01-07T02:20:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2b0862e1-c059-800d-b1de-d511cc0d2d69",
-      "title": "[neobank] Interlace.money 계약 추진",
-      "status": "Drop/Hold",
-      "startDate": "2025-11-19",
-      "endDate": "2025-11-28",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-Interlace-money-2b0862e1c059800db1ded511cc0d2d69",
-      "priority": null,
-      "createdTime": "2025-11-19T01:39:00.000Z",
-      "lastEditedTime": "2026-01-07T02:20:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2b1862e1-c059-8024-b416-c2f4d0be5fc8",
-      "title": "기존 레어에서 하이라이트 홍보 카드 추가 및 홍보 메뉴 추가",
-      "status": "Done",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "notionUrl": "https://www.notion.so/2b1862e1c0598024b416c2f4d0be5fc8",
-      "priority": null,
-      "createdTime": "2025-11-20T01:48:00.000Z",
-      "lastEditedTime": "2026-01-07T02:19:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
       "id": "2da862e1-c059-80c1-8817-c405c2375ad4",
       "title": "사전가입 제한 기능 추가",
       "status": "Done",
@@ -11707,67 +12283,6 @@
       "priority": null,
       "createdTime": "2025-12-31T01:32:00.000Z",
       "lastEditedTime": "2026-01-07T02:18:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2d9862e1-c059-80eb-9a83-c1e03c997233",
-      "title": "레어캐시 모바일 앱 개발 리서치",
-      "status": "Done",
-      "startDate": "2025-12-30",
-      "endDate": "2025-12-30",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/2d9862e1c05980eb9a83c1e03c997233",
-      "priority": null,
-      "createdTime": "2025-12-30T08:54:00.000Z",
-      "lastEditedTime": "2026-01-07T02:17:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2cd862e1-c059-8008-97dd-c0234d6f5538",
-      "title": "[neobank] 레어캐쉬 사전가입 독스 한글버전 만들기",
-      "status": "Done",
-      "startDate": "2025-12-18",
-      "endDate": "2025-12-19",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-2cd862e1c059800897ddc0234d6f5538",
-      "priority": null,
-      "createdTime": "2025-12-18T08:08:00.000Z",
-      "lastEditedTime": "2026-01-07T02:17:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2c7862e1-c059-8064-91c1-d814751d754a",
-      "title": "[neobank] 사전가입 캠페인 인스타 광고 가설 템플릿",
-      "status": "Done",
-      "startDate": "2025-12-12",
-      "endDate": "2025-12-12",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/neobank-2c7862e1c059806491c1d814751d754a",
-      "priority": null,
-      "createdTime": "2025-12-12T05:41:00.000Z",
-      "lastEditedTime": "2026-01-07T02:17:00.000Z",
       "epicId": null,
       "pingHistory": []
     },
@@ -11810,29 +12325,6 @@
       "pingHistory": []
     },
     {
-      "id": "2b1862e1-c059-80ed-bd3a-e4ee644d1361",
-      "title": "GA4 유저 전환율 체크",
-      "status": "Done",
-      "startDate": "2025-11-25",
-      "endDate": "2025-12-30",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "notionUrl": "https://www.notion.so/GA4-2b1862e1c05980edbd3ae4ee644d1361",
-      "priority": null,
-      "createdTime": "2025-11-20T01:48:00.000Z",
-      "lastEditedTime": "2026-01-07T02:16:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
       "id": "293862e1-c059-806f-83fd-e12d327e6a5b",
       "title": "[neobank] 크립토 카드 백앤드 분석",
       "status": "Drop/Hold",
@@ -11848,48 +12340,6 @@
       "priority": null,
       "createdTime": "2025-10-21T02:51:00.000Z",
       "lastEditedTime": "2026-01-07T02:16:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2be862e1-c059-8051-882e-ddfa80b30be4",
-      "title": "[neobank] 트윗 컨텐츠 자동 생산 방법 기획, 리서치",
-      "status": "Done",
-      "startDate": "2025-12-03",
-      "endDate": "2025-12-10",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/neobank-2be862e1c0598051882eddfa80b30be4",
-      "priority": null,
-      "createdTime": "2025-12-03T02:22:00.000Z",
-      "lastEditedTime": "2026-01-07T02:15:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2d9862e1-c059-804e-82e1-dc1ec6882aac",
-      "title": "[neobank] 사전가입 종료 안내 UI 추가",
-      "status": "Done",
-      "startDate": "2025-12-30",
-      "endDate": "2025-12-31",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-UI-2d9862e1c059804e82e1dc1ec6882aac",
-      "priority": null,
-      "createdTime": "2025-12-30T09:01:00.000Z",
-      "lastEditedTime": "2026-01-07T02:11:00.000Z",
       "epicId": null,
       "pingHistory": []
     },
@@ -11955,67 +12405,6 @@
       "pingHistory": []
     },
     {
-      "id": "2c5862e1-c059-802f-a6d0-d2c55f80f08d",
-      "title": "[neobank] 사전가입 x 아티클 배포",
-      "status": "Done",
-      "startDate": "2025-12-10",
-      "endDate": "2025-12-10",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-x-2c5862e1c059802fa6d0d2c55f80f08d",
-      "priority": null,
-      "createdTime": "2025-12-10T02:40:00.000Z",
-      "lastEditedTime": "2026-01-07T02:03:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2c0862e1-c059-805d-889f-f023977d9af0",
-      "title": "[neobank] 사전가입 캠페인 인스타 광고 집행 및 리포트 ",
-      "status": "Done",
-      "startDate": "2025-12-11",
-      "endDate": "2025-12-15",
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "notionUrl": "https://www.notion.so/neobank-2c0862e1c059805d889ff023977d9af0",
-      "priority": null,
-      "createdTime": "2025-12-05T06:16:00.000Z",
-      "lastEditedTime": "2026-01-07T02:03:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2c5862e1-c059-8090-b517-d590ee6379e5",
-      "title": "[neobank] 사전가입 캠페인 김버그 유투브 홍보",
-      "status": "Done",
-      "startDate": "2025-12-12",
-      "endDate": "2025-12-12",
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-2c5862e1c0598090b517d590ee6379e5",
-      "priority": null,
-      "createdTime": "2025-12-10T02:42:00.000Z",
-      "lastEditedTime": "2026-01-07T02:03:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
       "id": "2cd862e1-c059-805b-ab88-f8f2993b5bf5",
       "title": "[lair][somnia] 솜니아, 레어 캐쉬 12월 오프라인 행사 회고 ",
       "status": "Done",
@@ -12054,48 +12443,6 @@
       "priority": null,
       "createdTime": "2025-12-30T01:31:00.000Z",
       "lastEditedTime": "2026-01-05T01:31:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2c0862e1-c059-8084-a3aa-fbccff923ce8",
-      "title": "[neobank] 사전가입 캠페인 인스타 광고 게시글 컨텐츠 작성",
-      "status": "Done",
-      "startDate": "2025-12-16",
-      "endDate": "2025-12-18",
-      "assignee": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-2c0862e1c0598084a3aafbccff923ce8",
-      "priority": null,
-      "createdTime": "2025-12-05T06:15:00.000Z",
-      "lastEditedTime": "2026-01-02T01:46:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2cd862e1-c059-80a8-a7bc-e2c4e676894f",
-      "title": "[neobank] 사전가입 인스타 광고 통계 기록",
-      "status": "Drop/Hold",
-      "startDate": "2025-12-18",
-      "endDate": "2025-12-31",
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "notionUrl": "https://www.notion.so/neobank-2cd862e1c05980a8a7bce2c4e676894f",
-      "priority": null,
-      "createdTime": "2025-12-18T01:42:00.000Z",
-      "lastEditedTime": "2026-01-02T01:45:00.000Z",
       "epicId": null,
       "pingHistory": []
     },
@@ -12268,48 +12615,6 @@
       "priority": null,
       "createdTime": "2025-12-26T10:04:00.000Z",
       "lastEditedTime": "2025-12-29T10:05:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2cd862e1-c059-8018-8e33-f704b0f2c18b",
-      "title": "[neobank] 랜딩페이지 CTA 근처 경품 강조 툴팁 만들기",
-      "status": "Done",
-      "startDate": "2025-12-18",
-      "endDate": "2025-12-19",
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "notionUrl": "https://www.notion.so/neobank-CTA-2cd862e1c05980188e33f704b0f2c18b",
-      "priority": null,
-      "createdTime": "2025-12-18T07:58:00.000Z",
-      "lastEditedTime": "2025-12-29T01:34:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2cd862e1-c059-8038-8c40-e4ada57260e3",
-      "title": "[neobank] 랜딩페이지 부분 한글화",
-      "status": "Done",
-      "startDate": "2025-12-18",
-      "endDate": "2025-12-19",
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-2cd862e1c05980388c40e4ada57260e3",
-      "priority": null,
-      "createdTime": "2025-12-18T08:00:00.000Z",
-      "lastEditedTime": "2025-12-29T01:34:00.000Z",
       "epicId": null,
       "pingHistory": []
     },
@@ -12536,44 +12841,6 @@
       "pingHistory": []
     },
     {
-      "id": "2cd862e1-c059-80fb-949c-de77e4241bcc",
-      "title": "[neobank] 대쉬보드 페이지 포인트 표기 방법 통일",
-      "status": "Done",
-      "startDate": "2025-12-18",
-      "endDate": "2025-12-19",
-      "assignee": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-2cd862e1c05980fb949cde77e4241bcc",
-      "priority": null,
-      "createdTime": "2025-12-18T08:06:00.000Z",
-      "lastEditedTime": "2025-12-19T10:35:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2cd862e1-c059-8024-8212-d817ecabb6fc",
-      "title": "[neobank] 대쉬보드 페이지 기버웨이 배너 변경",
-      "status": "Done",
-      "startDate": "2025-12-18",
-      "endDate": "2025-12-19",
-      "assignee": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-2cd862e1c05980248212d817ecabb6fc",
-      "priority": null,
-      "createdTime": "2025-12-18T08:05:00.000Z",
-      "lastEditedTime": "2025-12-19T10:34:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
       "id": "2cb862e1-c059-801a-a588-f169f3d1ffc8",
       "title": "[neobank] 인스타 스토리 광고 이미지 C,D 유형 제작",
       "status": "Done",
@@ -12597,29 +12864,6 @@
       "pingHistory": []
     },
     {
-      "id": "2ca862e1-c059-80f3-8be3-d9b361d1fa93",
-      "title": "[neobank] 인스타 스토리 광고 이미지 A,B 유형 제작",
-      "status": "Done",
-      "startDate": "2025-12-15",
-      "endDate": "2025-12-15",
-      "assignee": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/neobank-A-B-2ca862e1c05980f38be3d9b361d1fa93",
-      "priority": null,
-      "createdTime": "2025-12-15T02:47:00.000Z",
-      "lastEditedTime": "2025-12-19T10:15:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
       "id": "29a862e1-c059-801f-9f2e-ceaf2f64dfce",
       "title": "[lair][somnia] 1차 검증인 agreement 계약 체결",
       "status": "Done",
@@ -12635,44 +12879,6 @@
       "priority": null,
       "createdTime": "2025-10-28T00:46:00.000Z",
       "lastEditedTime": "2025-12-19T08:33:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2cd862e1-c059-809b-ab22-c569342d76ad",
-      "title": "[neobank] 광고 채널로 유입되는 한국 웹2 유저 타겟 사전가입 전략 개선안 논의 ",
-      "status": "Done",
-      "startDate": "2025-12-18",
-      "endDate": "2025-12-18",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-2-2cd862e1c059809bab22c569342d76ad",
-      "priority": null,
-      "createdTime": "2025-12-18T01:21:00.000Z",
-      "lastEditedTime": "2025-12-19T07:08:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2c6862e1-c059-80e3-b041-ed39aa47f7e5",
-      "title": "[neobank] 인스타 광고 레퍼런스 서치",
-      "status": "Done",
-      "startDate": "2025-12-11",
-      "endDate": "2025-12-11",
-      "assignee": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-2c6862e1c05980e3b041ed39aa47f7e5",
-      "priority": null,
-      "createdTime": "2025-12-11T01:31:00.000Z",
-      "lastEditedTime": "2025-12-19T07:08:00.000Z",
       "epicId": null,
       "pingHistory": []
     },
@@ -12769,25 +12975,6 @@
       "pingHistory": []
     },
     {
-      "id": "2c5862e1-c059-80b6-ac49-cd3183f1697b",
-      "title": "[neobank] 사전가입 캠페인 레어 기존 채널 배포",
-      "status": "Done",
-      "startDate": "2025-12-10",
-      "endDate": "2025-12-10",
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-2c5862e1c05980b6ac49cd3183f1697b",
-      "priority": null,
-      "createdTime": "2025-12-10T02:41:00.000Z",
-      "lastEditedTime": "2025-12-19T01:32:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
       "id": "2cc862e1-c059-805c-bbdc-dce909edfead",
       "title": "12.17 커뮤니티 업무 체크",
       "status": "Done",
@@ -12825,29 +13012,6 @@
       "notionUrl": "https://www.notion.so/26-2c3862e1c05980648bececc012267d7a",
       "priority": null,
       "createdTime": "2025-12-08T01:30:00.000Z",
-      "lastEditedTime": "2025-12-18T01:32:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2c0862e1-c059-805e-a81e-fe5c8539c3e2",
-      "title": "[neobank] 사전가입 캠페인 광고용 인스타 계정 셋업",
-      "status": "Done",
-      "startDate": "2025-12-05",
-      "endDate": "2025-12-09",
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "notionUrl": "https://www.notion.so/neobank-2c0862e1c059805ea81efe5c8539c3e2",
-      "priority": null,
-      "createdTime": "2025-12-05T06:14:00.000Z",
       "lastEditedTime": "2025-12-18T01:32:00.000Z",
       "epicId": null,
       "pingHistory": []
@@ -12918,25 +13082,6 @@
       "pingHistory": []
     },
     {
-      "id": "2ca862e1-c059-80b1-b3c2-c965d7769037",
-      "title": "[neobank] 인스타 광고 회의 251215",
-      "status": "Done",
-      "startDate": "2025-12-15",
-      "endDate": "2025-12-15",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-251215-2ca862e1c05980b1b3c2c965d7769037",
-      "priority": null,
-      "createdTime": "2025-12-15T06:08:00.000Z",
-      "lastEditedTime": "2025-12-15T08:19:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
       "id": "2ca862e1-c059-80c4-8156-e174f8e0cfe1",
       "title": "사이드바 비로그인시 맴버쉽 레벨 혜택 + 포인트 수 섹션 숨기",
       "status": "Done",
@@ -12956,44 +13101,6 @@
       "priority": null,
       "createdTime": "2025-12-15T02:32:00.000Z",
       "lastEditedTime": "2025-12-15T02:55:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2c4862e1-c059-8042-9847-dba967f76c38",
-      "title": "[neobank] 사전가입 페이지 종합 QA",
-      "status": "Done",
-      "startDate": "2025-12-09",
-      "endDate": "2025-12-09",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-QA-2c4862e1c05980429847dba967f76c38",
-      "priority": null,
-      "createdTime": "2025-12-09T05:38:00.000Z",
-      "lastEditedTime": "2025-12-15T02:04:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2be862e1-c059-8061-a265-e9bf011ad648",
-      "title": "[Neobank] 슬로건 확정",
-      "status": "Done",
-      "startDate": "2025-12-08",
-      "endDate": "2025-12-10",
-      "assignee": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Neobank-2be862e1c0598061a265e9bf011ad648",
-      "priority": null,
-      "createdTime": "2025-12-03T02:51:00.000Z",
-      "lastEditedTime": "2025-12-15T02:04:00.000Z",
       "epicId": null,
       "pingHistory": []
     },
@@ -13105,25 +13212,6 @@
       "pingHistory": []
     },
     {
-      "id": "2c0862e1-c059-8057-95a2-f35e89bdb18e",
-      "title": "[neobank] 사전가입 캠페인 배포 채널 설정 및 셋업",
-      "status": "Done",
-      "startDate": "2025-12-05",
-      "endDate": "2025-12-05",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-2c0862e1c059805795a2f35e89bdb18e",
-      "priority": null,
-      "createdTime": "2025-12-05T01:09:00.000Z",
-      "lastEditedTime": "2025-12-10T02:17:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
       "id": "2c0862e1-c059-804b-abde-f473c3541ec8",
       "title": "[neobank] 사전조사 캠페인 안내 docs 작성",
       "status": "Done",
@@ -13138,48 +13226,6 @@
       "notionUrl": "https://www.notion.so/neobank-docs-2c0862e1c059804babdef473c3541ec8",
       "priority": null,
       "createdTime": "2025-12-05T01:42:00.000Z",
-      "lastEditedTime": "2025-12-10T02:17:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2c0862e1-c059-80eb-8d71-f32dffa4df69",
-      "title": "[neobank] 사전조사 캠페인 안내 블로그 작성",
-      "status": "Done",
-      "startDate": "2025-12-05",
-      "endDate": "2025-12-08",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-2c0862e1c05980eb8d71f32dffa4df69",
-      "priority": null,
-      "createdTime": "2025-12-05T01:47:00.000Z",
-      "lastEditedTime": "2025-12-10T02:17:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2bf862e1-c059-805c-ab4d-d0908d8638fb",
-      "title": "[HR] Lair 마케터 희망사항 작성",
-      "status": "Done",
-      "startDate": "2025-12-04",
-      "endDate": "2025-12-04",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/HR-Lair-2bf862e1c059805cab4dd0908d8638fb",
-      "priority": null,
-      "createdTime": "2025-12-04T08:04:00.000Z",
       "lastEditedTime": "2025-12-10T02:17:00.000Z",
       "epicId": null,
       "pingHistory": []
@@ -19626,52 +19672,6 @@
       "priority": null,
       "createdTime": "2025-07-17T07:24:00.000Z",
       "lastEditedTime": "2025-09-09T15:56:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "254862e1-c059-80d2-8c4d-cfc911737587",
-      "title": "[Lair] 중국 미디어 PANews 최종 금액",
-      "status": "Drop/Hold",
-      "startDate": "2025-08-19",
-      "endDate": "2025-09-05",
-      "assignee": {
-        "id": "182d872b-594c-81a9-b8fc-00023fbbcba7",
-        "name": "키키",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a575f183-f2e5-4a18-8fe9-f48d1af7f97b/1111.jpeg"
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/Lair-PANews-254862e1c05980d28c4dcfc911737587",
-      "priority": null,
-      "createdTime": "2025-08-19T01:59:00.000Z",
-      "lastEditedTime": "2025-09-09T15:55:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "255862e1-c059-803a-8d84-ffd107b0240a",
-      "title": "[Lair] LRT 배포 이미지 (템플릿)",
-      "status": "Done",
-      "startDate": "2025-08-22",
-      "endDate": "2025-09-05",
-      "assignee": {
-        "id": "182d872b-594c-81a9-b8fc-00023fbbcba7",
-        "name": "키키",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a575f183-f2e5-4a18-8fe9-f48d1af7f97b/1111.jpeg"
-      },
-      "reviewer": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "notionUrl": "https://www.notion.so/Lair-LRT-255862e1c059803a8d84ffd107b0240a",
-      "priority": null,
-      "createdTime": "2025-08-20T01:19:00.000Z",
-      "lastEditedTime": "2025-09-09T01:40:00.000Z",
       "epicId": null,
       "pingHistory": []
     }
@@ -28134,5 +28134,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-02-09T02:01:37.817Z"
+  "syncedAt": "2026-02-09T04:34:03.506Z"
 }
