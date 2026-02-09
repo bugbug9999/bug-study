@@ -9329,7 +9329,160 @@
       "notionUrl": "https://www.notion.so/Lair-UI-216862e1c059809791dae296d2e9fd6a",
       "priority": null,
       "createdTime": "2025-06-18T06:38:00.000Z",
-      "lastEditedTime": "2026-02-09T21:19:00.000Z",
+      "lastEditedTime": "2026-02-09T21:52:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "21d862e1-c059-8046-8e27-ce47a72addbc",
+      "title": "프론트 코드 통합(injective <> kaia <> bera)",
+      "status": "Done",
+      "startDate": "2025-06-23",
+      "endDate": "2025-06-25",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/injective-kaia-bera-21d862e1c05980468e27ce47a72addbc",
+      "priority": null,
+      "createdTime": "2025-06-25T01:25:00.000Z",
+      "lastEditedTime": "2026-02-09T21:52:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "21c862e1-c059-80e6-9806-f5960f6eec56",
+      "title": "[Lair] 2025-06_ avs 바이백 공지",
+      "status": "Drop/Hold",
+      "startDate": "2025-06-27",
+      "endDate": "2025-06-27",
+      "assignee": {
+        "id": "182d872b-594c-81a9-b8fc-00023fbbcba7",
+        "name": "키키",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a575f183-f2e5-4a18-8fe9-f48d1af7f97b/1111.jpeg"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/Lair-2025-06_-avs-21c862e1c05980e69806f5960f6eec56",
+      "priority": null,
+      "createdTime": "2025-06-24T15:49:00.000Z",
+      "lastEditedTime": "2026-02-09T21:52:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "21a862e1-c059-80a1-98d2-ff710e7fd52d",
+      "title": "[Cave] Ethcc 정산",
+      "status": "Done",
+      "startDate": "2025-06-23",
+      "endDate": "2025-07-23",
+      "assignee": {
+        "id": "182d872b-594c-81a9-b8fc-00023fbbcba7",
+        "name": "키키",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a575f183-f2e5-4a18-8fe9-f48d1af7f97b/1111.jpeg"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/Cave-Ethcc-21a862e1c05980a198d2ff710e7fd52d",
+      "priority": null,
+      "createdTime": "2025-06-22T16:09:00.000Z",
+      "lastEditedTime": "2026-02-09T21:52:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "218862e1-c059-809c-a30c-df1e2b643ee2",
+      "title": "[Lair] 인젝티브 테넷 디자인 QA",
+      "status": "Done",
+      "startDate": "2025-06-20",
+      "endDate": "2025-06-20",
+      "assignee": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Lair-QA-218862e1c059809ca30cdf1e2b643ee2",
+      "priority": null,
+      "createdTime": "2025-06-20T01:31:00.000Z",
+      "lastEditedTime": "2026-02-09T21:52:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "218862e1-c059-8071-8420-f06642473da5",
+      "title": "[Lair] AVS 2차 구글폼 공유",
+      "status": "Done",
+      "startDate": "2025-06-20",
+      "endDate": "2025-06-20",
+      "assignee": {
+        "id": "182d872b-594c-81a9-b8fc-00023fbbcba7",
+        "name": "키키",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a575f183-f2e5-4a18-8fe9-f48d1af7f97b/1111.jpeg"
+      },
+      "reviewer": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "notionUrl": "https://www.notion.so/Lair-AVS-2-218862e1c05980718420f06642473da5",
+      "priority": null,
+      "createdTime": "2025-06-20T01:44:00.000Z",
+      "lastEditedTime": "2026-02-09T21:51:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "217862e1-c059-8010-bc3e-c4a378992038",
+      "title": "[Lair][INJ] AWS 테스트 환경 구성",
+      "status": "Done",
+      "startDate": "2025-06-19",
+      "endDate": "2025-06-19",
+      "assignee": {
+        "id": "f11c3ca3-a653-4a0f-b88f-545e218e7a6d",
+        "name": "트롤",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/4b7086dc-e7ea-4aad-94fe-b06474e4b5bb/my-notion-face-customized.png"
+      },
+      "reviewer": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "notionUrl": "https://www.notion.so/Lair-INJ-AWS-217862e1c0598010bc3ec4a378992038",
+      "priority": null,
+      "createdTime": "2025-06-19T01:34:00.000Z",
+      "lastEditedTime": "2026-02-09T21:51:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "216862e1-c059-80bd-bce7-ff05a16cf60b",
+      "title": "[Lair] 베라 행사 스폰서 돈 받을 지갑 만들기",
+      "status": "Done",
+      "startDate": "2025-06-18",
+      "endDate": "2025-06-18",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": {
+        "id": "182d872b-594c-81a9-b8fc-00023fbbcba7",
+        "name": "키키",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a575f183-f2e5-4a18-8fe9-f48d1af7f97b/1111.jpeg"
+      },
+      "notionUrl": "https://www.notion.so/Lair-216862e1c05980bdbce7ff05a16cf60b",
+      "priority": null,
+      "createdTime": "2025-06-18T06:37:00.000Z",
+      "lastEditedTime": "2026-02-09T21:51:00.000Z",
       "epicId": null,
       "pingHistory": []
     },
@@ -20104,155 +20257,6 @@
       "lastEditedTime": "2026-02-09T15:37:00.000Z",
       "epicId": null,
       "pingHistory": []
-    },
-    {
-      "id": "130862e1-c059-8014-8f47-eefb5edef3fb",
-      "title": "USD 표시 KLAY → KAIA 변경",
-      "status": "Done",
-      "startDate": "2024-10-31",
-      "endDate": "2024-10-31",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "notionUrl": "https://www.notion.so/USD-KLAY-KAIA-130862e1c05980148f47eefb5edef3fb",
-      "priority": null,
-      "createdTime": "2024-10-31T10:09:00.000Z",
-      "lastEditedTime": "2026-02-09T15:36:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "12bc002e-55ef-4f82-b21b-a2918001a1f3",
-      "title": "[디자인] LSD 디자인 분석 2차 - UX 관점",
-      "status": "Done",
-      "startDate": "2024-05-09",
-      "endDate": "2024-05-15",
-      "assignee": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/LSD-2-UX-12bc002e55ef4f82b21ba2918001a1f3",
-      "priority": null,
-      "createdTime": "2024-05-07T02:09:00.000Z",
-      "lastEditedTime": "2026-02-09T15:36:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "12a862e1-c059-80f3-9e4d-eaf60aaed3fe",
-      "title": "[디자인] rstKAIA 마케팅 이미지 제작",
-      "status": "Done",
-      "startDate": "2024-10-29",
-      "endDate": "2024-11-04",
-      "assignee": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/rstKAIA-12a862e1c05980f39e4deaf60aaed3fe",
-      "priority": null,
-      "createdTime": "2024-10-25T07:41:00.000Z",
-      "lastEditedTime": "2026-02-09T15:35:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "12a862e1-c059-803e-bf00-dd8ae1c2e2ff",
-      "title": "[QA] Lair 디자인 통합 QA",
-      "status": "Done",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "reviewer": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "notionUrl": "https://www.notion.so/QA-Lair-QA-12a862e1c059803ebf00dd8ae1c2e2ff",
-      "priority": null,
-      "createdTime": "2024-10-25T06:48:00.000Z",
-      "lastEditedTime": "2026-02-09T15:35:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "12a862e1-c059-800a-9490-d240404f4ccc",
-      "title": "[IR] 생태계 연관도 추가",
-      "status": "Done",
-      "startDate": "2024-10-25",
-      "endDate": "2024-10-25",
-      "assignee": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/IR-12a862e1c059800a9490d240404f4ccc",
-      "priority": null,
-      "createdTime": "2024-10-25T01:33:00.000Z",
-      "lastEditedTime": "2026-02-09T15:35:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "129862e1-c059-80f8-94a8-fd0bc2fe2f9b",
-      "title": "태국 Devcon 숙소 예약",
-      "status": "Done",
-      "startDate": "2024-10-24",
-      "endDate": "2024-10-24",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Devcon-129862e1c05980f894a8fd0bc2fe2f9b",
-      "priority": null,
-      "createdTime": "2024-10-24T05:42:00.000Z",
-      "lastEditedTime": "2026-02-09T15:35:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "129862e1-c059-80f4-88c7-d6eda6c2740f",
-      "title": "시즌2 페이스2 리워드 풀 설정",
-      "status": "Done",
-      "startDate": "2024-10-24",
-      "endDate": "2024-10-24",
-      "assignee": {
-        "id": "f11c3ca3-a653-4a0f-b88f-545e218e7a6d",
-        "name": "트롤",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/4b7086dc-e7ea-4aad-94fe-b06474e4b5bb/my-notion-face-customized.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/2-2-129862e1c05980f488c7d6eda6c2740f",
-      "priority": null,
-      "createdTime": "2024-10-24T07:23:00.000Z",
-      "lastEditedTime": "2026-02-09T15:35:00.000Z",
-      "epicId": null,
-      "pingHistory": []
     }
   ],
   "docs": [
@@ -28943,5 +28947,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-02-09T21:37:26.090Z"
+  "syncedAt": "2026-02-09T22:33:59.686Z"
 }
