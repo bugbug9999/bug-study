@@ -9311,6 +9311,29 @@
   ],
   "tasks": [
     {
+      "id": "2e2862e1-c059-81f6-a336-f12174067ed5",
+      "title": "[neobank] 디자인 라이브러리 3주차: 코어 컴포넌트 구축",
+      "status": "Review",
+      "startDate": "2026-02-02",
+      "endDate": "2026-02-09",
+      "assignee": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-3-2e2862e1c05981f6a336f12174067ed5",
+      "priority": null,
+      "createdTime": "2026-01-08T07:23:00.000Z",
+      "lastEditedTime": "2026-02-10T14:27:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
       "id": "2b9862e1-c059-80ec-b945-e02d461178f8",
       "title": "[Lair][Somnia] B Harvest 검증인 계약 체결",
       "status": "Done",
@@ -19705,48 +19728,21 @@
       "lastEditedTime": "2026-02-10T02:34:00.000Z",
       "epicId": null,
       "pingHistory": []
-    },
-    {
-      "id": "1c917455-d0d7-4e4e-b244-2737c0247af4",
-      "title": "[SNS] 230307~13 인스타그램 포스팅",
-      "status": "Done",
-      "startDate": "2023-03-07",
-      "endDate": "2023-03-13",
-      "assignee": {
-        "id": "a33df9e3-329b-4001-8f52-1c6fb42089ca",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/SNS-230307-13-1c917455d0d74e4eb2442737c0247af4",
-      "priority": null,
-      "createdTime": "2023-03-13T05:50:00.000Z",
-      "lastEditedTime": "2026-02-10T02:34:00.000Z",
-      "epicId": null,
-      "pingHistory": []
     }
   ],
   "docs": [
     {
-      "id": "302862e1-c059-8135-b6d6-fa6195d6095d",
-      "title": "📅 배틀패스 및 런칭 일정 점검 (2026-02-09)",
+      "id": "2fe862e1-c059-8050-844a-df676c0f21b6",
+      "title": "라이브러리 3주차 작업 기록",
       "status": "To Do",
-      "startDate": "2026-02-09",
-      "endDate": "2026-02-09",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
+      "startDate": null,
+      "endDate": null,
+      "assignee": null,
       "reviewer": null,
-      "notionUrl": "https://www.notion.so/2026-02-09-302862e1c0598135b6d6fa6195d6095d",
-      "priority": "Stablecoin App",
-      "createdTime": "2026-02-09T06:05:00.000Z",
-      "lastEditedTime": "2026-02-10T05:06:00.000Z"
+      "notionUrl": "https://www.notion.so/3-2fe862e1c0598050844adf676c0f21b6",
+      "priority": null,
+      "createdTime": "2026-02-05T10:46:00.000Z",
+      "lastEditedTime": "2026-02-10T14:29:00.000Z"
     },
     {
       "id": "2df862e1-c059-80ae-acab-d4cb12cd876d",
@@ -19763,7 +19759,24 @@
       "notionUrl": "https://www.notion.so/Lair-2df862e1c05980aeacabd4cb12cd876d",
       "priority": "Lair LST",
       "createdTime": "2026-01-05T12:05:00.000Z",
-      "lastEditedTime": "2026-02-09T15:51:00.000Z"
+      "lastEditedTime": "2026-02-10T14:27:00.000Z"
+    },
+    {
+      "id": "302862e1-c059-8135-b6d6-fa6195d6095d",
+      "title": "📅 배틀패스 및 런칭 일정 점검 (2026-02-09)",
+      "status": "To Do",
+      "startDate": "2026-02-09",
+      "endDate": "2026-02-09",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/2026-02-09-302862e1c0598135b6d6fa6195d6095d",
+      "priority": "Stablecoin App",
+      "createdTime": "2026-02-09T06:05:00.000Z",
+      "lastEditedTime": "2026-02-10T05:06:00.000Z"
     },
     {
       "id": "2fd862e1-c059-81db-94d0-dee4069cd01c",
@@ -28312,23 +28325,6 @@
       "priority": "Lair LST",
       "createdTime": "2025-01-15T06:54:00.000Z",
       "lastEditedTime": "2026-02-09T10:06:00.000Z"
-    },
-    {
-      "id": "17c862e1-c059-8034-8cf3-c34d4ab765f2",
-      "title": "[Line Game] 계정 정보",
-      "status": "To Do",
-      "startDate": "2025-01-15",
-      "endDate": "2025-01-15",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Line-Game-17c862e1c05980348cf3c34d4ab765f2",
-      "priority": "Lair LST",
-      "createdTime": "2025-01-15T01:35:00.000Z",
-      "lastEditedTime": "2026-02-09T10:06:00.000Z"
     }
   ],
   "members": [
@@ -28428,5 +28424,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-02-10T13:07:56.779Z"
+  "syncedAt": "2026-02-10T14:56:38.319Z"
 }
