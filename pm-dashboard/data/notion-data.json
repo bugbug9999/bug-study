@@ -1,6 +1,23 @@
 {
   "epics": [
     {
+      "id": "2dc862e1-c059-801a-aed8-e6113f1cf921",
+      "title": "[neobank] Lair Cash 모바일 앱 mvp 기획",
+      "status": "Done",
+      "startDate": "2026-01-02",
+      "endDate": "2026-01-16",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-Lair-Cash-mvp-2dc862e1c059801aaed8e6113f1cf921",
+      "priority": "nomal",
+      "createdTime": "2026-01-02T01:46:00.000Z",
+      "lastEditedTime": "2026-02-11T02:01:00.000Z"
+    },
+    {
       "id": "182862e1-c059-8029-8561-cc41bd788b50",
       "title": "LAIR 토큰 런칭",
       "status": "Done",
@@ -5556,23 +5573,6 @@
       "lastEditedTime": "2026-02-09T13:16:00.000Z"
     },
     {
-      "id": "2dc862e1-c059-801a-aed8-e6113f1cf921",
-      "title": "[neobank] Lair Cash 모바일 앱 mvp 기획",
-      "status": "Review",
-      "startDate": "2026-01-02",
-      "endDate": "2026-01-16",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-Lair-Cash-mvp-2dc862e1c059801aaed8e6113f1cf921",
-      "priority": "nomal",
-      "createdTime": "2026-01-02T01:46:00.000Z",
-      "lastEditedTime": "2026-02-09T13:16:00.000Z"
-    },
-    {
       "id": "2da862e1-c059-80e8-afb0-f44108d4f8ab",
       "title": "[neobank] Lair Cash 모바일 앱 개발 테스트",
       "status": "Done",
@@ -9310,6 +9310,117 @@
     }
   ],
   "tasks": [
+    {
+      "id": "2e9862e1-c059-8156-97af-de033d25f649",
+      "title": "[neobank] MVP 개발",
+      "status": "In progress",
+      "startDate": "2026-02-05",
+      "endDate": "2026-02-12",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-MVP-2e9862e1c059815697afde033d25f649",
+      "priority": null,
+      "createdTime": "2026-01-15T05:01:00.000Z",
+      "lastEditedTime": "2026-02-11T02:02:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e9862e1-c059-81b4-8173-e77197cd77ab",
+      "title": "[neobank] MVP 개발: 푸시알림 기능",
+      "status": "Drop/Hold",
+      "startDate": "2026-02-07",
+      "endDate": "2026-02-13",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-MVP-2e9862e1c05981b48173e77197cd77ab",
+      "priority": null,
+      "createdTime": "2026-01-15T05:01:00.000Z",
+      "lastEditedTime": "2026-02-11T01:59:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e2862e1-c059-81ed-834f-f74a46d47385",
+      "title": "[neobank] 부가기능 사용량 측정 기준 수립",
+      "status": "In progress",
+      "startDate": "2026-02-05",
+      "endDate": "2026-02-11",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/neobank-2e2862e1c05981ed834ff74a46d47385",
+      "priority": null,
+      "createdTime": "2026-01-08T06:48:00.000Z",
+      "lastEditedTime": "2026-02-11T01:56:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e2862e1-c059-8162-b06c-fe6d7a44cb69",
+      "title": "[neobank] 앱 출시 알림 이메일 발송",
+      "status": "Not started",
+      "startDate": "2026-02-04",
+      "endDate": "2026-02-20",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/neobank-2e2862e1c0598162b06cfe6d7a44cb69",
+      "priority": null,
+      "createdTime": "2026-01-08T06:48:00.000Z",
+      "lastEditedTime": "2026-02-11T01:56:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2f1862e1-c059-800a-b747-f8a803004d7e",
+      "title": "AI로 미팅록 에이전트, 노션 db 속성 재분류",
+      "status": "Review",
+      "startDate": "2026-01-23",
+      "endDate": "2026-02-10",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/AI-db-2f1862e1c059800ab747f8a803004d7e",
+      "priority": null,
+      "createdTime": "2026-01-23T01:31:00.000Z",
+      "lastEditedTime": "2026-02-11T01:56:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
     {
       "id": "2e2862e1-c059-81f6-a336-f12174067ed5",
       "title": "[neobank] 디자인 라이브러리 3주차: 코어 컴포넌트 구축",
@@ -19629,108 +19740,26 @@
       "lastEditedTime": "2026-02-10T02:34:00.000Z",
       "epicId": null,
       "pingHistory": []
-    },
-    {
-      "id": "1ce862e1-c059-80fd-930d-f8e82680733c",
-      "title": "투자자 RCPS<>$LAIR 후속조치 절차 안내",
-      "status": "Done",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "a45f1fed-37cb-4336-a99e-4ba81254fc73",
-        "name": "마이 ",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/71ae885f-15d7-46a5-8755-573c7ccd9e0c/%E1%84%87%E1%85%A5%E1%84%80%E1%85%B3%E1%84%89%E1%85%B5%E1%84%90%E1%85%B5_%E1%84%8B%E1%85%A1%E1%84%87%E1%85%A1%E1%84%90%E1%85%A1.png"
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/RCPS-LAIR-1ce862e1c05980fd930df8e82680733c",
-      "priority": null,
-      "createdTime": "2025-04-07T06:25:00.000Z",
-      "lastEditedTime": "2026-02-10T02:34:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "1ce862e1-c059-803e-8ac5-f9d8d6e3d009",
-      "title": "투표자 리스트 추가",
-      "status": "Done",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/1ce862e1c059803e8ac5f9d8d6e3d009",
-      "priority": null,
-      "createdTime": "2025-04-07T12:17:00.000Z",
-      "lastEditedTime": "2026-02-10T02:34:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "1ca8ff84-5a62-480b-8929-f524b6e3611c",
-      "title": "Notion 운영 전반 리뷰 및 아이디어 제시",
-      "status": "Done",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "a45f1fed-37cb-4336-a99e-4ba81254fc73",
-        "name": "마이 ",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/71ae885f-15d7-46a5-8755-573c7ccd9e0c/%E1%84%87%E1%85%A5%E1%84%80%E1%85%B3%E1%84%89%E1%85%B5%E1%84%90%E1%85%B5_%E1%84%8B%E1%85%A1%E1%84%87%E1%85%A1%E1%84%90%E1%85%A1.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Notion-1ca8ff845a62480b8929f524b6e3611c",
-      "priority": null,
-      "createdTime": "2024-03-10T06:57:00.000Z",
-      "lastEditedTime": "2026-02-10T02:34:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "1ca862e1-c059-80fb-93e0-c370b15a0afb",
-      "title": "베라체인 PoL 스터디",
-      "status": "Done",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/PoL-1ca862e1c05980fb93e0c370b15a0afb",
-      "priority": null,
-      "createdTime": "2025-04-03T01:32:00.000Z",
-      "lastEditedTime": "2026-02-10T02:34:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "1c9862e1-c059-802c-996e-ca5e4c5413ea",
-      "title": "버그홀 엔젤투자자 RCPS<>토큰 상환 구조 파악 w/디센트",
-      "status": "Done",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "a45f1fed-37cb-4336-a99e-4ba81254fc73",
-        "name": "마이 ",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/71ae885f-15d7-46a5-8755-573c7ccd9e0c/%E1%84%87%E1%85%A5%E1%84%80%E1%85%B3%E1%84%89%E1%85%B5%E1%84%90%E1%85%B5_%E1%84%8B%E1%85%A1%E1%84%87%E1%85%A1%E1%84%90%E1%85%A1.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/RCPS-w-1c9862e1c059802c996eca5e4c5413ea",
-      "priority": null,
-      "createdTime": "2025-04-02T02:28:00.000Z",
-      "lastEditedTime": "2026-02-10T02:34:00.000Z",
-      "epicId": null,
-      "pingHistory": []
     }
   ],
   "docs": [
+    {
+      "id": "2e8862e1-c059-807d-978c-caa8779103d8",
+      "title": "[회의록]주간리뷰 2026년 통합",
+      "status": "To Do",
+      "startDate": "2026-01-07",
+      "endDate": "2026-01-07",
+      "assignee": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/2026-2e8862e1c059807d978ccaa8779103d8",
+      "priority": "Lair LST",
+      "createdTime": "2026-01-14T01:55:00.000Z",
+      "lastEditedTime": "2026-02-11T01:58:00.000Z"
+    },
     {
       "id": "2fe862e1-c059-8050-844a-df676c0f21b6",
       "title": "라이브러리 3주차 작업 기록",
@@ -23049,23 +23078,6 @@
       "notionUrl": "https://www.notion.so/260115-Greg-2e9862e1c05980e398f7dd96748d2cc5",
       "priority": "Lair LST",
       "createdTime": "2026-01-15T08:46:00.000Z",
-      "lastEditedTime": "2026-02-09T10:52:00.000Z"
-    },
-    {
-      "id": "2e8862e1-c059-807d-978c-caa8779103d8",
-      "title": "[회의록]주간리뷰 2026년 통합",
-      "status": "To Do",
-      "startDate": "2026-01-07",
-      "endDate": "2026-01-07",
-      "assignee": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/2026-2e8862e1c059807d978ccaa8779103d8",
-      "priority": "Lair LST",
-      "createdTime": "2026-01-14T01:55:00.000Z",
       "lastEditedTime": "2026-02-09T10:52:00.000Z"
     },
     {
@@ -28424,5 +28436,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-02-10T23:36:50.050Z"
+  "syncedAt": "2026-02-11T02:06:31.469Z"
 }
