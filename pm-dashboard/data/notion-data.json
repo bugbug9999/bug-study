@@ -19748,6 +19748,40 @@
   ],
   "docs": [
     {
+      "id": "010ff65b-f72c-4094-846e-edf0415be8d2",
+      "title": "230823 BPBF 주간회의 ",
+      "status": "To Do",
+      "startDate": "2023-08-02",
+      "endDate": "2023-08-02",
+      "assignee": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/230823-BPBF-010ff65bf72c4094846eedf0415be8d2",
+      "priority": "Games",
+      "createdTime": "2023-08-22T14:07:00.000Z",
+      "lastEditedTime": "2026-02-11T06:10:00.000Z"
+    },
+    {
+      "id": "304862e1-c059-81c6-876f-ee845ec2eb86",
+      "title": "📅 2026-02-11 주간 미팅 — Lair Cash MVP 출시 전략, Somnia 대응",
+      "status": "To Do",
+      "startDate": "2026-02-11",
+      "endDate": "2026-02-11",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/2026-02-11-Lair-Cash-MVP-Somnia-304862e1c05981c6876fee845ec2eb86",
+      "priority": "Stablecoin App",
+      "createdTime": "2026-02-11T05:54:00.000Z",
+      "lastEditedTime": "2026-02-11T05:56:00.000Z"
+    },
+    {
       "id": "2e8862e1-c059-807d-978c-caa8779103d8",
       "title": "[회의록]주간리뷰 2026년 통합",
       "status": "To Do",
@@ -28307,40 +28341,6 @@
       "priority": "Lair LST",
       "createdTime": "2025-01-16T16:00:00.000Z",
       "lastEditedTime": "2026-02-09T10:06:00.000Z"
-    },
-    {
-      "id": "17d862e1-c059-8023-9c15-c0e0d31fb4ff",
-      "title": "[Lair Game] Terms and conditions",
-      "status": "To Do",
-      "startDate": "2025-01-16",
-      "endDate": "2025-01-16",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Lair-Game-Terms-and-conditions-17d862e1c05980239c15c0e0d31fb4ff",
-      "priority": "Lair LST",
-      "createdTime": "2025-01-16T11:41:00.000Z",
-      "lastEditedTime": "2026-02-09T10:06:00.000Z"
-    },
-    {
-      "id": "17d862e1-c059-8020-8077-c1512bcc8023",
-      "title": "[Lair] AVS 계약서 필수 항목",
-      "status": "To Do",
-      "startDate": "2025-01-16",
-      "endDate": "2025-01-16",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Lair-AVS-17d862e1c05980208077c1512bcc8023",
-      "priority": "Lair LST",
-      "createdTime": "2025-01-16T02:27:00.000Z",
-      "lastEditedTime": "2026-02-09T10:06:00.000Z"
     }
   ],
   "members": [
@@ -28440,5 +28440,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-02-11T05:01:39.494Z"
+  "syncedAt": "2026-02-11T06:58:34.648Z"
 }
