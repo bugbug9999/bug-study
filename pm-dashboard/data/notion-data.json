@@ -19748,6 +19748,23 @@
   ],
   "docs": [
     {
+      "id": "304862e1-c059-81c0-81eb-d7232dfe3606",
+      "title": "🔍 2026-02-11 BugFile 프로젝트 회고 — 과거 가설·결과·교훈 분석",
+      "status": "To Do",
+      "startDate": "2026-02-11",
+      "endDate": "2026-02-11",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/2026-02-11-BugFile-304862e1c05981c081ebd7232dfe3606",
+      "priority": "Stablecoin App",
+      "createdTime": "2026-02-11T22:26:00.000Z",
+      "lastEditedTime": "2026-02-11T22:26:00.000Z"
+    },
+    {
       "id": "010ff65b-f72c-4094-846e-edf0415be8d2",
       "title": "230823 BPBF 주간회의 ",
       "status": "To Do",
@@ -28324,23 +28341,6 @@
       "priority": "Lair LST",
       "createdTime": "2025-01-17T07:17:00.000Z",
       "lastEditedTime": "2026-02-09T10:06:00.000Z"
-    },
-    {
-      "id": "17d862e1-c059-80f6-90d8-c02d5e184f63",
-      "title": "[Lair] Injective call 250117",
-      "status": "To Do",
-      "startDate": "2025-01-17",
-      "endDate": "2025-01-17",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Lair-Injective-call-250117-17d862e1c05980f690d8c02d5e184f63",
-      "priority": "Lair LST",
-      "createdTime": "2025-01-16T16:00:00.000Z",
-      "lastEditedTime": "2026-02-09T10:06:00.000Z"
     }
   ],
   "members": [
@@ -28440,5 +28440,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-02-11T21:32:11.399Z"
+  "syncedAt": "2026-02-11T22:27:28.681Z"
 }
