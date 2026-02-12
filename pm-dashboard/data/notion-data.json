@@ -9311,6 +9311,29 @@
   ],
   "tasks": [
     {
+      "id": "305862e1-c059-80b8-a73c-e9929fd7ca1a",
+      "title": "솜니아 LST 비용 청구 2단계 - 법적 서류 송부",
+      "status": "In progress",
+      "startDate": "2026-02-12",
+      "endDate": "2026-02-13",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/LST-2-305862e1c05980b8a73ce9929fd7ca1a",
+      "priority": null,
+      "createdTime": "2026-02-12T01:28:00.000Z",
+      "lastEditedTime": "2026-02-12T08:37:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
       "id": "303862e1-c059-80c7-b504-e0eca54b1c38",
       "title": "[Lair Mobile] MVP QA 에이전트 개발 → QA 진행",
       "status": "In progress",
@@ -9329,7 +9352,7 @@
       "notionUrl": "https://www.notion.so/Lair-Mobile-MVP-QA-QA-303862e1c05980c7b504e0eca54b1c38",
       "priority": null,
       "createdTime": "2026-02-10T01:12:00.000Z",
-      "lastEditedTime": "2026-02-12T07:29:00.000Z",
+      "lastEditedTime": "2026-02-12T08:03:00.000Z",
       "epicId": null,
       "pingHistory": []
     },
@@ -9418,29 +9441,6 @@
       "priority": null,
       "createdTime": "2026-01-08T06:48:00.000Z",
       "lastEditedTime": "2026-02-12T01:38:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "305862e1-c059-80b8-a73c-e9929fd7ca1a",
-      "title": "솜니아 LST 비용 청구 2단계 - LST 서비스 운영 종료 통보",
-      "status": "In progress",
-      "startDate": "2026-02-12",
-      "endDate": "2026-02-13",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/LST-2-LST-305862e1c05980b8a73ce9929fd7ca1a",
-      "priority": null,
-      "createdTime": "2026-02-12T01:28:00.000Z",
-      "lastEditedTime": "2026-02-12T01:32:00.000Z",
       "epicId": null,
       "pingHistory": []
     },
@@ -19760,6 +19760,23 @@
   ],
   "docs": [
     {
+      "id": "2df862e1-c059-80ae-acab-d4cb12cd876d",
+      "title": "[Lair] 린 라이브러리 작업 문서",
+      "status": "To Do",
+      "startDate": "2026-01-05",
+      "endDate": "2026-01-05",
+      "assignee": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Lair-2df862e1c05980aeacabd4cb12cd876d",
+      "priority": "Lair LST",
+      "createdTime": "2026-01-05T12:05:00.000Z",
+      "lastEditedTime": "2026-02-12T08:21:00.000Z"
+    },
+    {
       "id": "305862e1-c059-80d9-9327-c7e7c917c47b",
       "title": "[QA] Lair Mobile MVP 백앤드 관련 QA 기록",
       "status": "To Do",
@@ -19774,7 +19791,7 @@
       "notionUrl": "https://www.notion.so/QA-Lair-Mobile-MVP-QA-305862e1c05980d99327c7e7c917c47b",
       "priority": "Stablecoin App",
       "createdTime": "2026-02-12T07:31:00.000Z",
-      "lastEditedTime": "2026-02-12T07:32:00.000Z"
+      "lastEditedTime": "2026-02-12T08:04:00.000Z"
     },
     {
       "id": "305862e1-c059-8020-a406-d0584dd0dcfa",
@@ -19924,23 +19941,6 @@
       "priority": null,
       "createdTime": "2026-02-05T10:46:00.000Z",
       "lastEditedTime": "2026-02-10T14:29:00.000Z"
-    },
-    {
-      "id": "2df862e1-c059-80ae-acab-d4cb12cd876d",
-      "title": "[Lair] 린 라이브러리 작업 문서",
-      "status": "To Do",
-      "startDate": "2026-01-05",
-      "endDate": "2026-01-05",
-      "assignee": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Lair-2df862e1c05980aeacabd4cb12cd876d",
-      "priority": "Lair LST",
-      "createdTime": "2026-01-05T12:05:00.000Z",
-      "lastEditedTime": "2026-02-10T14:27:00.000Z"
     },
     {
       "id": "302862e1-c059-8135-b6d6-fa6195d6095d",
@@ -28452,5 +28452,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-02-12T07:51:03.702Z"
+  "syncedAt": "2026-02-12T08:42:55.541Z"
 }
