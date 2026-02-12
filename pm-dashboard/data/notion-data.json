@@ -9315,6 +9315,48 @@
   ],
   "tasks": [
     {
+      "id": "305862e1-c059-8011-9d52-c789be6087a6",
+      "title": "[neobank] 앱 스크린샷 업데이트",
+      "status": "Not started",
+      "startDate": "2026-02-12",
+      "endDate": "2026-02-12",
+      "assignee": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-305862e1c05980119d52c789be6087a6",
+      "priority": null,
+      "createdTime": "2026-02-12T02:55:00.000Z",
+      "lastEditedTime": "2026-02-12T03:00:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "305862e1-c059-8049-a700-e293cc769dda",
+      "title": "2/11 회의록 공유 ",
+      "status": "In progress",
+      "startDate": null,
+      "endDate": null,
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/2-11-305862e1c0598049a700e293cc769dda",
+      "priority": null,
+      "createdTime": "2026-02-12T01:14:00.000Z",
+      "lastEditedTime": "2026-02-12T02:27:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
       "id": "2e2862e1-c059-81ed-834f-f74a46d47385",
       "title": "[neobank] 레어 모바일 MVP 사용량 측정 기준 수립",
       "status": "In progress",
@@ -9398,25 +9440,6 @@
       "notionUrl": "https://www.notion.so/305862e1c05980009f2cc049e066d07e",
       "priority": null,
       "createdTime": "2026-02-12T01:15:00.000Z",
-      "lastEditedTime": "2026-02-12T01:15:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "305862e1-c059-8049-a700-e293cc769dda",
-      "title": "2/11 회의록 공유 ",
-      "status": "In progress",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/2-11-305862e1c0598049a700e293cc769dda",
-      "priority": null,
-      "createdTime": "2026-02-12T01:14:00.000Z",
       "lastEditedTime": "2026-02-12T01:15:00.000Z",
       "epicId": null,
       "pingHistory": []
@@ -19733,28 +19756,43 @@
       "lastEditedTime": "2026-02-10T02:35:00.000Z",
       "epicId": null,
       "pingHistory": []
-    },
+    }
+  ],
+  "docs": [
     {
-      "id": "1ed862e1-c059-8095-9a53-ebc33b1626d8",
-      "title": "팁스 중간체크 ",
-      "status": "Done",
-      "startDate": null,
-      "endDate": null,
+      "id": "305862e1-c059-8020-a406-d0584dd0dcfa",
+      "title": "[회의록] 260211 AI 실무 적용 후 문제점 회고 ",
+      "status": "To Do",
+      "startDate": "2026-02-11",
+      "endDate": "2026-02-11",
       "assignee": {
         "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
         "name": "버그",
         "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
       },
       "reviewer": null,
-      "notionUrl": "https://www.notion.so/1ed862e1c05980959a53ebc33b1626d8",
-      "priority": null,
-      "createdTime": "2025-05-08T01:36:00.000Z",
-      "lastEditedTime": "2026-02-10T02:34:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    }
-  ],
-  "docs": [
+      "notionUrl": "https://www.notion.so/260211-AI-305862e1c0598020a406d0584dd0dcfa",
+      "priority": "Team AI",
+      "createdTime": "2026-02-12T02:21:00.000Z",
+      "lastEditedTime": "2026-02-12T02:28:00.000Z"
+    },
+    {
+      "id": "305862e1-c059-808b-b215-d48a019d6cbb",
+      "title": "[회의록] 260211 회사정보평가 헤드헌팅 플랫폼 ",
+      "status": "To Do",
+      "startDate": "2026-02-11",
+      "endDate": "2026-02-11",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/260211-305862e1c059808bb215d48a019d6cbb",
+      "priority": "AI App",
+      "createdTime": "2026-02-12T02:27:00.000Z",
+      "lastEditedTime": "2026-02-12T02:28:00.000Z"
+    },
     {
       "id": "304862e1-c059-81c0-81eb-d7232dfe3606",
       "title": "🔍 2026-02-11 BugFile 프로젝트 회고 — 과거 가설·결과·교훈 분석",
@@ -28315,40 +28353,6 @@
       "priority": "Lair LST",
       "createdTime": "2025-01-20T02:37:00.000Z",
       "lastEditedTime": "2026-02-09T10:07:00.000Z"
-    },
-    {
-      "id": "17e862e1-c059-80fe-9f2a-d4631e244d96",
-      "title": "[Lair] AVS proposal",
-      "status": "To Do",
-      "startDate": "2025-01-17",
-      "endDate": "2025-01-17",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Lair-AVS-proposal-17e862e1c05980fe9f2ad4631e244d96",
-      "priority": "Lair LST",
-      "createdTime": "2025-01-17T07:10:00.000Z",
-      "lastEditedTime": "2026-02-09T10:07:00.000Z"
-    },
-    {
-      "id": "17e862e1-c059-809b-a789-c4d2e17424a5",
-      "title": "[Lair] Restaking AVS 계약서 초안",
-      "status": "To Do",
-      "startDate": "2025-01-17",
-      "endDate": "2025-01-17",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Lair-Restaking-AVS-17e862e1c059809ba789c4d2e17424a5",
-      "priority": "Lair LST",
-      "createdTime": "2025-01-17T07:17:00.000Z",
-      "lastEditedTime": "2026-02-09T10:06:00.000Z"
     }
   ],
   "members": [
@@ -28448,5 +28452,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-02-12T02:00:00.857Z"
+  "syncedAt": "2026-02-12T04:30:36.190Z"
 }
