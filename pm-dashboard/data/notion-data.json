@@ -1,6 +1,23 @@
 {
   "epics": [
     {
+      "id": "305862e1-c059-80cb-848b-dfa01fbbd586",
+      "title": "[Neobank] Line Unify 스테이블 코인 볼트 사업 개발",
+      "status": "In progress",
+      "startDate": "2026-02-12",
+      "endDate": "2026-02-20",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Neobank-Line-Unify-305862e1c05980cb848bdfa01fbbd586",
+      "priority": null,
+      "createdTime": "2026-02-12T05:38:00.000Z",
+      "lastEditedTime": "2026-02-12T05:39:00.000Z"
+    },
+    {
       "id": "2e8862e1-c059-80e5-8a13-e11995ac480d",
       "title": "[neobank] 유튜브 제작 ",
       "status": "Drop/Hold",
@@ -9290,30 +9307,32 @@
       "priority": "urgent",
       "createdTime": "2023-03-16T14:00:00.000Z",
       "lastEditedTime": "2026-02-09T11:17:00.000Z"
-    },
+    }
+  ],
+  "tasks": [
     {
-      "id": "d62edcab-dac9-4736-a536-518a7105a983",
-      "title": "[BP] 5월 버그폴리 운영",
-      "status": "Done",
-      "startDate": "2023-05-04",
-      "endDate": "2023-05-31",
+      "id": "305862e1-c059-81a1-8d9c-f41ba28dd9c7",
+      "title": "[Neobank] Lair Stable Vault 원페이저 제작",
+      "status": "Review",
+      "startDate": "2026-02-12",
+      "endDate": "2026-02-12",
       "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
         "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
         "name": "버그",
         "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
       },
-      "reviewer": {
-        "id": "474ad6ee-8bfe-4e1e-9b34-f77d366e88da",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "notionUrl": "https://www.notion.so/BP-5-d62edcabdac94736a536518a7105a983",
+      "notionUrl": "https://www.notion.so/Neobank-Lair-Stable-Vault-305862e1c05981a18d9cf41ba28dd9c7",
       "priority": null,
-      "createdTime": "2023-05-04T05:19:00.000Z",
-      "lastEditedTime": "2026-02-09T11:17:00.000Z"
-    }
-  ],
-  "tasks": [
+      "createdTime": "2026-02-12T05:43:00.000Z",
+      "lastEditedTime": "2026-02-12T05:45:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
     {
       "id": "305862e1-c059-8011-9d52-c789be6087a6",
       "title": "[neobank] 앱 스크린샷 업데이트",
@@ -19737,25 +19756,6 @@
       "lastEditedTime": "2026-02-10T02:35:00.000Z",
       "epicId": null,
       "pingHistory": []
-    },
-    {
-      "id": "1ed862e1-c059-80cd-bb3e-feea8f9559ec",
-      "title": "cavedao 마이형 요청 금액 지급 ",
-      "status": "Done",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/cavedao-1ed862e1c05980cdbb3efeea8f9559ec",
-      "priority": null,
-      "createdTime": "2025-05-08T01:35:00.000Z",
-      "lastEditedTime": "2026-02-10T02:35:00.000Z",
-      "epicId": null,
-      "pingHistory": []
     }
   ],
   "docs": [
@@ -28452,5 +28452,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-02-12T04:30:36.190Z"
+  "syncedAt": "2026-02-12T06:03:29.855Z"
 }
