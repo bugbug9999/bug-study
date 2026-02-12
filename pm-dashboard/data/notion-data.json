@@ -9311,10 +9311,10 @@
   ],
   "tasks": [
     {
-      "id": "305862e1-c059-81a1-8d9c-f41ba28dd9c7",
-      "title": "[Neobank] Lair Stable Vault 원페이저 제작",
-      "status": "Review",
-      "startDate": "2026-02-12",
+      "id": "303862e1-c059-80c7-b504-e0eca54b1c38",
+      "title": "[Lair Mobile] MVP QA 에이전트 개발 → QA 진행",
+      "status": "In progress",
+      "startDate": "2026-02-10",
       "endDate": "2026-02-12",
       "assignee": {
         "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
@@ -9322,14 +9322,14 @@
         "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
       },
       "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
       },
-      "notionUrl": "https://www.notion.so/Neobank-Lair-Stable-Vault-305862e1c05981a18d9cf41ba28dd9c7",
+      "notionUrl": "https://www.notion.so/Lair-Mobile-MVP-QA-QA-303862e1c05980c7b504e0eca54b1c38",
       "priority": null,
-      "createdTime": "2026-02-12T05:43:00.000Z",
-      "lastEditedTime": "2026-02-12T05:45:00.000Z",
+      "createdTime": "2026-02-10T01:12:00.000Z",
+      "lastEditedTime": "2026-02-12T07:29:00.000Z",
       "epicId": null,
       "pingHistory": []
     },
@@ -9352,7 +9352,30 @@
       "notionUrl": "https://www.notion.so/neobank-305862e1c05980119d52c789be6087a6",
       "priority": null,
       "createdTime": "2026-02-12T02:55:00.000Z",
-      "lastEditedTime": "2026-02-12T03:00:00.000Z",
+      "lastEditedTime": "2026-02-12T06:45:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "305862e1-c059-81a1-8d9c-f41ba28dd9c7",
+      "title": "[Neobank] Lair Stable Vault 원페이저 제작",
+      "status": "Review",
+      "startDate": "2026-02-12",
+      "endDate": "2026-02-12",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/Neobank-Lair-Stable-Vault-305862e1c05981a18d9cf41ba28dd9c7",
+      "priority": null,
+      "createdTime": "2026-02-12T05:43:00.000Z",
+      "lastEditedTime": "2026-02-12T05:45:00.000Z",
       "epicId": null,
       "pingHistory": []
     },
@@ -9418,29 +9441,6 @@
       "priority": null,
       "createdTime": "2026-02-12T01:28:00.000Z",
       "lastEditedTime": "2026-02-12T01:32:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "303862e1-c059-80c7-b504-e0eca54b1c38",
-      "title": "[Lair Mobile] MVP QA 에이전트 개발 → QA 진행",
-      "status": "In progress",
-      "startDate": "2026-02-10",
-      "endDate": "2026-02-12",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "notionUrl": "https://www.notion.so/Lair-Mobile-MVP-QA-QA-303862e1c05980c7b504e0eca54b1c38",
-      "priority": null,
-      "createdTime": "2026-02-10T01:12:00.000Z",
-      "lastEditedTime": "2026-02-12T01:28:00.000Z",
       "epicId": null,
       "pingHistory": []
     },
@@ -19760,6 +19760,23 @@
   ],
   "docs": [
     {
+      "id": "305862e1-c059-80d9-9327-c7e7c917c47b",
+      "title": "[QA] Lair Mobile MVP 백앤드 관련 QA 기록",
+      "status": "To Do",
+      "startDate": "2026-02-12",
+      "endDate": "2026-02-12",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/QA-Lair-Mobile-MVP-QA-305862e1c05980d99327c7e7c917c47b",
+      "priority": "Stablecoin App",
+      "createdTime": "2026-02-12T07:31:00.000Z",
+      "lastEditedTime": "2026-02-12T07:32:00.000Z"
+    },
+    {
       "id": "305862e1-c059-8020-a406-d0584dd0dcfa",
       "title": "[회의록] 260211 AI 실무 적용 후 문제점 회고 ",
       "status": "To Do",
@@ -28336,23 +28353,6 @@
       "priority": "Lair LST",
       "createdTime": "2025-01-20T09:52:00.000Z",
       "lastEditedTime": "2026-02-09T10:07:00.000Z"
-    },
-    {
-      "id": "181862e1-c059-8065-ab98-ea46828b2715",
-      "title": "[Lair] 2/13 한국 행사 미디어팀 제안서",
-      "status": "To Do",
-      "startDate": "2025-01-20",
-      "endDate": "2025-02-13",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Lair-2-13-181862e1c0598065ab98ea46828b2715",
-      "priority": "Lair LST",
-      "createdTime": "2025-01-20T02:37:00.000Z",
-      "lastEditedTime": "2026-02-09T10:07:00.000Z"
     }
   ],
   "members": [
@@ -28452,5 +28452,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-02-12T06:03:29.855Z"
+  "syncedAt": "2026-02-12T07:51:03.702Z"
 }
