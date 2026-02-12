@@ -19760,6 +19760,23 @@
   ],
   "docs": [
     {
+      "id": "305862e1-c059-80d9-9327-c7e7c917c47b",
+      "title": "[QA] Lair Mobile MVP 백앤드 관련 QA 기록",
+      "status": "To Do",
+      "startDate": "2026-02-12",
+      "endDate": "2026-02-12",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/QA-Lair-Mobile-MVP-QA-305862e1c05980d99327c7e7c917c47b",
+      "priority": "Stablecoin App",
+      "createdTime": "2026-02-12T07:31:00.000Z",
+      "lastEditedTime": "2026-02-12T09:08:00.000Z"
+    },
+    {
       "id": "2df862e1-c059-80ae-acab-d4cb12cd876d",
       "title": "[Lair] 린 라이브러리 작업 문서",
       "status": "To Do",
@@ -19775,23 +19792,6 @@
       "priority": "Lair LST",
       "createdTime": "2026-01-05T12:05:00.000Z",
       "lastEditedTime": "2026-02-12T08:21:00.000Z"
-    },
-    {
-      "id": "305862e1-c059-80d9-9327-c7e7c917c47b",
-      "title": "[QA] Lair Mobile MVP 백앤드 관련 QA 기록",
-      "status": "To Do",
-      "startDate": "2026-02-12",
-      "endDate": "2026-02-12",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/QA-Lair-Mobile-MVP-QA-305862e1c05980d99327c7e7c917c47b",
-      "priority": "Stablecoin App",
-      "createdTime": "2026-02-12T07:31:00.000Z",
-      "lastEditedTime": "2026-02-12T08:04:00.000Z"
     },
     {
       "id": "305862e1-c059-8020-a406-d0584dd0dcfa",
@@ -28452,5 +28452,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-02-12T08:42:55.541Z"
+  "syncedAt": "2026-02-12T09:47:04.074Z"
 }
