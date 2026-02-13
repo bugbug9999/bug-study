@@ -9311,6 +9311,29 @@
   ],
   "tasks": [
     {
+      "id": "305862e1-c059-8011-9d52-c789be6087a6",
+      "title": "[neobank] 앱 스크린샷 업데이트",
+      "status": "Review",
+      "startDate": "2026-02-12",
+      "endDate": "2026-02-12",
+      "assignee": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-305862e1c05980119d52c789be6087a6",
+      "priority": null,
+      "createdTime": "2026-02-12T02:55:00.000Z",
+      "lastEditedTime": "2026-02-13T09:44:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
       "id": "303862e1-c059-80c7-b504-e0eca54b1c38",
       "title": "[Lair Mobile] MVP QA 에이전트 개발 → QA 진행",
       "status": "In progress",
@@ -9479,29 +9502,6 @@
       "priority": null,
       "createdTime": "2026-02-12T01:28:00.000Z",
       "lastEditedTime": "2026-02-13T01:20:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "305862e1-c059-8011-9d52-c789be6087a6",
-      "title": "[neobank] 앱 스크린샷 업데이트",
-      "status": "Not started",
-      "startDate": "2026-02-12",
-      "endDate": "2026-02-12",
-      "assignee": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "reviewer": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "notionUrl": "https://www.notion.so/neobank-305862e1c05980119d52c789be6087a6",
-      "priority": null,
-      "createdTime": "2026-02-12T02:55:00.000Z",
-      "lastEditedTime": "2026-02-12T06:45:00.000Z",
       "epicId": null,
       "pingHistory": []
     },
@@ -28460,5 +28460,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-02-13T09:41:54.096Z"
+  "syncedAt": "2026-02-13T10:37:37.390Z"
 }
