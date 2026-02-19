@@ -9311,6 +9311,132 @@
   ],
   "tasks": [
     {
+      "id": "306862e1-c059-8052-a1b3-e316930a4c3b",
+      "title": "[Lair Mobile] iOS, Android 배포",
+      "status": "In progress",
+      "startDate": "2026-02-13",
+      "endDate": "2026-02-13",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/Lair-Mobile-iOS-Android-306862e1c0598052a1b3e316930a4c3b",
+      "priority": null,
+      "createdTime": "2026-02-13T01:31:00.000Z",
+      "lastEditedTime": "2026-02-19T01:33:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "306862e1-c059-8067-8eb0-c49c755f26d5",
+      "title": "[Lair Mobile] QA",
+      "status": "Review",
+      "startDate": "2026-02-12",
+      "endDate": "2026-02-13",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Lair-Mobile-QA-306862e1c05980678eb0c49c755f26d5",
+      "priority": null,
+      "createdTime": "2026-02-13T01:30:00.000Z",
+      "lastEditedTime": "2026-02-19T01:33:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "305862e1-c059-8000-9f2c-c049e066d07e",
+      "title": "설 주주 문서 작성 ",
+      "status": "Done",
+      "startDate": null,
+      "endDate": null,
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/305862e1c05980009f2cc049e066d07e",
+      "priority": null,
+      "createdTime": "2026-02-12T01:15:00.000Z",
+      "lastEditedTime": "2026-02-19T01:31:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2df862e1-c059-8041-b5ac-d1f8fea46fdb",
+      "title": "크레딧코인 1월 미팅 ",
+      "status": "Review",
+      "startDate": "2026-01-07",
+      "endDate": "2026-01-31",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/1-2df862e1c0598041b5acd1f8fea46fdb",
+      "priority": null,
+      "createdTime": "2026-01-05T01:31:00.000Z",
+      "lastEditedTime": "2026-02-19T01:31:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "30c862e1-c059-80da-a037-f75c4775bc6b",
+      "title": "[neobank][abstract] 카드 사업 원페이저에 트젝 발생 케이스 설명 추가 ",
+      "status": "Not started",
+      "startDate": "2026-02-19",
+      "endDate": "2026-02-19",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/neobank-abstract-30c862e1c05980daa037f75c4775bc6b",
+      "priority": null,
+      "createdTime": "2026-02-19T01:11:00.000Z",
+      "lastEditedTime": "2026-02-19T01:12:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "303862e1-c059-80c7-b504-e0eca54b1c38",
+      "title": "[Lair Mobile] MVP QA 에이전트 개발 → QA 진행",
+      "status": "Review",
+      "startDate": "2026-02-10",
+      "endDate": "2026-02-12",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "notionUrl": "https://www.notion.so/Lair-Mobile-MVP-QA-QA-303862e1c05980c7b504e0eca54b1c38",
+      "priority": null,
+      "createdTime": "2026-02-10T01:12:00.000Z",
+      "lastEditedTime": "2026-02-19T01:10:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
       "id": "305862e1-c059-8011-9d52-c789be6087a6",
       "title": "[neobank] 앱 스크린샷 업데이트",
       "status": "Review",
@@ -9330,29 +9456,6 @@
       "priority": null,
       "createdTime": "2026-02-12T02:55:00.000Z",
       "lastEditedTime": "2026-02-13T09:44:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "303862e1-c059-80c7-b504-e0eca54b1c38",
-      "title": "[Lair Mobile] MVP QA 에이전트 개발 → QA 진행",
-      "status": "In progress",
-      "startDate": "2026-02-10",
-      "endDate": "2026-02-12",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "notionUrl": "https://www.notion.so/Lair-Mobile-MVP-QA-QA-303862e1c05980c7b504e0eca54b1c38",
-      "priority": null,
-      "createdTime": "2026-02-10T01:12:00.000Z",
-      "lastEditedTime": "2026-02-13T02:42:00.000Z",
       "epicId": null,
       "pingHistory": []
     },
@@ -9380,48 +9483,6 @@
       "pingHistory": []
     },
     {
-      "id": "306862e1-c059-8052-a1b3-e316930a4c3b",
-      "title": "[Lair Mobile] iOS, Android 배포",
-      "status": "Not started",
-      "startDate": "2026-02-13",
-      "endDate": "2026-02-13",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "notionUrl": "https://www.notion.so/Lair-Mobile-iOS-Android-306862e1c0598052a1b3e316930a4c3b",
-      "priority": null,
-      "createdTime": "2026-02-13T01:31:00.000Z",
-      "lastEditedTime": "2026-02-13T01:32:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "306862e1-c059-8067-8eb0-c49c755f26d5",
-      "title": "[Lair Mobile] QA",
-      "status": "Not started",
-      "startDate": "2026-02-12",
-      "endDate": "2026-02-13",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Lair-Mobile-QA-306862e1c05980678eb0c49c755f26d5",
-      "priority": null,
-      "createdTime": "2026-02-13T01:30:00.000Z",
-      "lastEditedTime": "2026-02-13T01:31:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
       "id": "2e9862e1-c059-8156-97af-de033d25f649",
       "title": "[neobank] MVP 개발",
       "status": "Review",
@@ -9441,25 +9502,6 @@
       "priority": null,
       "createdTime": "2026-01-15T05:01:00.000Z",
       "lastEditedTime": "2026-02-13T01:30:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "305862e1-c059-8000-9f2c-c049e066d07e",
-      "title": "설 주주 문서 작성 ",
-      "status": "Review",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/305862e1c05980009f2cc049e066d07e",
-      "priority": null,
-      "createdTime": "2026-02-12T01:15:00.000Z",
-      "lastEditedTime": "2026-02-13T01:27:00.000Z",
       "epicId": null,
       "pingHistory": []
     },
@@ -19726,44 +19768,6 @@
       "lastEditedTime": "2026-02-10T02:35:00.000Z",
       "epicId": null,
       "pingHistory": []
-    },
-    {
-      "id": "1f5862e1-c059-80ef-80cc-f5023ccedda9",
-      "title": "AGLD 파트너십 마무리 ",
-      "status": "Done",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/AGLD-1f5862e1c05980ef80ccf5023ccedda9",
-      "priority": null,
-      "createdTime": "2025-05-16T01:38:00.000Z",
-      "lastEditedTime": "2026-02-10T02:35:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "1f5862e1-c059-8063-b149-d47f6ca0c241",
-      "title": "트위터 리워드 지급 ",
-      "status": "Done",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/1f5862e1c0598063b149d47f6ca0c241",
-      "priority": null,
-      "createdTime": "2025-05-16T01:38:00.000Z",
-      "lastEditedTime": "2026-02-10T02:35:00.000Z",
-      "epicId": null,
-      "pingHistory": []
     }
   ],
   "docs": [
@@ -28460,5 +28464,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-02-18T23:27:42.971Z"
+  "syncedAt": "2026-02-19T01:58:50.019Z"
 }
