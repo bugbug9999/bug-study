@@ -19830,6 +19830,23 @@
   ],
   "docs": [
     {
+      "id": "17c862e1-c059-8034-8cf3-c34d4ab765f2",
+      "title": "[Line Game] 계정 정보",
+      "status": "To Do",
+      "startDate": "2025-01-15",
+      "endDate": "2025-01-15",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Line-Game-17c862e1c05980348cf3c34d4ab765f2",
+      "priority": "Lair LST",
+      "createdTime": "2025-01-15T01:35:00.000Z",
+      "lastEditedTime": "2026-02-20T05:20:00.000Z"
+    },
+    {
       "id": "2df862e1-c059-80ae-acab-d4cb12cd876d",
       "title": "[Lair] 린 라이브러리 작업 문서",
       "status": "To Do",
@@ -28406,23 +28423,6 @@
       "priority": "Lair LST",
       "createdTime": "2025-01-21T07:24:00.000Z",
       "lastEditedTime": "2026-02-09T10:07:00.000Z"
-    },
-    {
-      "id": "181862e1-c059-8077-a453-fc970e412139",
-      "title": "[LINE game] 게임 출시 소개 Medium 글",
-      "status": "To Do",
-      "startDate": "2025-01-20",
-      "endDate": "2025-01-20",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/LINE-game-Medium-181862e1c0598077a453fc970e412139",
-      "priority": "Lair LST",
-      "createdTime": "2025-01-20T09:52:00.000Z",
-      "lastEditedTime": "2026-02-09T10:07:00.000Z"
     }
   ],
   "members": [
@@ -28522,5 +28522,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-02-20T04:14:21.445Z"
+  "syncedAt": "2026-02-20T05:52:45.158Z"
 }
