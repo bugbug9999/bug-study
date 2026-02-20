@@ -1,6 +1,74 @@
 {
   "epics": [
     {
+      "id": "30d862e1-c059-8000-9ec0-f1ba8333e9b3",
+      "title": "[lair mobile] 핸드폰 번호 인증 기능 추가",
+      "status": "Not started",
+      "startDate": "2026-03-02",
+      "endDate": "2026-03-06",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/lair-mobile-30d862e1c05980009ec0f1ba8333e9b3",
+      "priority": null,
+      "createdTime": "2026-02-20T02:32:00.000Z",
+      "lastEditedTime": "2026-02-20T02:34:00.000Z"
+    },
+    {
+      "id": "30d862e1-c059-8065-8cf0-d8ed840c5c9d",
+      "title": "[lair mobile] paymaster 기능 추가",
+      "status": "Not started",
+      "startDate": "2026-02-20",
+      "endDate": "2026-02-25",
+      "assignee": {
+        "id": "f11c3ca3-a653-4a0f-b88f-545e218e7a6d",
+        "name": "트롤",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/4b7086dc-e7ea-4aad-94fe-b06474e4b5bb/my-notion-face-customized.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/lair-mobile-paymaster-30d862e1c05980658cf0d8ed840c5c9d",
+      "priority": null,
+      "createdTime": "2026-02-20T02:30:00.000Z",
+      "lastEditedTime": "2026-02-20T02:33:00.000Z"
+    },
+    {
+      "id": "30d862e1-c059-8062-8e2d-ce0679faf50c",
+      "title": "[Lair Mobile] FAQ 페이지 배포",
+      "status": "Not started",
+      "startDate": "2026-02-20",
+      "endDate": "2026-02-20",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/Lair-Mobile-FAQ-30d862e1c05980628e2dce0679faf50c",
+      "priority": null,
+      "createdTime": "2026-02-20T02:00:00.000Z",
+      "lastEditedTime": "2026-02-20T02:27:00.000Z"
+    },
+    {
+      "id": "2e9862e1-c059-81f9-8a6e-eb887a5ccac2",
+      "title": "[neobank] Lair Cash 앱스토어 심사용 앱 개발",
+      "status": "Done",
+      "startDate": "2026-01-13",
+      "endDate": "2026-01-23",
+      "assignee": null,
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-Lair-Cash-2e9862e1c05981f98a6eeb887a5ccac2",
+      "priority": "urgent",
+      "createdTime": "2026-01-15T02:35:00.000Z",
+      "lastEditedTime": "2026-02-20T02:00:00.000Z"
+    },
+    {
       "id": "305862e1-c059-80cb-848b-dfa01fbbd586",
       "title": "[Neobank] Line Unify 스테이블 코인 볼트 사업 개발",
       "status": "In progress",
@@ -5585,19 +5653,6 @@
       "lastEditedTime": "2026-02-09T13:16:00.000Z"
     },
     {
-      "id": "2e9862e1-c059-81f9-8a6e-eb887a5ccac2",
-      "title": "[neobank] Lair Cash 앱스토어 심사용 앱 개발",
-      "status": "Review",
-      "startDate": "2026-01-13",
-      "endDate": "2026-01-23",
-      "assignee": null,
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-Lair-Cash-2e9862e1c05981f98a6eeb887a5ccac2",
-      "priority": "urgent",
-      "createdTime": "2026-01-15T02:35:00.000Z",
-      "lastEditedTime": "2026-02-09T13:16:00.000Z"
-    },
-    {
       "id": "2e2862e1-c059-8183-9929-ef29033ea9f3",
       "title": "[neobank] Lair Cash 수요조사 및 GTM",
       "status": "In progress",
@@ -9252,64 +9307,135 @@
       "priority": "nomal",
       "createdTime": "2023-07-03T11:08:00.000Z",
       "lastEditedTime": "2026-02-09T11:17:00.000Z"
-    },
+    }
+  ],
+  "tasks": [
     {
-      "id": "dd140740-1dec-4a69-88fe-4b49f92fafc3",
-      "title": "[리워드앱] 8월 킥오프 전",
-      "status": "Done",
-      "startDate": "2023-08-04",
-      "endDate": "2023-08-16",
-      "assignee": null,
+      "id": "30d862e1-c059-80bb-9ae8-e0e1cf7eaf44",
+      "title": "[lair mobile] paymaster 기능 추가",
+      "status": "Not started",
+      "startDate": "2026-02-20",
+      "endDate": "2026-02-25",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
       "reviewer": null,
-      "notionUrl": "https://www.notion.so/8-dd1407401dec4a6988fe4b49f92fafc3",
+      "notionUrl": "https://www.notion.so/lair-mobile-paymaster-30d862e1c05980bb9ae8e0e1cf7eaf44",
       "priority": null,
-      "createdTime": "2023-08-03T17:15:00.000Z",
-      "lastEditedTime": "2026-02-09T11:17:00.000Z"
+      "createdTime": "2026-02-20T02:32:00.000Z",
+      "lastEditedTime": "2026-02-20T02:32:00.000Z",
+      "epicId": null,
+      "pingHistory": []
     },
     {
-      "id": "d8f000cd-cfd5-4819-9aeb-8131461180bc",
-      "title": "[NFT] 벅펫 리뉴얼 디자인 제작 ",
-      "status": "Drop/Hold",
-      "startDate": "2023-09-22",
-      "endDate": "2024-01-03",
+      "id": "30d862e1-c059-80cb-8136-e2e30a46f438",
+      "title": "[lair mobile] FAQ 페이지로 가는 링크 넣어서 배포",
+      "status": "Not started",
+      "startDate": "2026-02-20",
+      "endDate": "2026-02-20",
       "assignee": {
-        "id": "991d72ac-8f42-4ad5-bc96-9aa46447ae27",
-        "name": "Unknown",
-        "avatar": null
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
       },
-      "reviewer": {
-        "id": "a33df9e3-329b-4001-8f52-1c6fb42089ca",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "notionUrl": "https://www.notion.so/NFT-d8f000cdcfd548199aeb8131461180bc",
-      "priority": "high",
-      "createdTime": "2023-10-04T07:23:00.000Z",
-      "lastEditedTime": "2026-02-09T11:17:00.000Z"
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/lair-mobile-FAQ-30d862e1c05980cb8136e2e30a46f438",
+      "priority": null,
+      "createdTime": "2026-02-20T02:29:00.000Z",
+      "lastEditedTime": "2026-02-20T02:30:00.000Z",
+      "epicId": null,
+      "pingHistory": []
     },
     {
-      "id": "d6a77244-eee3-4b39-9bf3-a4e9cb72064b",
-      "title": "[BP] 영어, 언어팩 지원",
-      "status": "Done",
-      "startDate": null,
-      "endDate": null,
+      "id": "30d862e1-c059-808a-bcba-fabd5d821015",
+      "title": "[lair mobile] 깃북에 FAQ 업데이트",
+      "status": "Not started",
+      "startDate": "2026-02-20",
+      "endDate": "2026-02-20",
       "assignee": {
-        "id": "9edfc7bf-c755-452a-bb64-29ec278314ec",
-        "name": "Unknown",
-        "avatar": null
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
       },
       "reviewer": {
         "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
         "name": "버그",
         "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
       },
-      "notionUrl": "https://www.notion.so/BP-d6a77244eee34b399bf3a4e9cb72064b",
-      "priority": "urgent",
-      "createdTime": "2023-03-16T14:00:00.000Z",
-      "lastEditedTime": "2026-02-09T11:17:00.000Z"
-    }
-  ],
-  "tasks": [
+      "notionUrl": "https://www.notion.so/lair-mobile-FAQ-30d862e1c059808abcbafabd5d821015",
+      "priority": null,
+      "createdTime": "2026-02-20T02:29:00.000Z",
+      "lastEditedTime": "2026-02-20T02:29:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "30d862e1-c059-8018-9970-f683a86ca9dc",
+      "title": "[lair mobile] 깃북 새로 만들기",
+      "status": "Not started",
+      "startDate": "2026-02-20",
+      "endDate": "2026-02-20",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/lair-mobile-30d862e1c05980189970f683a86ca9dc",
+      "priority": null,
+      "createdTime": "2026-02-20T02:27:00.000Z",
+      "lastEditedTime": "2026-02-20T02:28:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "30d862e1-c059-808b-a975-db95b7c6f7d6",
+      "title": "[AI] 코드화된 디자인 시스템 레포지토리 커밋푸쉬 및 풀 당겨서 테스트해보기",
+      "status": "Not started",
+      "startDate": null,
+      "endDate": null,
+      "assignee": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/AI-30d862e1c059808ba975db95b7c6f7d6",
+      "priority": null,
+      "createdTime": "2026-02-20T02:23:00.000Z",
+      "lastEditedTime": "2026-02-20T02:23:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "306862e1-c059-8052-a1b3-e316930a4c3b",
+      "title": "[Lair Mobile] iOS, Android 배포",
+      "status": "Review",
+      "startDate": "2026-02-13",
+      "endDate": "2026-02-13",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/Lair-Mobile-iOS-Android-306862e1c0598052a1b3e316930a4c3b",
+      "priority": null,
+      "createdTime": "2026-02-13T01:31:00.000Z",
+      "lastEditedTime": "2026-02-20T01:56:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
     {
       "id": "30d862e1-c059-80c3-ac47-d38d98bce625",
       "title": "[AI] 디자인 시스템 워크플로우, 스킬, 룰, md 작성",
@@ -9540,29 +9666,6 @@
       "priority": null,
       "createdTime": "2026-02-19T01:11:00.000Z",
       "lastEditedTime": "2026-02-19T02:02:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "306862e1-c059-8052-a1b3-e316930a4c3b",
-      "title": "[Lair Mobile] iOS, Android 배포",
-      "status": "In progress",
-      "startDate": "2026-02-13",
-      "endDate": "2026-02-13",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "notionUrl": "https://www.notion.so/Lair-Mobile-iOS-Android-306862e1c0598052a1b3e316930a4c3b",
-      "priority": null,
-      "createdTime": "2026-02-13T01:31:00.000Z",
-      "lastEditedTime": "2026-02-19T01:33:00.000Z",
       "epicId": null,
       "pingHistory": []
     },
@@ -19723,97 +19826,6 @@
       "lastEditedTime": "2026-02-10T02:36:00.000Z",
       "epicId": null,
       "pingHistory": []
-    },
-    {
-      "id": "20a9a0b4-d6a2-48d7-9863-73c539dd2096",
-      "title": "Github - Chat GPT 봇 주제 설정",
-      "status": "Done",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "474ad6ee-8bfe-4e1e-9b34-f77d366e88da",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Github-Chat-GPT-20a9a0b4d6a248d7986373c539dd2096",
-      "priority": null,
-      "createdTime": "2023-11-20T05:55:00.000Z",
-      "lastEditedTime": "2026-02-10T02:36:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "209b056e-4b49-4484-afad-2ae18f5b9090",
-      "title": "[서버] 서비스 환경 구성",
-      "status": "Done",
-      "startDate": "2023-11-10",
-      "endDate": "2023-11-10",
-      "assignee": {
-        "id": "f11c3ca3-a653-4a0f-b88f-545e218e7a6d",
-        "name": "트롤",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/4b7086dc-e7ea-4aad-94fe-b06474e4b5bb/my-notion-face-customized.png"
-      },
-      "reviewer": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "notionUrl": "https://www.notion.so/209b056e4b494484afad2ae18f5b9090",
-      "priority": null,
-      "createdTime": "2023-11-09T08:59:00.000Z",
-      "lastEditedTime": "2026-02-10T02:35:00.000Z",
-      "epicId": "73cf70f9-7543-441d-a73b-e1351084e487",
-      "pingHistory": []
-    },
-    {
-      "id": "209862e1-c059-803b-a4a2-f30c34f30e3f",
-      "title": "LrBGT APY 구해야 합니다.",
-      "status": "Done",
-      "startDate": null,
-      "endDate": null,
-      "assignee": null,
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/LrBGT-APY-209862e1c059803ba4a2f30c34f30e3f",
-      "priority": null,
-      "createdTime": "2025-06-05T10:29:00.000Z",
-      "lastEditedTime": "2026-02-10T02:35:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "206862e1-c059-806b-b929-d6b3aa14e175",
-      "title": "[Cave] KBW merch ideation",
-      "status": "Not started",
-      "startDate": null,
-      "endDate": null,
-      "assignee": null,
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Cave-KBW-merch-ideation-206862e1c059806bb929d6b3aa14e175",
-      "priority": null,
-      "createdTime": "2025-06-02T00:19:00.000Z",
-      "lastEditedTime": "2026-02-10T02:35:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "206862e1-c059-8047-b172-d97b4bf3b852",
-      "title": "[lair] 프로그팀 미팅 ",
-      "status": "Done",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/lair-206862e1c0598047b172d97b4bf3b852",
-      "priority": null,
-      "createdTime": "2025-06-02T01:33:00.000Z",
-      "lastEditedTime": "2026-02-10T02:35:00.000Z",
-      "epicId": null,
-      "pingHistory": []
     }
   ],
   "docs": [
@@ -28415,6 +28427,21 @@
   ],
   "members": [
     {
+      "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+      "name": "용용",
+      "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+    },
+    {
+      "id": "f11c3ca3-a653-4a0f-b88f-545e218e7a6d",
+      "name": "트롤",
+      "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/4b7086dc-e7ea-4aad-94fe-b06474e4b5bb/my-notion-face-customized.png"
+    },
+    {
+      "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+      "name": "고라니",
+      "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+    },
+    {
       "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
       "name": "버그",
       "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
@@ -28425,19 +28452,9 @@
       "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/71ae885f-15d7-46a5-8755-573c7ccd9e0c/%E1%84%87%E1%85%A5%E1%84%80%E1%85%B3%E1%84%89%E1%85%B5%E1%84%90%E1%85%B5_%E1%84%8B%E1%85%A1%E1%84%87%E1%85%A1%E1%84%90%E1%85%A1.png"
     },
     {
-      "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-      "name": "고라니",
-      "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-    },
-    {
       "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
       "name": "굿보이",
       "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-    },
-    {
-      "id": "f11c3ca3-a653-4a0f-b88f-545e218e7a6d",
-      "name": "트롤",
-      "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/4b7086dc-e7ea-4aad-94fe-b06474e4b5bb/my-notion-face-customized.png"
     },
     {
       "id": "512a37fb-0e7d-4670-bc0d-1cd593338bce",
@@ -28463,11 +28480,6 @@
       "id": "4ab3d585-ddfc-4092-b1c4-3a3ce00261e7",
       "name": "뽀삐",
       "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/6273ea60-836e-473e-b00f-7b88a4eaee72/%EB%B2%84%EA%B7%B8%EC%8B%9C%ED%8B%B0_%EC%82%AC%EC%A7%84.png"
-    },
-    {
-      "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-      "name": "용용",
-      "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
     },
     {
       "id": "9edfc7bf-c755-452a-bb64-29ec278314ec",
@@ -28510,5 +28522,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-02-20T01:54:02.333Z"
+  "syncedAt": "2026-02-20T04:14:21.445Z"
 }
