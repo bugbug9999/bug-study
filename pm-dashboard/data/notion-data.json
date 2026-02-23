@@ -9319,6 +9319,25 @@
   ],
   "tasks": [
     {
+      "id": "293862e1-c059-8029-be25-c63e3cb6f833",
+      "title": "[neobank] 카드 파트너사 후보 정리",
+      "status": "Done",
+      "startDate": "2025-10-21",
+      "endDate": "2025-10-24",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-293862e1c0598029be25c63e3cb6f833",
+      "priority": null,
+      "createdTime": "2025-10-21T05:48:00.000Z",
+      "lastEditedTime": "2026-02-23T13:46:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
       "id": "310862e1-c059-8058-995c-fbcb07d8c100",
       "title": "[lair mobile] 친구 초대 링크 생성 기능 배포",
       "status": "Not started",
@@ -19831,29 +19850,6 @@
       "lastEditedTime": "2026-02-10T02:36:00.000Z",
       "epicId": null,
       "pingHistory": []
-    },
-    {
-      "id": "21016399-cf89-4729-a13d-c29dc0235f5d",
-      "title": "[투표] Shook 임시로고 제작",
-      "status": "Done",
-      "startDate": "2023-11-13",
-      "endDate": "2023-11-14",
-      "assignee": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/Shook-21016399cf894729a13dc29dc0235f5d",
-      "priority": null,
-      "createdTime": "2023-11-13T05:59:00.000Z",
-      "lastEditedTime": "2026-02-10T02:36:00.000Z",
-      "epicId": null,
-      "pingHistory": []
     }
   ],
   "docs": [
@@ -28546,5 +28542,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-02-23T12:59:20.336Z"
+  "syncedAt": "2026-02-23T14:11:24.925Z"
 }
