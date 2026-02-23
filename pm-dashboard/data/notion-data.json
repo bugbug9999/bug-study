@@ -1,6 +1,27 @@
 {
   "epics": [
     {
+      "id": "310862e1-c059-8052-9f92-f1baf0b1d9af",
+      "title": "[lair mobile] 친구 초대 링크 생성 기능 추가",
+      "status": "Not started",
+      "startDate": "2026-02-25",
+      "endDate": "2026-02-25",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "notionUrl": "https://www.notion.so/lair-mobile-310862e1c05980529f92f1baf0b1d9af",
+      "priority": null,
+      "createdTime": "2026-02-23T02:11:00.000Z",
+      "lastEditedTime": "2026-02-23T02:13:00.000Z"
+    },
+    {
       "id": "2e2862e1-c059-8183-9929-ef29033ea9f3",
       "title": "[neobank] Lair Mobile 수요조사 및 GTM",
       "status": "In progress",
@@ -9290,26 +9311,55 @@
       "priority": null,
       "createdTime": "2023-08-18T04:40:00.000Z",
       "lastEditedTime": "2026-02-09T11:18:00.000Z"
-    },
-    {
-      "id": "e6fe6845-cd6a-469b-bf21-1ccfd193f8bf",
-      "title": "[BP] 0719 Regular 스프린트",
-      "status": "Done",
-      "startDate": "2023-07-19",
-      "endDate": "2023-07-19",
-      "assignee": {
-        "id": "ae24fe4f-9dac-4846-8353-6b040c3a4b3a",
-        "name": "Unknown",
-        "avatar": null
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/BP-0719-Regular-e6fe6845cd6a469bbf211ccfd193f8bf",
-      "priority": "nomal",
-      "createdTime": "2023-07-03T11:08:00.000Z",
-      "lastEditedTime": "2026-02-09T11:17:00.000Z"
     }
   ],
   "tasks": [
+    {
+      "id": "310862e1-c059-8058-995c-fbcb07d8c100",
+      "title": "[lair mobile] 친구 초대 링크 생성 기능 배포",
+      "status": "Not started",
+      "startDate": "2026-02-27",
+      "endDate": "2026-02-27",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "notionUrl": "https://www.notion.so/lair-mobile-310862e1c0598058995cfbcb07d8c100",
+      "priority": null,
+      "createdTime": "2026-02-23T02:27:00.000Z",
+      "lastEditedTime": "2026-02-23T02:28:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "310862e1-c059-8076-8883-d7d92f62a8c9",
+      "title": "[lair mobile] 친구 초대 링크 및 메세지 생성 기능 개발",
+      "status": "Not started",
+      "startDate": "2026-02-23",
+      "endDate": "2026-02-25",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/lair-mobile-310862e1c05980768883d7d92f62a8c9",
+      "priority": null,
+      "createdTime": "2026-02-23T02:26:00.000Z",
+      "lastEditedTime": "2026-02-23T02:27:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
     {
       "id": "30d862e1-c059-80bb-9ae8-e0e1cf7eaf44",
       "title": "[lair mobile] paymaster 기능 추가",
@@ -19800,39 +19850,39 @@
       "lastEditedTime": "2026-02-10T02:36:00.000Z",
       "epicId": null,
       "pingHistory": []
-    },
-    {
-      "id": "20f862e1-c059-80c8-b73d-cebdac0e08a5",
-      "title": "(완료)베스팅 스케쥴 내용 전달 받기",
-      "status": "Done",
-      "startDate": null,
-      "endDate": null,
-      "assignee": null,
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/20f862e1c05980c8b73dcebdac0e08a5",
-      "priority": null,
-      "createdTime": "2025-06-11T07:41:00.000Z",
-      "lastEditedTime": "2026-02-10T02:36:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "20f862e1-c059-8094-ae9e-c3e8878ab1f4",
-      "title": "신행기간동안 저 토큰 뭐 어디 보내야하고 클레임해야할 거 있는지 체크필요용 ",
-      "status": "Done",
-      "startDate": null,
-      "endDate": null,
-      "assignee": null,
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/20f862e1c0598094ae9ec3e8878ab1f4",
-      "priority": null,
-      "createdTime": "2025-06-11T03:06:00.000Z",
-      "lastEditedTime": "2026-02-10T02:36:00.000Z",
-      "epicId": null,
-      "pingHistory": []
     }
   ],
   "docs": [
+    {
+      "id": "310862e1-c059-81c8-a43a-e473e00c845a",
+      "title": "[Lair App] 유저 피드백 수집 가이드 & 트래커",
+      "status": "To Do",
+      "startDate": "2026-02-23",
+      "endDate": "2026-02-23",
+      "assignee": null,
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Lair-App-310862e1c05981c8a43ae473e00c845a",
+      "priority": "Stablecoin App",
+      "createdTime": "2026-02-23T04:02:00.000Z",
+      "lastEditedTime": "2026-02-23T04:09:00.000Z"
+    },
+    {
+      "id": "310862e1-c059-80ae-91cd-d3fd9b4fba41",
+      "title": "[Lair app] ux 피드백 모음",
+      "status": "To Do",
+      "startDate": null,
+      "endDate": null,
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Lair-app-ux-310862e1c05980ae91cdd3fd9b4fba41",
+      "priority": "Stablecoin App",
+      "createdTime": "2026-02-23T03:58:00.000Z",
+      "lastEditedTime": "2026-02-23T03:59:00.000Z"
+    },
     {
       "id": "17c862e1-c059-8034-8cf3-c34d4ab765f2",
       "title": "[Line Game] 계정 정보",
@@ -28393,43 +28443,14 @@
       "priority": "Lair LST",
       "createdTime": "2025-01-21T01:53:00.000Z",
       "lastEditedTime": "2026-02-09T10:07:00.000Z"
-    },
-    {
-      "id": "182862e1-c059-806a-8efd-d5eaf4ba5c25",
-      "title": "[미팅록] <> 캡틴츠바사",
-      "status": "To Do",
-      "startDate": "2025-01-21",
-      "endDate": "2025-01-21",
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/182862e1c059806a8efdd5eaf4ba5c25",
-      "priority": "Lair LST",
-      "createdTime": "2025-01-21T07:59:00.000Z",
-      "lastEditedTime": "2026-02-09T10:07:00.000Z"
-    },
-    {
-      "id": "182862e1-c059-8048-9095-cfb1b5496752",
-      "title": "[미팅록]<> slime miner",
-      "status": "To Do",
-      "startDate": "2025-01-21",
-      "endDate": "2025-01-21",
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/slime-miner-182862e1c05980489095cfb1b5496752",
-      "priority": "Lair LST",
-      "createdTime": "2025-01-21T07:24:00.000Z",
-      "lastEditedTime": "2026-02-09T10:07:00.000Z"
     }
   ],
   "members": [
+    {
+      "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+      "name": "용용",
+      "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+    },
     {
       "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
       "name": "고라니",
@@ -28439,11 +28460,6 @@
       "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
       "name": "버그",
       "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-    },
-    {
-      "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-      "name": "용용",
-      "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
     },
     {
       "id": "f11c3ca3-a653-4a0f-b88f-545e218e7a6d",
@@ -28526,5 +28542,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-02-23T01:58:26.246Z"
+  "syncedAt": "2026-02-23T04:28:38.258Z"
 }
