@@ -1,9 +1,26 @@
 {
   "epics": [
     {
+      "id": "310862e1-c059-80e2-90ae-fec13a811e5e",
+      "title": "[Lair mobile] 버그 리포트, UX 개선",
+      "status": "Not started",
+      "startDate": "2026-02-23",
+      "endDate": "2026-03-31",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Lair-mobile-UX-310862e1c05980e290aefec13a811e5e",
+      "priority": null,
+      "createdTime": "2026-02-23T08:26:00.000Z",
+      "lastEditedTime": "2026-02-23T08:28:00.000Z"
+    },
+    {
       "id": "310862e1-c059-8052-9f92-f1baf0b1d9af",
       "title": "[lair mobile] 친구 초대 링크 생성 기능 추가",
-      "status": "Not started",
+      "status": "In progress",
       "startDate": "2026-02-25",
       "endDate": "2026-02-25",
       "assignee": {
@@ -19,7 +36,24 @@
       "notionUrl": "https://www.notion.so/lair-mobile-310862e1c05980529f92f1baf0b1d9af",
       "priority": null,
       "createdTime": "2026-02-23T02:11:00.000Z",
-      "lastEditedTime": "2026-02-23T02:13:00.000Z"
+      "lastEditedTime": "2026-02-23T08:25:00.000Z"
+    },
+    {
+      "id": "2e2862e1-c059-811c-961e-da5c6a77449d",
+      "title": "[neobank] Lair 모바일 앱 MVP 개발",
+      "status": "In progress",
+      "startDate": "2026-01-24",
+      "endDate": "2026-02-13",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-Lair-MVP-2e2862e1c059811c961eda5c6a77449d",
+      "priority": "high",
+      "createdTime": "2026-01-08T07:20:00.000Z",
+      "lastEditedTime": "2026-02-23T08:25:00.000Z"
     },
     {
       "id": "2e2862e1-c059-8183-9929-ef29033ea9f3",
@@ -5691,23 +5725,6 @@
       "lastEditedTime": "2026-02-09T13:16:00.000Z"
     },
     {
-      "id": "2e2862e1-c059-811c-961e-da5c6a77449d",
-      "title": "[neobank] Lair Cash 모바일 앱 MVP 개발",
-      "status": "In progress",
-      "startDate": "2026-01-24",
-      "endDate": "2026-02-13",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-Lair-Cash-MVP-2e2862e1c059811c961eda5c6a77449d",
-      "priority": "high",
-      "createdTime": "2026-01-08T07:20:00.000Z",
-      "lastEditedTime": "2026-02-09T13:16:00.000Z"
-    },
-    {
       "id": "2df862e1-c059-800c-a9a7-dc309d282cc4",
       "title": "[neobank] Lair Cash 사전가입 종료 다음 단계 정하기",
       "status": "Done",
@@ -9297,19 +9314,6 @@
       "notionUrl": "https://www.notion.so/Proj-x-DOSI-e7f0758666b7473b90470031ae15247d",
       "priority": null,
       "createdTime": "2023-03-16T14:13:00.000Z",
-      "lastEditedTime": "2026-02-09T11:18:00.000Z"
-    },
-    {
-      "id": "e7528bd5-488f-4132-83d5-c660689da180",
-      "title": "0830 Regular 스프린트",
-      "status": "Done",
-      "startDate": null,
-      "endDate": null,
-      "assignee": null,
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/0830-Regular-e7528bd5488f413283d5c660689da180",
-      "priority": null,
-      "createdTime": "2023-08-18T04:40:00.000Z",
       "lastEditedTime": "2026-02-09T11:18:00.000Z"
     }
   ],
@@ -28447,6 +28451,11 @@
   ],
   "members": [
     {
+      "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+      "name": "버그",
+      "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+    },
+    {
       "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
       "name": "용용",
       "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
@@ -28455,11 +28464,6 @@
       "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
       "name": "고라니",
       "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-    },
-    {
-      "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-      "name": "버그",
-      "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
     },
     {
       "id": "f11c3ca3-a653-4a0f-b88f-545e218e7a6d",
@@ -28542,5 +28546,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-02-23T07:53:28.716Z"
+  "syncedAt": "2026-02-23T08:46:48.807Z"
 }
