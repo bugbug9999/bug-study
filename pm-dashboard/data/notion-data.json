@@ -9319,6 +9319,25 @@
   ],
   "tasks": [
     {
+      "id": "30d862e1-c059-80bb-9ae8-e0e1cf7eaf44",
+      "title": "[lair mobile] paymaster 기능 추가",
+      "status": "In progress",
+      "startDate": "2026-02-20",
+      "endDate": "2026-02-25",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/lair-mobile-paymaster-30d862e1c05980bb9ae8e0e1cf7eaf44",
+      "priority": null,
+      "createdTime": "2026-02-20T02:32:00.000Z",
+      "lastEditedTime": "2026-02-24T07:28:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
       "id": "310862e1-c059-80ff-82fe-ee1fbec96100",
       "title": "2/24 앱스트랙 카드 미팅 ",
       "status": "In progress",
@@ -9357,25 +9376,6 @@
       "priority": null,
       "createdTime": "2026-02-24T01:30:00.000Z",
       "lastEditedTime": "2026-02-24T01:36:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "30d862e1-c059-80bb-9ae8-e0e1cf7eaf44",
-      "title": "[lair mobile] paymaster 기능 추가",
-      "status": "In progress",
-      "startDate": "2026-02-20",
-      "endDate": "2026-02-25",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/lair-mobile-paymaster-30d862e1c05980bb9ae8e0e1cf7eaf44",
-      "priority": null,
-      "createdTime": "2026-02-20T02:32:00.000Z",
-      "lastEditedTime": "2026-02-24T01:35:00.000Z",
       "epicId": null,
       "pingHistory": []
     },
@@ -28434,23 +28434,6 @@
       "priority": "Lair LST",
       "createdTime": "2025-01-23T06:34:00.000Z",
       "lastEditedTime": "2026-02-09T10:07:00.000Z"
-    },
-    {
-      "id": "183862e1-c059-804d-b834-e0d9566b89ea",
-      "title": "[회의록]주간리뷰 250122",
-      "status": "To Do",
-      "startDate": "2025-01-22",
-      "endDate": "2025-01-22",
-      "assignee": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/250122-183862e1c059804db834e0d9566b89ea",
-      "priority": "Lair LST",
-      "createdTime": "2025-01-22T02:32:00.000Z",
-      "lastEditedTime": "2026-02-09T10:07:00.000Z"
     }
   ],
   "members": [
@@ -28550,5 +28533,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-02-24T07:05:43.195Z"
+  "syncedAt": "2026-02-24T08:43:42.613Z"
 }
