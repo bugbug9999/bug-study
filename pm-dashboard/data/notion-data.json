@@ -9319,6 +9319,25 @@
   ],
   "tasks": [
     {
+      "id": "310862e1-c059-80ff-82fe-ee1fbec96100",
+      "title": "2/24 앱스트랙 카드 미팅 ",
+      "status": "In progress",
+      "startDate": "2026-02-24",
+      "endDate": "2026-02-24",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/2-24-310862e1c05980ff82feee1fbec96100",
+      "priority": null,
+      "createdTime": "2026-02-23T01:31:00.000Z",
+      "lastEditedTime": "2026-02-24T02:08:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
       "id": "311862e1-c059-80d4-bbef-d3e019f7a6a1",
       "title": "[neobank] AI로 MVP 디자인 업데이트",
       "status": "In progress",
@@ -9380,25 +9399,6 @@
       "priority": null,
       "createdTime": "2026-02-23T02:26:00.000Z",
       "lastEditedTime": "2026-02-24T01:34:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "310862e1-c059-80ff-82fe-ee1fbec96100",
-      "title": "2/24 앱스트랙 카드 미팅 ",
-      "status": "In progress",
-      "startDate": "2026-02-24",
-      "endDate": "2026-02-24",
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/2-24-310862e1c05980ff82feee1fbec96100",
-      "priority": null,
-      "createdTime": "2026-02-23T01:31:00.000Z",
-      "lastEditedTime": "2026-02-24T01:29:00.000Z",
       "epicId": null,
       "pingHistory": []
     },
@@ -19862,6 +19862,19 @@
   ],
   "docs": [
     {
+      "id": "311862e1-c059-818a-97b9-fd8098b9bf15",
+      "title": "[회의록] AI 기반 업무 프로세스 개편 논의 250224",
+      "status": "To Do",
+      "startDate": "2026-02-24",
+      "endDate": "2026-02-24",
+      "assignee": null,
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/AI-250224-311862e1c059818a97b9fd8098b9bf15",
+      "priority": "Team AI",
+      "createdTime": "2026-02-24T02:50:00.000Z",
+      "lastEditedTime": "2026-02-24T02:52:00.000Z"
+    },
+    {
       "id": "310862e1-c059-81c8-a43a-e473e00c845a",
       "title": "[Lair App] 유저 피드백 수집 가이드 & 트래커",
       "status": "To Do",
@@ -28438,19 +28451,6 @@
       "priority": "Lair LST",
       "createdTime": "2025-01-22T02:32:00.000Z",
       "lastEditedTime": "2026-02-09T10:07:00.000Z"
-    },
-    {
-      "id": "182862e1-c059-80c0-8bed-dfb242050e2b",
-      "title": "카이아 재단 포탈 에포크2 관련 2번째 미팅 - 250121",
-      "status": "To Do",
-      "startDate": "2025-01-21",
-      "endDate": "2025-01-21",
-      "assignee": null,
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/2-2-250121-182862e1c05980c08beddfb242050e2b",
-      "priority": "Lair LST",
-      "createdTime": "2025-01-21T01:53:00.000Z",
-      "lastEditedTime": "2026-02-09T10:07:00.000Z"
     }
   ],
   "members": [
@@ -28550,5 +28550,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-02-24T01:55:02.031Z"
+  "syncedAt": "2026-02-24T04:17:50.764Z"
 }
