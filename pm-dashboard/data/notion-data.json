@@ -9319,6 +9319,90 @@
   ],
   "tasks": [
     {
+      "id": "311862e1-c059-80d4-bbef-d3e019f7a6a1",
+      "title": "[neobank] AI로 MVP 디자인 업데이트",
+      "status": "In progress",
+      "startDate": "2026-02-24",
+      "endDate": "2026-02-24",
+      "assignee": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-AI-MVP-311862e1c05980d4bbefd3e019f7a6a1",
+      "priority": null,
+      "createdTime": "2026-02-24T01:30:00.000Z",
+      "lastEditedTime": "2026-02-24T01:36:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "30d862e1-c059-80bb-9ae8-e0e1cf7eaf44",
+      "title": "[lair mobile] paymaster 기능 추가",
+      "status": "In progress",
+      "startDate": "2026-02-20",
+      "endDate": "2026-02-25",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/lair-mobile-paymaster-30d862e1c05980bb9ae8e0e1cf7eaf44",
+      "priority": null,
+      "createdTime": "2026-02-20T02:32:00.000Z",
+      "lastEditedTime": "2026-02-24T01:35:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "310862e1-c059-8076-8883-d7d92f62a8c9",
+      "title": "[lair mobile] 친구 초대 링크 및 메세지 생성 기능 개발",
+      "status": "Review",
+      "startDate": "2026-02-23",
+      "endDate": "2026-02-25",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/lair-mobile-310862e1c05980768883d7d92f62a8c9",
+      "priority": null,
+      "createdTime": "2026-02-23T02:26:00.000Z",
+      "lastEditedTime": "2026-02-24T01:34:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "310862e1-c059-80ff-82fe-ee1fbec96100",
+      "title": "2/24 앱스트랙 카드 미팅 ",
+      "status": "In progress",
+      "startDate": "2026-02-24",
+      "endDate": "2026-02-24",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/2-24-310862e1c05980ff82feee1fbec96100",
+      "priority": null,
+      "createdTime": "2026-02-23T01:31:00.000Z",
+      "lastEditedTime": "2026-02-24T01:29:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
       "id": "293862e1-c059-8029-be25-c63e3cb6f833",
       "title": "[neobank] 카드 파트너사 후보 정리",
       "status": "Done",
@@ -9361,48 +9445,6 @@
       "pingHistory": []
     },
     {
-      "id": "310862e1-c059-8076-8883-d7d92f62a8c9",
-      "title": "[lair mobile] 친구 초대 링크 및 메세지 생성 기능 개발",
-      "status": "Not started",
-      "startDate": "2026-02-23",
-      "endDate": "2026-02-25",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/lair-mobile-310862e1c05980768883d7d92f62a8c9",
-      "priority": null,
-      "createdTime": "2026-02-23T02:26:00.000Z",
-      "lastEditedTime": "2026-02-23T02:27:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "30d862e1-c059-80bb-9ae8-e0e1cf7eaf44",
-      "title": "[lair mobile] paymaster 기능 추가",
-      "status": "Not started",
-      "startDate": "2026-02-20",
-      "endDate": "2026-02-25",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/lair-mobile-paymaster-30d862e1c05980bb9ae8e0e1cf7eaf44",
-      "priority": null,
-      "createdTime": "2026-02-20T02:32:00.000Z",
-      "lastEditedTime": "2026-02-23T01:38:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
       "id": "310862e1-c059-80fb-86b9-c108b20cf6c4",
       "title": "[neobank] 레어 모바일 앱 mvp 네이버 블로그 마케팅 기획",
       "status": "In progress",
@@ -9422,25 +9464,6 @@
       "priority": null,
       "createdTime": "2026-02-23T01:32:00.000Z",
       "lastEditedTime": "2026-02-23T01:33:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "310862e1-c059-80ff-82fe-ee1fbec96100",
-      "title": "2/24 앱스트랙 카드 미팅 ",
-      "status": "In progress",
-      "startDate": "2026-02-24",
-      "endDate": "2026-02-24",
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/2-24-310862e1c05980ff82feee1fbec96100",
-      "priority": null,
-      "createdTime": "2026-02-23T01:31:00.000Z",
-      "lastEditedTime": "2026-02-23T01:32:00.000Z",
       "epicId": null,
       "pingHistory": []
     },
@@ -19835,21 +19858,6 @@
       "lastEditedTime": "2026-02-10T02:36:00.000Z",
       "epicId": null,
       "pingHistory": []
-    },
-    {
-      "id": "2162da6e-5027-44a6-8a0a-757ec5973212",
-      "title": "[기타] TASK",
-      "status": "Review",
-      "startDate": null,
-      "endDate": null,
-      "assignee": null,
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/TASK-2162da6e502744a68a0a757ec5973212",
-      "priority": null,
-      "createdTime": "2023-06-12T06:15:00.000Z",
-      "lastEditedTime": "2026-02-10T02:36:00.000Z",
-      "epicId": null,
-      "pingHistory": []
     }
   ],
   "docs": [
@@ -28542,5 +28550,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-02-23T23:33:22.771Z"
+  "syncedAt": "2026-02-24T01:55:02.031Z"
 }
