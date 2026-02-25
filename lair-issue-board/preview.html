@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lair Issue Board — UI 미리보기</title>
+<link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" rel="stylesheet" />
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #0f0f13; color: #e4e4eb; font-family: 'Pretendard', -apple-system, sans-serif; font-size: 14px; min-height: 100vh; }
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #2e2e3e; border-radius: 3px; }
+
+/* ─── 탭 네비 ─────── */
+.tab-nav { display: flex; gap: 0; background: #1a1a24; border-bottom: 1px solid #2e2e3e; padding: 0 16px; overflow-x: auto; }
+.tab { padding: 12px 16px; cursor: pointer; font-size: 13px; color: #8888a0; border-bottom: 2px solid transparent; white-space: nowrap; transition: all .2s; }
+.tab.active { color: #e4e4eb; border-bottom-color: #6c5ce7; }
+.tab:hover:not(.active) { color: #c0c0d0; }
+
+.screen { display: none; }
+.screen.active { display: block; }
+
+/* ─── 공통 헤더 ─────── */
+.header { height: 60px; background: #1a1a24; border-bottom: 1px solid #2e2e3e; display: flex; align-items: center; justify-content: space-between; padding: 0 20px; }
+.h-left { display: flex; align-items: center; gap: 8px; }
+.h-logo { font-size: 22px; }
+.h-title { font-size: 16px; font-weight: 700; }
+.h-right { display: flex; align-items: center; gap: 12px; }
+.btn-report { display: flex; align-items: center; gap: 5px; padding: 7px 14px; background: #6c5ce7; border: none; border-radius: 8px; color: #fff; font-size: 12px; font-weight: 600; cursor: pointer; transition: background .2s; }
+.btn-report:hover { background: #a29bfe; }
+.u-ava { width: 30px; height: 30px; border-radius: 50%; background: #2e2e3e; display: flex; align-items: center; justify-content: center; font-size: 14px; border: 1px solid #3e3e50; }
+.u-name { color: #8888a0; font-size: 12px; }
+.role-badge { font-size: 10px; padding: 2px 6px; background: #22222e; border: 1px solid #2e2e3e; border-radius: 4px; color: #8888a0; }
+
+/* ════════════════════════════
+   S0 — 로그인
+════════════════════════════ */
+.login-wrap { min-height: calc(100vh - 88px); display: flex; align-items: center; justify-content: center; }
+.login-box { width: 400px; text-align: center; padding: 20px; }
+.l-icon { font-size: 50px; margin-bottom: 14px; }
+.l-title { font-size: 26px; font-weight: 700; margin-bottom: 8px; }
+.l-sub { color: #8888a0; font-size: 14px; line-height: 1.7; margin-bottom: 32px; }
+.l-card { background: #1a1a24; border: 1px solid #2e2e3e; border-radius: 14px; padding: 28px; }
+.btn-gh { display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%; padding: 12px 20px; background: #22222e; border: 1px solid #2e2e3e; border-radius: 10px; color: #e4e4eb; font-size: 14px; font-weight: 500; cursor: pointer; text-decoration: none; transition: background .2s; }
+.btn-gh:hover { background: #2e2e3e; }
+.l-hint { margin-top: 16px; font-size: 12px; color: #8888a0; line-height: 1.7; }
+.feat-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-top: 24px; }
+.feat-item { background: #1a1a24; border: 1px solid #2e2e3e; border-radius: 10px; padding: 14px 8px; text-align: center; font-size: 12px; color: #8888a0; }
+.feat-item .fe { font-size: 20px; margin-bottom: 6px; }
+
+/* ════════════════════════════
+   S1 — 칸반 보드
+════════════════════════════ */
+.board { display: flex; gap: 14px; padding: 16px 20px; height: calc(100vh - 100px); overflow-x: auto; }
+.col { flex-shrink: 0; width: 280px; display: flex; flex-direction: column; background: rgba(26,26,36,.6); border: 1px solid #2e2e3e; border-radius: 12px; }
+.col-hd { padding: 12px 14px; border-bottom: 1px solid #2e2e3e; }
+.col-hd-row { display: flex; align-items: center; justify-content: space-between; }
+.col-name { font-weight: 600; font-size: 13px; }
+.col-cnt { font-size: 11px; padding: 1px 7px; background: #22222e; border-radius: 20px; color: #8888a0; }
+.col-sub { font-size: 11px; color: #8888a0; margin-top: 3px; }
+.col-body { flex: 1; overflow-y: auto; padding: 10px; display: flex; flex-direction: column; gap: 8px; }
+.empty-c { text-align: center; color: #8888a0; font-size: 12px; padding: 28px 0; }
+
+/* 카드 */
+.card { background: #22222e; border: 1px solid #2e2e3e; border-radius: 9px; padding: 12px; cursor: pointer; transition: border-color .2s, transform .15s; }
+.card:hover { border-color: rgba(108,92,231,.55); transform: translateY(-1px); }
+.card-top { display: flex; align-items: center; gap: 5px; margin-bottom: 7px; flex-wrap: wrap; }
+.p0 { font-size: 10px; font-weight: 700; padding: 2px 5px; border-radius: 3px; background: #d63031; color: #fff; }
+.p1 { font-size: 10px; font-weight: 700; padding: 2px 5px; border-radius: 3px; background: #e17055; color: #fff; }
+.p2 { font-size: 10px; font-weight: 700; padding: 2px 5px; border-radius: 3px; background: #fdcb6e; color: #000; }
+.p3 { font-size: 10px; font-weight: 700; padding: 2px 5px; border-radius: 3px; background: #636e72; color: #fff; }
+.cat-lbl { font-size: 11px; color: #8888a0; }
+.st-badge { font-size: 10px; margin-left: auto; }
+.card-title { font-size: 12px; font-weight: 500; line-height: 1.45; margin-bottom: 8px; color: #e4e4eb; }
+.card-meta { display: flex; align-items: center; justify-content: space-between; font-size: 11px; color: #8888a0; }
+.assignee-lbl { color: #a29bfe; }
+.gh-lbl { display: flex; align-items: center; gap: 3px; }
+.pr-lbl { color: #00b894; }
+.card-tags { display: flex; gap: 3px; margin-top: 6px; flex-wrap: wrap; }
+.tag { font-size: 10px; padding: 1px 5px; background: #1a1a24; border-radius: 3px; color: #8888a0; }
+.card-time { font-size: 10px; color: #636e72; margin-top: 5px; }
+.processing { border-color: rgba(108,92,231,.4); }
+.pbar { height: 2px; background: linear-gradient(90deg,#6c5ce7,#a29bfe,#6c5ce7); background-size: 200%; border-radius: 1px; margin-top: 8px; animation: shimmer 1.5s infinite; }
+@keyframes shimmer { 0%{background-position:-200% 0} 100%{background-position:200% 0} }
+
+/* ════════════════════════════
+   S2 — 제보 폼
+════════════════════════════ */
+.modal-bg { min-height: calc(100vh - 100px); display: flex; align-items: center; justify-content: center; background: rgba(15,15,19,.7); backdrop-filter: blur(4px); }
+.modal { width: 460px; background: #1a1a24; border: 1px solid #2e2e3e; border-radius: 14px; overflow: hidden; box-shadow: 0 24px 60px rgba(0,0,0,.5); }
+.m-hd { display: flex; align-items: center; justify-content: space-between; padding: 16px 18px; border-bottom: 1px solid #2e2e3e; }
+.m-title { font-size: 15px; font-weight: 600; }
+.m-close { background: transparent; border: none; color: #8888a0; font-size: 17px; cursor: pointer; width: 26px; height: 26px; border-radius: 5px; display: flex; align-items: center; justify-content: center; }
+.m-close:hover { background: #2e2e3e; color: #e4e4eb; }
+.m-body { padding: 18px; display: flex; flex-direction: column; gap: 14px; }
+label { display: block; font-size: 12px; color: #8888a0; margin-bottom: 5px; }
+textarea, input, select { width: 100%; background: #22222e; border: 1px solid #2e2e3e; border-radius: 7px; padding: 9px 12px; color: #e4e4eb; font-size: 13px; font-family: inherit; outline: none; transition: border-color .2s; }
+textarea:focus, input:focus, select:focus { border-color: #6c5ce7; }
+textarea { resize: none; }
+select option { background: #22222e; }
+.g2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.info-box { background: rgba(34,34,46,.5); border: 1px solid #2e2e3e; border-radius: 7px; padding: 10px 12px; font-size: 12px; color: #8888a0; line-height: 1.6; }
+.btn-sub { width: 100%; padding: 11px; background: #6c5ce7; border: none; border-radius: 8px; color: #fff; font-size: 13px; font-weight: 600; cursor: pointer; transition: background .2s; }
+.btn-sub:hover { background: #a29bfe; }
+
+/* ════════════════════════════
+   S3 — AI 처리 중
+════════════════════════════ */
+.ai-bg { min-height: calc(100vh - 100px); display: flex; align-items: center; justify-content: center; }
+.ai-card { background: #1a1a24; border: 1px solid #2e2e3e; border-radius: 16px; padding: 36px 32px; text-align: center; max-width: 340px; width: 100%; }
+.ai-spinner { width: 52px; height: 52px; border: 3px solid #2e2e3e; border-top-color: #6c5ce7; border-radius: 50%; margin: 0 auto 20px; animation: spin 1s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.ai-title { font-size: 15px; font-weight: 600; margin-bottom: 8px; }
+.ai-sub { font-size: 13px; color: #8888a0; line-height: 1.6; margin-bottom: 20px; }
+.ai-steps { display: flex; flex-direction: column; gap: 7px; text-align: left; }
+.step { display: flex; align-items: center; gap: 9px; font-size: 12px; padding: 7px 10px; border-radius: 7px; background: rgba(34,34,46,.5); }
+.step.done { color: #00b894; }
+.step.active { color: #a29bfe; background: rgba(108,92,231,.1); border: 1px solid rgba(108,92,231,.3); }
+.step.pend { color: #8888a0; }
+
+/* ════════════════════════════
+   S4 — 이슈 상세 패널
+════════════════════════════ */
+.dp-layout { display: grid; grid-template-columns: 1fr 460px; height: calc(100vh - 100px); }
+.dp-left { background: #0a0a10; display: flex; align-items: center; justify-content: center; color: #2e2e3e; font-size: 13px; }
+.dp-panel { background: #1a1a24; border-left: 1px solid #2e2e3e; overflow-y: auto; }
+.dp-hd { position: sticky; top: 0; background: #1a1a24; z-index: 5; padding: 14px 18px; border-bottom: 1px solid #2e2e3e; }
+.dp-hd-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 9px; }
+.dp-badges { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.gh-a { display: flex; align-items: center; gap: 3px; font-size: 11px; color: #6c5ce7; text-decoration: none; }
+.gh-a:hover { text-decoration: underline; }
+.dp-title { font-size: 15px; font-weight: 600; line-height: 1.4; }
+.dp-body { padding: 18px; display: flex; flex-direction: column; gap: 18px; }
+.dp-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.dp-f label { font-size: 11px; color: #8888a0; }
+.dp-f .val { font-size: 13px; margin-top: 3px; display: flex; align-items: center; gap: 5px; }
+.assign-dd { background: #22222e; border: 1px solid #2e2e3e; border-radius: 7px; margin-top: 5px; overflow: hidden; }
+.assign-row { display: flex; align-items: center; gap: 7px; padding: 7px 10px; cursor: pointer; font-size: 12px; transition: background .15s; }
+.assign-row:hover { background: #2e2e3e; }
+.a-role { font-size: 10px; color: #8888a0; margin-left: auto; padding: 1px 5px; background: #1a1a24; border-radius: 3px; }
+.mini-ava { width: 20px; height: 20px; border-radius: 50%; background: #2e2e3e; display: flex; align-items: center; justify-content: center; font-size: 11px; }
+.act-row { display: flex; gap: 8px; }
+.btn-edit2 { flex: 1; padding: 9px; background: transparent; border: 1px solid #2e2e3e; border-radius: 7px; color: #e4e4eb; font-size: 12px; font-weight: 500; cursor: pointer; transition: background .2s; }
+.btn-edit2:hover { background: #22222e; }
+.btn-approve { flex: 1; padding: 9px; background: #6c5ce7; border: none; border-radius: 7px; color: #fff; font-size: 12px; font-weight: 600; cursor: pointer; transition: background .2s; }
+.btn-approve:hover { background: #a29bfe; }
+.sec-title { font-size: 11px; font-weight: 600; color: #8888a0; margin-bottom: 7px; }
+.cont-box { background: #22222e; border: 1px solid #2e2e3e; border-radius: 7px; padding: 12px; font-size: 12px; line-height: 1.65; white-space: pre-wrap; color: #e4e4eb; }
+.raw-box { background: rgba(34,34,46,.4); border: 1px solid #2e2e3e; border-radius: 7px; padding: 10px 12px; font-size: 12px; color: #8888a0; font-style: italic; }
+.log-box { background: #22222e; border: 1px solid #2e2e3e; border-radius: 7px; padding: 12px; display: flex; flex-direction: column; gap: 7px; }
+.log-row { display: flex; align-items: flex-start; gap: 7px; font-size: 11px; }
+.log-txt { flex: 1; color: #e4e4eb; }
+.log-t { color: #8888a0; white-space: nowrap; }
+.cmt-list { display: flex; flex-direction: column; gap: 7px; margin-bottom: 8px; }
+.cmt { background: #22222e; border: 1px solid #2e2e3e; border-radius: 7px; padding: 10px 12px; }
+.cmt-meta { display: flex; align-items: center; gap: 5px; font-size: 11px; color: #8888a0; margin-bottom: 5px; }
+.cmt-author { color: #e4e4eb; font-weight: 500; }
+.cmt-src { font-size: 10px; padding: 1px 4px; background: #1a1a24; border-radius: 3px; }
+.cmt-t { margin-left: auto; }
+.cmt-body { font-size: 12px; color: #e4e4eb; line-height: 1.5; }
+.cmt-form { display: flex; gap: 7px; }
+.cmt-input { flex: 1; background: #22222e; border: 1px solid #2e2e3e; border-radius: 7px; padding: 8px 11px; color: #e4e4eb; font-size: 12px; font-family: inherit; outline: none; }
+.cmt-input:focus { border-color: #6c5ce7; }
+.cmt-send { padding: 8px 12px; background: #6c5ce7; border: none; border-radius: 7px; color: #fff; cursor: pointer; font-size: 13px; }
+.cmt-send:hover { background: #a29bfe; }
+.pr-a { display: flex; align-items: center; gap: 4px; font-size: 12px; color: #00b894; text-decoration: none; }
+</style>
+</head>
+<body>
+
+<nav class="tab-nav">
+  <div class="tab active" onclick="show(0,this)">① 로그인</div>
+  <div class="tab" onclick="show(1,this)">② 칸반 보드</div>
+  <div class="tab" onclick="show(2,this)">③ 이슈 제보 폼</div>
+  <div class="tab" onclick="show(3,this)">④ AI 처리 중</div>
+  <div class="tab" onclick="show(4,this)">⑤ 이슈 상세</div>
+</nav>
+
+<!-- ════ S0: 로그인 ════ -->
+<div class="screen active" id="s0">
+  <div class="login-wrap">
+    <div class="login-box">
+      <div class="l-icon">🏰</div>
+      <h1 class="l-title">Lair Issue Board</h1>
+      <p class="l-sub">AI가 이슈를 정제하고<br>GitHub과 실시간 동기화되는 칸반 시스템</p>
+      <div class="l-card">
+        <a href="#" class="btn-gh" onclick="show(1,document.querySelectorAll('.tab')[1]);return false">
+          <svg width="19" height="19" fill="currentColor" viewBox="0 0 24 24"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.38 7.86 10.9.57.1.78-.25.78-.55v-2.1c-3.2.7-3.87-1.54-3.87-1.54-.52-1.33-1.27-1.68-1.27-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.24 3.33.95.1-.74.4-1.24.72-1.52-2.55-.29-5.23-1.27-5.23-5.66 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.15 1.17a11 11 0 0 1 5.73 0c2.18-1.48 3.14-1.17 3.14-1.17.62 1.57.23 2.73.11 3.02.74.8 1.18 1.82 1.18 3.07 0 4.4-2.68 5.37-5.24 5.65.41.35.77 1.05.77 2.12v3.14c0 .3.2.66.79.55C20.22 21.38 23.5 17.08 23.5 12 23.5 5.65 18.35.5 12 .5z"/></svg>
+          GitHub으로 로그인
+        </a>
+        <p class="l-hint">GitHub 계정으로 로그인하면 별도 가입 없이<br>바로 이슈를 제보하고 관리할 수 있어요.</p>
+      </div>
+      <div class="feat-grid">
+        <div class="feat-item"><div class="fe">🤖</div>AI 자동 분류</div>
+        <div class="feat-item"><div class="fe">🔄</div>GitHub 동기화</div>
+        <div class="feat-item"><div class="fe">📋</div>칸반 보드</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ════ S1: 칸반 보드 ════ -->
+<div class="screen" id="s1">
+  <header class="header">
+    <div class="h-left"><span class="h-logo">🏰</span><span class="h-title">Lair Issue Board</span></div>
+    <div class="h-right">
+      <button class="btn-report" onclick="show(2,document.querySelectorAll('.tab')[2])">+ 이슈 제보</button>
+      <div class="u-ava">😺</div><span class="u-name">@alice</span><span class="role-badge">lead</span>
+    </div>
+  </header>
+  <div class="board">
+
+    <!-- Backlog -->
+    <div class="col">
+      <div class="col-hd">
+        <div class="col-hd-row"><span class="col-name">📥 Backlog</span><span class="col-cnt">3</span></div>
+        <div class="col-sub">Pending / AI Review</div>
+      </div>
+      <div class="col-body">
+
+        <div class="card processing" onclick="show(3,document.querySelectorAll('.tab')[3])">
+          <div class="card-top"><span class="st-badge" style="color:#fdcb6e;font-size:11px">⏳ AI 분석 중...</span></div>
+          <div class="card-title">Discord에서 Berachain 에러 제보됨</div>
+          <div class="card-meta"><span>@bob</span></div>
+          <div class="card-tags"><span class="tag">discord</span><span class="tag">Berachain</span></div>
+          <div class="pbar"></div>
+        </div>
+
+        <div class="card" onclick="show(4,document.querySelectorAll('.tab')[4])">
+          <div class="card-top">
+            <span class="p1">P1</span><span class="cat-lbl">🐛 Bug</span>
+            <span class="st-badge" style="color:#a29bfe;margin-left:auto">👀 Review</span>
+          </div>
+          <div class="card-title">stKAIA → ETH 스왑 트랜잭션 Confirm 후 실패</div>
+          <div class="card-meta"><span>@carol</span></div>
+          <div class="card-tags"><span class="tag">discord</span><span class="tag">Kaia</span><span class="tag">v2.1.3</span></div>
+          <div class="card-time">⏰ 12분 전</div>
+        </div>
+
+        <div class="card">
+          <div class="card-top">
+            <span class="p2">P2</span><span class="cat-lbl">🎨 UX/UI</span>
+            <span class="st-badge" style="color:#a29bfe;margin-left:auto">👀 Review</span>
+          </div>
+          <div class="card-title">모바일에서 지갑 연결 버튼 위치가 어색함</div>
+          <div class="card-meta"><span>@dave</span></div>
+          <div class="card-tags"><span class="tag">telegram</span></div>
+          <div class="card-time">⏰ 1시간 전</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- In Review -->
+    <div class="col">
+      <div class="col-hd">
+        <div class="col-hd-row"><span class="col-name">🔍 In Review</span><span class="col-cnt">2</span></div>
+        <div class="col-sub">GitHub Issue 생성됨</div>
+      </div>
+      <div class="col-body">
+
+        <div class="card">
+          <div class="card-top"><span class="p0">P0</span><span class="cat-lbl">🐛 Bug</span></div>
+          <div class="card-title">메인넷 출금 트랜잭션 블록에 포함 안 됨 (서비스 중단급)</div>
+          <div class="card-meta"><span>@alice</span><span class="gh-lbl">🔗 #38</span></div>
+          <div class="card-tags"><span class="tag">internal</span><span class="tag">Ethereum</span></div>
+          <div class="card-time">⏰ 3시간 전</div>
+        </div>
+
+        <div class="card">
+          <div class="card-top"><span class="p2">P2</span><span class="cat-lbl">💡 Feature</span></div>
+          <div class="card-title">포트폴리오 페이지에 수익률 그래프 추가 요청</div>
+          <div class="card-meta"><span>@bob</span><span class="gh-lbl">🔗 #35</span></div>
+          <div class="card-tags"><span class="tag">x</span></div>
+          <div class="card-time">⏰ 1일 전</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- In Progress -->
+    <div class="col">
+      <div class="col-hd">
+        <div class="col-hd-row"><span class="col-name">🛠 In Progress</span><span class="col-cnt">2</span></div>
+        <div class="col-sub">담당자 작업 중</div>
+      </div>
+      <div class="col-body">
+
+        <div class="card">
+          <div class="card-top"><span class="p1">P1</span><span class="cat-lbl">⚡ Performance</span></div>
+          <div class="card-title">리스트 페이지 스크롤 시 렉 발생 (500개 이상)</div>
+          <div class="card-meta"><span>@carol</span><span class="assignee-lbl">→ @dave</span></div>
+          <div class="card-tags"><span class="tag">internal</span></div>
+          <div style="font-size:11px;color:#8888a0;margin-top:5px">🔗 #31 &nbsp;<span class="pr-lbl">🔀 PR#12</span></div>
+          <div class="card-time">⏰ 2일 전</div>
+        </div>
+
+        <div class="card">
+          <div class="card-top"><span class="p2">P2</span><span class="cat-lbl">🐛 Bug</span></div>
+          <div class="card-title">다크모드 전환 시 차트 색상이 반전되지 않음</div>
+          <div class="card-meta"><span>@eve</span><span class="assignee-lbl">→ @frank</span></div>
+          <div style="font-size:11px;color:#8888a0;margin-top:5px">🔗 #29</div>
+          <div class="card-time">⏰ 3일 전</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Done -->
+    <div class="col">
+      <div class="col-hd">
+        <div class="col-hd-row"><span class="col-name">✅ Done</span><span class="col-cnt">1</span></div>
+        <div class="col-sub">처리 완료</div>
+      </div>
+      <div class="col-body">
+
+        <div class="card" style="opacity:.55">
+          <div class="card-top"><span class="p3">P3</span><span class="cat-lbl">💡 Feature</span></div>
+          <div class="card-title">로그인 화면 언어 선택 옵션 추가</div>
+          <div class="card-meta"><span>@alice</span><span style="color:#00b894">✅ 완료</span></div>
+          <div style="font-size:11px;color:#8888a0;margin-top:5px">🔗 #22 &nbsp;<span class="pr-lbl">🔀 PR#9 merged</span></div>
+          <div class="card-time">⏰ 5일 전</div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ════ S2: 이슈 제보 폼 ════ -->
+<div class="screen" id="s2">
+  <header class="header">
+    <div class="h-left"><span class="h-logo">🏰</span><span class="h-title">Lair Issue Board</span></div>
+    <div class="h-right">
+      <button class="btn-report">+ 이슈 제보</button>
+      <div class="u-ava">😺</div><span class="u-name">@alice</span><span class="role-badge">lead</span>
+    </div>
+  </header>
+  <div class="modal-bg">
+    <div class="modal">
+      <div class="m-hd">
+        <span class="m-title">새 이슈 제보</span>
+        <button class="m-close" onclick="show(1,document.querySelectorAll('.tab')[1])">✕</button>
+      </div>
+      <div class="m-body">
+        <div>
+          <label>어떤 문제인가요? (자유롭게 써주세요)</label>
+          <textarea rows="4">stKAIA를 ETH로 스왑하려고 Confirm 눌렀는데 트랜잭션이 그냥 실패함. 에러 메시지도 안뜸. 다른 사람들도 같은 문제 겪고 있는 것 같음.</textarea>
+        </div>
+        <div class="g2">
+          <div><label>출처</label>
+            <select><option>Discord</option><option>Telegram</option><option>X (Twitter)</option><option>내부</option></select>
+          </div>
+          <div><label>체인</label>
+            <select><option>Kaia</option><option>Berachain</option><option>Ethereum</option></select>
+          </div>
+        </div>
+        <div><label>앱 버전</label><input type="text" value="v2.1.3" /></div>
+        <div class="info-box">🤖 제보하면 AI가 자동으로 제목, 카테고리, 우선순위, 해결 방향을 작성합니다.<br>AI 초안을 검토한 후 "GitHub에 등록" 버튼으로 승인하면 이슈가 생성됩니다.</div>
+        <button class="btn-sub" onclick="show(3,document.querySelectorAll('.tab')[3])">✈️ &nbsp;제보하기</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ════ S3: AI 처리 중 ════ -->
+<div class="screen" id="s3">
+  <header class="header">
+    <div class="h-left"><span class="h-logo">🏰</span><span class="h-title">Lair Issue Board</span></div>
+    <div class="h-right">
+      <button class="btn-report">+ 이슈 제보</button>
+      <div class="u-ava">😺</div><span class="u-name">@alice</span><span class="role-badge">lead</span>
+    </div>
+  </header>
+  <div class="ai-bg">
+    <div class="ai-card">
+      <div class="ai-spinner"></div>
+      <div class="ai-title">🤖 AI가 이슈를 분석 중입니다</div>
+      <div class="ai-sub">원문을 읽고 카테고리, 우선순위,<br>해결 방향 초안을 작성하고 있어요.</div>
+      <div class="ai-steps">
+        <div class="step done">✅ 이슈 접수 완료</div>
+        <div class="step done">✅ Claude API 요청 전송</div>
+        <div class="step active">⚡ 분류 및 요약 생성 중...</div>
+        <div class="step pend">○ 해결 방향 초안 작성</div>
+        <div class="step pend">○ Backlog에 카드 배치</div>
+      </div>
+      <button onclick="show(4,document.querySelectorAll('.tab')[4])" style="margin-top:20px;width:100%;padding:9px;background:#22222e;border:1px solid #2e2e3e;border-radius:7px;color:#8888a0;font-size:12px;cursor:pointer">
+        ⏩ 완료 후 상태 보기 →
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- ════ S4: 이슈 상세 ════ -->
+<div class="screen" id="s4">
+  <header class="header">
+    <div class="h-left"><span class="h-logo">🏰</span><span class="h-title">Lair Issue Board</span></div>
+    <div class="h-right">
+      <button class="btn-report">+ 이슈 제보</button>
+      <div class="u-ava">😺</div><span class="u-name">@alice</span><span class="role-badge">lead</span>
+    </div>
+  </header>
+  <div class="dp-layout">
+    <div class="dp-left">← 칸반 보드 (패널 바깥 클릭 시 닫힘)</div>
+    <div class="dp-panel">
+      <div class="dp-hd">
+        <div class="dp-hd-top">
+          <div class="dp-badges">
+            <span class="p1">P1 High</span>
+            <span class="cat-lbl">🐛 Bug</span>
+            <a href="#" class="gh-a">🔗 #42 ↗</a>
+          </div>
+          <button onclick="show(1,document.querySelectorAll('.tab')[1])" style="background:transparent;border:none;color:#8888a0;font-size:17px;cursor:pointer">✕</button>
+        </div>
+        <div class="dp-title">stKAIA → ETH 스왑 트랜잭션 Confirm 후 실패</div>
+      </div>
+
+      <div class="dp-body">
+
+        <div class="dp-grid">
+          <div class="dp-f"><label>상태</label><div class="val">🔍 In Review</div></div>
+          <div class="dp-f">
+            <label>담당자</label>
+            <div class="val">
+              <span style="color:#8888a0">미배정</span>
+              <button onclick="toggleDD()" style="padding:2px 6px;background:transparent;border:1px solid #6c5ce7;border-radius:4px;color:#6c5ce7;font-size:10px;cursor:pointer">+ 배정</button>
+            </div>
+            <div class="assign-dd" id="aDD" style="display:none">
+              <div class="assign-row"><div class="mini-ava">😺</div> @alice <span class="a-role">lead</span></div>
+              <div class="assign-row"><div class="mini-ava">🐶</div> @dave <span class="a-role">developer</span></div>
+              <div class="assign-row"><div class="mini-ava">🦊</div> @frank <span class="a-role">developer</span></div>
+            </div>
+          </div>
+          <div class="dp-f"><label>제보자</label><div class="val">@carol</div></div>
+          <div class="dp-f"><label>제보일</label><div class="val">2026. 02. 25.</div></div>
+          <div class="dp-f"><label>출처</label><div class="val">Discord</div></div>
+          <div class="dp-f"><label>체인</label><div class="val">Kaia v2.1.3</div></div>
+        </div>
+
+        <div class="act-row">
+          <button class="btn-edit2">수정하기</button>
+          <button class="btn-approve">GitHub에 등록 ✓</button>
+        </div>
+
+        <div>
+          <div class="sec-title">📄 상세 내용</div>
+          <div class="cont-box">Kaia 체인에서 stKAIA 토큰을 ETH로 스왑 시도 시,
+Confirm 버튼 클릭 후 트랜잭션이 실패합니다.
+
+재현 조건:
+• stKAIA 잔액 10 이상 보유
+• ETH 스왑 탭 선택 후 금액 입력
+• Confirm 클릭 → 트랜잭션 fail
+
+이상 현상:
+• 에러 메시지가 표시되지 않음
+• 가스비만 소진됨
+• 복수 유저 동일 증상 확인됨</div>
+        </div>
+
+        <div>
+          <div class="sec-title">💡 해결 방향 제안</div>
+          <div class="cont-box">• stKAIA 컨트랙트 approve() 처리 로직 확인
+• 스왑 컨트랙트 allowance 초과 여부 검증
+• Kaia 노드 RPC 엔드포인트 상태 모니터링
+• 가스 estimation 함수 재점검 (최근 업데이트 이후)
+• 동일 증상 유저 대상 임시 조치 안내</div>
+        </div>
+
+        <div>
+          <div class="sec-title">💬 원문 제보</div>
+          <div class="raw-box">"stKAIA를 ETH로 스왑하려고 Confirm 눌렀는데 트랜잭션이 그냥 실패함. 에러 메시지도 안뜸. 다른 사람들도 같은 문제 겪고 있는 것 같음."</div>
+        </div>
+
+        <div>
+          <div class="sec-title">🤖 AI 활동 로그</div>
+          <div class="log-box">
+            <div class="log-row"><span style="color:#00b894">✅</span><span class="log-txt" style="color:#00b894">AI 분류 작업 시작</span><span class="log-t">14:22</span></div>
+            <div class="log-row"><span style="color:#00b894">✅</span><span class="log-txt" style="color:#00b894">이슈 분류 완료 → Bug / P1</span><span class="log-t">14:22</span></div>
+            <div class="log-row"><span style="color:#00b894">✅</span><span class="log-txt" style="color:#00b894">해결 방향 초안 작성 완료</span><span class="log-t">14:22</span></div>
+            <div class="log-row"><span style="color:#00b894">✅</span><span class="log-txt" style="color:#00b894">GitHub Issue #42 생성됨</span><span class="log-t">14:23</span></div>
+          </div>
+        </div>
+
+        <div>
+          <div class="sec-title">💬 코멘트 <span style="font-weight:400">(GitHub 동기화)</span></div>
+          <div class="cmt-list">
+            <div class="cmt">
+              <div class="cmt-meta"><span class="cmt-author">@dave</span><span class="cmt-t">오후 2:35</span></div>
+              <div class="cmt-body">RPC 엔드포인트 이슈인지 먼저 확인해볼게요. 노드 상태 체크 중입니다.</div>
+            </div>
+            <div class="cmt">
+              <div class="cmt-meta"><span class="cmt-author">@carol</span><span class="cmt-src">GitHub</span><span class="cmt-t">오후 2:41</span></div>
+              <div class="cmt-body">테스트넷에서도 동일하게 재현됩니다. allowance 문제인 것 같아요.</div>
+            </div>
+          </div>
+          <div class="cmt-form">
+            <input class="cmt-input" placeholder="코멘트 입력..." />
+            <button class="cmt-send">✈️</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+function show(idx, el) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.getElementById('s' + idx).classList.add('active');
+  el.classList.add('active');
+}
+function toggleDD() {
+  const d = document.getElementById('aDD');
+  d.style.display = d.style.display === 'none' ? 'block' : 'none';
+}
+</script>
+</body>
+</html>
