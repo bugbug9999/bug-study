@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Lair Issue Board — UI 미리보기</title>
+<title>Lair Issue Board — GoldRush</title>
 <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" rel="stylesheet" />
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -12,10 +12,10 @@ body { background: #0f0f13; color: #e4e4eb; font-family: 'Pretendard', -apple-sy
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: #2e2e3e; border-radius: 3px; }
 
-/* ─── 탭 네비 ─────── */
+/* ─── 탭 네비 (데모 화면 전환) ─────── */
 .tab-nav { display: flex; gap: 0; background: #1a1a24; border-bottom: 1px solid #2e2e3e; padding: 0 16px; overflow-x: auto; }
-.tab { padding: 12px 16px; cursor: pointer; font-size: 13px; color: #8888a0; border-bottom: 2px solid transparent; white-space: nowrap; transition: all .2s; }
-.tab.active { color: #e4e4eb; border-bottom-color: #6c5ce7; }
+.tab { padding: 12px 14px; cursor: pointer; font-size: 12px; color: #8888a0; border-bottom: 2px solid transparent; white-space: nowrap; transition: all .2s; }
+.tab.active { color: #e4e4eb; border-bottom-color: #d4a017; }
 .tab:hover:not(.active) { color: #c0c0d0; }
 
 .screen { display: none; }
@@ -25,21 +25,35 @@ body { background: #0f0f13; color: #e4e4eb; font-family: 'Pretendard', -apple-sy
 .header { height: 60px; background: #1a1a24; border-bottom: 1px solid #2e2e3e; display: flex; align-items: center; justify-content: space-between; padding: 0 20px; }
 .h-left { display: flex; align-items: center; gap: 8px; }
 .h-logo { font-size: 22px; }
-.h-title { font-size: 16px; font-weight: 700; }
+.h-title { font-size: 16px; font-weight: 700; color: #d4a017; }
 .h-right { display: flex; align-items: center; gap: 12px; }
-.btn-report { display: flex; align-items: center; gap: 5px; padding: 7px 14px; background: #6c5ce7; border: none; border-radius: 8px; color: #fff; font-size: 12px; font-weight: 600; cursor: pointer; transition: background .2s; }
-.btn-report:hover { background: #a29bfe; }
+.btn-report { display: flex; align-items: center; gap: 5px; padding: 7px 14px; background: #d4a017; border: none; border-radius: 8px; color: #0f0f13; font-size: 12px; font-weight: 600; cursor: pointer; transition: background .2s; }
+.btn-report:hover { background: #f0c040; }
 .u-ava { width: 30px; height: 30px; border-radius: 50%; background: #2e2e3e; display: flex; align-items: center; justify-content: center; font-size: 14px; border: 1px solid #3e3e50; }
 .u-name { color: #8888a0; font-size: 12px; }
 .role-badge { font-size: 10px; padding: 2px 6px; background: #22222e; border: 1px solid #2e2e3e; border-radius: 4px; color: #8888a0; }
+
+/* ─── 프로젝트 탭 (칸반 내부) ─────── */
+.proj-tabs { display: flex; gap: 0; background: #15151e; padding: 0 20px; border-bottom: 1px solid #2e2e3e; }
+.proj-tab { padding: 10px 16px; cursor: pointer; font-size: 12px; color: #8888a0; border-bottom: 2px solid transparent; white-space: nowrap; transition: all .2s; display: flex; align-items: center; gap: 6px; }
+.proj-tab.active { color: #d4a017; border-bottom-color: #d4a017; }
+.proj-tab:hover:not(.active) { color: #c0c0d0; }
+.proj-dot { width: 7px; height: 7px; border-radius: 50%; }
+.proj-sep { margin-left: auto; display: flex; align-items: center; gap: 8px; padding: 0 8px; }
+
+/* ─── 뷰 토글 (칸반/태스크/타임라인) ─────── */
+.view-toggle { display: flex; gap: 2px; background: #22222e; border-radius: 7px; padding: 2px; }
+.vt-btn { padding: 5px 12px; font-size: 11px; color: #8888a0; border: none; background: transparent; border-radius: 5px; cursor: pointer; transition: all .15s; }
+.vt-btn.active { background: #d4a017; color: #0f0f13; font-weight: 600; }
+.vt-btn:hover:not(.active) { color: #e4e4eb; }
 
 /* ════════════════════════════
    S0 — 로그인
 ════════════════════════════ */
 .login-wrap { min-height: calc(100vh - 88px); display: flex; align-items: center; justify-content: center; }
-.login-box { width: 400px; text-align: center; padding: 20px; }
+.login-box { width: 420px; text-align: center; padding: 20px; }
 .l-icon { font-size: 50px; margin-bottom: 14px; }
-.l-title { font-size: 26px; font-weight: 700; margin-bottom: 8px; }
+.l-title { font-size: 26px; font-weight: 700; margin-bottom: 8px; color: #d4a017; }
 .l-sub { color: #8888a0; font-size: 14px; line-height: 1.7; margin-bottom: 32px; }
 .l-card { background: #1a1a24; border: 1px solid #2e2e3e; border-radius: 14px; padding: 28px; }
 .btn-gh { display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%; padding: 12px 20px; background: #22222e; border: 1px solid #2e2e3e; border-radius: 10px; color: #e4e4eb; font-size: 14px; font-weight: 500; cursor: pointer; text-decoration: none; transition: background .2s; }
@@ -52,7 +66,7 @@ body { background: #0f0f13; color: #e4e4eb; font-family: 'Pretendard', -apple-sy
 /* ════════════════════════════
    S1 — 칸반 보드
 ════════════════════════════ */
-.board { display: flex; gap: 14px; padding: 16px 20px; height: calc(100vh - 100px); overflow-x: auto; }
+.board { display: flex; gap: 14px; padding: 16px 20px; height: calc(100vh - 148px); overflow-x: auto; }
 .col { flex-shrink: 0; width: 280px; display: flex; flex-direction: column; background: rgba(26,26,36,.6); border: 1px solid #2e2e3e; border-radius: 12px; }
 .col-hd { padding: 12px 14px; border-bottom: 1px solid #2e2e3e; }
 .col-hd-row { display: flex; align-items: center; justify-content: space-between; }
@@ -60,11 +74,10 @@ body { background: #0f0f13; color: #e4e4eb; font-family: 'Pretendard', -apple-sy
 .col-cnt { font-size: 11px; padding: 1px 7px; background: #22222e; border-radius: 20px; color: #8888a0; }
 .col-sub { font-size: 11px; color: #8888a0; margin-top: 3px; }
 .col-body { flex: 1; overflow-y: auto; padding: 10px; display: flex; flex-direction: column; gap: 8px; }
-.empty-c { text-align: center; color: #8888a0; font-size: 12px; padding: 28px 0; }
 
 /* 카드 */
 .card { background: #22222e; border: 1px solid #2e2e3e; border-radius: 9px; padding: 12px; cursor: pointer; transition: border-color .2s, transform .15s; }
-.card:hover { border-color: rgba(108,92,231,.55); transform: translateY(-1px); }
+.card:hover { border-color: rgba(212,160,23,.55); transform: translateY(-1px); }
 .card-top { display: flex; align-items: center; gap: 5px; margin-bottom: 7px; flex-wrap: wrap; }
 .p0 { font-size: 10px; font-weight: 700; padding: 2px 5px; border-radius: 3px; background: #d63031; color: #fff; }
 .p1 { font-size: 10px; font-weight: 700; padding: 2px 5px; border-radius: 3px; background: #e17055; color: #fff; }
@@ -74,14 +87,14 @@ body { background: #0f0f13; color: #e4e4eb; font-family: 'Pretendard', -apple-sy
 .st-badge { font-size: 10px; margin-left: auto; }
 .card-title { font-size: 12px; font-weight: 500; line-height: 1.45; margin-bottom: 8px; color: #e4e4eb; }
 .card-meta { display: flex; align-items: center; justify-content: space-between; font-size: 11px; color: #8888a0; }
-.assignee-lbl { color: #a29bfe; }
+.assignee-lbl { color: #d4a017; }
 .gh-lbl { display: flex; align-items: center; gap: 3px; }
 .pr-lbl { color: #00b894; }
 .card-tags { display: flex; gap: 3px; margin-top: 6px; flex-wrap: wrap; }
 .tag { font-size: 10px; padding: 1px 5px; background: #1a1a24; border-radius: 3px; color: #8888a0; }
 .card-time { font-size: 10px; color: #636e72; margin-top: 5px; }
-.processing { border-color: rgba(108,92,231,.4); }
-.pbar { height: 2px; background: linear-gradient(90deg,#6c5ce7,#a29bfe,#6c5ce7); background-size: 200%; border-radius: 1px; margin-top: 8px; animation: shimmer 1.5s infinite; }
+.processing { border-color: rgba(212,160,23,.4); }
+.pbar { height: 2px; background: linear-gradient(90deg,#d4a017,#f0c040,#d4a017); background-size: 200%; border-radius: 1px; margin-top: 8px; animation: shimmer 1.5s infinite; }
 @keyframes shimmer { 0%{background-position:-200% 0} 100%{background-position:200% 0} }
 
 /* ════════════════════════════
@@ -95,40 +108,40 @@ body { background: #0f0f13; color: #e4e4eb; font-family: 'Pretendard', -apple-sy
 .m-close:hover { background: #2e2e3e; color: #e4e4eb; }
 .m-body { padding: 18px; display: flex; flex-direction: column; gap: 14px; }
 label { display: block; font-size: 12px; color: #8888a0; margin-bottom: 5px; }
-textarea, input, select { width: 100%; background: #22222e; border: 1px solid #2e2e3e; border-radius: 7px; padding: 9px 12px; color: #e4e4eb; font-size: 13px; font-family: inherit; outline: none; transition: border-color .2s; }
-textarea:focus, input:focus, select:focus { border-color: #6c5ce7; }
+textarea, input[type="text"], select { width: 100%; background: #22222e; border: 1px solid #2e2e3e; border-radius: 7px; padding: 9px 12px; color: #e4e4eb; font-size: 13px; font-family: inherit; outline: none; transition: border-color .2s; }
+textarea:focus, input[type="text"]:focus, select:focus { border-color: #d4a017; }
 textarea { resize: none; }
 select option { background: #22222e; }
 .g2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 .info-box { background: rgba(34,34,46,.5); border: 1px solid #2e2e3e; border-radius: 7px; padding: 10px 12px; font-size: 12px; color: #8888a0; line-height: 1.6; }
-.btn-sub { width: 100%; padding: 11px; background: #6c5ce7; border: none; border-radius: 8px; color: #fff; font-size: 13px; font-weight: 600; cursor: pointer; transition: background .2s; }
-.btn-sub:hover { background: #a29bfe; }
+.btn-sub { width: 100%; padding: 11px; background: #d4a017; border: none; border-radius: 8px; color: #0f0f13; font-size: 13px; font-weight: 600; cursor: pointer; transition: background .2s; }
+.btn-sub:hover { background: #f0c040; }
 
 /* ════════════════════════════
    S3 — AI 처리 중
 ════════════════════════════ */
 .ai-bg { min-height: calc(100vh - 100px); display: flex; align-items: center; justify-content: center; }
 .ai-card { background: #1a1a24; border: 1px solid #2e2e3e; border-radius: 16px; padding: 36px 32px; text-align: center; max-width: 340px; width: 100%; }
-.ai-spinner { width: 52px; height: 52px; border: 3px solid #2e2e3e; border-top-color: #6c5ce7; border-radius: 50%; margin: 0 auto 20px; animation: spin 1s linear infinite; }
+.ai-spinner { width: 52px; height: 52px; border: 3px solid #2e2e3e; border-top-color: #d4a017; border-radius: 50%; margin: 0 auto 20px; animation: spin 1s linear infinite; }
 @keyframes spin { to { transform: rotate(360deg); } }
 .ai-title { font-size: 15px; font-weight: 600; margin-bottom: 8px; }
 .ai-sub { font-size: 13px; color: #8888a0; line-height: 1.6; margin-bottom: 20px; }
 .ai-steps { display: flex; flex-direction: column; gap: 7px; text-align: left; }
 .step { display: flex; align-items: center; gap: 9px; font-size: 12px; padding: 7px 10px; border-radius: 7px; background: rgba(34,34,46,.5); }
 .step.done { color: #00b894; }
-.step.active { color: #a29bfe; background: rgba(108,92,231,.1); border: 1px solid rgba(108,92,231,.3); }
+.step.active { color: #d4a017; background: rgba(212,160,23,.08); border: 1px solid rgba(212,160,23,.3); }
 .step.pend { color: #8888a0; }
 
 /* ════════════════════════════
    S4 — 이슈 상세 패널
 ════════════════════════════ */
-.dp-layout { display: grid; grid-template-columns: 1fr 460px; height: calc(100vh - 100px); }
+.dp-layout { display: grid; grid-template-columns: 1fr 500px; height: calc(100vh - 100px); }
 .dp-left { background: #0a0a10; display: flex; align-items: center; justify-content: center; color: #2e2e3e; font-size: 13px; }
 .dp-panel { background: #1a1a24; border-left: 1px solid #2e2e3e; overflow-y: auto; }
 .dp-hd { position: sticky; top: 0; background: #1a1a24; z-index: 5; padding: 14px 18px; border-bottom: 1px solid #2e2e3e; }
 .dp-hd-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 9px; }
 .dp-badges { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
-.gh-a { display: flex; align-items: center; gap: 3px; font-size: 11px; color: #6c5ce7; text-decoration: none; }
+.gh-a { display: flex; align-items: center; gap: 3px; font-size: 11px; color: #d4a017; text-decoration: none; }
 .gh-a:hover { text-decoration: underline; }
 .dp-title { font-size: 15px; font-weight: 600; line-height: 1.4; }
 .dp-body { padding: 18px; display: flex; flex-direction: column; gap: 18px; }
@@ -143,8 +156,8 @@ select option { background: #22222e; }
 .act-row { display: flex; gap: 8px; }
 .btn-edit2 { flex: 1; padding: 9px; background: transparent; border: 1px solid #2e2e3e; border-radius: 7px; color: #e4e4eb; font-size: 12px; font-weight: 500; cursor: pointer; transition: background .2s; }
 .btn-edit2:hover { background: #22222e; }
-.btn-approve { flex: 1; padding: 9px; background: #6c5ce7; border: none; border-radius: 7px; color: #fff; font-size: 12px; font-weight: 600; cursor: pointer; transition: background .2s; }
-.btn-approve:hover { background: #a29bfe; }
+.btn-approve { flex: 1; padding: 9px; background: #d4a017; border: none; border-radius: 7px; color: #0f0f13; font-size: 12px; font-weight: 600; cursor: pointer; transition: background .2s; }
+.btn-approve:hover { background: #f0c040; }
 .sec-title { font-size: 11px; font-weight: 600; color: #8888a0; margin-bottom: 7px; }
 .cont-box { background: #22222e; border: 1px solid #2e2e3e; border-radius: 7px; padding: 12px; font-size: 12px; line-height: 1.65; white-space: pre-wrap; color: #e4e4eb; }
 .raw-box { background: rgba(34,34,46,.4); border: 1px solid #2e2e3e; border-radius: 7px; padding: 10px 12px; font-size: 12px; color: #8888a0; font-style: italic; }
@@ -161,26 +174,76 @@ select option { background: #22222e; }
 .cmt-body { font-size: 12px; color: #e4e4eb; line-height: 1.5; }
 .cmt-form { display: flex; gap: 7px; }
 .cmt-input { flex: 1; background: #22222e; border: 1px solid #2e2e3e; border-radius: 7px; padding: 8px 11px; color: #e4e4eb; font-size: 12px; font-family: inherit; outline: none; }
-.cmt-input:focus { border-color: #6c5ce7; }
-.cmt-send { padding: 8px 12px; background: #6c5ce7; border: none; border-radius: 7px; color: #fff; cursor: pointer; font-size: 13px; }
-.cmt-send:hover { background: #a29bfe; }
-.pr-a { display: flex; align-items: center; gap: 4px; font-size: 12px; color: #00b894; text-decoration: none; }
+.cmt-input:focus { border-color: #d4a017; }
+.cmt-send { padding: 8px 12px; background: #d4a017; border: none; border-radius: 7px; color: #0f0f13; cursor: pointer; font-size: 13px; font-weight: 600; }
+.cmt-send:hover { background: #f0c040; }
+
+/* ─── AI 프롬프트/결과 블록 ─────── */
+.ai-block { background: #18182a; border: 1px solid rgba(212,160,23,.25); border-radius: 9px; padding: 12px; margin-top: 4px; }
+.ai-block-hd { display: flex; align-items: center; gap: 6px; margin-bottom: 8px; font-size: 11px; color: #d4a017; font-weight: 600; }
+.prompt-box { background: #0f0f13; border: 1px solid #2e2e3e; border-radius: 6px; padding: 9px 11px; font-size: 11px; color: #a29bfe; font-family: 'Pretendard', monospace; line-height: 1.55; margin-bottom: 8px; }
+.result-box { background: #0f0f13; border: 1px solid #2e2e3e; border-radius: 6px; padding: 9px 11px; font-size: 11px; color: #e4e4eb; line-height: 1.55; margin-bottom: 6px; }
+.result-label { font-size: 10px; color: #8888a0; margin-bottom: 4px; font-weight: 600; }
+.gitbook-link { display: inline-flex; align-items: center; gap: 4px; font-size: 11px; color: #d4a017; text-decoration: none; padding: 3px 8px; background: rgba(212,160,23,.08); border: 1px solid rgba(212,160,23,.2); border-radius: 5px; }
+.gitbook-link:hover { background: rgba(212,160,23,.15); }
+
+/* ════════════════════════════
+   S5 — 태스크 & 타임라인
+════════════════════════════ */
+.tasks-wrap { padding: 20px; overflow-y: auto; height: calc(100vh - 148px); }
+.task-section { margin-bottom: 24px; }
+.task-section-hd { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+.task-section-title { font-size: 14px; font-weight: 600; }
+.task-count { font-size: 11px; color: #8888a0; padding: 2px 8px; background: #22222e; border-radius: 10px; }
+
+/* 태스크 테이블 */
+.task-table { width: 100%; border-collapse: collapse; }
+.task-table th { text-align: left; font-size: 11px; color: #8888a0; font-weight: 500; padding: 8px 10px; border-bottom: 1px solid #2e2e3e; }
+.task-table td { font-size: 12px; padding: 10px; border-bottom: 1px solid rgba(46,46,62,.4); vertical-align: middle; }
+.task-table tr:hover td { background: rgba(34,34,46,.3); }
+.task-name { font-weight: 500; }
+.task-status { font-size: 10px; padding: 2px 7px; border-radius: 4px; font-weight: 600; }
+.ts-todo { background: #22222e; color: #8888a0; }
+.ts-prog { background: rgba(212,160,23,.15); color: #d4a017; }
+.ts-done { background: rgba(0,184,148,.12); color: #00b894; }
+.ts-block { background: rgba(214,48,49,.12); color: #d63031; }
+.task-assign { color: #d4a017; font-size: 11px; }
+.task-date { color: #8888a0; font-size: 11px; }
+.task-prio { font-size: 10px; font-weight: 700; padding: 2px 5px; border-radius: 3px; }
+
+/* 타임라인 */
+.timeline { position: relative; padding-left: 24px; }
+.timeline::before { content: ''; position: absolute; left: 8px; top: 0; bottom: 0; width: 2px; background: #2e2e3e; }
+.tl-item { position: relative; margin-bottom: 18px; }
+.tl-dot { position: absolute; left: -20px; top: 4px; width: 10px; height: 10px; border-radius: 50%; border: 2px solid #2e2e3e; background: #0f0f13; }
+.tl-dot.gold { border-color: #d4a017; background: #d4a017; }
+.tl-dot.green { border-color: #00b894; background: #00b894; }
+.tl-dot.red { border-color: #d63031; background: #d63031; }
+.tl-date { font-size: 10px; color: #8888a0; margin-bottom: 3px; }
+.tl-content { background: #22222e; border: 1px solid #2e2e3e; border-radius: 7px; padding: 10px 12px; }
+.tl-title { font-size: 12px; font-weight: 500; margin-bottom: 3px; }
+.tl-desc { font-size: 11px; color: #8888a0; line-height: 1.5; }
+
+/* 프로젝트 요약 카드 */
+.proj-summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 10px; margin-bottom: 20px; }
+.ps-card { background: #1a1a24; border: 1px solid #2e2e3e; border-radius: 10px; padding: 14px; }
+.ps-label { font-size: 11px; color: #8888a0; margin-bottom: 4px; }
+.ps-val { font-size: 20px; font-weight: 700; }
+.ps-val.gold { color: #d4a017; }
+.ps-val.green { color: #00b894; }
+.ps-val.red { color: #d63031; }
+.ps-sub { font-size: 10px; color: #636e72; margin-top: 2px; }
 
 /* ════════════════════════════
    반응형 — 모바일
 ════════════════════════════ */
 @media (max-width: 768px) {
-  /* 탭 네비 */
   .tab-nav { padding: 0 8px; }
-  .tab { padding: 10px 10px; font-size: 11px; }
-
-  /* 헤더 */
+  .tab { padding: 10px 8px; font-size: 10px; }
   .header { height: 52px; padding: 0 12px; }
   .h-title { font-size: 14px; }
   .btn-report { padding: 6px 10px; font-size: 11px; }
   .u-name, .role-badge { display: none; }
-
-  /* 로그인 */
   .login-box { width: 100%; padding: 16px; }
   .l-icon { font-size: 40px; }
   .l-title { font-size: 22px; }
@@ -188,39 +251,32 @@ select option { background: #22222e; }
   .l-card { padding: 20px; }
   .feat-grid { gap: 6px; }
   .feat-item { padding: 10px 4px; font-size: 11px; }
-
-  /* 칸반 보드 — 세로 스크롤 */
-  .board { flex-direction: column; height: auto; min-height: calc(100vh - 90px); padding: 12px; gap: 12px; overflow-x: hidden; overflow-y: auto; }
+  .proj-tabs { padding: 0 10px; overflow-x: auto; }
+  .proj-tab { padding: 8px 10px; font-size: 11px; }
+  .proj-sep { display: none; }
+  .board { flex-direction: column; height: auto; min-height: calc(100vh - 140px); padding: 12px; gap: 12px; overflow-x: hidden; overflow-y: auto; }
   .col { width: 100%; flex-shrink: 1; }
   .col-body { max-height: 320px; }
-
-  /* 카드 */
   .card { padding: 10px; }
-  .card-title { font-size: 12px; }
-
-  /* 제보 폼 */
   .modal { width: calc(100% - 24px); max-width: 460px; }
   .m-body { padding: 14px; }
   .g2 { grid-template-columns: 1fr; }
-
-  /* AI 처리 */
   .ai-card { padding: 24px 18px; margin: 0 12px; }
-
-  /* 이슈 상세 — 풀스크린 */
   .dp-layout { grid-template-columns: 1fr; }
   .dp-left { display: none; }
   .dp-panel { border-left: none; }
   .dp-hd { padding: 12px 14px; }
   .dp-body { padding: 14px; gap: 14px; }
   .dp-grid { grid-template-columns: 1fr 1fr; gap: 8px; }
-  .cont-box, .raw-box { font-size: 12px; padding: 10px; }
+  .tasks-wrap { padding: 12px; }
+  .task-table { font-size: 11px; }
+  .proj-summary { grid-template-columns: 1fr 1fr; }
 }
 
-/* 태블릿 */
 @media (min-width: 769px) and (max-width: 1100px) {
   .board { padding: 12px; gap: 10px; }
   .col { width: 240px; }
-  .dp-layout { grid-template-columns: 1fr 380px; }
+  .dp-layout { grid-template-columns: 1fr 400px; }
 }
 </style>
 </head>
@@ -229,29 +285,30 @@ select option { background: #22222e; }
 <nav class="tab-nav">
   <div class="tab active" onclick="show(0,this)">① 로그인</div>
   <div class="tab" onclick="show(1,this)">② 칸반 보드</div>
-  <div class="tab" onclick="show(2,this)">③ 이슈 제보 폼</div>
-  <div class="tab" onclick="show(3,this)">④ AI 처리 중</div>
+  <div class="tab" onclick="show(2,this)">③ 이슈 제보</div>
+  <div class="tab" onclick="show(3,this)">④ AI 처리</div>
   <div class="tab" onclick="show(4,this)">⑤ 이슈 상세</div>
+  <div class="tab" onclick="show(5,this)">⑥ 태스크/타임라인</div>
 </nav>
 
 <!-- ════ S0: 로그인 ════ -->
 <div class="screen active" id="s0">
   <div class="login-wrap">
     <div class="login-box">
-      <div class="l-icon">🏰</div>
-      <h1 class="l-title">Lair Issue Board</h1>
-      <p class="l-sub">AI가 이슈를 정제하고<br>GitHub과 실시간 동기화되는 칸반 시스템</p>
+      <div class="l-icon">⛏️</div>
+      <h1 class="l-title">GoldRush Issue Board</h1>
+      <p class="l-sub">달러를 넣으면 이자와 금코인을 주는<br>GoldRush 프로젝트의 AI 이슈 관리 시스템</p>
       <div class="l-card">
         <a href="#" class="btn-gh" onclick="show(1,document.querySelectorAll('.tab')[1]);return false">
           <svg width="19" height="19" fill="currentColor" viewBox="0 0 24 24"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.38 7.86 10.9.57.1.78-.25.78-.55v-2.1c-3.2.7-3.87-1.54-3.87-1.54-.52-1.33-1.27-1.68-1.27-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.24 3.33.95.1-.74.4-1.24.72-1.52-2.55-.29-5.23-1.27-5.23-5.66 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.15 1.17a11 11 0 0 1 5.73 0c2.18-1.48 3.14-1.17 3.14-1.17.62 1.57.23 2.73.11 3.02.74.8 1.18 1.82 1.18 3.07 0 4.4-2.68 5.37-5.24 5.65.41.35.77 1.05.77 2.12v3.14c0 .3.2.66.79.55C20.22 21.38 23.5 17.08 23.5 12 23.5 5.65 18.35.5 12 .5z"/></svg>
           GitHub으로 로그인
         </a>
-        <p class="l-hint">GitHub 계정으로 로그인하면 별도 가입 없이<br>바로 이슈를 제보하고 관리할 수 있어요.</p>
+        <p class="l-hint">GitHub 계정으로 로그인하면 프로젝트별 이슈를<br>제보하고 AI가 분류한 결과를 관리할 수 있어요.</p>
       </div>
       <div class="feat-grid">
         <div class="feat-item"><div class="fe">🤖</div>AI 자동 분류</div>
-        <div class="feat-item"><div class="fe">🔄</div>GitHub 동기화</div>
-        <div class="feat-item"><div class="fe">📋</div>칸반 보드</div>
+        <div class="feat-item"><div class="fe">📊</div>프로젝트별 칸반</div>
+        <div class="feat-item"><div class="fe">📅</div>태스크 타임라인</div>
       </div>
     </div>
   </div>
@@ -260,12 +317,27 @@ select option { background: #22222e; }
 <!-- ════ S1: 칸반 보드 ════ -->
 <div class="screen" id="s1">
   <header class="header">
-    <div class="h-left"><span class="h-logo">🏰</span><span class="h-title">Lair Issue Board</span></div>
+    <div class="h-left"><span class="h-logo">⛏️</span><span class="h-title">GoldRush</span></div>
     <div class="h-right">
       <button class="btn-report" onclick="show(2,document.querySelectorAll('.tab')[2])">+ 이슈 제보</button>
-      <div class="u-ava">😺</div><span class="u-name">@alice</span><span class="role-badge">lead</span>
+      <div class="u-ava">😺</div><span class="u-name">@alice</span><span class="role-badge">PM</span>
     </div>
   </header>
+
+  <!-- 프로젝트 탭 + 뷰 토글 -->
+  <div class="proj-tabs">
+    <div class="proj-tab active" onclick="switchProj(0,this)"><div class="proj-dot" style="background:#d4a017"></div> GoldVault</div>
+    <div class="proj-tab" onclick="switchProj(1,this)"><div class="proj-dot" style="background:#00b894"></div> GoldSwap</div>
+    <div class="proj-tab" onclick="switchProj(2,this)"><div class="proj-dot" style="background:#a29bfe"></div> GoldYield</div>
+    <div class="proj-sep">
+      <div class="view-toggle">
+        <button class="vt-btn active">칸반</button>
+        <button class="vt-btn" onclick="show(5,document.querySelectorAll('.tab')[5])">태스크</button>
+        <button class="vt-btn" onclick="show(5,document.querySelectorAll('.tab')[5])">타임라인</button>
+      </div>
+    </div>
+  </div>
+
   <div class="board">
 
     <!-- Backlog -->
@@ -277,32 +349,32 @@ select option { background: #22222e; }
       <div class="col-body">
 
         <div class="card processing" onclick="show(3,document.querySelectorAll('.tab')[3])">
-          <div class="card-top"><span class="st-badge" style="color:#fdcb6e;font-size:11px">⏳ AI 분석 중...</span></div>
-          <div class="card-title">Discord에서 Berachain 에러 제보됨</div>
+          <div class="card-top"><span class="st-badge" style="color:#d4a017;font-size:11px">⏳ AI 분석 중...</span></div>
+          <div class="card-title">Discord에서 금코인 미지급 제보됨</div>
           <div class="card-meta"><span>@bob</span></div>
-          <div class="card-tags"><span class="tag">discord</span><span class="tag">Berachain</span></div>
+          <div class="card-tags"><span class="tag">discord</span><span class="tag">GoldVault</span></div>
           <div class="pbar"></div>
         </div>
 
         <div class="card" onclick="show(4,document.querySelectorAll('.tab')[4])">
           <div class="card-top">
             <span class="p1">P1</span><span class="cat-lbl">🐛 Bug</span>
-            <span class="st-badge" style="color:#a29bfe;margin-left:auto">👀 Review</span>
+            <span class="st-badge" style="color:#d4a017;margin-left:auto">👀 Review</span>
           </div>
-          <div class="card-title">stKAIA → ETH 스왑 트랜잭션 Confirm 후 실패</div>
+          <div class="card-title">$100 예치 후 금코인 지급 안 됨 — 3시간째 pending</div>
           <div class="card-meta"><span>@carol</span></div>
-          <div class="card-tags"><span class="tag">discord</span><span class="tag">Kaia</span><span class="tag">v2.1.3</span></div>
-          <div class="card-time">⏰ 12분 전</div>
+          <div class="card-tags"><span class="tag">discord</span><span class="tag">GoldVault</span><span class="tag">v2.3.1</span></div>
+          <div class="card-time">⏰ 15분 전</div>
         </div>
 
         <div class="card">
           <div class="card-top">
             <span class="p2">P2</span><span class="cat-lbl">🎨 UX/UI</span>
-            <span class="st-badge" style="color:#a29bfe;margin-left:auto">👀 Review</span>
+            <span class="st-badge" style="color:#d4a017;margin-left:auto">👀 Review</span>
           </div>
-          <div class="card-title">모바일에서 지갑 연결 버튼 위치가 어색함</div>
+          <div class="card-title">모바일에서 예치 버튼 클릭 영역이 너무 작음</div>
           <div class="card-meta"><span>@dave</span></div>
-          <div class="card-tags"><span class="tag">telegram</span></div>
+          <div class="card-tags"><span class="tag">telegram</span><span class="tag">GoldVault</span></div>
           <div class="card-time">⏰ 1시간 전</div>
         </div>
 
@@ -319,17 +391,17 @@ select option { background: #22222e; }
 
         <div class="card">
           <div class="card-top"><span class="p0">P0</span><span class="cat-lbl">🐛 Bug</span></div>
-          <div class="card-title">메인넷 출금 트랜잭션 블록에 포함 안 됨 (서비스 중단급)</div>
+          <div class="card-title">이자율 5% 표시인데 실제 3.5%만 지급 — 서비스 중단급</div>
           <div class="card-meta"><span>@alice</span><span class="gh-lbl">🔗 #38</span></div>
-          <div class="card-tags"><span class="tag">internal</span><span class="tag">Ethereum</span></div>
+          <div class="card-tags"><span class="tag">internal</span><span class="tag">GoldYield</span></div>
           <div class="card-time">⏰ 3시간 전</div>
         </div>
 
         <div class="card">
           <div class="card-top"><span class="p2">P2</span><span class="cat-lbl">💡 Feature</span></div>
-          <div class="card-title">포트폴리오 페이지에 수익률 그래프 추가 요청</div>
+          <div class="card-title">대시보드에 누적 수익률 그래프 추가 요청</div>
           <div class="card-meta"><span>@bob</span><span class="gh-lbl">🔗 #35</span></div>
-          <div class="card-tags"><span class="tag">x</span></div>
+          <div class="card-tags"><span class="tag">x</span><span class="tag">GoldYield</span></div>
           <div class="card-time">⏰ 1일 전</div>
         </div>
 
@@ -346,16 +418,16 @@ select option { background: #22222e; }
 
         <div class="card">
           <div class="card-top"><span class="p1">P1</span><span class="cat-lbl">⚡ Performance</span></div>
-          <div class="card-title">리스트 페이지 스크롤 시 렉 발생 (500개 이상)</div>
+          <div class="card-title">금코인 잔액 조회 API 응답 5초 이상 (동시 500명+)</div>
           <div class="card-meta"><span>@carol</span><span class="assignee-lbl">→ @dave</span></div>
-          <div class="card-tags"><span class="tag">internal</span></div>
+          <div class="card-tags"><span class="tag">internal</span><span class="tag">GoldVault</span></div>
           <div style="font-size:11px;color:#8888a0;margin-top:5px">🔗 #31 &nbsp;<span class="pr-lbl">🔀 PR#12</span></div>
           <div class="card-time">⏰ 2일 전</div>
         </div>
 
         <div class="card">
           <div class="card-top"><span class="p2">P2</span><span class="cat-lbl">🐛 Bug</span></div>
-          <div class="card-title">다크모드 전환 시 차트 색상이 반전되지 않음</div>
+          <div class="card-title">금코인→달러 스왑 시 수수료 이중 차감됨</div>
           <div class="card-meta"><span>@eve</span><span class="assignee-lbl">→ @frank</span></div>
           <div style="font-size:11px;color:#8888a0;margin-top:5px">🔗 #29</div>
           <div class="card-time">⏰ 3일 전</div>
@@ -374,7 +446,7 @@ select option { background: #22222e; }
 
         <div class="card" style="opacity:.55">
           <div class="card-top"><span class="p3">P3</span><span class="cat-lbl">💡 Feature</span></div>
-          <div class="card-title">로그인 화면 언어 선택 옵션 추가</div>
+          <div class="card-title">예치 완료 이메일 알림 기능 추가</div>
           <div class="card-meta"><span>@alice</span><span style="color:#00b894">✅ 완료</span></div>
           <div style="font-size:11px;color:#8888a0;margin-top:5px">🔗 #22 &nbsp;<span class="pr-lbl">🔀 PR#9 merged</span></div>
           <div class="card-time">⏰ 5일 전</div>
@@ -389,10 +461,10 @@ select option { background: #22222e; }
 <!-- ════ S2: 이슈 제보 폼 ════ -->
 <div class="screen" id="s2">
   <header class="header">
-    <div class="h-left"><span class="h-logo">🏰</span><span class="h-title">Lair Issue Board</span></div>
+    <div class="h-left"><span class="h-logo">⛏️</span><span class="h-title">GoldRush</span></div>
     <div class="h-right">
       <button class="btn-report">+ 이슈 제보</button>
-      <div class="u-ava">😺</div><span class="u-name">@alice</span><span class="role-badge">lead</span>
+      <div class="u-ava">😺</div><span class="u-name">@alice</span><span class="role-badge">PM</span>
     </div>
   </header>
   <div class="modal-bg">
@@ -404,19 +476,19 @@ select option { background: #22222e; }
       <div class="m-body">
         <div>
           <label>어떤 문제인가요? (자유롭게 써주세요)</label>
-          <textarea rows="4">stKAIA를 ETH로 스왑하려고 Confirm 눌렀는데 트랜잭션이 그냥 실패함. 에러 메시지도 안뜸. 다른 사람들도 같은 문제 겪고 있는 것 같음.</textarea>
+          <textarea rows="4">$100 예치하고 3시간이 지났는데 금코인이 아직도 안 들어왔어요. 대시보드에는 "처리 중"이라고만 뜨고 이자도 안 붙고 있음. 다른 사람들도 같은 문제 있다고 디스코드에서 얘기하고 있어요.</textarea>
         </div>
         <div class="g2">
           <div><label>출처</label>
             <select><option>Discord</option><option>Telegram</option><option>X (Twitter)</option><option>내부</option></select>
           </div>
-          <div><label>체인</label>
-            <select><option>Kaia</option><option>Berachain</option><option>Ethereum</option></select>
+          <div><label>프로젝트</label>
+            <select><option>GoldVault (예치/출금)</option><option>GoldSwap (스왑)</option><option>GoldYield (이자)</option></select>
           </div>
         </div>
-        <div><label>앱 버전</label><input type="text" value="v2.1.3" /></div>
+        <div><label>앱 버전</label><input type="text" value="v2.3.1" /></div>
         <div class="info-box">🤖 제보하면 AI가 자동으로 제목, 카테고리, 우선순위, 해결 방향을 작성합니다.<br>AI 초안을 검토한 후 "GitHub에 등록" 버튼으로 승인하면 이슈가 생성됩니다.</div>
-        <button class="btn-sub" onclick="show(3,document.querySelectorAll('.tab')[3])">✈️ &nbsp;제보하기</button>
+        <button class="btn-sub" onclick="show(3,document.querySelectorAll('.tab')[3])">⛏️ &nbsp;제보하기</button>
       </div>
     </div>
   </div>
@@ -425,10 +497,10 @@ select option { background: #22222e; }
 <!-- ════ S3: AI 처리 중 ════ -->
 <div class="screen" id="s3">
   <header class="header">
-    <div class="h-left"><span class="h-logo">🏰</span><span class="h-title">Lair Issue Board</span></div>
+    <div class="h-left"><span class="h-logo">⛏️</span><span class="h-title">GoldRush</span></div>
     <div class="h-right">
       <button class="btn-report">+ 이슈 제보</button>
-      <div class="u-ava">😺</div><span class="u-name">@alice</span><span class="role-badge">lead</span>
+      <div class="u-ava">😺</div><span class="u-name">@alice</span><span class="role-badge">PM</span>
     </div>
   </header>
   <div class="ai-bg">
@@ -441,7 +513,7 @@ select option { background: #22222e; }
         <div class="step done">✅ Claude API 요청 전송</div>
         <div class="step active">⚡ 분류 및 요약 생성 중...</div>
         <div class="step pend">○ 해결 방향 초안 작성</div>
-        <div class="step pend">○ Backlog에 카드 배치</div>
+        <div class="step pend">○ GoldVault Backlog에 카드 배치</div>
       </div>
       <button onclick="show(4,document.querySelectorAll('.tab')[4])" style="margin-top:20px;width:100%;padding:9px;background:#22222e;border:1px solid #2e2e3e;border-radius:7px;color:#8888a0;font-size:12px;cursor:pointer">
         ⏩ 완료 후 상태 보기 →
@@ -450,13 +522,13 @@ select option { background: #22222e; }
   </div>
 </div>
 
-<!-- ════ S4: 이슈 상세 ════ -->
+<!-- ════ S4: 이슈 상세 + AI 프롬프트 결과 ════ -->
 <div class="screen" id="s4">
   <header class="header">
-    <div class="h-left"><span class="h-logo">🏰</span><span class="h-title">Lair Issue Board</span></div>
+    <div class="h-left"><span class="h-logo">⛏️</span><span class="h-title">GoldRush</span></div>
     <div class="h-right">
       <button class="btn-report">+ 이슈 제보</button>
-      <div class="u-ava">😺</div><span class="u-name">@alice</span><span class="role-badge">lead</span>
+      <div class="u-ava">😺</div><span class="u-name">@alice</span><span class="role-badge">PM</span>
     </div>
   </header>
   <div class="dp-layout">
@@ -467,11 +539,12 @@ select option { background: #22222e; }
           <div class="dp-badges">
             <span class="p1">P1 High</span>
             <span class="cat-lbl">🐛 Bug</span>
+            <span style="font-size:10px;padding:2px 6px;background:rgba(212,160,23,.12);border-radius:3px;color:#d4a017">GoldVault</span>
             <a href="#" class="gh-a">🔗 #42 ↗</a>
           </div>
           <button onclick="show(1,document.querySelectorAll('.tab')[1])" style="background:transparent;border:none;color:#8888a0;font-size:17px;cursor:pointer">✕</button>
         </div>
-        <div class="dp-title">stKAIA → ETH 스왑 트랜잭션 Confirm 후 실패</div>
+        <div class="dp-title">$100 예치 후 금코인 지급 안 됨 — 3시간째 pending</div>
       </div>
 
       <div class="dp-body">
@@ -482,18 +555,18 @@ select option { background: #22222e; }
             <label>담당자</label>
             <div class="val">
               <span style="color:#8888a0">미배정</span>
-              <button onclick="toggleDD()" style="padding:2px 6px;background:transparent;border:1px solid #6c5ce7;border-radius:4px;color:#6c5ce7;font-size:10px;cursor:pointer">+ 배정</button>
+              <button onclick="toggleDD()" style="padding:2px 6px;background:transparent;border:1px solid #d4a017;border-radius:4px;color:#d4a017;font-size:10px;cursor:pointer">+ 배정</button>
             </div>
             <div class="assign-dd" id="aDD" style="display:none">
-              <div class="assign-row"><div class="mini-ava">😺</div> @alice <span class="a-role">lead</span></div>
-              <div class="assign-row"><div class="mini-ava">🐶</div> @dave <span class="a-role">developer</span></div>
-              <div class="assign-row"><div class="mini-ava">🦊</div> @frank <span class="a-role">developer</span></div>
+              <div class="assign-row"><div class="mini-ava">😺</div> @alice <span class="a-role">PM</span></div>
+              <div class="assign-row"><div class="mini-ava">🐶</div> @dave <span class="a-role">backend</span></div>
+              <div class="assign-row"><div class="mini-ava">🦊</div> @frank <span class="a-role">smart-contract</span></div>
             </div>
           </div>
           <div class="dp-f"><label>제보자</label><div class="val">@carol</div></div>
           <div class="dp-f"><label>제보일</label><div class="val">2026. 02. 25.</div></div>
           <div class="dp-f"><label>출처</label><div class="val">Discord</div></div>
-          <div class="dp-f"><label>체인</label><div class="val">Kaia v2.1.3</div></div>
+          <div class="dp-f"><label>프로젝트</label><div class="val" style="color:#d4a017">GoldVault v2.3.1</div></div>
         </div>
 
         <div class="act-row">
@@ -503,32 +576,32 @@ select option { background: #22222e; }
 
         <div>
           <div class="sec-title">📄 상세 내용</div>
-          <div class="cont-box">Kaia 체인에서 stKAIA 토큰을 ETH로 스왑 시도 시,
-Confirm 버튼 클릭 후 트랜잭션이 실패합니다.
+          <div class="cont-box">GoldVault에 $100 USD를 예치한 후 금코인(GLD)이 지급되지 않습니다.
 
 재현 조건:
-• stKAIA 잔액 10 이상 보유
-• ETH 스왑 탭 선택 후 금액 입력
-• Confirm 클릭 → 트랜잭션 fail
+• GoldVault에 $100 이상 USD 예치
+• 대시보드에서 "처리 중" 상태 3시간 이상 지속
+• 금코인 잔액 변동 없음
 
 이상 현상:
-• 에러 메시지가 표시되지 않음
-• 가스비만 소진됨
-• 복수 유저 동일 증상 확인됨</div>
+• 대시보드에 "처리 중"만 표시, 에러 없음
+• 예치한 달러는 차감됨
+• 이자 적립도 시작되지 않음
+• Discord에서 5명 이상 동일 증상 제보</div>
         </div>
 
         <div>
           <div class="sec-title">💡 해결 방향 제안</div>
-          <div class="cont-box">• stKAIA 컨트랙트 approve() 처리 로직 확인
-• 스왑 컨트랙트 allowance 초과 여부 검증
-• Kaia 노드 RPC 엔드포인트 상태 모니터링
-• 가스 estimation 함수 재점검 (최근 업데이트 이후)
-• 동일 증상 유저 대상 임시 조치 안내</div>
+          <div class="cont-box">• deposit() 함수에서 goldCoin.mint() 호출 로직 확인
+• 예치 큐(DepositQueue) 처리 worker 상태 점검
+• USD→GLD 환율 오라클 응답 지연 여부 확인
+• pending 트랜잭션 batch 처리 스케줄러 로그 확인
+• 영향받은 유저 대상 수동 mint 조치 준비</div>
         </div>
 
         <div>
           <div class="sec-title">💬 원문 제보</div>
-          <div class="raw-box">"stKAIA를 ETH로 스왑하려고 Confirm 눌렀는데 트랜잭션이 그냥 실패함. 에러 메시지도 안뜸. 다른 사람들도 같은 문제 겪고 있는 것 같음."</div>
+          <div class="raw-box">"$100 예치하고 3시간이 지났는데 금코인이 아직도 안 들어왔어요. 대시보드에는 '처리 중'이라고만 뜨고 이자도 안 붙고 있음. 다른 사람들도 같은 문제 있다고 디스코드에서 얘기하고 있어요."</div>
         </div>
 
         <div>
@@ -541,26 +614,284 @@ Confirm 버튼 클릭 후 트랜잭션이 실패합니다.
           </div>
         </div>
 
+        <!-- 코멘트 -->
         <div>
           <div class="sec-title">💬 코멘트 <span style="font-weight:400">(GitHub 동기화)</span></div>
           <div class="cmt-list">
+
             <div class="cmt">
               <div class="cmt-meta"><span class="cmt-author">@dave</span><span class="cmt-t">오후 2:35</span></div>
-              <div class="cmt-body">RPC 엔드포인트 이슈인지 먼저 확인해볼게요. 노드 상태 체크 중입니다.</div>
+              <div class="cmt-body">DepositQueue worker 로그 확인 중입니다. batch processor가 멈춘 것 같아요.</div>
             </div>
+
             <div class="cmt">
               <div class="cmt-meta"><span class="cmt-author">@carol</span><span class="cmt-src">GitHub</span><span class="cmt-t">오후 2:41</span></div>
-              <div class="cmt-body">테스트넷에서도 동일하게 재현됩니다. allowance 문제인 것 같아요.</div>
+              <div class="cmt-body">테스트 환경에서도 $50 예치 후 동일하게 pending 상태 재현됩니다.</div>
             </div>
+
           </div>
           <div class="cmt-form">
             <input class="cmt-input" placeholder="코멘트 입력..." />
-            <button class="cmt-send">✈️</button>
+            <button class="cmt-send">⛏️</button>
           </div>
+        </div>
+
+        <!-- ★ 멤버별 AI 프롬프트 & 결과 ★ -->
+        <div>
+          <div class="sec-title">🧠 멤버별 AI 분석 기록</div>
+
+          <!-- @dave의 AI 분석 -->
+          <div class="ai-block" style="margin-bottom:10px">
+            <div class="ai-block-hd"><div class="mini-ava">🐶</div> @dave · backend</div>
+            <div class="result-label">입력 프롬프트</div>
+            <div class="prompt-box">GoldVault deposit() 함수에서 goldCoin.mint() 호출 전후 로직을 분석해줘. 특히 DepositQueue batch processor가 stuck 되는 시나리오를 찾아줘. 현재 pending 상태가 3시간 이상 지속되는 유저가 5명 이상이야.</div>
+            <div class="result-label">AI 분석 결과</div>
+            <div class="result-box">분석 완료: DepositQueue.processBatch()에서 USD→GLD 환율 오라클 호출 시 timeout 미설정 발견.
+오라클 응답 지연 시 전체 batch가 블로킹되는 구조.
+
+<span style="color:#d4a017">원인:</span> GoldPriceOracle.getRate()의 기본 timeout이 무한대(0)로 설정됨
+<span style="color:#00b894">해결:</span> timeout 30초 + fallback rate 적용 필요
+<span style="color:#d63031">영향:</span> 현재 pending 유저 12명, 총 $4,800 미처리</div>
+            <a href="#" class="gitbook-link">📖 docs.goldrush.io/vault/deposit-flow</a>
+            <a href="#" class="gitbook-link" style="margin-left:4px">📖 docs.goldrush.io/oracle/price-feed</a>
+          </div>
+
+          <!-- @frank의 AI 분석 -->
+          <div class="ai-block" style="margin-bottom:10px">
+            <div class="ai-block-hd"><div class="mini-ava">🦊</div> @frank · smart-contract</div>
+            <div class="result-label">입력 프롬프트</div>
+            <div class="prompt-box">GoldCoin.sol의 mint() 함수 보안 검토해줘. 최근 v2.3.1 업데이트에서 변경된 부분 중 deposit 관련 side-effect 있는지 확인해줘.</div>
+            <div class="result-label">AI 분석 결과</div>
+            <div class="result-box">v2.3.1 변경사항 검토 완료:
+mint() 자체는 정상이나, 호출 조건인 _validateDeposit()에서
+minimumDeposit 값이 $50 → $100으로 변경됨.
+
+<span style="color:#d4a017">발견:</span> $100 정확히 예치 시 >= 대신 > 비교로 off-by-one 에러
+<span style="color:#00b894">수정:</span> GoldCoin.sol L142: require(amount > minDeposit) → require(amount >= minDeposit)
+<span style="color:#8888a0">참고:</span> $101 이상 예치한 유저는 정상 처리됨</div>
+            <a href="#" class="gitbook-link">📖 docs.goldrush.io/contracts/goldcoin</a>
+          </div>
+
+          <!-- @alice의 AI 분석 -->
+          <div class="ai-block">
+            <div class="ai-block-hd"><div class="mini-ava">😺</div> @alice · PM</div>
+            <div class="result-label">입력 프롬프트</div>
+            <div class="prompt-box">이 이슈의 유저 영향도를 분석하고 긴급 대응 체크리스트를 만들어줘. 현재 Discord에서 불만 제보 수와 예상 환불 규모도 산출해줘.</div>
+            <div class="result-label">AI 분석 결과</div>
+            <div class="result-box">긴급 대응 체크리스트:
+1. ✅ Discord 공지: "예치 지연 인지, 조사 중" (즉시)
+2. ⬜ 영향 유저 목록 추출 및 개별 DM (1시간 내)
+3. ⬜ 핫픽스 배포 후 pending 건 수동 처리 (3시간 내)
+4. ⬜ 환불 또는 보상 금코인 지급 결정 (금일 내)
+
+<span style="color:#d63031">영향 규모:</span> 유저 12명 / 미처리 $4,800 / Discord 불만 글 23건
+<span style="color:#d4a017">예상 보상:</span> 지연 기간 이자 2배 지급 시 약 $14.40</div>
+            <a href="#" class="gitbook-link">📖 docs.goldrush.io/ops/incident-response</a>
+          </div>
+
         </div>
 
       </div>
     </div>
+  </div>
+</div>
+
+<!-- ════ S5: 태스크 & 타임라인 ════ -->
+<div class="screen" id="s5">
+  <header class="header">
+    <div class="h-left"><span class="h-logo">⛏️</span><span class="h-title">GoldRush</span></div>
+    <div class="h-right">
+      <button class="btn-report" onclick="show(2,document.querySelectorAll('.tab')[2])">+ 이슈 제보</button>
+      <div class="u-ava">😺</div><span class="u-name">@alice</span><span class="role-badge">PM</span>
+    </div>
+  </header>
+
+  <div class="proj-tabs">
+    <div class="proj-tab active"><div class="proj-dot" style="background:#d4a017"></div> GoldVault</div>
+    <div class="proj-tab"><div class="proj-dot" style="background:#00b894"></div> GoldSwap</div>
+    <div class="proj-tab"><div class="proj-dot" style="background:#a29bfe"></div> GoldYield</div>
+    <div class="proj-sep">
+      <div class="view-toggle">
+        <button class="vt-btn" onclick="show(1,document.querySelectorAll('.tab')[1])">칸반</button>
+        <button class="vt-btn active" id="vt-task" onclick="showView('task')">태스크</button>
+        <button class="vt-btn" id="vt-tl" onclick="showView('tl')">타임라인</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="tasks-wrap">
+
+    <!-- 프로젝트 요약 -->
+    <div class="proj-summary">
+      <div class="ps-card">
+        <div class="ps-label">전체 이슈</div>
+        <div class="ps-val">24</div>
+        <div class="ps-sub">이번 스프린트</div>
+      </div>
+      <div class="ps-card">
+        <div class="ps-label">진행 중</div>
+        <div class="ps-val gold">7</div>
+        <div class="ps-sub">4명 작업 중</div>
+      </div>
+      <div class="ps-card">
+        <div class="ps-label">완료</div>
+        <div class="ps-val green">15</div>
+        <div class="ps-sub">62.5% 달성</div>
+      </div>
+      <div class="ps-card">
+        <div class="ps-label">블로커</div>
+        <div class="ps-val red">2</div>
+        <div class="ps-sub">긴급 대응 필요</div>
+      </div>
+    </div>
+
+    <!-- 태스크 뷰 -->
+    <div id="view-task">
+      <div class="task-section">
+        <div class="task-section-hd">
+          <div class="task-section-title">GoldVault — 태스크 목록</div>
+          <span class="task-count">8 tasks</span>
+        </div>
+        <table class="task-table">
+          <thead>
+            <tr>
+              <th>태스크</th>
+              <th>상태</th>
+              <th>우선순위</th>
+              <th>담당자</th>
+              <th>기한</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="task-name">예치 후 금코인 미지급 핫픽스</td>
+              <td><span class="task-status ts-block">Blocked</span></td>
+              <td><span class="task-prio p0">P0</span></td>
+              <td class="task-assign">@dave</td>
+              <td class="task-date">02/25 (오늘)</td>
+            </tr>
+            <tr>
+              <td class="task-name">GoldPriceOracle timeout 설정</td>
+              <td><span class="task-status ts-prog">In Progress</span></td>
+              <td><span class="task-prio p1">P1</span></td>
+              <td class="task-assign">@dave</td>
+              <td class="task-date">02/26</td>
+            </tr>
+            <tr>
+              <td class="task-name">GoldCoin.sol off-by-one 수정</td>
+              <td><span class="task-status ts-prog">In Progress</span></td>
+              <td><span class="task-prio p1">P1</span></td>
+              <td class="task-assign">@frank</td>
+              <td class="task-date">02/26</td>
+            </tr>
+            <tr>
+              <td class="task-name">잔액 조회 API 성능 개선</td>
+              <td><span class="task-status ts-prog">In Progress</span></td>
+              <td><span class="task-prio p1">P1</span></td>
+              <td class="task-assign">@dave</td>
+              <td class="task-date">02/28</td>
+            </tr>
+            <tr>
+              <td class="task-name">모바일 예치 버튼 UX 개선</td>
+              <td><span class="task-status ts-todo">To Do</span></td>
+              <td><span class="task-prio p2">P2</span></td>
+              <td class="task-assign">@eve</td>
+              <td class="task-date">03/01</td>
+            </tr>
+            <tr>
+              <td class="task-name">예치 완료 푸시 알림 추가</td>
+              <td><span class="task-status ts-done">Done</span></td>
+              <td><span class="task-prio p3">P3</span></td>
+              <td class="task-assign">@carol</td>
+              <td class="task-date">02/20 ✓</td>
+            </tr>
+            <tr>
+              <td class="task-name">영향 유저 수동 mint 처리</td>
+              <td><span class="task-status ts-todo">To Do</span></td>
+              <td><span class="task-prio p0">P0</span></td>
+              <td class="task-assign">@alice</td>
+              <td class="task-date">02/25 (오늘)</td>
+            </tr>
+            <tr>
+              <td class="task-name">Discord 긴급 공지 발송</td>
+              <td><span class="task-status ts-done">Done</span></td>
+              <td><span class="task-prio p0">P0</span></td>
+              <td class="task-assign">@alice</td>
+              <td class="task-date">02/25 ✓</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- 타임라인 뷰 -->
+    <div id="view-tl" style="display:none">
+      <div class="task-section">
+        <div class="task-section-hd">
+          <div class="task-section-title">GoldVault — 타임라인</div>
+        </div>
+
+        <div class="timeline">
+
+          <div class="tl-item">
+            <div class="tl-dot red"></div>
+            <div class="tl-date">2026. 02. 25. 14:22 — 오늘</div>
+            <div class="tl-content">
+              <div class="tl-title" style="color:#d63031">🚨 P0 이슈 발생: 예치 후 금코인 미지급</div>
+              <div class="tl-desc">Discord에서 다수 유저 제보. AI 분석 결과 DepositQueue batch processor stuck + GoldCoin.sol off-by-one 에러 확인. 영향 유저 12명, 미처리 $4,800.</div>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-dot gold"></div>
+            <div class="tl-date">2026. 02. 25. 14:45</div>
+            <div class="tl-content">
+              <div class="tl-title">⚡ 긴급 대응 시작</div>
+              <div class="tl-desc">@alice Discord 긴급 공지 발송 완료. @dave oracle timeout 핫픽스 작업 시작. @frank 컨트랙트 수정 PR 작성 중.</div>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-dot green"></div>
+            <div class="tl-date">2026. 02. 24.</div>
+            <div class="tl-content">
+              <div class="tl-title" style="color:#00b894">✅ 예치 완료 이메일 알림 기능 배포</div>
+              <div class="tl-desc">PR#9 merged. 예치 완료 시 이메일 알림 발송 기능 정상 동작 확인. @carol 담당.</div>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-dot gold"></div>
+            <div class="tl-date">2026. 02. 23.</div>
+            <div class="tl-content">
+              <div class="tl-title">🛠 잔액 조회 API 성능 개선 착수</div>
+              <div class="tl-desc">동시 500명 이상 접속 시 응답 5초 이상 걸리는 문제. @dave DB 인덱스 최적화 + 캐시 레이어 추가 작업 중. PR#12 진행 중.</div>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-date">2026. 02. 22.</div>
+            <div class="tl-content">
+              <div class="tl-title">💡 수익률 그래프 기능 요청</div>
+              <div class="tl-desc">X(Twitter)에서 @bob 제보. 대시보드에 누적 수익률 그래프 추가 요청. P2로 분류, GoldYield 프로젝트에 배정.</div>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-dot green"></div>
+            <div class="tl-date">2026. 02. 20.</div>
+            <div class="tl-content">
+              <div class="tl-title" style="color:#00b894">✅ Sprint 12 시작</div>
+              <div class="tl-desc">GoldVault 안정화 + GoldYield 이자 계산 고도화 목표. 전체 24개 태스크 등록.</div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
   </div>
 </div>
 
@@ -574,6 +905,16 @@ function show(idx, el) {
 function toggleDD() {
   const d = document.getElementById('aDD');
   d.style.display = d.style.display === 'none' ? 'block' : 'none';
+}
+function switchProj(idx, el) {
+  document.querySelectorAll('.proj-tab').forEach(t => t.classList.remove('active'));
+  el.classList.add('active');
+}
+function showView(v) {
+  document.getElementById('view-task').style.display = v === 'task' ? 'block' : 'none';
+  document.getElementById('view-tl').style.display = v === 'tl' ? 'block' : 'none';
+  document.getElementById('vt-task').classList.toggle('active', v === 'task');
+  document.getElementById('vt-tl').classList.toggle('active', v === 'tl');
 }
 </script>
 </body>
