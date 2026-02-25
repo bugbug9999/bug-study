@@ -15,3 +15,13 @@ symlinks/workspace/
 *.jpeg
 *.mp3
 *.wav
+
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+
+# Build
+dist/
