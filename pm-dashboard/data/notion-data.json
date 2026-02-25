@@ -1,6 +1,231 @@
 {
   "epics": [
     {
+      "id": "129862e1-c059-801f-ae39-dd92bf1629ef",
+      "title": "BUGCITY 관련 IP, Lair Labs로 이전",
+      "status": "Drop/Hold",
+      "startDate": "2026-01-26",
+      "endDate": "2026-01-30",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/BUGCITY-IP-Lair-Labs-129862e1c059801fae39dd92bf1629ef",
+      "priority": null,
+      "createdTime": "2024-10-24T02:19:00.000Z",
+      "lastEditedTime": "2026-02-25T02:19:00.000Z"
+    },
+    {
+      "id": "158862e1-c059-8064-9357-c28bc3d91374",
+      "title": "CaveDAO 온체인 투표 기능",
+      "status": "Done",
+      "startDate": "2026-01-25",
+      "endDate": "2026-01-29",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/CaveDAO-158862e1c05980649357c28bc3d91374",
+      "priority": null,
+      "createdTime": "2024-12-10T17:39:00.000Z",
+      "lastEditedTime": "2026-02-25T02:18:00.000Z"
+    },
+    {
+      "id": "1ff862e1-c059-80d1-87c5-e4920acb5d9a",
+      "title": "[Cave] WEBX 2025 이벤트",
+      "status": "Drop/Hold",
+      "startDate": "2026-01-24",
+      "endDate": "2026-01-28",
+      "assignee": null,
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Cave-WEBX-2025-1ff862e1c05980d187c5e4920acb5d9a",
+      "priority": null,
+      "createdTime": "2025-05-26T00:22:00.000Z",
+      "lastEditedTime": "2026-02-25T02:18:00.000Z"
+    },
+    {
+      "id": "1ab862e1-c059-80f8-b777-e8ee2089c7d1",
+      "title": "[BC] CaveDAO 시즌 초기화",
+      "status": "Done",
+      "startDate": "2025-01-01",
+      "endDate": "2025-12-31",
+      "assignee": {
+        "id": "4ab3d585-ddfc-4092-b1c4-3a3ce00261e7",
+        "name": "뽀삐",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/6273ea60-836e-473e-b00f-7b88a4eaee72/%EB%B2%84%EA%B7%B8%EC%8B%9C%ED%8B%B0_%EC%82%AC%EC%A7%84.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/BC-CaveDAO-1ab862e1c05980f8b777e8ee2089c7d1",
+      "priority": "nomal",
+      "createdTime": "2025-03-03T02:34:00.000Z",
+      "lastEditedTime": "2026-02-25T02:18:00.000Z"
+    },
+    {
+      "id": "248862e1-c059-80fc-b96c-eaec6be6eebe",
+      "title": "Injective LSD 메인넷 테스트 및 audit",
+      "status": "Drop/Hold",
+      "startDate": "2025-08-07",
+      "endDate": "2025-10-24",
+      "assignee": {
+        "id": "f11c3ca3-a653-4a0f-b88f-545e218e7a6d",
+        "name": "트롤",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/4b7086dc-e7ea-4aad-94fe-b06474e4b5bb/my-notion-face-customized.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Injective-LSD-audit-248862e1c05980fcb96ceaec6be6eebe",
+      "priority": "high",
+      "createdTime": "2025-08-07T00:58:00.000Z",
+      "lastEditedTime": "2026-02-25T02:17:00.000Z"
+    },
+    {
+      "id": "1fb862e1-c059-80f7-9c0e-efd1f034f4d5",
+      "title": "LAIR LSD on Injective 재단 지원 받기",
+      "status": "Drop/Hold",
+      "startDate": "2025-05-22",
+      "endDate": "2025-10-31",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/LAIR-LSD-on-Injective-1fb862e1c05980f79c0eefd1f034f4d5",
+      "priority": "nomal",
+      "createdTime": "2025-05-22T07:32:00.000Z",
+      "lastEditedTime": "2026-02-25T02:17:00.000Z"
+    },
+    {
+      "id": "30d862e1-c059-8000-9ec0-f1ba8333e9b3",
+      "title": "[lair mobile] 핸드폰 번호 인증 기능 추가",
+      "status": "Not started",
+      "startDate": "2026-03-02",
+      "endDate": "2026-03-06",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/lair-mobile-30d862e1c05980009ec0f1ba8333e9b3",
+      "priority": null,
+      "createdTime": "2026-02-20T02:32:00.000Z",
+      "lastEditedTime": "2026-02-25T02:13:00.000Z"
+    },
+    {
+      "id": "30d862e1-c059-8062-8e2d-ce0679faf50c",
+      "title": "[Lair Mobile] FAQ 페이지 배포",
+      "status": "Done",
+      "startDate": "2026-02-20",
+      "endDate": "2026-02-20",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/Lair-Mobile-FAQ-30d862e1c05980628e2dce0679faf50c",
+      "priority": null,
+      "createdTime": "2026-02-20T02:00:00.000Z",
+      "lastEditedTime": "2026-02-25T02:13:00.000Z"
+    },
+    {
+      "id": "30d862e1-c059-8065-8cf0-d8ed840c5c9d",
+      "title": "[lair mobile] paymaster 기능 추가",
+      "status": "In progress",
+      "startDate": "2026-02-20",
+      "endDate": "2026-02-25",
+      "assignee": {
+        "id": "f11c3ca3-a653-4a0f-b88f-545e218e7a6d",
+        "name": "트롤",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/4b7086dc-e7ea-4aad-94fe-b06474e4b5bb/my-notion-face-customized.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/lair-mobile-paymaster-30d862e1c05980658cf0d8ed840c5c9d",
+      "priority": null,
+      "createdTime": "2026-02-20T02:30:00.000Z",
+      "lastEditedTime": "2026-02-25T02:13:00.000Z"
+    },
+    {
+      "id": "2e2862e1-c059-811c-961e-da5c6a77449d",
+      "title": "[neobank] Lair 모바일 앱 MVP 개발",
+      "status": "In progress",
+      "startDate": "2026-01-24",
+      "endDate": "2026-02-27",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-Lair-MVP-2e2862e1c059811c961eda5c6a77449d",
+      "priority": "high",
+      "createdTime": "2026-01-08T07:20:00.000Z",
+      "lastEditedTime": "2026-02-25T02:10:00.000Z"
+    },
+    {
+      "id": "2f0862e1-c059-806b-af70-e0d9e7758c96",
+      "title": "[Neobank] Abstract 카드 사업 개발",
+      "status": "In progress",
+      "startDate": "2026-01-22",
+      "endDate": "2026-02-27",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Neobank-Abstract-2f0862e1c059806baf70e0d9e7758c96",
+      "priority": null,
+      "createdTime": "2026-01-22T07:48:00.000Z",
+      "lastEditedTime": "2026-02-25T02:09:00.000Z"
+    },
+    {
+      "id": "2e2862e1-c059-81bf-8d6d-fe1bccac9e6a",
+      "title": "[neobank] Lair Cash 사전가입 Legacy 운영",
+      "status": "In progress",
+      "startDate": "2026-01-09",
+      "endDate": "2026-02-13",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/neobank-Lair-Cash-Legacy-2e2862e1c05981bf8d6dfe1bccac9e6a",
+      "priority": "nomal",
+      "createdTime": "2026-01-08T07:20:00.000Z",
+      "lastEditedTime": "2026-02-25T02:09:00.000Z"
+    },
+    {
+      "id": "2e2862e1-c059-8187-97da-d7bad438936d",
+      "title": "[neobank] Lair Cash 디자인 라이브러리 구축",
+      "status": "Done",
+      "startDate": "2026-01-09",
+      "endDate": "2026-02-13",
+      "assignee": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-Lair-Cash-2e2862e1c059818797dad7bad438936d",
+      "priority": "high",
+      "createdTime": "2026-01-08T07:20:00.000Z",
+      "lastEditedTime": "2026-02-25T02:09:00.000Z"
+    },
+    {
       "id": "310862e1-c059-8052-9f92-f1baf0b1d9af",
       "title": "[lair mobile] 친구 초대 링크 생성 기능 추가",
       "status": "In progress",
@@ -54,78 +279,6 @@
       "priority": null,
       "createdTime": "2026-02-23T08:26:00.000Z",
       "lastEditedTime": "2026-02-23T08:28:00.000Z"
-    },
-    {
-      "id": "2e2862e1-c059-811c-961e-da5c6a77449d",
-      "title": "[neobank] Lair 모바일 앱 MVP 개발",
-      "status": "In progress",
-      "startDate": "2026-01-24",
-      "endDate": "2026-02-13",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-Lair-MVP-2e2862e1c059811c961eda5c6a77449d",
-      "priority": "high",
-      "createdTime": "2026-01-08T07:20:00.000Z",
-      "lastEditedTime": "2026-02-23T08:25:00.000Z"
-    },
-    {
-      "id": "30d862e1-c059-8062-8e2d-ce0679faf50c",
-      "title": "[Lair Mobile] FAQ 페이지 배포",
-      "status": "Review",
-      "startDate": "2026-02-20",
-      "endDate": "2026-02-20",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/Lair-Mobile-FAQ-30d862e1c05980628e2dce0679faf50c",
-      "priority": null,
-      "createdTime": "2026-02-20T02:00:00.000Z",
-      "lastEditedTime": "2026-02-23T01:31:00.000Z"
-    },
-    {
-      "id": "30d862e1-c059-8000-9ec0-f1ba8333e9b3",
-      "title": "[lair mobile] 핸드폰 번호 인증 기능 추가",
-      "status": "Not started",
-      "startDate": "2026-03-02",
-      "endDate": "2026-03-06",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/lair-mobile-30d862e1c05980009ec0f1ba8333e9b3",
-      "priority": null,
-      "createdTime": "2026-02-20T02:32:00.000Z",
-      "lastEditedTime": "2026-02-20T02:34:00.000Z"
-    },
-    {
-      "id": "30d862e1-c059-8065-8cf0-d8ed840c5c9d",
-      "title": "[lair mobile] paymaster 기능 추가",
-      "status": "Not started",
-      "startDate": "2026-02-20",
-      "endDate": "2026-02-25",
-      "assignee": {
-        "id": "f11c3ca3-a653-4a0f-b88f-545e218e7a6d",
-        "name": "트롤",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/4b7086dc-e7ea-4aad-94fe-b06474e4b5bb/my-notion-face-customized.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/lair-mobile-paymaster-30d862e1c05980658cf0d8ed840c5c9d",
-      "priority": null,
-      "createdTime": "2026-02-20T02:30:00.000Z",
-      "lastEditedTime": "2026-02-20T02:33:00.000Z"
     },
     {
       "id": "2e9862e1-c059-81f9-8a6e-eb887a5ccac2",
@@ -215,44 +368,6 @@
       "priority": "high",
       "createdTime": "2026-02-03T02:06:00.000Z",
       "lastEditedTime": "2026-02-11T02:08:00.000Z"
-    },
-    {
-      "id": "2e2862e1-c059-81bf-8d6d-fe1bccac9e6a",
-      "title": "[neobank] Lair Cash 사전가입 Legacy 운영",
-      "status": "In progress",
-      "startDate": "2026-01-09",
-      "endDate": "2026-02-13",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/neobank-Lair-Cash-Legacy-2e2862e1c05981bf8d6dfe1bccac9e6a",
-      "priority": "nomal",
-      "createdTime": "2026-01-08T07:20:00.000Z",
-      "lastEditedTime": "2026-02-11T02:07:00.000Z"
-    },
-    {
-      "id": "2e2862e1-c059-8187-97da-d7bad438936d",
-      "title": "[neobank] Lair Cash 디자인 라이브러리 구축",
-      "status": "In progress",
-      "startDate": "2026-01-09",
-      "endDate": "2026-02-13",
-      "assignee": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "reviewer": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "notionUrl": "https://www.notion.so/neobank-Lair-Cash-2e2862e1c059818797dad7bad438936d",
-      "priority": "high",
-      "createdTime": "2026-01-08T07:20:00.000Z",
-      "lastEditedTime": "2026-02-11T02:07:00.000Z"
     },
     {
       "id": "2dc862e1-c059-801a-aed8-e6113f1cf921",
@@ -5077,19 +5192,6 @@
       "lastEditedTime": "2026-02-09T13:19:00.000Z"
     },
     {
-      "id": "1ff862e1-c059-80d1-87c5-e4920acb5d9a",
-      "title": "[Cave] WEBX 2025 이벤트",
-      "status": "Not started",
-      "startDate": "2026-01-24",
-      "endDate": "2026-01-28",
-      "assignee": null,
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Cave-WEBX-2025-1ff862e1c05980d187c5e4920acb5d9a",
-      "priority": null,
-      "createdTime": "2025-05-26T00:22:00.000Z",
-      "lastEditedTime": "2026-02-09T13:19:00.000Z"
-    },
-    {
       "id": "1ff862e1-c059-8052-af6d-eda4ec2b7dcc",
       "title": "[Cave] Token2049 Singapore 이벤트",
       "status": "Drop/Hold",
@@ -5339,23 +5441,6 @@
       "lastEditedTime": "2026-02-09T13:18:00.000Z"
     },
     {
-      "id": "1ab862e1-c059-80f8-b777-e8ee2089c7d1",
-      "title": "[BC] CaveDAO 시즌 초기화",
-      "status": "In progress",
-      "startDate": "2025-01-01",
-      "endDate": "2025-12-31",
-      "assignee": {
-        "id": "4ab3d585-ddfc-4092-b1c4-3a3ce00261e7",
-        "name": "뽀삐",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/6273ea60-836e-473e-b00f-7b88a4eaee72/%EB%B2%84%EA%B7%B8%EC%8B%9C%ED%8B%B0_%EC%82%AC%EC%A7%84.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/BC-CaveDAO-1ab862e1c05980f8b777e8ee2089c7d1",
-      "priority": "nomal",
-      "createdTime": "2025-03-03T02:34:00.000Z",
-      "lastEditedTime": "2026-02-09T13:18:00.000Z"
-    },
-    {
       "id": "197862e1-c059-8058-a1e0-c30a5f7ffcd5",
       "title": "[Cave] 2025 2월 이드덴버 행사 준비",
       "status": "Done",
@@ -5554,23 +5639,6 @@
       "lastEditedTime": "2026-02-09T13:17:00.000Z"
     },
     {
-      "id": "158862e1-c059-8064-9357-c28bc3d91374",
-      "title": "CaveDAO 온체인 투표 기능",
-      "status": "In progress",
-      "startDate": "2026-01-25",
-      "endDate": "2026-01-29",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/CaveDAO-158862e1c05980649357c28bc3d91374",
-      "priority": null,
-      "createdTime": "2024-12-10T17:39:00.000Z",
-      "lastEditedTime": "2026-02-09T13:17:00.000Z"
-    },
-    {
       "id": "157862e1-c059-8045-b2d5-f58ef96e8f6f",
       "title": "[CaveDAO] KaiaFun 투자",
       "status": "Done",
@@ -5602,23 +5670,6 @@
       "notionUrl": "https://www.notion.so/Cave-2024-135862e1c059804bb0a0ff7dbb07d141",
       "priority": null,
       "createdTime": "2024-11-05T02:32:00.000Z",
-      "lastEditedTime": "2026-02-09T13:17:00.000Z"
-    },
-    {
-      "id": "129862e1-c059-801f-ae39-dd92bf1629ef",
-      "title": "BUGCITY 관련 IP, Lair Labs로 이전",
-      "status": "In progress",
-      "startDate": "2026-01-26",
-      "endDate": "2026-01-30",
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/BUGCITY-IP-Lair-Labs-129862e1c059801fae39dd92bf1629ef",
-      "priority": null,
-      "createdTime": "2024-10-24T02:19:00.000Z",
       "lastEditedTime": "2026-02-09T13:17:00.000Z"
     },
     {
@@ -5705,23 +5756,6 @@
       "notionUrl": "https://www.notion.so/BD-MVP-2d3c5b1aa6fb45d69ddf00bdad11847d",
       "priority": "high",
       "createdTime": "2023-02-10T10:12:00.000Z",
-      "lastEditedTime": "2026-02-09T13:16:00.000Z"
-    },
-    {
-      "id": "2f0862e1-c059-806b-af70-e0d9e7758c96",
-      "title": "[Neobank] Abstract 카드 사업 개발",
-      "status": "In progress",
-      "startDate": "2026-01-22",
-      "endDate": "2026-01-30",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Neobank-Abstract-2f0862e1c059806baf70e0d9e7758c96",
-      "priority": null,
-      "createdTime": "2026-01-22T07:48:00.000Z",
       "lastEditedTime": "2026-02-09T13:16:00.000Z"
     },
     {
@@ -7852,23 +7886,6 @@
       "lastEditedTime": "2026-02-09T11:25:00.000Z"
     },
     {
-      "id": "248862e1-c059-80fc-b96c-eaec6be6eebe",
-      "title": "Injective LSD 메인넷 테스트 및 audit",
-      "status": "In progress",
-      "startDate": "2025-08-07",
-      "endDate": "2025-10-24",
-      "assignee": {
-        "id": "f11c3ca3-a653-4a0f-b88f-545e218e7a6d",
-        "name": "트롤",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/4b7086dc-e7ea-4aad-94fe-b06474e4b5bb/my-notion-face-customized.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Injective-LSD-audit-248862e1c05980fcb96ceaec6be6eebe",
-      "priority": "high",
-      "createdTime": "2025-08-07T00:58:00.000Z",
-      "lastEditedTime": "2026-02-09T11:25:00.000Z"
-    },
-    {
       "id": "247862e1-c059-80b3-b528-dc551b702d6a",
       "title": "[Conference] TOKEN2049 Singapore 2025",
       "status": "Done",
@@ -8112,23 +8129,6 @@
       "notionUrl": "https://www.notion.so/Lair-UI-1ff862e1c05980038de8d5618a3e561c",
       "priority": "nomal",
       "createdTime": "2025-05-26T06:09:00.000Z",
-      "lastEditedTime": "2026-02-09T11:25:00.000Z"
-    },
-    {
-      "id": "1fb862e1-c059-80f7-9c0e-efd1f034f4d5",
-      "title": "LAIR LSD on Injective 재단 지원 받기",
-      "status": "In progress",
-      "startDate": "2025-05-22",
-      "endDate": "2025-10-31",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/LAIR-LSD-on-Injective-1fb862e1c05980f79c0eefd1f034f4d5",
-      "priority": "nomal",
-      "createdTime": "2025-05-22T07:32:00.000Z",
       "lastEditedTime": "2026-02-09T11:25:00.000Z"
     },
     {
@@ -9319,6 +9319,519 @@
   ],
   "tasks": [
     {
+      "id": "306862e1-c059-8083-915f-f5b15ca3ae8d",
+      "title": "[Neobank] 레어앱 라이브환경 배포",
+      "status": "Done",
+      "startDate": "2026-02-13",
+      "endDate": "2026-02-13",
+      "assignee": {
+        "id": "f11c3ca3-a653-4a0f-b88f-545e218e7a6d",
+        "name": "트롤",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/4b7086dc-e7ea-4aad-94fe-b06474e4b5bb/my-notion-face-customized.png"
+      },
+      "reviewer": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "notionUrl": "https://www.notion.so/Neobank-306862e1c0598083915ff5b15ca3ae8d",
+      "priority": null,
+      "createdTime": "2026-02-13T01:32:00.000Z",
+      "lastEditedTime": "2026-02-25T02:31:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "310862e1-c059-80ff-82fe-ee1fbec96100",
+      "title": "2/24 앱스트랙 카드 미팅 ",
+      "status": "Done",
+      "startDate": "2026-02-24",
+      "endDate": "2026-02-24",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/2-24-310862e1c05980ff82feee1fbec96100",
+      "priority": null,
+      "createdTime": "2026-02-23T01:31:00.000Z",
+      "lastEditedTime": "2026-02-25T02:31:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "310862e1-c059-8076-8883-d7d92f62a8c9",
+      "title": "[lair mobile] 친구 초대 링크 및 메세지 생성 기능 개발",
+      "status": "Done",
+      "startDate": "2026-02-23",
+      "endDate": "2026-02-25",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/lair-mobile-310862e1c05980768883d7d92f62a8c9",
+      "priority": null,
+      "createdTime": "2026-02-23T02:26:00.000Z",
+      "lastEditedTime": "2026-02-25T02:31:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "30d862e1-c059-80dc-aaa3-e6b8fd544055",
+      "title": "[neobank] 레어 모바일 firebase 리포트 세팅",
+      "status": "Done",
+      "startDate": "2026-02-20",
+      "endDate": "2026-02-20",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-firebase-30d862e1c05980dcaaa3e6b8fd544055",
+      "priority": null,
+      "createdTime": "2026-02-20T01:33:00.000Z",
+      "lastEditedTime": "2026-02-25T02:31:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "30d862e1-c059-8018-9970-f683a86ca9dc",
+      "title": "[lair mobile] 깃북 새로 만들기",
+      "status": "Done",
+      "startDate": "2026-02-20",
+      "endDate": "2026-02-20",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/lair-mobile-30d862e1c05980189970f683a86ca9dc",
+      "priority": null,
+      "createdTime": "2026-02-20T02:27:00.000Z",
+      "lastEditedTime": "2026-02-25T02:30:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "30d862e1-c059-80cb-8136-e2e30a46f438",
+      "title": "[lair mobile] FAQ 페이지로 가는 링크 넣어서 배포",
+      "status": "Done",
+      "startDate": "2026-02-20",
+      "endDate": "2026-02-20",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "notionUrl": "https://www.notion.so/lair-mobile-FAQ-30d862e1c05980cb8136e2e30a46f438",
+      "priority": null,
+      "createdTime": "2026-02-20T02:29:00.000Z",
+      "lastEditedTime": "2026-02-25T02:30:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "30d862e1-c059-808a-bcba-fabd5d821015",
+      "title": "[lair mobile] 깃북에 FAQ 업데이트",
+      "status": "Done",
+      "startDate": "2026-02-20",
+      "endDate": "2026-02-20",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/lair-mobile-FAQ-30d862e1c059808abcbafabd5d821015",
+      "priority": null,
+      "createdTime": "2026-02-20T02:29:00.000Z",
+      "lastEditedTime": "2026-02-25T02:30:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "30c862e1-c059-80da-a037-f75c4775bc6b",
+      "title": "[neobank][abstract] 카드 사업 원페이저에 트젝 발생 케이스 설명 추가 ",
+      "status": "Done",
+      "startDate": "2026-02-19",
+      "endDate": "2026-02-19",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/neobank-abstract-30c862e1c05980daa037f75c4775bc6b",
+      "priority": null,
+      "createdTime": "2026-02-19T01:11:00.000Z",
+      "lastEditedTime": "2026-02-25T02:30:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "305862e1-c059-80b8-a73c-e9929fd7ca1a",
+      "title": "솜니아 LST 비용 청구 2단계 - 법적 서류 송부",
+      "status": "Done",
+      "startDate": "2026-02-12",
+      "endDate": "2026-02-13",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/LST-2-305862e1c05980b8a73ce9929fd7ca1a",
+      "priority": null,
+      "createdTime": "2026-02-12T01:28:00.000Z",
+      "lastEditedTime": "2026-02-25T02:30:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "305862e1-c059-81a1-8d9c-f41ba28dd9c7",
+      "title": "[Neobank] Lair Stable Vault 원페이저 제작",
+      "status": "Done",
+      "startDate": "2026-02-12",
+      "endDate": "2026-02-12",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/Neobank-Lair-Stable-Vault-305862e1c05981a18d9cf41ba28dd9c7",
+      "priority": null,
+      "createdTime": "2026-02-12T05:43:00.000Z",
+      "lastEditedTime": "2026-02-25T02:30:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "303862e1-c059-80c7-b504-e0eca54b1c38",
+      "title": "[Lair Mobile] MVP QA 에이전트 개발 → QA 진행",
+      "status": "Done",
+      "startDate": "2026-02-10",
+      "endDate": "2026-02-12",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "notionUrl": "https://www.notion.so/Lair-Mobile-MVP-QA-QA-303862e1c05980c7b504e0eca54b1c38",
+      "priority": null,
+      "createdTime": "2026-02-10T01:12:00.000Z",
+      "lastEditedTime": "2026-02-25T02:30:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e2862e1-c059-81ed-834f-f74a46d47385",
+      "title": "[neobank] 레어 모바일 MVP 사용량 측정 기준 수립",
+      "status": "Done",
+      "startDate": "2026-02-05",
+      "endDate": "2026-02-12",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/neobank-MVP-2e2862e1c05981ed834ff74a46d47385",
+      "priority": null,
+      "createdTime": "2026-01-08T06:48:00.000Z",
+      "lastEditedTime": "2026-02-25T02:30:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e2862e1-c059-8162-b06c-fe6d7a44cb69",
+      "title": "[neobank] 앱 출시 알림 이메일 발송",
+      "status": "In progress",
+      "startDate": "2026-02-04",
+      "endDate": "2026-02-20",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/neobank-2e2862e1c0598162b06cfe6d7a44cb69",
+      "priority": null,
+      "createdTime": "2026-01-08T06:48:00.000Z",
+      "lastEditedTime": "2026-02-25T02:30:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2fd862e1-c059-802f-aeb4-d2936c9c890e",
+      "title": "[lair][somnia] 스테이블 코인 앱 1 페이저 보내면서 정산 언급하기",
+      "status": "Done",
+      "startDate": "2026-01-28",
+      "endDate": "2026-02-05",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "notionUrl": "https://www.notion.so/lair-somnia-1-2fd862e1c059802faeb4d2936c9c890e",
+      "priority": null,
+      "createdTime": "2026-02-04T01:57:00.000Z",
+      "lastEditedTime": "2026-02-25T02:30:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2f1862e1-c059-800a-b747-f8a803004d7e",
+      "title": "AI로 미팅록 에이전트, 노션 db 속성 재분류",
+      "status": "Done",
+      "startDate": "2026-01-23",
+      "endDate": "2026-02-10",
+      "assignee": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/AI-db-2f1862e1c059800ab747f8a803004d7e",
+      "priority": null,
+      "createdTime": "2026-01-23T01:31:00.000Z",
+      "lastEditedTime": "2026-02-25T02:30:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "30d862e1-c059-808c-895b-c1d6146b7f2f",
+      "title": "Team AI 기술 리서치 및 개발",
+      "status": "In progress",
+      "startDate": "2026-02-20",
+      "endDate": "2026-02-24",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Team-AI-30d862e1c059808c895bc1d6146b7f2f",
+      "priority": null,
+      "createdTime": "2026-02-20T01:31:00.000Z",
+      "lastEditedTime": "2026-02-25T02:28:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "306862e1-c059-8052-a1b3-e316930a4c3b",
+      "title": "[Lair Mobile] iOS, Android 배포",
+      "status": "Done",
+      "startDate": "2026-02-13",
+      "endDate": "2026-02-13",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/Lair-Mobile-iOS-Android-306862e1c0598052a1b3e316930a4c3b",
+      "priority": null,
+      "createdTime": "2026-02-13T01:31:00.000Z",
+      "lastEditedTime": "2026-02-25T02:27:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "306862e1-c059-8067-8eb0-c49c755f26d5",
+      "title": "[Lair Mobile] QA",
+      "status": "Done",
+      "startDate": "2026-02-12",
+      "endDate": "2026-02-13",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Lair-Mobile-QA-306862e1c05980678eb0c49c755f26d5",
+      "priority": null,
+      "createdTime": "2026-02-13T01:30:00.000Z",
+      "lastEditedTime": "2026-02-25T02:27:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e9862e1-c059-8156-97af-de033d25f649",
+      "title": "[neobank] MVP 개발",
+      "status": "Done",
+      "startDate": "2026-02-05",
+      "endDate": "2026-02-12",
+      "assignee": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-MVP-2e9862e1c059815697afde033d25f649",
+      "priority": null,
+      "createdTime": "2026-01-15T05:01:00.000Z",
+      "lastEditedTime": "2026-02-25T02:27:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "305862e1-c059-8011-9d52-c789be6087a6",
+      "title": "[neobank] 앱 스크린샷 업데이트",
+      "status": "Done",
+      "startDate": "2026-02-12",
+      "endDate": "2026-02-12",
+      "assignee": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-305862e1c05980119d52c789be6087a6",
+      "priority": null,
+      "createdTime": "2026-02-12T02:55:00.000Z",
+      "lastEditedTime": "2026-02-25T02:19:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e2862e1-c059-81ed-9552-c083183efa4d",
+      "title": "[neobank] 디자인 라이브러리 4주차: QA 및 AI 이전 세팅",
+      "status": "Done",
+      "startDate": "2026-02-10",
+      "endDate": "2026-02-13",
+      "assignee": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-4-QA-AI-2e2862e1c05981ed9552c083183efa4d",
+      "priority": null,
+      "createdTime": "2026-01-08T07:23:00.000Z",
+      "lastEditedTime": "2026-02-25T02:19:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e2862e1-c059-81f6-a336-f12174067ed5",
+      "title": "[neobank] 디자인 라이브러리 3주차: 코어 컴포넌트 구축",
+      "status": "Done",
+      "startDate": "2026-02-02",
+      "endDate": "2026-02-09",
+      "assignee": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-3-2e2862e1c05981f6a336f12174067ed5",
+      "priority": null,
+      "createdTime": "2026-01-08T07:23:00.000Z",
+      "lastEditedTime": "2026-02-25T02:19:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2e2862e1-c059-81d9-b939-e7aeede79b01",
+      "title": "[neobank] 디자인 라이브러리 2주차: UI 규칙 토큰화",
+      "status": "Done",
+      "startDate": "2026-01-19",
+      "endDate": "2026-01-23",
+      "assignee": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-2-UI-2e2862e1c05981d9b939e7aeede79b01",
+      "priority": null,
+      "createdTime": "2026-01-08T07:23:00.000Z",
+      "lastEditedTime": "2026-02-25T02:19:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
       "id": "312862e1-c059-80bf-abef-ee97104ccbf7",
       "title": "[lair mobile] 친구초대 딥링크 서버 작업",
       "status": "Not started",
@@ -9334,63 +9847,6 @@
       "priority": null,
       "createdTime": "2026-02-25T01:53:00.000Z",
       "lastEditedTime": "2026-02-25T01:54:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "30d862e1-c059-808c-895b-c1d6146b7f2f",
-      "title": "Fired AI 기술 리서치",
-      "status": "In progress",
-      "startDate": "2026-02-20",
-      "endDate": "2026-02-24",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Fired-AI-30d862e1c059808c895bc1d6146b7f2f",
-      "priority": null,
-      "createdTime": "2026-02-20T01:31:00.000Z",
-      "lastEditedTime": "2026-02-25T01:48:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "306862e1-c059-8067-8eb0-c49c755f26d5",
-      "title": "[Lair Mobile] QA",
-      "status": "Review",
-      "startDate": "2026-02-12",
-      "endDate": "2026-02-13",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Lair-Mobile-QA-306862e1c05980678eb0c49c755f26d5",
-      "priority": null,
-      "createdTime": "2026-02-13T01:30:00.000Z",
-      "lastEditedTime": "2026-02-25T01:48:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "310862e1-c059-80ff-82fe-ee1fbec96100",
-      "title": "2/24 앱스트랙 카드 미팅 ",
-      "status": "Review",
-      "startDate": "2026-02-24",
-      "endDate": "2026-02-24",
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/2-24-310862e1c05980ff82feee1fbec96100",
-      "priority": null,
-      "createdTime": "2026-02-23T01:31:00.000Z",
-      "lastEditedTime": "2026-02-25T01:37:00.000Z",
       "epicId": null,
       "pingHistory": []
     },
@@ -9452,29 +9908,6 @@
       "priority": null,
       "createdTime": "2026-02-24T01:30:00.000Z",
       "lastEditedTime": "2026-02-24T01:36:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "310862e1-c059-8076-8883-d7d92f62a8c9",
-      "title": "[lair mobile] 친구 초대 링크 및 메세지 생성 기능 개발",
-      "status": "Review",
-      "startDate": "2026-02-23",
-      "endDate": "2026-02-25",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/lair-mobile-310862e1c05980768883d7d92f62a8c9",
-      "priority": null,
-      "createdTime": "2026-02-23T02:26:00.000Z",
-      "lastEditedTime": "2026-02-24T01:34:00.000Z",
       "epicId": null,
       "pingHistory": []
     },
@@ -9544,98 +9977,6 @@
       "pingHistory": []
     },
     {
-      "id": "30d862e1-c059-808a-bcba-fabd5d821015",
-      "title": "[lair mobile] 깃북에 FAQ 업데이트",
-      "status": "Review",
-      "startDate": "2026-02-20",
-      "endDate": "2026-02-20",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/lair-mobile-FAQ-30d862e1c059808abcbafabd5d821015",
-      "priority": null,
-      "createdTime": "2026-02-20T02:29:00.000Z",
-      "lastEditedTime": "2026-02-23T01:29:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "30d862e1-c059-8018-9970-f683a86ca9dc",
-      "title": "[lair mobile] 깃북 새로 만들기",
-      "status": "Review",
-      "startDate": "2026-02-20",
-      "endDate": "2026-02-20",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/lair-mobile-30d862e1c05980189970f683a86ca9dc",
-      "priority": null,
-      "createdTime": "2026-02-20T02:27:00.000Z",
-      "lastEditedTime": "2026-02-23T01:29:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "30d862e1-c059-80dc-aaa3-e6b8fd544055",
-      "title": "[neobank] 레어 모바일 firebase 리포트 세팅",
-      "status": "Review",
-      "startDate": "2026-02-20",
-      "endDate": "2026-02-20",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "notionUrl": "https://www.notion.so/neobank-firebase-30d862e1c05980dcaaa3e6b8fd544055",
-      "priority": null,
-      "createdTime": "2026-02-20T01:33:00.000Z",
-      "lastEditedTime": "2026-02-23T01:28:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "30d862e1-c059-80cb-8136-e2e30a46f438",
-      "title": "[lair mobile] FAQ 페이지로 가는 링크 넣어서 배포",
-      "status": "Review",
-      "startDate": "2026-02-20",
-      "endDate": "2026-02-20",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "notionUrl": "https://www.notion.so/lair-mobile-FAQ-30d862e1c05980cb8136e2e30a46f438",
-      "priority": null,
-      "createdTime": "2026-02-20T02:29:00.000Z",
-      "lastEditedTime": "2026-02-23T01:27:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
       "id": "30d862e1-c059-808b-a975-db95b7c6f7d6",
       "title": "[AI] 코드화된 디자인 시스템 레포지토리 커밋푸쉬 및 풀 당겨서 테스트해보기",
       "status": "Not started",
@@ -9651,29 +9992,6 @@
       "priority": null,
       "createdTime": "2026-02-20T02:23:00.000Z",
       "lastEditedTime": "2026-02-20T02:23:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "306862e1-c059-8052-a1b3-e316930a4c3b",
-      "title": "[Lair Mobile] iOS, Android 배포",
-      "status": "Review",
-      "startDate": "2026-02-13",
-      "endDate": "2026-02-13",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "notionUrl": "https://www.notion.so/Lair-Mobile-iOS-Android-306862e1c0598052a1b3e316930a4c3b",
-      "priority": null,
-      "createdTime": "2026-02-13T01:31:00.000Z",
-      "lastEditedTime": "2026-02-20T01:56:00.000Z",
       "epicId": null,
       "pingHistory": []
     },
@@ -9701,29 +10019,6 @@
       "pingHistory": []
     },
     {
-      "id": "2e2862e1-c059-81ed-9552-c083183efa4d",
-      "title": "[neobank] 디자인 라이브러리 4주차: QA 및 AI 이전 세팅",
-      "status": "Review",
-      "startDate": "2026-02-10",
-      "endDate": "2026-02-13",
-      "assignee": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "reviewer": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "notionUrl": "https://www.notion.so/neobank-4-QA-AI-2e2862e1c05981ed9552c083183efa4d",
-      "priority": null,
-      "createdTime": "2026-01-08T07:23:00.000Z",
-      "lastEditedTime": "2026-02-20T01:35:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
       "id": "30d862e1-c059-80e9-a737-dc35d9a026f6",
       "title": "금캐기 UX 체크 ",
       "status": "In progress",
@@ -9738,29 +10033,6 @@
       "notionUrl": "https://www.notion.so/UX-30d862e1c05980e9a737dc35d9a026f6",
       "priority": null,
       "createdTime": "2026-02-20T01:32:00.000Z",
-      "lastEditedTime": "2026-02-20T01:32:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e2862e1-c059-8162-b06c-fe6d7a44cb69",
-      "title": "[neobank] 앱 출시 알림 이메일 발송",
-      "status": "In progress",
-      "startDate": "2026-02-04",
-      "endDate": "2026-02-20",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/neobank-2e2862e1c0598162b06cfe6d7a44cb69",
-      "priority": null,
-      "createdTime": "2026-01-08T06:48:00.000Z",
       "lastEditedTime": "2026-02-20T01:32:00.000Z",
       "epicId": null,
       "pingHistory": []
@@ -9804,52 +10076,6 @@
       "pingHistory": []
     },
     {
-      "id": "2e2862e1-c059-81ed-834f-f74a46d47385",
-      "title": "[neobank] 레어 모바일 MVP 사용량 측정 기준 수립",
-      "status": "Review",
-      "startDate": "2026-02-05",
-      "endDate": "2026-02-12",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/neobank-MVP-2e2862e1c05981ed834ff74a46d47385",
-      "priority": null,
-      "createdTime": "2026-01-08T06:48:00.000Z",
-      "lastEditedTime": "2026-02-19T04:22:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "30c862e1-c059-80da-a037-f75c4775bc6b",
-      "title": "[neobank][abstract] 카드 사업 원페이저에 트젝 발생 케이스 설명 추가 ",
-      "status": "Review",
-      "startDate": "2026-02-19",
-      "endDate": "2026-02-19",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/neobank-abstract-30c862e1c05980daa037f75c4775bc6b",
-      "priority": null,
-      "createdTime": "2026-02-19T01:11:00.000Z",
-      "lastEditedTime": "2026-02-19T02:02:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
       "id": "305862e1-c059-8000-9f2c-c049e066d07e",
       "title": "설 주주 문서 작성 ",
       "status": "Done",
@@ -9888,98 +10114,6 @@
       "pingHistory": []
     },
     {
-      "id": "303862e1-c059-80c7-b504-e0eca54b1c38",
-      "title": "[Lair Mobile] MVP QA 에이전트 개발 → QA 진행",
-      "status": "Review",
-      "startDate": "2026-02-10",
-      "endDate": "2026-02-12",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "notionUrl": "https://www.notion.so/Lair-Mobile-MVP-QA-QA-303862e1c05980c7b504e0eca54b1c38",
-      "priority": null,
-      "createdTime": "2026-02-10T01:12:00.000Z",
-      "lastEditedTime": "2026-02-19T01:10:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "305862e1-c059-8011-9d52-c789be6087a6",
-      "title": "[neobank] 앱 스크린샷 업데이트",
-      "status": "Review",
-      "startDate": "2026-02-12",
-      "endDate": "2026-02-12",
-      "assignee": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "reviewer": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "notionUrl": "https://www.notion.so/neobank-305862e1c05980119d52c789be6087a6",
-      "priority": null,
-      "createdTime": "2026-02-12T02:55:00.000Z",
-      "lastEditedTime": "2026-02-13T09:44:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "306862e1-c059-8083-915f-f5b15ca3ae8d",
-      "title": "[Neobank] 레어앱 라이브환경 배포",
-      "status": "In progress",
-      "startDate": "2026-02-13",
-      "endDate": "2026-02-13",
-      "assignee": {
-        "id": "f11c3ca3-a653-4a0f-b88f-545e218e7a6d",
-        "name": "트롤",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/4b7086dc-e7ea-4aad-94fe-b06474e4b5bb/my-notion-face-customized.png"
-      },
-      "reviewer": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "notionUrl": "https://www.notion.so/Neobank-306862e1c0598083915ff5b15ca3ae8d",
-      "priority": null,
-      "createdTime": "2026-02-13T01:32:00.000Z",
-      "lastEditedTime": "2026-02-13T01:37:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e9862e1-c059-8156-97af-de033d25f649",
-      "title": "[neobank] MVP 개발",
-      "status": "Review",
-      "startDate": "2026-02-05",
-      "endDate": "2026-02-12",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "notionUrl": "https://www.notion.so/neobank-MVP-2e9862e1c059815697afde033d25f649",
-      "priority": null,
-      "createdTime": "2026-01-15T05:01:00.000Z",
-      "lastEditedTime": "2026-02-13T01:30:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
       "id": "305862e1-c059-8049-a700-e293cc769dda",
       "title": "2/11 회의록 공유 ",
       "status": "Review",
@@ -9995,75 +10129,6 @@
       "priority": null,
       "createdTime": "2026-02-12T01:14:00.000Z",
       "lastEditedTime": "2026-02-13T01:27:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "305862e1-c059-80b8-a73c-e9929fd7ca1a",
-      "title": "솜니아 LST 비용 청구 2단계 - 법적 서류 송부",
-      "status": "Review",
-      "startDate": "2026-02-12",
-      "endDate": "2026-02-13",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/LST-2-305862e1c05980b8a73ce9929fd7ca1a",
-      "priority": null,
-      "createdTime": "2026-02-12T01:28:00.000Z",
-      "lastEditedTime": "2026-02-13T01:20:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "305862e1-c059-81a1-8d9c-f41ba28dd9c7",
-      "title": "[Neobank] Lair Stable Vault 원페이저 제작",
-      "status": "Review",
-      "startDate": "2026-02-12",
-      "endDate": "2026-02-12",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/Neobank-Lair-Stable-Vault-305862e1c05981a18d9cf41ba28dd9c7",
-      "priority": null,
-      "createdTime": "2026-02-12T05:43:00.000Z",
-      "lastEditedTime": "2026-02-12T05:45:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2fd862e1-c059-802f-aeb4-d2936c9c890e",
-      "title": "[lair][somnia] 스테이블 코인 앱 1 페이저 보내면서 정산 언급하기",
-      "status": "Review",
-      "startDate": "2026-01-28",
-      "endDate": "2026-02-05",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "notionUrl": "https://www.notion.so/lair-somnia-1-2fd862e1c059802faeb4d2936c9c890e",
-      "priority": null,
-      "createdTime": "2026-02-04T01:57:00.000Z",
-      "lastEditedTime": "2026-02-11T02:13:00.000Z",
       "epicId": null,
       "pingHistory": []
     },
@@ -10163,48 +10228,6 @@
       "priority": null,
       "createdTime": "2026-01-15T05:01:00.000Z",
       "lastEditedTime": "2026-02-11T01:59:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2f1862e1-c059-800a-b747-f8a803004d7e",
-      "title": "AI로 미팅록 에이전트, 노션 db 속성 재분류",
-      "status": "Review",
-      "startDate": "2026-01-23",
-      "endDate": "2026-02-10",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/AI-db-2f1862e1c059800ab747f8a803004d7e",
-      "priority": null,
-      "createdTime": "2026-01-23T01:31:00.000Z",
-      "lastEditedTime": "2026-02-11T01:56:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "2e2862e1-c059-81f6-a336-f12174067ed5",
-      "title": "[neobank] 디자인 라이브러리 3주차: 코어 컴포넌트 구축",
-      "status": "Review",
-      "startDate": "2026-02-02",
-      "endDate": "2026-02-09",
-      "assignee": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "reviewer": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "notionUrl": "https://www.notion.so/neobank-3-2e2862e1c05981f6a336f12174067ed5",
-      "priority": null,
-      "createdTime": "2026-01-08T07:23:00.000Z",
-      "lastEditedTime": "2026-02-10T14:27:00.000Z",
       "epicId": null,
       "pingHistory": []
     },
@@ -19831,32 +19854,26 @@
       "lastEditedTime": "2026-02-10T02:36:00.000Z",
       "epicId": null,
       "pingHistory": []
-    },
-    {
-      "id": "21f862e1-c059-8068-a1a3-fd41d42f2528",
-      "title": "[Lair] halborn 특별테스트 진행 케이스 ",
-      "status": "Done",
-      "startDate": "2025-06-27",
-      "endDate": "2025-07-16",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "f11c3ca3-a653-4a0f-b88f-545e218e7a6d",
-        "name": "트롤",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/4b7086dc-e7ea-4aad-94fe-b06474e4b5bb/my-notion-face-customized.png"
-      },
-      "notionUrl": "https://www.notion.so/Lair-halborn-21f862e1c0598068a1a3fd41d42f2528",
-      "priority": null,
-      "createdTime": "2025-06-27T10:41:00.000Z",
-      "lastEditedTime": "2026-02-10T02:36:00.000Z",
-      "epicId": null,
-      "pingHistory": []
     }
   ],
   "docs": [
+    {
+      "id": "310862e1-c059-80ae-91cd-d3fd9b4fba41",
+      "title": "[Lair app] ux 피드백 모음",
+      "status": "To Do",
+      "startDate": null,
+      "endDate": null,
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/Lair-app-ux-310862e1c05980ae91cdd3fd9b4fba41",
+      "priority": "Stablecoin App",
+      "createdTime": "2026-02-23T03:58:00.000Z",
+      "lastEditedTime": "2026-02-25T02:31:00.000Z"
+    },
     {
       "id": "2e8862e1-c059-807d-978c-caa8779103d8",
       "title": "[회의록]주간리뷰 2026년 통합",
@@ -19872,7 +19889,7 @@
       "notionUrl": "https://www.notion.so/2026-2e8862e1c059807d978ccaa8779103d8",
       "priority": "Lair LST",
       "createdTime": "2026-01-14T01:55:00.000Z",
-      "lastEditedTime": "2026-02-25T01:55:00.000Z"
+      "lastEditedTime": "2026-02-25T02:15:00.000Z"
     },
     {
       "id": "311862e1-c059-818a-97b9-fd8098b9bf15",
@@ -19899,23 +19916,6 @@
       "priority": "Stablecoin App",
       "createdTime": "2026-02-23T04:02:00.000Z",
       "lastEditedTime": "2026-02-23T04:09:00.000Z"
-    },
-    {
-      "id": "310862e1-c059-80ae-91cd-d3fd9b4fba41",
-      "title": "[Lair app] ux 피드백 모음",
-      "status": "To Do",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-        "name": "버그",
-        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/Lair-app-ux-310862e1c05980ae91cdd3fd9b4fba41",
-      "priority": "Stablecoin App",
-      "createdTime": "2026-02-23T03:58:00.000Z",
-      "lastEditedTime": "2026-02-23T03:59:00.000Z"
     },
     {
       "id": "17c862e1-c059-8034-8cf3-c34d4ab765f2",
@@ -28451,9 +28451,9 @@
   ],
   "members": [
     {
-      "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-      "name": "용용",
-      "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+      "name": "버그",
+      "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
     },
     {
       "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
@@ -28461,9 +28461,9 @@
       "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
     },
     {
-      "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
-      "name": "버그",
-      "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      "id": "4ab3d585-ddfc-4092-b1c4-3a3ce00261e7",
+      "name": "뽀삐",
+      "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/6273ea60-836e-473e-b00f-7b88a4eaee72/%EB%B2%84%EA%B7%B8%EC%8B%9C%ED%8B%B0_%EC%82%AC%EC%A7%84.png"
     },
     {
       "id": "f11c3ca3-a653-4a0f-b88f-545e218e7a6d",
@@ -28471,14 +28471,19 @@
       "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/4b7086dc-e7ea-4aad-94fe-b06474e4b5bb/my-notion-face-customized.png"
     },
     {
-      "id": "a45f1fed-37cb-4336-a99e-4ba81254fc73",
-      "name": "마이 ",
-      "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/71ae885f-15d7-46a5-8755-573c7ccd9e0c/%E1%84%87%E1%85%A5%E1%84%80%E1%85%B3%E1%84%89%E1%85%B5%E1%84%90%E1%85%B5_%E1%84%8B%E1%85%A1%E1%84%87%E1%85%A1%E1%84%90%E1%85%A1.png"
+      "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+      "name": "용용",
+      "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
     },
     {
       "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
       "name": "굿보이",
       "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+    },
+    {
+      "id": "a45f1fed-37cb-4336-a99e-4ba81254fc73",
+      "name": "마이 ",
+      "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/71ae885f-15d7-46a5-8755-573c7ccd9e0c/%E1%84%87%E1%85%A5%E1%84%80%E1%85%B3%E1%84%89%E1%85%B5%E1%84%90%E1%85%B5_%E1%84%8B%E1%85%A1%E1%84%87%E1%85%A1%E1%84%90%E1%85%A1.png"
     },
     {
       "id": "512a37fb-0e7d-4670-bc0d-1cd593338bce",
@@ -28499,11 +28504,6 @@
       "id": "991d72ac-8f42-4ad5-bc96-9aa46447ae27",
       "name": "Unknown",
       "avatar": null
-    },
-    {
-      "id": "4ab3d585-ddfc-4092-b1c4-3a3ce00261e7",
-      "name": "뽀삐",
-      "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/6273ea60-836e-473e-b00f-7b88a4eaee72/%EB%B2%84%EA%B7%B8%EC%8B%9C%ED%8B%B0_%EC%82%AC%EC%A7%84.png"
     },
     {
       "id": "9edfc7bf-c755-452a-bb64-29ec278314ec",
@@ -28546,5 +28546,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-02-25T01:58:10.106Z"
+  "syncedAt": "2026-02-25T04:23:45.833Z"
 }
