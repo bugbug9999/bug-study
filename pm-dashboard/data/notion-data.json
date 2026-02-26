@@ -9319,6 +9319,86 @@
   ],
   "tasks": [
     {
+      "id": "313862e1-c059-80ef-bc2d-fb6de69f5696",
+      "title": "gate지갑이슈체크",
+      "status": "In progress",
+      "startDate": null,
+      "endDate": null,
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/gate-313862e1c05980efbc2dfb6de69f5696",
+      "priority": null,
+      "createdTime": "2026-02-26T01:34:00.000Z",
+      "lastEditedTime": "2026-02-26T01:34:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "313862e1-c059-80ad-ab1b-d8f7fc02565a",
+      "title": "오전업무세팅",
+      "status": "In progress",
+      "startDate": "2026-02-26",
+      "endDate": "2026-02-26",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/313862e1c05980adab1bd8f7fc02565a",
+      "priority": null,
+      "createdTime": "2026-02-26T01:31:00.000Z",
+      "lastEditedTime": "2026-02-26T01:31:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "311862e1-c059-80d4-bbef-d3e019f7a6a1",
+      "title": "[neobank] AI로 MVP 디자인 업데이트 1차",
+      "status": "In progress",
+      "startDate": "2026-02-24",
+      "endDate": "2026-02-24",
+      "assignee": {
+        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
+        "name": "굿보이",
+        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://www.notion.so/neobank-AI-MVP-1-311862e1c05980d4bbefd3e019f7a6a1",
+      "priority": null,
+      "createdTime": "2026-02-24T01:30:00.000Z",
+      "lastEditedTime": "2026-02-26T01:31:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
+      "id": "2fe862e1-c059-80c3-a1ba-f0c404d1f528",
+      "title": "프로젝트 타임라인 추적 봇 ",
+      "status": "Done",
+      "startDate": null,
+      "endDate": null,
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://www.notion.so/2fe862e1c05980c3a1baf0c404d1f528",
+      "priority": null,
+      "createdTime": "2026-02-05T01:29:00.000Z",
+      "lastEditedTime": "2026-02-26T01:31:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
       "id": "306862e1-c059-8083-915f-f5b15ca3ae8d",
       "title": "[Neobank] 레어앱 라이브환경 배포",
       "status": "Done",
@@ -9885,29 +9965,6 @@
       "priority": null,
       "createdTime": "2026-02-20T02:32:00.000Z",
       "lastEditedTime": "2026-02-24T07:28:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "311862e1-c059-80d4-bbef-d3e019f7a6a1",
-      "title": "[neobank] AI로 MVP 디자인 업데이트",
-      "status": "In progress",
-      "startDate": "2026-02-24",
-      "endDate": "2026-02-24",
-      "assignee": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "reviewer": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "notionUrl": "https://www.notion.so/neobank-AI-MVP-311862e1c05980d4bbefd3e019f7a6a1",
-      "priority": null,
-      "createdTime": "2026-02-24T01:30:00.000Z",
-      "lastEditedTime": "2026-02-24T01:36:00.000Z",
       "epicId": null,
       "pingHistory": []
     },
@@ -19789,71 +19846,6 @@
       "lastEditedTime": "2026-02-10T02:36:00.000Z",
       "epicId": null,
       "pingHistory": []
-    },
-    {
-      "id": "2221c95d-7a67-4228-a9a0-f3d4638e59d9",
-      "title": "[기획] Lair Unstaking 페이지 기획서",
-      "status": "Done",
-      "startDate": "2024-06-13",
-      "endDate": "2024-06-14",
-      "assignee": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "reviewer": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "notionUrl": "https://www.notion.so/Lair-Unstaking-2221c95d7a674228a9a0f3d4638e59d9",
-      "priority": null,
-      "createdTime": "2024-06-13T01:46:00.000Z",
-      "lastEditedTime": "2026-02-10T02:36:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "221862e1-c059-8055-9233-dc4abaa14061",
-      "title": "[스터디] 하이퍼리퀴드",
-      "status": "Done",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/221862e1c05980559233dc4abaa14061",
-      "priority": null,
-      "createdTime": "2025-06-29T13:53:00.000Z",
-      "lastEditedTime": "2026-02-10T02:36:00.000Z",
-      "epicId": null,
-      "pingHistory": []
-    },
-    {
-      "id": "21f862e1-c059-8082-be2e-e206949a45d2",
-      "title": "Audit 이후 프론트 업데이트",
-      "status": "Done",
-      "startDate": "2025-06-27",
-      "endDate": "2025-07-11",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": {
-        "id": "f11c3ca3-a653-4a0f-b88f-545e218e7a6d",
-        "name": "트롤",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/4b7086dc-e7ea-4aad-94fe-b06474e4b5bb/my-notion-face-customized.png"
-      },
-      "notionUrl": "https://www.notion.so/Audit-21f862e1c0598082be2ee206949a45d2",
-      "priority": null,
-      "createdTime": "2025-06-27T01:07:00.000Z",
-      "lastEditedTime": "2026-02-10T02:36:00.000Z",
-      "epicId": null,
-      "pingHistory": []
     }
   ],
   "docs": [
@@ -28546,5 +28538,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-02-25T23:26:42.633Z"
+  "syncedAt": "2026-02-26T01:56:06.775Z"
 }
