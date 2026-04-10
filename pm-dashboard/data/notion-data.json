@@ -9319,6 +9319,29 @@
   ],
   "tasks": [
     {
+      "id": "9a6643af-df04-4e6d-b58d-d026bfe127f9",
+      "title": "[웹] 웹에 회사정보 추가 ",
+      "status": "Done",
+      "startDate": "2023-08-25",
+      "endDate": "2023-08-25",
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": {
+        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
+        "name": "용용",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
+      },
+      "notionUrl": "https://www.notion.so/9a6643afdf044e6db58dd026bfe127f9",
+      "priority": null,
+      "createdTime": "2023-08-25T07:24:00.000Z",
+      "lastEditedTime": "2026-04-10T00:55:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
       "id": "328862e1-c059-81dc-8db2-e2d191f8e327",
       "title": "걷기앱 SDK 연동 테스트 — 실제 유저 환경 QA",
       "status": "Backlog",
@@ -19838,25 +19861,6 @@
       "lastEditedTime": "2026-02-10T02:36:00.000Z",
       "epicId": null,
       "pingHistory": []
-    },
-    {
-      "id": "222862e1-c059-8028-b695-e5e6599b5c2b",
-      "title": "해외법인(BVI/파나마) 연간갱신신청서",
-      "status": "Done",
-      "startDate": null,
-      "endDate": null,
-      "assignee": {
-        "id": "a45f1fed-37cb-4336-a99e-4ba81254fc73",
-        "name": "마이 ",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/71ae885f-15d7-46a5-8755-573c7ccd9e0c/%E1%84%87%E1%85%A5%E1%84%80%E1%85%B3%E1%84%89%E1%85%B5%E1%84%90%E1%85%B5_%E1%84%8B%E1%85%A1%E1%84%87%E1%85%A1%E1%84%90%E1%85%A1.png"
-      },
-      "reviewer": null,
-      "notionUrl": "https://www.notion.so/BVI-222862e1c0598028b695e5e6599b5c2b",
-      "priority": null,
-      "createdTime": "2025-06-30T06:49:00.000Z",
-      "lastEditedTime": "2026-02-10T02:36:00.000Z",
-      "epicId": null,
-      "pingHistory": []
     }
   ],
   "docs": [
@@ -28549,5 +28553,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-04-09T23:35:49.420Z"
+  "syncedAt": "2026-04-10T02:13:33.143Z"
 }
