@@ -28437,23 +28437,6 @@
       "priority": "Lair LST",
       "createdTime": "2025-01-23T06:34:00.000Z",
       "lastEditedTime": "2026-02-09T10:07:00.000Z"
-    },
-    {
-      "id": "183862e1-c059-804d-b834-e0d9566b89ea",
-      "title": "[회의록]주간리뷰 250122",
-      "status": "To Do",
-      "startDate": "2025-01-22",
-      "endDate": "2025-01-22",
-      "assignee": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "reviewer": null,
-      "notionUrl": "https://app.notion.com/p/250122-183862e1c059804db834e0d9566b89ea",
-      "priority": "Lair LST",
-      "createdTime": "2025-01-22T02:32:00.000Z",
-      "lastEditedTime": "2026-02-09T10:07:00.000Z"
     }
   ],
   "members": [
@@ -28553,5 +28536,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-06-09T09:37:54.982Z"
+  "syncedAt": "2026-06-09T12:34:25.323Z"
 }
