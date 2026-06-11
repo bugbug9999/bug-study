@@ -9319,6 +9319,29 @@
   ],
   "tasks": [
     {
+      "id": "137862e1-c059-8062-988c-ce64ac08dabe",
+      "title": "Capybara rstKAIA 풀 포인트 연동",
+      "status": "Done",
+      "startDate": "2024-11-07",
+      "endDate": "2024-11-08",
+      "assignee": {
+        "id": "f11c3ca3-a653-4a0f-b88f-545e218e7a6d",
+        "name": "트롤",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/4b7086dc-e7ea-4aad-94fe-b06474e4b5bb/my-notion-face-customized.png"
+      },
+      "reviewer": {
+        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
+        "name": "고라니",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
+      },
+      "notionUrl": "https://app.notion.com/p/Capybara-rstKAIA-137862e1c0598062988cce64ac08dabe",
+      "priority": null,
+      "createdTime": "2024-11-07T08:21:00.000Z",
+      "lastEditedTime": "2026-06-11T03:44:00.000Z",
+      "epicId": null,
+      "pingHistory": []
+    },
+    {
       "id": "312862e1-c059-80bf-abef-ee97104ccbf7",
       "title": "[lair mobile] 친구초대 딥링크 서버 작업",
       "status": "Not started",
@@ -19838,29 +19861,6 @@
       "lastEditedTime": "2026-02-10T02:36:00.000Z",
       "epicId": null,
       "pingHistory": []
-    },
-    {
-      "id": "225862e1-c059-803b-b401-c123575d0539",
-      "title": "지갑 토큰 추가",
-      "status": "Done",
-      "startDate": "2025-07-07",
-      "endDate": "2025-07-08",
-      "assignee": {
-        "id": "d642223f-11b2-4a60-b1cf-b0a4ace349ad",
-        "name": "용용",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/d5f1351e-56be-4def-a65c-8bd60cbd10d2/164.png"
-      },
-      "reviewer": {
-        "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
-        "name": "굿보이",
-        "avatar": "https://lh3.googleusercontent.com/a/ALm5wu1FzvvFvaPkOkE3kHVIiA2O8B9d9t2QSNwPpCnW=s100"
-      },
-      "notionUrl": "https://app.notion.com/p/225862e1c059803bb401c123575d0539",
-      "priority": null,
-      "createdTime": "2025-07-03T01:56:00.000Z",
-      "lastEditedTime": "2026-02-10T02:36:00.000Z",
-      "epicId": null,
-      "pingHistory": []
     }
   ],
   "docs": [
@@ -28536,5 +28536,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-06-11T03:40:15.651Z"
+  "syncedAt": "2026-06-11T08:44:19.868Z"
 }
