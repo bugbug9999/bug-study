@@ -19865,6 +19865,23 @@
   ],
   "docs": [
     {
+      "id": "3ac862e1-c059-80da-8ba6-c202b3a99bfd",
+      "title": "[제출] 기와 해커톤 팀정보 제출",
+      "status": "To Do",
+      "startDate": null,
+      "endDate": null,
+      "assignee": {
+        "id": "ffd3b022-e0da-4f73-b028-b698f588d640",
+        "name": "버그",
+        "avatar": "https://lh3.googleusercontent.com/a-/ACNPEu__v7UJyVCMcUM-vFiNnQLg0UbsR4S7z2XvR-9z=s100"
+      },
+      "reviewer": null,
+      "notionUrl": "https://app.notion.com/p/3ac862e1c05980da8ba6c202b3a99bfd",
+      "priority": null,
+      "createdTime": "2026-07-29T05:34:00.000Z",
+      "lastEditedTime": "2026-07-29T05:34:00.000Z"
+    },
+    {
       "id": "310862e1-c059-80ae-91cd-d3fd9b4fba41",
       "title": "[Lair app] ux 피드백 모음",
       "status": "To Do",
@@ -28420,23 +28437,6 @@
       "priority": "Lair LST",
       "createdTime": "2024-06-30T09:44:00.000Z",
       "lastEditedTime": "2026-02-09T10:07:00.000Z"
-    },
-    {
-      "id": "184862e1-c059-8083-a086-c55d04889e27",
-      "title": "[Lair] 1. 티켓 뽑고, 10배 뽑기 까지 하는 가이드 영상",
-      "status": "To Do",
-      "startDate": "2025-01-23",
-      "endDate": "2025-01-23",
-      "assignee": null,
-      "reviewer": {
-        "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
-        "name": "고라니",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/b95f6f04-a8ef-4625-a67c-daedb52a656a/cool_gorany.png"
-      },
-      "notionUrl": "https://app.notion.com/p/Lair-1-10-184862e1c0598083a086c55d04889e27",
-      "priority": "Lair LST",
-      "createdTime": "2025-01-23T06:34:00.000Z",
-      "lastEditedTime": "2026-02-09T10:07:00.000Z"
     }
   ],
   "members": [
@@ -28536,5 +28536,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-07-29T02:28:54.760Z"
+  "syncedAt": "2026-07-29T05:48:50.533Z"
 }
