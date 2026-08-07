@@ -9261,13 +9261,13 @@
       "endDate": null,
       "assignee": {
         "id": "474ad6ee-8bfe-4e1e-9b34-f77d366e88da",
-        "name": "Unknown",
-        "avatar": null
+        "name": "파덕",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/beed084f-2517-4f4d-9966-ade2482a3acf/%E1%84%91%E1%85%A1%E1%84%83%E1%85%A5%E1%86%A8.jpg"
       },
       "reviewer": {
         "id": "474ad6ee-8bfe-4e1e-9b34-f77d366e88da",
-        "name": "Unknown",
-        "avatar": null
+        "name": "파덕",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/beed084f-2517-4f4d-9966-ade2482a3acf/%E1%84%91%E1%85%A1%E1%84%83%E1%85%A5%E1%86%A8.jpg"
       },
       "notionUrl": "https://app.notion.com/p/BP-ee96dd040e2a4ca395ff0142f5c26729",
       "priority": "nomal",
@@ -28507,8 +28507,8 @@
     },
     {
       "id": "474ad6ee-8bfe-4e1e-9b34-f77d366e88da",
-      "name": "Unknown",
-      "avatar": null
+      "name": "파덕",
+      "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/beed084f-2517-4f4d-9966-ade2482a3acf/%E1%84%91%E1%85%A1%E1%84%83%E1%85%A5%E1%86%A8.jpg"
     },
     {
       "id": "3b1ea1b4-b20a-4c2b-8698-22e6ff921f3e",
@@ -28536,5 +28536,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-08-07T15:53:02.659Z"
+  "syncedAt": "2026-08-07T16:50:59.814Z"
 }
