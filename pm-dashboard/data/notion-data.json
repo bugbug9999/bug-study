@@ -6580,8 +6580,8 @@
       },
       "reviewer": {
         "id": "3b1ea1b4-b20a-4c2b-8698-22e6ff921f3e",
-        "name": "캅",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/9c366a2c-cde4-4c23-979b-e68b85fb4620/image_(1).png"
+        "name": "Unknown",
+        "avatar": null
       },
       "notionUrl": "https://app.notion.com/p/BC-Bera-Monad-a25c8651305646449c9627d965c9d17d",
       "priority": null,
@@ -14716,8 +14716,8 @@
       "endDate": "2024-09-10",
       "assignee": {
         "id": "3b1ea1b4-b20a-4c2b-8698-22e6ff921f3e",
-        "name": "캅",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/9c366a2c-cde4-4c23-979b-e68b85fb4620/image_(1).png"
+        "name": "Unknown",
+        "avatar": null
       },
       "reviewer": {
         "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
@@ -14781,8 +14781,8 @@
       "endDate": "2024-06-20",
       "assignee": {
         "id": "3b1ea1b4-b20a-4c2b-8698-22e6ff921f3e",
-        "name": "캅",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/9c366a2c-cde4-4c23-979b-e68b85fb4620/image_(1).png"
+        "name": "Unknown",
+        "avatar": null
       },
       "reviewer": {
         "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
@@ -28536,5 +28536,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-08-08T14:28:50.415Z"
+  "syncedAt": "2026-08-08T15:25:23.834Z"
 }
