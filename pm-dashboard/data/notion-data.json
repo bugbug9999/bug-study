@@ -3579,13 +3579,13 @@
       "endDate": "2023-10-27",
       "assignee": {
         "id": "991d72ac-8f42-4ad5-bc96-9aa46447ae27",
-        "name": "Unknown",
-        "avatar": null
+        "name": "다폴",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/12506337-0e05-4841-a7cf-254cf5f73ff8/%E1%84%8C%E1%85%A6%E1%84%86%E1%85%A9%E1%86%A8_%E1%84%8B%E1%85%A5%E1%86%B9%E1%84%82%E1%85%B3%E1%86%AB_%E1%84%8B%E1%85%A1%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3_15.png"
       },
       "reviewer": {
         "id": "a33df9e3-329b-4001-8f52-1c6fb42089ca",
-        "name": "Unknown",
-        "avatar": null
+        "name": "레오구리",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/839edeed-f716-4282-9915-e5bb5456874b/%E1%84%85%E1%85%A6%E1%84%8B%E1%85%A9%E1%84%80%E1%85%AE%E1%84%85%E1%85%B5.png"
       },
       "notionUrl": "https://app.notion.com/p/BC-174-4338505f1ea94fb8addeb6e72dd47f4a",
       "priority": "nomal",
@@ -6580,8 +6580,8 @@
       },
       "reviewer": {
         "id": "3b1ea1b4-b20a-4c2b-8698-22e6ff921f3e",
-        "name": "Unknown",
-        "avatar": null
+        "name": "캅",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/9c366a2c-cde4-4c23-979b-e68b85fb4620/image_(1).png"
       },
       "notionUrl": "https://app.notion.com/p/BC-Bera-Monad-a25c8651305646449c9627d965c9d17d",
       "priority": null,
@@ -15783,8 +15783,8 @@
       "endDate": "2024-05-31",
       "assignee": {
         "id": "a33df9e3-329b-4001-8f52-1c6fb42089ca",
-        "name": "Unknown",
-        "avatar": null
+        "name": "레오구리",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/839edeed-f716-4282-9915-e5bb5456874b/%E1%84%85%E1%85%A6%E1%84%8B%E1%85%A9%E1%84%80%E1%85%AE%E1%84%85%E1%85%B5.png"
       },
       "reviewer": null,
       "notionUrl": "https://app.notion.com/p/Lair-2edd29fac96245d59a18a6263f46a157",
@@ -28487,8 +28487,8 @@
     },
     {
       "id": "a33df9e3-329b-4001-8f52-1c6fb42089ca",
-      "name": "Unknown",
-      "avatar": null
+      "name": "레오구리",
+      "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/839edeed-f716-4282-9915-e5bb5456874b/%E1%84%85%E1%85%A6%E1%84%8B%E1%85%A9%E1%84%80%E1%85%AE%E1%84%85%E1%85%B5.png"
     },
     {
       "id": "991d72ac-8f42-4ad5-bc96-9aa46447ae27",
@@ -28536,5 +28536,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-08-12T17:55:35.959Z"
+  "syncedAt": "2026-08-12T18:57:44.107Z"
 }
