@@ -15653,8 +15653,8 @@
       "endDate": "2024-06-07",
       "assignee": {
         "id": "240a5269-ad60-45d3-9495-5aa0a6641d0a",
-        "name": "Unknown",
-        "avatar": null
+        "name": "Pika Kim",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a18a9c23-c73a-43a5-9ab7-573abbb8448a/2024-05-23_02-00-14.jpeg"
       },
       "reviewer": {
         "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
@@ -28522,8 +28522,8 @@
     },
     {
       "id": "240a5269-ad60-45d3-9495-5aa0a6641d0a",
-      "name": "Unknown",
-      "avatar": null
+      "name": "Pika Kim",
+      "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a18a9c23-c73a-43a5-9ab7-573abbb8448a/2024-05-23_02-00-14.jpeg"
     },
     {
       "id": "67ab97e2-44ae-4afc-b029-6de97879ef12",
@@ -28536,5 +28536,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-08-15T04:26:01.545Z"
+  "syncedAt": "2026-08-15T05:21:02.921Z"
 }
