@@ -3296,8 +3296,8 @@
       },
       "reviewer": {
         "id": "a33df9e3-329b-4001-8f52-1c6fb42089ca",
-        "name": "레오구리",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/839edeed-f716-4282-9915-e5bb5456874b/%E1%84%85%E1%85%A6%E1%84%8B%E1%85%A9%E1%84%80%E1%85%AE%E1%84%85%E1%85%B5.png"
+        "name": "Unknown",
+        "avatar": null
       },
       "notionUrl": "https://app.notion.com/p/PFP-3-3-4-5a89fe98947e40b5a1b7b09615c9e1c4",
       "priority": "nomal",
@@ -28536,5 +28536,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-08-16T20:17:44.519Z"
+  "syncedAt": "2026-08-16T21:16:27.929Z"
 }
