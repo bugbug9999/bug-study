@@ -14716,8 +14716,8 @@
       "endDate": "2024-09-10",
       "assignee": {
         "id": "3b1ea1b4-b20a-4c2b-8698-22e6ff921f3e",
-        "name": "Unknown",
-        "avatar": null
+        "name": "캅",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/9c366a2c-cde4-4c23-979b-e68b85fb4620/image_(1).png"
       },
       "reviewer": {
         "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
@@ -14781,8 +14781,8 @@
       "endDate": "2024-06-20",
       "assignee": {
         "id": "3b1ea1b4-b20a-4c2b-8698-22e6ff921f3e",
-        "name": "Unknown",
-        "avatar": null
+        "name": "캅",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/9c366a2c-cde4-4c23-979b-e68b85fb4620/image_(1).png"
       },
       "reviewer": {
         "id": "edbeb417-44a6-428e-ad28-e360b35b9876",
@@ -15783,8 +15783,8 @@
       "endDate": "2024-05-31",
       "assignee": {
         "id": "a33df9e3-329b-4001-8f52-1c6fb42089ca",
-        "name": "Unknown",
-        "avatar": null
+        "name": "레오구리",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/839edeed-f716-4282-9915-e5bb5456874b/%E1%84%85%E1%85%A6%E1%84%8B%E1%85%A9%E1%84%80%E1%85%AE%E1%84%85%E1%85%B5.png"
       },
       "reviewer": null,
       "notionUrl": "https://app.notion.com/p/Lair-2edd29fac96245d59a18a6263f46a157",
@@ -28487,8 +28487,8 @@
     },
     {
       "id": "a33df9e3-329b-4001-8f52-1c6fb42089ca",
-      "name": "Unknown",
-      "avatar": null
+      "name": "레오구리",
+      "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/839edeed-f716-4282-9915-e5bb5456874b/%E1%84%85%E1%85%A6%E1%84%8B%E1%85%A9%E1%84%80%E1%85%AE%E1%84%85%E1%85%B5.png"
     },
     {
       "id": "991d72ac-8f42-4ad5-bc96-9aa46447ae27",
@@ -28536,5 +28536,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-08-17T04:37:38.359Z"
+  "syncedAt": "2026-08-17T05:31:59.863Z"
 }
