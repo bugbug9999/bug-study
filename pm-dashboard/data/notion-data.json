@@ -13242,8 +13242,8 @@
       },
       "reviewer": {
         "id": "3b1ea1b4-b20a-4c2b-8698-22e6ff921f3e",
-        "name": "Unknown",
-        "avatar": null
+        "name": "캅",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/9c366a2c-cde4-4c23-979b-e68b85fb4620/image_(1).png"
       },
       "notionUrl": "https://app.notion.com/p/Phase-0-Setup-ab9aea35caff4c98bf22ef82f567dcdd",
       "priority": null,
@@ -28536,5 +28536,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-08-17T02:56:16.098Z"
+  "syncedAt": "2026-08-17T03:48:30.510Z"
 }
