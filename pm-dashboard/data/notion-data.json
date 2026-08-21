@@ -14415,8 +14415,8 @@
       },
       "reviewer": {
         "id": "3b1ea1b4-b20a-4c2b-8698-22e6ff921f3e",
-        "name": "Unknown",
-        "avatar": null
+        "name": "캅",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/9c366a2c-cde4-4c23-979b-e68b85fb4620/image_(1).png"
       },
       "notionUrl": "https://app.notion.com/p/LAIR-694c3e71021842deb10c10e911be3975",
       "priority": null,
@@ -14471,8 +14471,8 @@
       "endDate": "2024-06-18",
       "assignee": {
         "id": "3b1ea1b4-b20a-4c2b-8698-22e6ff921f3e",
-        "name": "Unknown",
-        "avatar": null
+        "name": "캅",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/9c366a2c-cde4-4c23-979b-e68b85fb4620/image_(1).png"
       },
       "reviewer": null,
       "notionUrl": "https://app.notion.com/p/Lair-Finance-Social-Medium-Twitter-Galaxe-email-Setting-6765f92f5f9b4df7ae122b76918bf74d",
@@ -14675,8 +14675,8 @@
       },
       "reviewer": {
         "id": "3b1ea1b4-b20a-4c2b-8698-22e6ff921f3e",
-        "name": "Unknown",
-        "avatar": null
+        "name": "캅",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/9c366a2c-cde4-4c23-979b-e68b85fb4620/image_(1).png"
       },
       "notionUrl": "https://app.notion.com/p/LAIR-5feeb0430eb94decb29ef2d955d567d8",
       "priority": null,
@@ -28536,5 +28536,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-08-21T20:21:32.865Z"
+  "syncedAt": "2026-08-21T21:20:19.897Z"
 }
