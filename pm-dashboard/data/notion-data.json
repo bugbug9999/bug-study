@@ -6580,8 +6580,8 @@
       },
       "reviewer": {
         "id": "3b1ea1b4-b20a-4c2b-8698-22e6ff921f3e",
-        "name": "Unknown",
-        "avatar": null
+        "name": "캅",
+        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/9c366a2c-cde4-4c23-979b-e68b85fb4620/image_(1).png"
       },
       "notionUrl": "https://app.notion.com/p/BC-Bera-Monad-a25c8651305646449c9627d965c9d17d",
       "priority": null,
@@ -15653,8 +15653,8 @@
       "endDate": "2024-06-07",
       "assignee": {
         "id": "240a5269-ad60-45d3-9495-5aa0a6641d0a",
-        "name": "Pika Kim",
-        "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a18a9c23-c73a-43a5-9ab7-573abbb8448a/2024-05-23_02-00-14.jpeg"
+        "name": "Unknown",
+        "avatar": null
       },
       "reviewer": {
         "id": "2f2780e2-317b-4b26-bf21-4c646909ef86",
@@ -28522,8 +28522,8 @@
     },
     {
       "id": "240a5269-ad60-45d3-9495-5aa0a6641d0a",
-      "name": "Pika Kim",
-      "avatar": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/a18a9c23-c73a-43a5-9ab7-573abbb8448a/2024-05-23_02-00-14.jpeg"
+      "name": "Unknown",
+      "avatar": null
     },
     {
       "id": "67ab97e2-44ae-4afc-b029-6de97879ef12",
@@ -28536,5 +28536,5 @@
       "avatar": null
     }
   ],
-  "syncedAt": "2026-08-25T17:28:01.260Z"
+  "syncedAt": "2026-08-25T18:34:44.581Z"
 }
